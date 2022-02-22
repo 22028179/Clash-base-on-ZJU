@@ -5,227 +5,167 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "TYO/JP - 2 [光头院长]", server: china-zj-hz-1.forwardserver.xyz, port: 39583, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, sni: china-zj-hz-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: _57, server: in05.dns2333.xyz, port: 63078, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
   - {name: TRANSIT HKG 01 @100MBPS, server: 101.230.149.27, port: 1111, type: vmess, uuid: aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _28, server: in03.dns2333.xyz, port: 63078, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: CN_61, server: gzyd.wozcjd.xyz, port: 11359, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b, udp: true}
-  - {name: 韩国-优化, server: cu.mj-cn.cyou, port: 16619, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 日本-优化, server: cu.mj-cn.cyou, port: 16617, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: V1-香港 多台负载均衡 中继B | 2x, server: in02.dns2333.xyz, port: 64078, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: CN_95, server: in04.dns2333.xyz, port: 64078, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in04.dns2333.xyz}, udp: true}
-  - {name: T.10.日本.中继1, server: hygz.doggogogo.top, port: 53030, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
-  - {name: CN_73, server: in02.dns2333.xyz, port: 64086, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: in02.dns2333.xyz}, udp: true}
-  - {name: T.00.香港.HKG.中继3, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: _19, server: in03.dns2333.xyz, port: 63088, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
-  - {name: _42, server: in05.dns2333.xyz, port: 63088, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
-  - {name: CN_67, server: gzyd.wozcjd.xyz, port: 11320, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b, udp: true}
-  - {name: T.10.日本.中继3, server: fsyd.wecanfly.top, port: 51221, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: _34, server: in03.dns2333.xyz, port: 63051, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: mugua-in01.airport-v2.com}, udp: true}
-  - {name: 韩国(绿头外网集团)(Public) 3, server: 146.56.108.108, port: 37749, type: vmess, uuid: e0e06b1c-ee1e-4dbf-a17a-89f06ff2753c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _53, server: in05.dns2333.xyz, port: 63069, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-us03.covid19.rip}, udp: true}
-  - {name: JP_849, server: 146.56.108.108, port: 37749, type: vmess, uuid: e0e06b1c-ee1e-4dbf-a17a-89f06ff2753c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_1178, server: 14.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 14.earths.team, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |50.49Mb, server: xjp.azzhuangaping.tw, port: 80, type: vmess, uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: xjp.azzhuangaping.tw}, udp: true}
-  - {name: Relay_ |17.74Mb, server: jp2.azzhuangaping.tw, port: 80, type: vmess, uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: jp2.azzhuangaping.tw}, udp: true}
-  - {name: Indonesia-A1, server: 108.136.163.50, port: 58973, type: ss, cipher: chacha20-ietf-poly1305, password: 0eee7abb-23db-405a-9a97-720fdc01633f, udp: true}
-  - {name: _21, server: in01.dns2333.xyz, port: 63088, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
-  - {name: _52, server: in04.dns2333.xyz, port: 63069, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-us03.covid19.rip}, udp: true}
-  - {name: _11, server: shlt.jiserver.xyz, port: 29891, type: vmess, uuid: e4c27574-4580-3d33-bcb2-89c94b390006, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-de01.jiserver.xyz}, udp: true}
-  - {name: JP_746, server: 146.56.108.108, port: 37749, type: vmess, uuid: e0e06b1c-ee1e-4dbf-a17a-89f06ff2753c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_1169 |11.42Mb, server: 206.190.237.248, port: 57261, type: vmess, uuid: aaea084b-b79e-48ea-a469-cdf475258591, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 【426节点池】CN_336, server: 120.233.10.182, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: _17, server: shlt.jiserver.xyz, port: 39999, type: vmess, uuid: e4c27574-4580-3d33-bcb2-89c94b390006, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-ru01.jiserver.xyz}, udp: true}
-  - {name: HK_102, server: 18.163.186.175, port: 8443, type: trojan, password: nDlVCzsl9r, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_346, server: 120.233.10.182, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: CN_118, server: fsyd.wecanfly.top, port: 51133, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: CN_92, server: in04.dns2333.xyz, port: 64071, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in04.dns2333.xyz}, udp: true}
-  - {name: 【426节点池】CN_337, server: 120.233.10.182, port: 7704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: _51, server: in03.dns2333.xyz, port: 63069, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-us03.covid19.rip}, udp: true}
-  - {name: 【426节点池】CN_359, server: 120.233.10.182, port: 7705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: _22, server: in04.dns2333.xyz, port: 63071, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-ru01.myn1des.com}, udp: true}
-  - {name: 新加坡-优化, server: cu.mj-cn.cyou, port: 16618, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 韩国-优化3, server: ct.mj-cn.cyou, port: 16619, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 10, server: jason.lbtzyw.com, port: 443, type: vmess, uuid: f3a8372f-73aa-4a92-9f23-cfa0a9830d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/zovpvws?ed=2048", ws-headers: {Host: jason.lbtzyw.com}, udp: true}
+  - {name: "| 33", server: in02.dns2333.xyz, port: 63078, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: Relay_ | 3.17Mb, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "| 48", server: in04.dns2333.xyz, port: 63086, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
+  - {name: T.20.新加坡.中继1, server: cn2.wecanfly.top, port: 51134, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cn2.wecanfly.top, skip-cert-verify: true, udp: true}
   - {name: T.00.香港.HKG.中继1, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
-  - {name: 韩国-优化2, server: cm.mj-cn.cyou, port: 16619, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: Relay_ |127.47Mb, server: jp.azzhuangaping.tw, port: 80, type: vmess, uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: jp.azzhuangaping.tw}, udp: true}
-  - {name: _26, server: kr-group-a-direct.node001.xyz, port: 80, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: new.vip.weibo.cn}, udp: true}
-  - {name: US_231, server: oioooo.tk, port: 443, type: trojan, password: 54ea0e82-64e4-486c-848c-8b95be9f0010, sni: oioooo.tk, skip-cert-verify: true, udp: true}
-  - {name: Relay__16.32Mb, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: FR_78 TG@peekfun, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 【426节点池】CA_281, server: 198.57.27.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_300, server: gz1.52168.xyz, port: 1102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: 日本-优化, server: cu.mj-cn.cyou, port: 16617, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: CN | 98, server: in04.dns2333.xyz, port: 64086, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: in04.dns2333.xyz}, udp: true}
+  - {name: CN_95, server: in04.dns2333.xyz, port: 64078, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in04.dns2333.xyz}, udp: true}
+  - {name: T.10.日本.中继3, server: fsyd.wecanfly.top, port: 51221, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: T.20.新加坡.中继3, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: "| 31", server: in04.dns2333.xyz, port: 63078, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: CN | 92, server: in03.dns2333.xyz, port: 64088, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: in03.dns2333.xyz}, udp: true}
+  - {name: _19, server: in03.dns2333.xyz, port: 63088, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
+  - {name: "| 27", server: jike-gzyd.jiserver.xyz, port: 29705, type: vmess, uuid: e4c27574-4580-3d33-bcb2-89c94b390006, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-azhk21.jiserver.xyz}, udp: true}
+  - {name: CN | 78, server: gy.wozcjd.xyz, port: 11352, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b, udp: true}
+  - {name: "| 50", server: in02.dns2333.xyz, port: 63086, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
+  - {name: _28, server: in03.dns2333.xyz, port: 63078, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: CN | 131, server: china-zj-hz-1.forwardserver.xyz, port: 43841, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, sni: china-zj-hz-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
+  - {name: "| 49", server: in03.dns2333.xyz, port: 63086, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
+  - {name: CN | 97, server: in03.dns2333.xyz, port: 64086, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: in03.dns2333.xyz}, udp: true}
+  - {name: 【426节点池】CN_359, server: 183.232.56.161, port: 8001, type: vmess, uuid: 326d3d2b-ac85-3042-9cc4-05aeb7dbe997, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
+  - {name: CN_67, server: gzyd.wozcjd.xyz, port: 11320, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b, udp: true}
+  - {name: Relay__ 5.47Mb, server: gz1.52168.xyz, port: 1107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: "| 12", server: in04.dns2333.xyz, port: 63051, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: mugua-in01.airport-v2.com}, udp: true}
+  - {name: CN_61, server: gzyd.wozcjd.xyz, port: 11359, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b, udp: true}
+  - {name: CN | 122, server: jike-cccn2.jiserver.xyz, port: 39409, type: vmess, uuid: e4c27574-4580-3d33-bcb2-89c94b390006, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike-cccn2.jiserver.xyz}, udp: true}
+  - {name: V1-香港 多台负载均衡 中继B | 2x, server: in02.dns2333.xyz, port: 64078, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: _53, server: in05.dns2333.xyz, port: 63069, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-us03.covid19.rip}, udp: true}
+  - {name: CN_73, server: in02.dns2333.xyz, port: 64086, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: in02.dns2333.xyz}, udp: true}
+  - {name: Indonesia-A1, server: 108.136.163.50, port: 58973, type: ss, cipher: chacha20-ietf-poly1305, password: 0eee7abb-23db-405a-9a97-720fdc01633f, udp: true}
+  - {name: CN | 91, server: in02.dns2333.xyz, port: 64088, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: in02.dns2333.xyz}, udp: true}
+  - {name: _42, server: in05.dns2333.xyz, port: 63088, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
+  - {name: "| 11", server: in05.dns2333.xyz, port: 63051, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: mugua-in01.airport-v2.com}, udp: true}
+  - {name: _57, server: in05.dns2333.xyz, port: 63078, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: 【426节点池】CN_339, server: gz1.52168.xyz, port: 1115, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TYO/JP - 2 [光头院长]
-      - _57
       - TRANSIT HKG 01 @100MBPS
-      - _28
-      - CN_61
-      - 韩国-优化
-      - 日本-优化
-      - V1-香港 多台负载均衡 中继B | 2x
-      - CN_95
-      - T.10.日本.中继1
-      - CN_73
-      - T.00.香港.HKG.中继3
-      - _19
-      - _42
-      - CN_67
-      - T.10.日本.中继3
-      - _34
-      - 韩国(绿头外网集团)(Public) 3
-      - _53
-      - JP_849
-      - Relay_🇸🇬SG-🇸🇬SG_1178
-      - Relay_ |50.49Mb
-      - Relay_ |17.74Mb
-      - Indonesia-A1
-      - _21
-      - _52
-      - _11
-      - JP_746
-      - US_1169 |11.42Mb
-      - 【426节点池】CN_336
-      - _17
-      - HK_102
-      - Relay_🇨🇳CN-🇸🇬SG_346
-      - CN_118
-      - CN_92
-      - 【426节点池】CN_337
-      - _51
-      - 【426节点池】CN_359
-      - _22
-      - 新加坡-优化
-      - 韩国-优化3
-      - 美国(绿头外网集团)(Public) 10
+      - "| 33"
+      - Relay_ | 3.17Mb
+      - "| 48"
+      - T.20.新加坡.中继1
       - T.00.香港.HKG.中继1
-      - 韩国-优化2
-      - Relay_ |127.47Mb
-      - _26
-      - US_231
-      - Relay__16.32Mb
-      - FR_78 TG@peekfun
-      - 【426节点池】CA_281
-      - Relay_🇨🇳CN-🇩🇪DE_300
+      - 日本-优化
+      - CN | 98
+      - CN_95
+      - T.10.日本.中继3
+      - T.20.新加坡.中继3
+      - "| 31"
+      - CN | 92
+      - _19
+      - "| 27"
+      - CN | 78
+      - "| 50"
+      - _28
+      - CN | 131
+      - "| 49"
+      - CN | 97
+      - 【426节点池】CN_359
+      - CN_67
+      - Relay__ 5.47Mb
+      - "| 12"
+      - CN_61
+      - CN | 122
+      - V1-香港 多台负载均衡 中继B | 2x
+      - _53
+      - CN_73
+      - Indonesia-A1
+      - CN | 91
+      - _42
+      - "| 11"
+      - _57
+      - 【426节点池】CN_339
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - TYO/JP - 2 [光头院长]
-      - _57
       - TRANSIT HKG 01 @100MBPS
-      - _28
-      - CN_61
-      - 韩国-优化
-      - 日本-优化
-      - V1-香港 多台负载均衡 中继B | 2x
-      - CN_95
-      - T.10.日本.中继1
-      - CN_73
-      - T.00.香港.HKG.中继3
-      - _19
-      - _42
-      - CN_67
-      - T.10.日本.中继3
-      - _34
-      - 韩国(绿头外网集团)(Public) 3
-      - _53
-      - JP_849
-      - Relay_🇸🇬SG-🇸🇬SG_1178
-      - Relay_ |50.49Mb
-      - Relay_ |17.74Mb
-      - Indonesia-A1
-      - _21
-      - _52
-      - _11
-      - JP_746
-      - US_1169 |11.42Mb
-      - 【426节点池】CN_336
-      - _17
-      - HK_102
-      - Relay_🇨🇳CN-🇸🇬SG_346
-      - CN_118
-      - CN_92
-      - 【426节点池】CN_337
-      - _51
-      - 【426节点池】CN_359
-      - _22
-      - 新加坡-优化
-      - 韩国-优化3
-      - 美国(绿头外网集团)(Public) 10
+      - "| 33"
+      - Relay_ | 3.17Mb
+      - "| 48"
+      - T.20.新加坡.中继1
       - T.00.香港.HKG.中继1
-      - 韩国-优化2
-      - Relay_ |127.47Mb
-      - _26
-      - US_231
-      - Relay__16.32Mb
-      - FR_78 TG@peekfun
-      - 【426节点池】CA_281
-      - Relay_🇨🇳CN-🇩🇪DE_300
+      - 日本-优化
+      - CN | 98
+      - CN_95
+      - T.10.日本.中继3
+      - T.20.新加坡.中继3
+      - "| 31"
+      - CN | 92
+      - _19
+      - "| 27"
+      - CN | 78
+      - "| 50"
+      - _28
+      - CN | 131
+      - "| 49"
+      - CN | 97
+      - 【426节点池】CN_359
+      - CN_67
+      - Relay__ 5.47Mb
+      - "| 12"
+      - CN_61
+      - CN | 122
+      - V1-香港 多台负载均衡 中继B | 2x
+      - _53
+      - CN_73
+      - Indonesia-A1
+      - CN | 91
+      - _42
+      - "| 11"
+      - _57
+      - 【426节点池】CN_339
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TYO/JP - 2 [光头院长]
-      - _57
       - TRANSIT HKG 01 @100MBPS
-      - _28
-      - CN_61
-      - 韩国-优化
-      - 日本-优化
-      - V1-香港 多台负载均衡 中继B | 2x
-      - CN_95
-      - T.10.日本.中继1
-      - CN_73
-      - T.00.香港.HKG.中继3
-      - _19
-      - _42
-      - CN_67
-      - T.10.日本.中继3
-      - _34
-      - 韩国(绿头外网集团)(Public) 3
-      - _53
-      - JP_849
-      - Relay_🇸🇬SG-🇸🇬SG_1178
-      - Relay_ |50.49Mb
-      - Relay_ |17.74Mb
-      - Indonesia-A1
-      - _21
-      - _52
-      - _11
-      - JP_746
-      - US_1169 |11.42Mb
-      - 【426节点池】CN_336
-      - _17
-      - HK_102
-      - Relay_🇨🇳CN-🇸🇬SG_346
-      - CN_118
-      - CN_92
-      - 【426节点池】CN_337
-      - _51
-      - 【426节点池】CN_359
-      - _22
-      - 新加坡-优化
-      - 韩国-优化3
-      - 美国(绿头外网集团)(Public) 10
+      - "| 33"
+      - Relay_ | 3.17Mb
+      - "| 48"
+      - T.20.新加坡.中继1
       - T.00.香港.HKG.中继1
-      - 韩国-优化2
-      - Relay_ |127.47Mb
-      - _26
-      - US_231
-      - Relay__16.32Mb
-      - FR_78 TG@peekfun
-      - 【426节点池】CA_281
-      - Relay_🇨🇳CN-🇩🇪DE_300
+      - 日本-优化
+      - CN | 98
+      - CN_95
+      - T.10.日本.中继3
+      - T.20.新加坡.中继3
+      - "| 31"
+      - CN | 92
+      - _19
+      - "| 27"
+      - CN | 78
+      - "| 50"
+      - _28
+      - CN | 131
+      - "| 49"
+      - CN | 97
+      - 【426节点池】CN_359
+      - CN_67
+      - Relay__ 5.47Mb
+      - "| 12"
+      - CN_61
+      - CN | 122
+      - V1-香港 多台负载均衡 中继B | 2x
+      - _53
+      - CN_73
+      - Indonesia-A1
+      - CN | 91
+      - _42
+      - "| 11"
+      - _57
+      - 【426节点池】CN_339
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -244,234 +184,173 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TYO/JP - 2 [光头院长]
-      - _57
       - TRANSIT HKG 01 @100MBPS
-      - _28
-      - CN_61
-      - 韩国-优化
-      - 日本-优化
-      - V1-香港 多台负载均衡 中继B | 2x
-      - CN_95
-      - T.10.日本.中继1
-      - CN_73
-      - T.00.香港.HKG.中继3
-      - _19
-      - _42
-      - CN_67
-      - T.10.日本.中继3
-      - _34
-      - 韩国(绿头外网集团)(Public) 3
-      - _53
-      - JP_849
-      - Relay_🇸🇬SG-🇸🇬SG_1178
-      - Relay_ |50.49Mb
-      - Relay_ |17.74Mb
-      - Indonesia-A1
-      - _21
-      - _52
-      - _11
-      - JP_746
-      - US_1169 |11.42Mb
-      - 【426节点池】CN_336
-      - _17
-      - HK_102
-      - Relay_🇨🇳CN-🇸🇬SG_346
-      - CN_118
-      - CN_92
-      - 【426节点池】CN_337
-      - _51
-      - 【426节点池】CN_359
-      - _22
-      - 新加坡-优化
-      - 韩国-优化3
-      - 美国(绿头外网集团)(Public) 10
+      - "| 33"
+      - Relay_ | 3.17Mb
+      - "| 48"
+      - T.20.新加坡.中继1
       - T.00.香港.HKG.中继1
-      - 韩国-优化2
-      - Relay_ |127.47Mb
-      - _26
-      - US_231
-      - Relay__16.32Mb
-      - FR_78 TG@peekfun
-      - 【426节点池】CA_281
-      - Relay_🇨🇳CN-🇩🇪DE_300
+      - 日本-优化
+      - CN | 98
+      - CN_95
+      - T.10.日本.中继3
+      - T.20.新加坡.中继3
+      - "| 31"
+      - CN | 92
+      - _19
+      - "| 27"
+      - CN | 78
+      - "| 50"
+      - _28
+      - CN | 131
+      - "| 49"
+      - CN | 97
+      - 【426节点池】CN_359
+      - CN_67
+      - Relay__ 5.47Mb
+      - "| 12"
+      - CN_61
+      - CN | 122
+      - V1-香港 多台负载均衡 中继B | 2x
+      - _53
+      - CN_73
+      - Indonesia-A1
+      - CN | 91
+      - _42
+      - "| 11"
+      - _57
+      - 【426节点池】CN_339
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - V1-香港 多台负载均衡 中继B | 2x
-      - T.00.香港.HKG.中继3
       - T.00.香港.HKG.中继1
+      - V1-香港 多台负载均衡 中继B | 2x
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - TYO/JP - 2 [光头院长]
-      - _57
       - TRANSIT HKG 01 @100MBPS
-      - _28
-      - CN_61
-      - 韩国-优化
-      - 日本-优化
-      - V1-香港 多台负载均衡 中继B | 2x
-      - CN_95
-      - T.10.日本.中继1
-      - CN_73
-      - T.00.香港.HKG.中继3
-      - _19
-      - _42
-      - CN_67
-      - T.10.日本.中继3
-      - _34
-      - 韩国(绿头外网集团)(Public) 3
-      - _53
-      - JP_849
-      - Relay_🇸🇬SG-🇸🇬SG_1178
-      - Relay_ |50.49Mb
-      - Relay_ |17.74Mb
-      - Indonesia-A1
-      - _21
-      - _52
-      - _11
-      - JP_746
-      - US_1169 |11.42Mb
-      - 【426节点池】CN_336
-      - _17
-      - HK_102
-      - Relay_🇨🇳CN-🇸🇬SG_346
-      - CN_118
-      - CN_92
-      - 【426节点池】CN_337
-      - _51
-      - 【426节点池】CN_359
-      - _22
-      - 新加坡-优化
-      - 韩国-优化3
-      - 美国(绿头外网集团)(Public) 10
+      - "| 33"
+      - Relay_ | 3.17Mb
+      - "| 48"
+      - T.20.新加坡.中继1
       - T.00.香港.HKG.中继1
-      - 韩国-优化2
-      - Relay_ |127.47Mb
-      - _26
-      - US_231
-      - Relay__16.32Mb
-      - FR_78 TG@peekfun
-      - 【426节点池】CA_281
-      - Relay_🇨🇳CN-🇩🇪DE_300
+      - 日本-优化
+      - CN | 98
+      - CN_95
+      - T.10.日本.中继3
+      - T.20.新加坡.中继3
+      - "| 31"
+      - CN | 92
+      - _19
+      - "| 27"
+      - CN | 78
+      - "| 50"
+      - _28
+      - CN | 131
+      - "| 49"
+      - CN | 97
+      - 【426节点池】CN_359
+      - CN_67
+      - Relay__ 5.47Mb
+      - "| 12"
+      - CN_61
+      - CN | 122
+      - V1-香港 多台负载均衡 中继B | 2x
+      - _53
+      - CN_73
+      - Indonesia-A1
+      - CN | 91
+      - _42
+      - "| 11"
+      - _57
+      - 【426节点池】CN_339
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - TYO/JP - 2 [光头院长]
-      - _57
       - TRANSIT HKG 01 @100MBPS
-      - _28
-      - CN_61
-      - 韩国-优化
-      - 日本-优化
-      - V1-香港 多台负载均衡 中继B | 2x
-      - CN_95
-      - T.10.日本.中继1
-      - CN_73
-      - T.00.香港.HKG.中继3
-      - _19
-      - _42
-      - CN_67
-      - T.10.日本.中继3
-      - _34
-      - 韩国(绿头外网集团)(Public) 3
-      - _53
-      - JP_849
-      - Relay_🇸🇬SG-🇸🇬SG_1178
-      - Relay_ |50.49Mb
-      - Relay_ |17.74Mb
-      - Indonesia-A1
-      - _21
-      - _52
-      - _11
-      - JP_746
-      - US_1169 |11.42Mb
-      - 【426节点池】CN_336
-      - _17
-      - HK_102
-      - Relay_🇨🇳CN-🇸🇬SG_346
-      - CN_118
-      - CN_92
-      - 【426节点池】CN_337
-      - _51
-      - 【426节点池】CN_359
-      - _22
-      - 新加坡-优化
-      - 韩国-优化3
-      - 美国(绿头外网集团)(Public) 10
+      - "| 33"
+      - Relay_ | 3.17Mb
+      - "| 48"
+      - T.20.新加坡.中继1
       - T.00.香港.HKG.中继1
-      - 韩国-优化2
-      - Relay_ |127.47Mb
-      - _26
-      - US_231
-      - Relay__16.32Mb
-      - FR_78 TG@peekfun
-      - 【426节点池】CA_281
-      - Relay_🇨🇳CN-🇩🇪DE_300
+      - 日本-优化
+      - CN | 98
+      - CN_95
+      - T.10.日本.中继3
+      - T.20.新加坡.中继3
+      - "| 31"
+      - CN | 92
+      - _19
+      - "| 27"
+      - CN | 78
+      - "| 50"
+      - _28
+      - CN | 131
+      - "| 49"
+      - CN | 97
+      - 【426节点池】CN_359
+      - CN_67
+      - Relay__ 5.47Mb
+      - "| 12"
+      - CN_61
+      - CN | 122
+      - V1-香港 多台负载均衡 中继B | 2x
+      - _53
+      - CN_73
+      - Indonesia-A1
+      - CN | 91
+      - _42
+      - "| 11"
+      - _57
+      - 【426节点池】CN_339
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TYO/JP - 2 [光头院长]
-      - _57
       - TRANSIT HKG 01 @100MBPS
-      - _28
-      - CN_61
-      - 韩国-优化
-      - 日本-优化
-      - V1-香港 多台负载均衡 中继B | 2x
-      - CN_95
-      - T.10.日本.中继1
-      - CN_73
-      - T.00.香港.HKG.中继3
-      - _19
-      - _42
-      - CN_67
-      - T.10.日本.中继3
-      - _34
-      - 韩国(绿头外网集团)(Public) 3
-      - _53
-      - JP_849
-      - Relay_🇸🇬SG-🇸🇬SG_1178
-      - Relay_ |50.49Mb
-      - Relay_ |17.74Mb
-      - Indonesia-A1
-      - _21
-      - _52
-      - _11
-      - JP_746
-      - US_1169 |11.42Mb
-      - 【426节点池】CN_336
-      - _17
-      - HK_102
-      - Relay_🇨🇳CN-🇸🇬SG_346
-      - CN_118
-      - CN_92
-      - 【426节点池】CN_337
-      - _51
-      - 【426节点池】CN_359
-      - _22
-      - 新加坡-优化
-      - 韩国-优化3
-      - 美国(绿头外网集团)(Public) 10
+      - "| 33"
+      - Relay_ | 3.17Mb
+      - "| 48"
+      - T.20.新加坡.中继1
       - T.00.香港.HKG.中继1
-      - 韩国-优化2
-      - Relay_ |127.47Mb
-      - _26
-      - US_231
-      - Relay__16.32Mb
-      - FR_78 TG@peekfun
-      - 【426节点池】CA_281
-      - Relay_🇨🇳CN-🇩🇪DE_300
+      - 日本-优化
+      - CN | 98
+      - CN_95
+      - T.10.日本.中继3
+      - T.20.新加坡.中继3
+      - "| 31"
+      - CN | 92
+      - _19
+      - "| 27"
+      - CN | 78
+      - "| 50"
+      - _28
+      - CN | 131
+      - "| 49"
+      - CN | 97
+      - 【426节点池】CN_359
+      - CN_67
+      - Relay__ 5.47Mb
+      - "| 12"
+      - CN_61
+      - CN | 122
+      - V1-香港 多台负载均衡 中继B | 2x
+      - _53
+      - CN_73
+      - Indonesia-A1
+      - CN | 91
+      - _42
+      - "| 11"
+      - _57
+      - 【426节点池】CN_339
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -487,57 +366,42 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TYO/JP - 2 [光头院长]
-      - _57
       - TRANSIT HKG 01 @100MBPS
-      - _28
-      - CN_61
-      - 韩国-优化
-      - 日本-优化
-      - V1-香港 多台负载均衡 中继B | 2x
-      - CN_95
-      - T.10.日本.中继1
-      - CN_73
-      - T.00.香港.HKG.中继3
-      - _19
-      - _42
-      - CN_67
-      - T.10.日本.中继3
-      - _34
-      - 韩国(绿头外网集团)(Public) 3
-      - _53
-      - JP_849
-      - Relay_🇸🇬SG-🇸🇬SG_1178
-      - Relay_ |50.49Mb
-      - Relay_ |17.74Mb
-      - Indonesia-A1
-      - _21
-      - _52
-      - _11
-      - JP_746
-      - US_1169 |11.42Mb
-      - 【426节点池】CN_336
-      - _17
-      - HK_102
-      - Relay_🇨🇳CN-🇸🇬SG_346
-      - CN_118
-      - CN_92
-      - 【426节点池】CN_337
-      - _51
-      - 【426节点池】CN_359
-      - _22
-      - 新加坡-优化
-      - 韩国-优化3
-      - 美国(绿头外网集团)(Public) 10
+      - "| 33"
+      - Relay_ | 3.17Mb
+      - "| 48"
+      - T.20.新加坡.中继1
       - T.00.香港.HKG.中继1
-      - 韩国-优化2
-      - Relay_ |127.47Mb
-      - _26
-      - US_231
-      - Relay__16.32Mb
-      - FR_78 TG@peekfun
-      - 【426节点池】CA_281
-      - Relay_🇨🇳CN-🇩🇪DE_300
+      - 日本-优化
+      - CN | 98
+      - CN_95
+      - T.10.日本.中继3
+      - T.20.新加坡.中继3
+      - "| 31"
+      - CN | 92
+      - _19
+      - "| 27"
+      - CN | 78
+      - "| 50"
+      - _28
+      - CN | 131
+      - "| 49"
+      - CN | 97
+      - 【426节点池】CN_359
+      - CN_67
+      - Relay__ 5.47Mb
+      - "| 12"
+      - CN_61
+      - CN | 122
+      - V1-香港 多台负载均衡 中继B | 2x
+      - _53
+      - CN_73
+      - Indonesia-A1
+      - CN | 91
+      - _42
+      - "| 11"
+      - _57
+      - 【426节点池】CN_339
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
