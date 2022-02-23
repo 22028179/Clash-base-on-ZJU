@@ -5,171 +5,43 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "| 31", server: in04.dns2333.xyz, port: 63078, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_333, server: in04.dns2333.xyz, port: 63078, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in04.dns2333.xyz}, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_325, server: in05.dns2333.xyz, port: 63078, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in05.dns2333.xyz}, udp: true}
-  - {name: _57, server: in05.dns2333.xyz, port: 63078, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: 美国(绿头外网集团)(Public), server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: "| 48", server: in04.dns2333.xyz, port: 63086, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇷🇴RO_360, server: 120.233.10.182, port: 3704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: SG_1040 |40.78Mb, server: 4.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 4.earths.team, skip-cert-verify: true, udp: true}
-  - {name: CN_378 |10.35Mb, server: 218.78.10.181, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |30.06Mb, server: 218.78.10.181, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "| 22", server: in05.dns2333.xyz, port: 63014, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: mugua-us01.covid19.rip}, udp: true}
   - {name: Relay_ | 3.17Mb, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 美國(绿头外网集团)(Public) 10, server: 45.9.10.103, port: 443, type: trojan, password: WpfQAbO2wg, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🏁ZZ_331, server: 218.78.10.181, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_378 |10.35Mb 2, server: 218.78.10.181, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay__16.32Mb, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: "| 41", server: in04.dns2333.xyz, port: 63014, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: mugua-us01.covid19.rip}, udp: true}
-  - {name: SG_1041 |57.49Mb, server: 5.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 5.earths.team, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🏁ZZ_331 2, server: 218.78.10.181, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |45.47Mb, server: os2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-6.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_369, server: 120.233.10.182, port: 3707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: _42, server: in05.dns2333.xyz, port: 63088, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
-  - {name: Relay__26.74Mb, server: azhk.relay.qchwnd.moe, port: 10215, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: IR | 148, server: 185.148.14.58, port: 53514, type: trojan, password: 3r90JDGBYA, skip-cert-verify: true, udp: true}
-  - {name: _52, server: in04.dns2333.xyz, port: 63069, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-us03.covid19.rip}, udp: true}
-  - {name: 【426节点池】CN_349, server: 120.233.10.182, port: 7703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: _22, server: in04.dns2333.xyz, port: 63071, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-ru01.myn1des.com}, udp: true}
-  - {name: SG_1045 |71.30Mb, server: 6.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 6.earths.team, skip-cert-verify: true, udp: true}
-  - {name: US_195 TG@peekfun, server: ccc1.doubledou.win, port: 4585, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: ccc1.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: Relay__37.09Mb, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-8.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美國(绿头外网集团)(Public) 3, server: uj.doubledou.win, port: 4586, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: uj.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: 澳大利亞(绿头外网集团)(Public), server: 185.218.6.227, port: 443, type: trojan, password: vIl4ReBJj7, skip-cert-verify: true, udp: true}
-  - {name: US_199 TG@peekfun, server: cuvip.doubledou.win, port: 4583, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: cuvip.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: CN_35 TG@peekfun, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: Relay__ 9.60Mb, server: azhk.relay.qchwnd.moe, port: 10217, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 美國(绿头外网集团)(Public) 5, server: ceraus.doubledou.win, port: 4586, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: ceraus.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: US_198 TG@peekfun, server: v2losdmit1.doubledou.win, port: 6674, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: v2losdmit1.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: 新加坡阿伟科技@TG/油管 3, server: 5.earths.team, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, sni: 5.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 『1.0x』公益01限速1MB/s, server: free01.vproxy.us, port: 34567, type: trojan, password: 98bebb66-f386-4cd9-8487-8e873c321b61, sni: free01.vproxy.us, skip-cert-verify: true, udp: true}
+  - {name: 『1.0x』公益03限速1MB/s, server: orjp.vproxy.us, port: 34567, type: trojan, password: 98bebb66-f386-4cd9-8487-8e873c321b61, sni: orjp.vproxy.us, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "| 31"
-      - Relay_🇨🇳CN-🇭🇰HK_333
-      - Relay_🇨🇳CN-🇭🇰HK_325
-      - _57
-      - 美国(绿头外网集团)(Public)
-      - "| 48"
-      - Relay_🇨🇳CN-🇷🇴RO_360
-      - SG_1040 |40.78Mb
-      - CN_378 |10.35Mb
-      - Relay_ |30.06Mb
-      - "| 22"
       - Relay_ | 3.17Mb
       - 美國(绿头外网集团)(Public) 10
-      - Relay_🇨🇳CN-🏁ZZ_331
-      - CN_378 |10.35Mb 2
-      - Relay__16.32Mb
-      - "| 41"
-      - SG_1041 |57.49Mb
-      - Relay_🇨🇳CN-🏁ZZ_331 2
-      - Relay_ |45.47Mb
-      - Relay_🇨🇳CN-🇬🇧GB_369
-      - _42
-      - Relay__26.74Mb
-      - IR | 148
-      - _52
-      - 【426节点池】CN_349
-      - _22
-      - SG_1045 |71.30Mb
-      - US_195 TG@peekfun
-      - Relay__37.09Mb
-      - 美國(绿头外网集团)(Public) 3
-      - 澳大利亞(绿头外网集团)(Public)
-      - US_199 TG@peekfun
-      - CN_35 TG@peekfun
-      - Relay__ 9.60Mb
-      - 美國(绿头外网集团)(Public) 5
-      - US_198 TG@peekfun
+      - 新加坡阿伟科技@TG/油管 3
+      - 『1.0x』公益01限速1MB/s
+      - 『1.0x』公益03限速1MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "| 31"
-      - Relay_🇨🇳CN-🇭🇰HK_333
-      - Relay_🇨🇳CN-🇭🇰HK_325
-      - _57
-      - 美国(绿头外网集团)(Public)
-      - "| 48"
-      - Relay_🇨🇳CN-🇷🇴RO_360
-      - SG_1040 |40.78Mb
-      - CN_378 |10.35Mb
-      - Relay_ |30.06Mb
-      - "| 22"
       - Relay_ | 3.17Mb
       - 美國(绿头外网集团)(Public) 10
-      - Relay_🇨🇳CN-🏁ZZ_331
-      - CN_378 |10.35Mb 2
-      - Relay__16.32Mb
-      - "| 41"
-      - SG_1041 |57.49Mb
-      - Relay_🇨🇳CN-🏁ZZ_331 2
-      - Relay_ |45.47Mb
-      - Relay_🇨🇳CN-🇬🇧GB_369
-      - _42
-      - Relay__26.74Mb
-      - IR | 148
-      - _52
-      - 【426节点池】CN_349
-      - _22
-      - SG_1045 |71.30Mb
-      - US_195 TG@peekfun
-      - Relay__37.09Mb
-      - 美國(绿头外网集团)(Public) 3
-      - 澳大利亞(绿头外网集团)(Public)
-      - US_199 TG@peekfun
-      - CN_35 TG@peekfun
-      - Relay__ 9.60Mb
-      - 美國(绿头外网集团)(Public) 5
-      - US_198 TG@peekfun
+      - 新加坡阿伟科技@TG/油管 3
+      - 『1.0x』公益01限速1MB/s
+      - 『1.0x』公益03限速1MB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "| 31"
-      - Relay_🇨🇳CN-🇭🇰HK_333
-      - Relay_🇨🇳CN-🇭🇰HK_325
-      - _57
-      - 美国(绿头外网集团)(Public)
-      - "| 48"
-      - Relay_🇨🇳CN-🇷🇴RO_360
-      - SG_1040 |40.78Mb
-      - CN_378 |10.35Mb
-      - Relay_ |30.06Mb
-      - "| 22"
       - Relay_ | 3.17Mb
       - 美國(绿头外网集团)(Public) 10
-      - Relay_🇨🇳CN-🏁ZZ_331
-      - CN_378 |10.35Mb 2
-      - Relay__16.32Mb
-      - "| 41"
-      - SG_1041 |57.49Mb
-      - Relay_🇨🇳CN-🏁ZZ_331 2
-      - Relay_ |45.47Mb
-      - Relay_🇨🇳CN-🇬🇧GB_369
-      - _42
-      - Relay__26.74Mb
-      - IR | 148
-      - _52
-      - 【426节点池】CN_349
-      - _22
-      - SG_1045 |71.30Mb
-      - US_195 TG@peekfun
-      - Relay__37.09Mb
-      - 美國(绿头外网集团)(Public) 3
-      - 澳大利亞(绿头外网集团)(Public)
-      - US_199 TG@peekfun
-      - CN_35 TG@peekfun
-      - Relay__ 9.60Mb
-      - 美國(绿头外网集团)(Public) 5
-      - US_198 TG@peekfun
+      - 新加坡阿伟科技@TG/油管 3
+      - 『1.0x』公益01限速1MB/s
+      - 『1.0x』公益03限速1MB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -188,43 +60,11 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "| 31"
-      - Relay_🇨🇳CN-🇭🇰HK_333
-      - Relay_🇨🇳CN-🇭🇰HK_325
-      - _57
-      - 美国(绿头外网集团)(Public)
-      - "| 48"
-      - Relay_🇨🇳CN-🇷🇴RO_360
-      - SG_1040 |40.78Mb
-      - CN_378 |10.35Mb
-      - Relay_ |30.06Mb
-      - "| 22"
       - Relay_ | 3.17Mb
       - 美國(绿头外网集团)(Public) 10
-      - Relay_🇨🇳CN-🏁ZZ_331
-      - CN_378 |10.35Mb 2
-      - Relay__16.32Mb
-      - "| 41"
-      - SG_1041 |57.49Mb
-      - Relay_🇨🇳CN-🏁ZZ_331 2
-      - Relay_ |45.47Mb
-      - Relay_🇨🇳CN-🇬🇧GB_369
-      - _42
-      - Relay__26.74Mb
-      - IR | 148
-      - _52
-      - 【426节点池】CN_349
-      - _22
-      - SG_1045 |71.30Mb
-      - US_195 TG@peekfun
-      - Relay__37.09Mb
-      - 美國(绿头外网集团)(Public) 3
-      - 澳大利亞(绿头外网集团)(Public)
-      - US_199 TG@peekfun
-      - CN_35 TG@peekfun
-      - Relay__ 9.60Mb
-      - 美國(绿头外网集团)(Public) 5
-      - US_198 TG@peekfun
+      - 新加坡阿伟科技@TG/油管 3
+      - 『1.0x』公益01限速1MB/s
+      - 『1.0x』公益03限速1MB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -235,128 +75,32 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "| 31"
-      - Relay_🇨🇳CN-🇭🇰HK_333
-      - Relay_🇨🇳CN-🇭🇰HK_325
-      - _57
-      - 美国(绿头外网集团)(Public)
-      - "| 48"
-      - Relay_🇨🇳CN-🇷🇴RO_360
-      - SG_1040 |40.78Mb
-      - CN_378 |10.35Mb
-      - Relay_ |30.06Mb
-      - "| 22"
       - Relay_ | 3.17Mb
       - 美國(绿头外网集团)(Public) 10
-      - Relay_🇨🇳CN-🏁ZZ_331
-      - CN_378 |10.35Mb 2
-      - Relay__16.32Mb
-      - "| 41"
-      - SG_1041 |57.49Mb
-      - Relay_🇨🇳CN-🏁ZZ_331 2
-      - Relay_ |45.47Mb
-      - Relay_🇨🇳CN-🇬🇧GB_369
-      - _42
-      - Relay__26.74Mb
-      - IR | 148
-      - _52
-      - 【426节点池】CN_349
-      - _22
-      - SG_1045 |71.30Mb
-      - US_195 TG@peekfun
-      - Relay__37.09Mb
-      - 美國(绿头外网集团)(Public) 3
-      - 澳大利亞(绿头外网集团)(Public)
-      - US_199 TG@peekfun
-      - CN_35 TG@peekfun
-      - Relay__ 9.60Mb
-      - 美國(绿头外网集团)(Public) 5
-      - US_198 TG@peekfun
+      - 新加坡阿伟科技@TG/油管 3
+      - 『1.0x』公益01限速1MB/s
+      - 『1.0x』公益03限速1MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "| 31"
-      - Relay_🇨🇳CN-🇭🇰HK_333
-      - Relay_🇨🇳CN-🇭🇰HK_325
-      - _57
-      - 美国(绿头外网集团)(Public)
-      - "| 48"
-      - Relay_🇨🇳CN-🇷🇴RO_360
-      - SG_1040 |40.78Mb
-      - CN_378 |10.35Mb
-      - Relay_ |30.06Mb
-      - "| 22"
       - Relay_ | 3.17Mb
       - 美國(绿头外网集团)(Public) 10
-      - Relay_🇨🇳CN-🏁ZZ_331
-      - CN_378 |10.35Mb 2
-      - Relay__16.32Mb
-      - "| 41"
-      - SG_1041 |57.49Mb
-      - Relay_🇨🇳CN-🏁ZZ_331 2
-      - Relay_ |45.47Mb
-      - Relay_🇨🇳CN-🇬🇧GB_369
-      - _42
-      - Relay__26.74Mb
-      - IR | 148
-      - _52
-      - 【426节点池】CN_349
-      - _22
-      - SG_1045 |71.30Mb
-      - US_195 TG@peekfun
-      - Relay__37.09Mb
-      - 美國(绿头外网集团)(Public) 3
-      - 澳大利亞(绿头外网集团)(Public)
-      - US_199 TG@peekfun
-      - CN_35 TG@peekfun
-      - Relay__ 9.60Mb
-      - 美國(绿头外网集团)(Public) 5
-      - US_198 TG@peekfun
+      - 新加坡阿伟科技@TG/油管 3
+      - 『1.0x』公益01限速1MB/s
+      - 『1.0x』公益03限速1MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "| 31"
-      - Relay_🇨🇳CN-🇭🇰HK_333
-      - Relay_🇨🇳CN-🇭🇰HK_325
-      - _57
-      - 美国(绿头外网集团)(Public)
-      - "| 48"
-      - Relay_🇨🇳CN-🇷🇴RO_360
-      - SG_1040 |40.78Mb
-      - CN_378 |10.35Mb
-      - Relay_ |30.06Mb
-      - "| 22"
       - Relay_ | 3.17Mb
       - 美國(绿头外网集团)(Public) 10
-      - Relay_🇨🇳CN-🏁ZZ_331
-      - CN_378 |10.35Mb 2
-      - Relay__16.32Mb
-      - "| 41"
-      - SG_1041 |57.49Mb
-      - Relay_🇨🇳CN-🏁ZZ_331 2
-      - Relay_ |45.47Mb
-      - Relay_🇨🇳CN-🇬🇧GB_369
-      - _42
-      - Relay__26.74Mb
-      - IR | 148
-      - _52
-      - 【426节点池】CN_349
-      - _22
-      - SG_1045 |71.30Mb
-      - US_195 TG@peekfun
-      - Relay__37.09Mb
-      - 美國(绿头外网集团)(Public) 3
-      - 澳大利亞(绿头外网集团)(Public)
-      - US_199 TG@peekfun
-      - CN_35 TG@peekfun
-      - Relay__ 9.60Mb
-      - 美國(绿头外网集团)(Public) 5
-      - US_198 TG@peekfun
+      - 新加坡阿伟科技@TG/油管 3
+      - 『1.0x』公益01限速1MB/s
+      - 『1.0x』公益03限速1MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -372,43 +116,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "| 31"
-      - Relay_🇨🇳CN-🇭🇰HK_333
-      - Relay_🇨🇳CN-🇭🇰HK_325
-      - _57
-      - 美国(绿头外网集团)(Public)
-      - "| 48"
-      - Relay_🇨🇳CN-🇷🇴RO_360
-      - SG_1040 |40.78Mb
-      - CN_378 |10.35Mb
-      - Relay_ |30.06Mb
-      - "| 22"
       - Relay_ | 3.17Mb
       - 美國(绿头外网集团)(Public) 10
-      - Relay_🇨🇳CN-🏁ZZ_331
-      - CN_378 |10.35Mb 2
-      - Relay__16.32Mb
-      - "| 41"
-      - SG_1041 |57.49Mb
-      - Relay_🇨🇳CN-🏁ZZ_331 2
-      - Relay_ |45.47Mb
-      - Relay_🇨🇳CN-🇬🇧GB_369
-      - _42
-      - Relay__26.74Mb
-      - IR | 148
-      - _52
-      - 【426节点池】CN_349
-      - _22
-      - SG_1045 |71.30Mb
-      - US_195 TG@peekfun
-      - Relay__37.09Mb
-      - 美國(绿头外网集团)(Public) 3
-      - 澳大利亞(绿头外网集团)(Public)
-      - US_199 TG@peekfun
-      - CN_35 TG@peekfun
-      - Relay__ 9.60Mb
-      - 美國(绿头外网集团)(Public) 5
-      - US_198 TG@peekfun
+      - 新加坡阿伟科技@TG/油管 3
+      - 『1.0x』公益01限速1MB/s
+      - 『1.0x』公益03限速1MB/s
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
