@@ -5,43 +5,103 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 24机场👉魔戒.net, server: sg10.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
+  - {name: 26机场👉魔戒.net, server: hkt01.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
+  - {name: 25机场👉魔戒.net, server: hkt06.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
   - {name: Relay_ | 3.17Mb, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 美國(绿头外网集团)(Public) 10, server: 45.9.10.103, port: 443, type: trojan, password: WpfQAbO2wg, skip-cert-verify: true, udp: true}
-  - {name: 新加坡阿伟科技@TG/油管 3, server: 5.earths.team, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, sni: 5.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 『1.0x』公益01限速1MB/s, server: free01.vproxy.us, port: 34567, type: trojan, password: 98bebb66-f386-4cd9-8487-8e873c321b61, sni: free01.vproxy.us, skip-cert-verify: true, udp: true}
-  - {name: 『1.0x』公益03限速1MB/s, server: orjp.vproxy.us, port: 34567, type: trojan, password: 98bebb66-f386-4cd9-8487-8e873c321b61, sni: orjp.vproxy.us, skip-cert-verify: true, udp: true}
+  - {name: SG_1030 |68.14Mb, server: 14.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 14.earths.team, skip-cert-verify: true, udp: true}
+  - {name: SG_120 TG@peekfun, server: 14.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 14.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 32机场👉魔戒.net, server: tw15.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
+  - {name: Relay_ |29.17Mb, server: gz1.52168.xyz, port: 1111, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: Relay_ |38.86Mb, server: gz1.52168.xyz, port: 1114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: Relay_ |13.34Mb, server: 183.240.181.20, port: 1111, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Relay_ |19.68Mb, server: os2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-2.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |18.90Mb, server: gz1.52168.xyz, port: 1117, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: 31机场👉魔戒.net, server: tw13.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
+  - {name: JP_103 TG@peekfun, server: jp19.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: jp19.holiganfan.com, skip-cert-verify: true, udp: true}
+  - {name: CN_390, server: 112.33.36.109, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |18.06Mb, server: 183.240.181.20, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_346, server: in04.dns2333.xyz, port: 63069, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in04.dns2333.xyz}, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_349, server: 120.233.10.182, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
+  - {name: "|24.09Mb", server: 185.218.6.227, port: 443, type: trojan, password: vIl4ReBJj7, skip-cert-verify: true, udp: true}
+  - {name: US_194 TG@peekfun, server: 209.141.47.137, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 24机场👉魔戒.net
+      - 26机场👉魔戒.net
+      - 25机场👉魔戒.net
       - Relay_ | 3.17Mb
-      - 美國(绿头外网集团)(Public) 10
-      - 新加坡阿伟科技@TG/油管 3
-      - 『1.0x』公益01限速1MB/s
-      - 『1.0x』公益03限速1MB/s
+      - SG_1030 |68.14Mb
+      - SG_120 TG@peekfun
+      - 32机场👉魔戒.net
+      - Relay_ |29.17Mb
+      - Relay_ |38.86Mb
+      - Relay_ |13.34Mb
+      - Relay_ |19.68Mb
+      - Relay_ |18.90Mb
+      - 31机场👉魔戒.net
+      - JP_103 TG@peekfun
+      - CN_390
+      - Relay_ |18.06Mb
+      - Relay_🇨🇳CN-🇺🇸US_346
+      - Relay_🇨🇳CN-🇸🇬SG_349
+      - "|24.09Mb"
+      - US_194 TG@peekfun
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 24机场👉魔戒.net
+      - 26机场👉魔戒.net
+      - 25机场👉魔戒.net
       - Relay_ | 3.17Mb
-      - 美國(绿头外网集团)(Public) 10
-      - 新加坡阿伟科技@TG/油管 3
-      - 『1.0x』公益01限速1MB/s
-      - 『1.0x』公益03限速1MB/s
+      - SG_1030 |68.14Mb
+      - SG_120 TG@peekfun
+      - 32机场👉魔戒.net
+      - Relay_ |29.17Mb
+      - Relay_ |38.86Mb
+      - Relay_ |13.34Mb
+      - Relay_ |19.68Mb
+      - Relay_ |18.90Mb
+      - 31机场👉魔戒.net
+      - JP_103 TG@peekfun
+      - CN_390
+      - Relay_ |18.06Mb
+      - Relay_🇨🇳CN-🇺🇸US_346
+      - Relay_🇨🇳CN-🇸🇬SG_349
+      - "|24.09Mb"
+      - US_194 TG@peekfun
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 24机场👉魔戒.net
+      - 26机场👉魔戒.net
+      - 25机场👉魔戒.net
       - Relay_ | 3.17Mb
-      - 美國(绿头外网集团)(Public) 10
-      - 新加坡阿伟科技@TG/油管 3
-      - 『1.0x』公益01限速1MB/s
-      - 『1.0x』公益03限速1MB/s
+      - SG_1030 |68.14Mb
+      - SG_120 TG@peekfun
+      - 32机场👉魔戒.net
+      - Relay_ |29.17Mb
+      - Relay_ |38.86Mb
+      - Relay_ |13.34Mb
+      - Relay_ |19.68Mb
+      - Relay_ |18.90Mb
+      - 31机场👉魔戒.net
+      - JP_103 TG@peekfun
+      - CN_390
+      - Relay_ |18.06Mb
+      - Relay_🇨🇳CN-🇺🇸US_346
+      - Relay_🇨🇳CN-🇸🇬SG_349
+      - "|24.09Mb"
+      - US_194 TG@peekfun
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,11 +120,26 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 24机场👉魔戒.net
+      - 26机场👉魔戒.net
+      - 25机场👉魔戒.net
       - Relay_ | 3.17Mb
-      - 美國(绿头外网集团)(Public) 10
-      - 新加坡阿伟科技@TG/油管 3
-      - 『1.0x』公益01限速1MB/s
-      - 『1.0x』公益03限速1MB/s
+      - SG_1030 |68.14Mb
+      - SG_120 TG@peekfun
+      - 32机场👉魔戒.net
+      - Relay_ |29.17Mb
+      - Relay_ |38.86Mb
+      - Relay_ |13.34Mb
+      - Relay_ |19.68Mb
+      - Relay_ |18.90Mb
+      - 31机场👉魔戒.net
+      - JP_103 TG@peekfun
+      - CN_390
+      - Relay_ |18.06Mb
+      - Relay_🇨🇳CN-🇺🇸US_346
+      - Relay_🇨🇳CN-🇸🇬SG_349
+      - "|24.09Mb"
+      - US_194 TG@peekfun
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -75,32 +150,77 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 24机场👉魔戒.net
+      - 26机场👉魔戒.net
+      - 25机场👉魔戒.net
       - Relay_ | 3.17Mb
-      - 美國(绿头外网集团)(Public) 10
-      - 新加坡阿伟科技@TG/油管 3
-      - 『1.0x』公益01限速1MB/s
-      - 『1.0x』公益03限速1MB/s
+      - SG_1030 |68.14Mb
+      - SG_120 TG@peekfun
+      - 32机场👉魔戒.net
+      - Relay_ |29.17Mb
+      - Relay_ |38.86Mb
+      - Relay_ |13.34Mb
+      - Relay_ |19.68Mb
+      - Relay_ |18.90Mb
+      - 31机场👉魔戒.net
+      - JP_103 TG@peekfun
+      - CN_390
+      - Relay_ |18.06Mb
+      - Relay_🇨🇳CN-🇺🇸US_346
+      - Relay_🇨🇳CN-🇸🇬SG_349
+      - "|24.09Mb"
+      - US_194 TG@peekfun
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 24机场👉魔戒.net
+      - 26机场👉魔戒.net
+      - 25机场👉魔戒.net
       - Relay_ | 3.17Mb
-      - 美國(绿头外网集团)(Public) 10
-      - 新加坡阿伟科技@TG/油管 3
-      - 『1.0x』公益01限速1MB/s
-      - 『1.0x』公益03限速1MB/s
+      - SG_1030 |68.14Mb
+      - SG_120 TG@peekfun
+      - 32机场👉魔戒.net
+      - Relay_ |29.17Mb
+      - Relay_ |38.86Mb
+      - Relay_ |13.34Mb
+      - Relay_ |19.68Mb
+      - Relay_ |18.90Mb
+      - 31机场👉魔戒.net
+      - JP_103 TG@peekfun
+      - CN_390
+      - Relay_ |18.06Mb
+      - Relay_🇨🇳CN-🇺🇸US_346
+      - Relay_🇨🇳CN-🇸🇬SG_349
+      - "|24.09Mb"
+      - US_194 TG@peekfun
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 24机场👉魔戒.net
+      - 26机场👉魔戒.net
+      - 25机场👉魔戒.net
       - Relay_ | 3.17Mb
-      - 美國(绿头外网集团)(Public) 10
-      - 新加坡阿伟科技@TG/油管 3
-      - 『1.0x』公益01限速1MB/s
-      - 『1.0x』公益03限速1MB/s
+      - SG_1030 |68.14Mb
+      - SG_120 TG@peekfun
+      - 32机场👉魔戒.net
+      - Relay_ |29.17Mb
+      - Relay_ |38.86Mb
+      - Relay_ |13.34Mb
+      - Relay_ |19.68Mb
+      - Relay_ |18.90Mb
+      - 31机场👉魔戒.net
+      - JP_103 TG@peekfun
+      - CN_390
+      - Relay_ |18.06Mb
+      - Relay_🇨🇳CN-🇺🇸US_346
+      - Relay_🇨🇳CN-🇸🇬SG_349
+      - "|24.09Mb"
+      - US_194 TG@peekfun
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,11 +236,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 24机场👉魔戒.net
+      - 26机场👉魔戒.net
+      - 25机场👉魔戒.net
       - Relay_ | 3.17Mb
-      - 美國(绿头外网集团)(Public) 10
-      - 新加坡阿伟科技@TG/油管 3
-      - 『1.0x』公益01限速1MB/s
-      - 『1.0x』公益03限速1MB/s
+      - SG_1030 |68.14Mb
+      - SG_120 TG@peekfun
+      - 32机场👉魔戒.net
+      - Relay_ |29.17Mb
+      - Relay_ |38.86Mb
+      - Relay_ |13.34Mb
+      - Relay_ |19.68Mb
+      - Relay_ |18.90Mb
+      - 31机场👉魔戒.net
+      - JP_103 TG@peekfun
+      - CN_390
+      - Relay_ |18.06Mb
+      - Relay_🇨🇳CN-🇺🇸US_346
+      - Relay_🇨🇳CN-🇸🇬SG_349
+      - "|24.09Mb"
+      - US_194 TG@peekfun
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
