@@ -5,183 +5,107 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 【426节点池】CN_363, server: zz.hk2s.se.sx.cn, port: 16002, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17083:WnHtof, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C01, server: hgc01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
   - {name: US_1475, server: 172.99.190.205, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_139, server: us2.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: JP_91, server: 30.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 30.earths.team, skip-cert-verify: true, udp: true}
+  - {name: JP_92, server: 30.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 30.earths.team, skip-cert-verify: true, udp: true}
+  - {name: JP | 53, server: 13.208.54.132, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 4, server: s2.kaxff.com, port: 32432, type: trojan, password: OcABzr5wEG, sni: s2.kaxff.com, skip-cert-verify: true, udp: true}
+  - {name: 韓國(绿头外网集团)(Public) 9, server: 150.230.252.80, port: 35565, type: vmess, uuid: badacc06-e5df-40de-b505-c59d68d105fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP_油管 TG 8度科技, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 5, server: s5.kaxff.com, port: 20585, type: trojan, password: JWOLs1gJ0X, sni: s5.kaxff.com, skip-cert-verify: true, udp: true}
+  - {name: 韓國(绿头外网集团)(Public) 5, server: 146.56.106.189, port: 35565, type: vmess, uuid: a9a8ae62-6ff0-4e80-ac0d-a5b5af80a346, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 阿聯酋(绿头外网集团)(Public) 3, server: 193.123.80.75, port: 35565, type: vmess, uuid: d7fc4ad6-b76c-47ac-b090-03fb96174bc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_141, server: 26.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 26.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 3, server: s1.kaxff.com, port: 15654, type: trojan, password: 6Uu5c0cJUV, sni: s1.kaxff.com, skip-cert-verify: true, udp: true}
+  - {name: 美國(绿头外网集团)(Public) 13, server: 7.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 7.earths.team, skip-cert-verify: true, udp: true}
+  - {name: US_142, server: 26.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 26.earths.team, skip-cert-verify: true, udp: true}
+  - {name: US_143, server: 20.24.85.234, port: 8001, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, skip-cert-verify: true, udp: true}
   - {name: 香港(绿头外网集团)(Public) 2, server: 104.208.85.120, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: true, udp: true}
-  - {name: TW_831, server: 2.58.242.43, port: 443, type: trojan, password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: true, udp: true}
-  - {name: SG_105, server: 27.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 27.earths.team, skip-cert-verify: true, udp: true}
-  - {name: SG_823, server: sg1-trojan.bonds.id, port: 443, type: trojan, password: 5c5ceb40-902b-11eb-945a-1239d0255272, sni: sg1-trojan.bonds.id, skip-cert-verify: true, udp: true}
-  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C09, server: hgc09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 魔戒.net香港a, server: f2s.by55k1.xyz, port: 39658, type: vmess, uuid: c460ff8a-c55e-4c7c-d556-356b758af32b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /pank, ws-headers: {Host: www.shanpao.xyz}, udp: true}
-  - {name: US | 75, server: 16.162.160.70, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: true, udp: true}
-  - {name: SG_965 | 4.41Mb, server: 14.earths.team, port: 443, type: trojan, password: 6a7eb779-3d05-4578-b95b-4c044096f9c5, sni: 14.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 香港1-IEPL-倍率1.0, server: zz.hk1s.se.sx.cn, port: 16001, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 名氣通電訊 C07, server: hkhe07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: SG_103, server: 32.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 32.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C07, server: hgc07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: SG_102, server: 28.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 28.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 美国实验性 IEPL 中继 C03, server: us08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: SG_966, server: azhk.relay.qchwnd.moe, port: 443, type: trojan, password: 2647cdac-aa5c-4955-a13b-b66793cf48cd, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: SG_822, server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 4c7985e0-79e8-11eb-b8d3-1239d0255272, sni: sg3-trojan.bonds.id, skip-cert-verify: true, udp: true}
-  - {name: SG_106, server: 14.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 14.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C06, server: hgc06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 新加坡B 2.5x, server: shallaz.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: CN_油管 TG 8度科技 5, server: 120.233.10.245, port: 31303, type: vmess, uuid: 868c63d1-e59c-3634-a93f-fc1d50c67cc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C10, server: hgc10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C04, server: hgc04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: US_124, server: usaarm2.oracleusa.ml, port: 443, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: usaarm2.oracleusa.ml}, udp: true}
-  - {name: ZZ_3346 | 0.52Mb, server: 134.195.196.193, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 【426节点池】US_3481, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 98b20eea-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
-  - {name: 台湾3-IEPL-倍率1.0, server: zz.tw3s.se.sx.cn, port: 15003, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 名氣通電訊 C06, server: hkhe06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 【426节点池】CN_398, server: zz.kr2s.se.sx.cn, port: 17002, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17083:WnHtof, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 【426节点池】CN_356, server: zz.hk6s.se.sx.cn, port: 16006, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17083:WnHtof, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: US_128, server: sw.gfwglass.tk, port: 443, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sw.gfwglass.tk}, udp: true}
-  - {name: 魔戒.net韩国高速接入A, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: 【426节点池】CN_386, server: zz.ru2s.se.sx.cn, port: 14002, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17083:WnHtof, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C08, server: hgc08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: US_132, server: kor.oracleusa.ml, port: 443, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kor.oracleusa.ml}, udp: true}
-  - {name: 台湾1-IEPL-倍率1.0, server: zz.tw1s.se.sx.cn, port: 15001, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 4, server: 183.232.163.19, port: 18888, type: vmess, uuid: e5bf31e0-0ffc-4acf-877e-442fab645ec3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 阿聯酋(绿头外网集团)(Public) 2, server: 193.123.84.188, port: 45565, type: vmess, uuid: c8983b5e-ec6f-4c6b-ec9f-6d10540c1a6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /blog, ws-headers: {Host: 193.123.84.188}, udp: true}
+  - {name: 美國(绿头外网集团)(Public) 10, server: 192.18.143.154, port: 35565, type: vmess, uuid: 23d3a259-8a3a-4072-8f03-3263d59121e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR_561, server: fr-am1-1.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: gVWc0WaJn, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 澳大利亞(绿头外网集团)(Public) 4, server: 152.67.106.66, port: 35565, type: vmess, uuid: 419d59b3-5b95-4ba1-b969-7cc9a635a33d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CH_13, server: sw.oracleusa.ml, port: 443, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sw.oracleusa.ml}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【426节点池】CN_363
-      - 香港 油尖旺御金·国峯 環球全域電訊 C01
       - US_1475
-      - US_139
+      - JP_91
+      - JP_92
+      - JP | 53
+      - 新加坡(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 9
+      - JP_油管 TG 8度科技
+      - 新加坡(绿头外网集团)(Public) 5
+      - 韓國(绿头外网集团)(Public) 5
+      - 阿聯酋(绿头外网集团)(Public) 3
+      - US_141
+      - 新加坡(绿头外网集团)(Public) 3
+      - 美國(绿头外网集团)(Public) 13
+      - US_142
+      - US_143
       - 香港(绿头外网集团)(Public) 2
-      - TW_831
-      - SG_105
-      - SG_823
-      - 香港 油尖旺御金·国峯 環球全域電訊 C09
-      - 魔戒.net香港a
-      - US | 75
-      - SG_965 | 4.41Mb
-      - 香港1-IEPL-倍率1.0
-      - 香港 油尖旺御金·国峯 名氣通電訊 C07
-      - SG_103
-      - 香港 油尖旺御金·国峯 環球全域電訊 C07
-      - SG_102
-      - 美国实验性 IEPL 中继 C03
-      - SG_966
-      - SG_822
-      - SG_106
-      - 香港 油尖旺御金·国峯 環球全域電訊 C06
-      - 新加坡B 2.5x
-      - CN_油管 TG 8度科技 5
-      - 香港 油尖旺御金·国峯 環球全域電訊 C10
-      - 香港 油尖旺御金·国峯 環球全域電訊 C04
-      - US_124
-      - ZZ_3346 | 0.52Mb
-      - 【426节点池】US_3481
-      - 台湾3-IEPL-倍率1.0
-      - 香港 油尖旺御金·国峯 名氣通電訊 C06
-      - 【426节点池】CN_398
-      - 【426节点池】CN_356
-      - US_128
-      - 魔戒.net韩国高速接入A
-      - 【426节点池】CN_386
-      - 香港 油尖旺御金·国峯 環球全域電訊 C08
-      - US_132
-      - 台湾1-IEPL-倍率1.0
-      - 香港(绿头外网集团)(Public) 4
+      - 阿聯酋(绿头外网集团)(Public) 2
+      - 美國(绿头外网集团)(Public) 10
+      - FR_561
+      - 澳大利亞(绿头外网集团)(Public) 4
+      - CH_13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 【426节点池】CN_363
-      - 香港 油尖旺御金·国峯 環球全域電訊 C01
       - US_1475
-      - US_139
+      - JP_91
+      - JP_92
+      - JP | 53
+      - 新加坡(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 9
+      - JP_油管 TG 8度科技
+      - 新加坡(绿头外网集团)(Public) 5
+      - 韓國(绿头外网集团)(Public) 5
+      - 阿聯酋(绿头外网集团)(Public) 3
+      - US_141
+      - 新加坡(绿头外网集团)(Public) 3
+      - 美國(绿头外网集团)(Public) 13
+      - US_142
+      - US_143
       - 香港(绿头外网集团)(Public) 2
-      - TW_831
-      - SG_105
-      - SG_823
-      - 香港 油尖旺御金·国峯 環球全域電訊 C09
-      - 魔戒.net香港a
-      - US | 75
-      - SG_965 | 4.41Mb
-      - 香港1-IEPL-倍率1.0
-      - 香港 油尖旺御金·国峯 名氣通電訊 C07
-      - SG_103
-      - 香港 油尖旺御金·国峯 環球全域電訊 C07
-      - SG_102
-      - 美国实验性 IEPL 中继 C03
-      - SG_966
-      - SG_822
-      - SG_106
-      - 香港 油尖旺御金·国峯 環球全域電訊 C06
-      - 新加坡B 2.5x
-      - CN_油管 TG 8度科技 5
-      - 香港 油尖旺御金·国峯 環球全域電訊 C10
-      - 香港 油尖旺御金·国峯 環球全域電訊 C04
-      - US_124
-      - ZZ_3346 | 0.52Mb
-      - 【426节点池】US_3481
-      - 台湾3-IEPL-倍率1.0
-      - 香港 油尖旺御金·国峯 名氣通電訊 C06
-      - 【426节点池】CN_398
-      - 【426节点池】CN_356
-      - US_128
-      - 魔戒.net韩国高速接入A
-      - 【426节点池】CN_386
-      - 香港 油尖旺御金·国峯 環球全域電訊 C08
-      - US_132
-      - 台湾1-IEPL-倍率1.0
-      - 香港(绿头外网集团)(Public) 4
+      - 阿聯酋(绿头外网集团)(Public) 2
+      - 美國(绿头外网集团)(Public) 10
+      - FR_561
+      - 澳大利亞(绿头外网集团)(Public) 4
+      - CH_13
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【426节点池】CN_363
-      - 香港 油尖旺御金·国峯 環球全域電訊 C01
       - US_1475
-      - US_139
+      - JP_91
+      - JP_92
+      - JP | 53
+      - 新加坡(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 9
+      - JP_油管 TG 8度科技
+      - 新加坡(绿头外网集团)(Public) 5
+      - 韓國(绿头外网集团)(Public) 5
+      - 阿聯酋(绿头外网集团)(Public) 3
+      - US_141
+      - 新加坡(绿头外网集团)(Public) 3
+      - 美國(绿头外网集团)(Public) 13
+      - US_142
+      - US_143
       - 香港(绿头外网集团)(Public) 2
-      - TW_831
-      - SG_105
-      - SG_823
-      - 香港 油尖旺御金·国峯 環球全域電訊 C09
-      - 魔戒.net香港a
-      - US | 75
-      - SG_965 | 4.41Mb
-      - 香港1-IEPL-倍率1.0
-      - 香港 油尖旺御金·国峯 名氣通電訊 C07
-      - SG_103
-      - 香港 油尖旺御金·国峯 環球全域電訊 C07
-      - SG_102
-      - 美国实验性 IEPL 中继 C03
-      - SG_966
-      - SG_822
-      - SG_106
-      - 香港 油尖旺御金·国峯 環球全域電訊 C06
-      - 新加坡B 2.5x
-      - CN_油管 TG 8度科技 5
-      - 香港 油尖旺御金·国峯 環球全域電訊 C10
-      - 香港 油尖旺御金·国峯 環球全域電訊 C04
-      - US_124
-      - ZZ_3346 | 0.52Mb
-      - 【426节点池】US_3481
-      - 台湾3-IEPL-倍率1.0
-      - 香港 油尖旺御金·国峯 名氣通電訊 C06
-      - 【426节点池】CN_398
-      - 【426节点池】CN_356
-      - US_128
-      - 魔戒.net韩国高速接入A
-      - 【426节点池】CN_386
-      - 香港 油尖旺御金·国峯 環球全域電訊 C08
-      - US_132
-      - 台湾1-IEPL-倍率1.0
-      - 香港(绿头外网集团)(Public) 4
+      - 阿聯酋(绿头外网集团)(Public) 2
+      - 美國(绿头外网集团)(Public) 10
+      - FR_561
+      - 澳大利亞(绿头外网集团)(Public) 4
+      - CH_13
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -200,202 +124,112 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【426节点池】CN_363
-      - 香港 油尖旺御金·国峯 環球全域電訊 C01
       - US_1475
-      - US_139
+      - JP_91
+      - JP_92
+      - JP | 53
+      - 新加坡(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 9
+      - JP_油管 TG 8度科技
+      - 新加坡(绿头外网集团)(Public) 5
+      - 韓國(绿头外网集团)(Public) 5
+      - 阿聯酋(绿头外网集团)(Public) 3
+      - US_141
+      - 新加坡(绿头外网集团)(Public) 3
+      - 美國(绿头外网集团)(Public) 13
+      - US_142
+      - US_143
       - 香港(绿头外网集团)(Public) 2
-      - TW_831
-      - SG_105
-      - SG_823
-      - 香港 油尖旺御金·国峯 環球全域電訊 C09
-      - 魔戒.net香港a
-      - US | 75
-      - SG_965 | 4.41Mb
-      - 香港1-IEPL-倍率1.0
-      - 香港 油尖旺御金·国峯 名氣通電訊 C07
-      - SG_103
-      - 香港 油尖旺御金·国峯 環球全域電訊 C07
-      - SG_102
-      - 美国实验性 IEPL 中继 C03
-      - SG_966
-      - SG_822
-      - SG_106
-      - 香港 油尖旺御金·国峯 環球全域電訊 C06
-      - 新加坡B 2.5x
-      - CN_油管 TG 8度科技 5
-      - 香港 油尖旺御金·国峯 環球全域電訊 C10
-      - 香港 油尖旺御金·国峯 環球全域電訊 C04
-      - US_124
-      - ZZ_3346 | 0.52Mb
-      - 【426节点池】US_3481
-      - 台湾3-IEPL-倍率1.0
-      - 香港 油尖旺御金·国峯 名氣通電訊 C06
-      - 【426节点池】CN_398
-      - 【426节点池】CN_356
-      - US_128
-      - 魔戒.net韩国高速接入A
-      - 【426节点池】CN_386
-      - 香港 油尖旺御金·国峯 環球全域電訊 C08
-      - US_132
-      - 台湾1-IEPL-倍率1.0
-      - 香港(绿头外网集团)(Public) 4
+      - 阿聯酋(绿头外网集团)(Public) 2
+      - 美國(绿头外网集团)(Public) 10
+      - FR_561
+      - 澳大利亞(绿头外网集团)(Public) 4
+      - CH_13
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港 油尖旺御金·国峯 環球全域電訊 C01
       - 香港(绿头外网集团)(Public) 2
-      - 香港 油尖旺御金·国峯 環球全域電訊 C09
-      - 魔戒.net香港a
-      - 香港1-IEPL-倍率1.0
-      - 香港 油尖旺御金·国峯 名氣通電訊 C07
-      - 香港 油尖旺御金·国峯 環球全域電訊 C07
-      - 香港 油尖旺御金·国峯 環球全域電訊 C06
-      - 香港 油尖旺御金·国峯 環球全域電訊 C10
-      - 香港 油尖旺御金·国峯 環球全域電訊 C04
-      - 台湾3-IEPL-倍率1.0
-      - 香港 油尖旺御金·国峯 名氣通電訊 C06
-      - 香港 油尖旺御金·国峯 環球全域電訊 C08
-      - 台湾1-IEPL-倍率1.0
-      - 香港(绿头外网集团)(Public) 4
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 【426节点池】CN_363
-      - 香港 油尖旺御金·国峯 環球全域電訊 C01
       - US_1475
-      - US_139
+      - JP_91
+      - JP_92
+      - JP | 53
+      - 新加坡(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 9
+      - JP_油管 TG 8度科技
+      - 新加坡(绿头外网集团)(Public) 5
+      - 韓國(绿头外网集团)(Public) 5
+      - 阿聯酋(绿头外网集团)(Public) 3
+      - US_141
+      - 新加坡(绿头外网集团)(Public) 3
+      - 美國(绿头外网集团)(Public) 13
+      - US_142
+      - US_143
       - 香港(绿头外网集团)(Public) 2
-      - TW_831
-      - SG_105
-      - SG_823
-      - 香港 油尖旺御金·国峯 環球全域電訊 C09
-      - 魔戒.net香港a
-      - US | 75
-      - SG_965 | 4.41Mb
-      - 香港1-IEPL-倍率1.0
-      - 香港 油尖旺御金·国峯 名氣通電訊 C07
-      - SG_103
-      - 香港 油尖旺御金·国峯 環球全域電訊 C07
-      - SG_102
-      - 美国实验性 IEPL 中继 C03
-      - SG_966
-      - SG_822
-      - SG_106
-      - 香港 油尖旺御金·国峯 環球全域電訊 C06
-      - 新加坡B 2.5x
-      - CN_油管 TG 8度科技 5
-      - 香港 油尖旺御金·国峯 環球全域電訊 C10
-      - 香港 油尖旺御金·国峯 環球全域電訊 C04
-      - US_124
-      - ZZ_3346 | 0.52Mb
-      - 【426节点池】US_3481
-      - 台湾3-IEPL-倍率1.0
-      - 香港 油尖旺御金·国峯 名氣通電訊 C06
-      - 【426节点池】CN_398
-      - 【426节点池】CN_356
-      - US_128
-      - 魔戒.net韩国高速接入A
-      - 【426节点池】CN_386
-      - 香港 油尖旺御金·国峯 環球全域電訊 C08
-      - US_132
-      - 台湾1-IEPL-倍率1.0
-      - 香港(绿头外网集团)(Public) 4
+      - 阿聯酋(绿头外网集团)(Public) 2
+      - 美國(绿头外网集团)(Public) 10
+      - FR_561
+      - 澳大利亞(绿头外网集团)(Public) 4
+      - CH_13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 【426节点池】CN_363
-      - 香港 油尖旺御金·国峯 環球全域電訊 C01
       - US_1475
-      - US_139
+      - JP_91
+      - JP_92
+      - JP | 53
+      - 新加坡(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 9
+      - JP_油管 TG 8度科技
+      - 新加坡(绿头外网集团)(Public) 5
+      - 韓國(绿头外网集团)(Public) 5
+      - 阿聯酋(绿头外网集团)(Public) 3
+      - US_141
+      - 新加坡(绿头外网集团)(Public) 3
+      - 美國(绿头外网集团)(Public) 13
+      - US_142
+      - US_143
       - 香港(绿头外网集团)(Public) 2
-      - TW_831
-      - SG_105
-      - SG_823
-      - 香港 油尖旺御金·国峯 環球全域電訊 C09
-      - 魔戒.net香港a
-      - US | 75
-      - SG_965 | 4.41Mb
-      - 香港1-IEPL-倍率1.0
-      - 香港 油尖旺御金·国峯 名氣通電訊 C07
-      - SG_103
-      - 香港 油尖旺御金·国峯 環球全域電訊 C07
-      - SG_102
-      - 美国实验性 IEPL 中继 C03
-      - SG_966
-      - SG_822
-      - SG_106
-      - 香港 油尖旺御金·国峯 環球全域電訊 C06
-      - 新加坡B 2.5x
-      - CN_油管 TG 8度科技 5
-      - 香港 油尖旺御金·国峯 環球全域電訊 C10
-      - 香港 油尖旺御金·国峯 環球全域電訊 C04
-      - US_124
-      - ZZ_3346 | 0.52Mb
-      - 【426节点池】US_3481
-      - 台湾3-IEPL-倍率1.0
-      - 香港 油尖旺御金·国峯 名氣通電訊 C06
-      - 【426节点池】CN_398
-      - 【426节点池】CN_356
-      - US_128
-      - 魔戒.net韩国高速接入A
-      - 【426节点池】CN_386
-      - 香港 油尖旺御金·国峯 環球全域電訊 C08
-      - US_132
-      - 台湾1-IEPL-倍率1.0
-      - 香港(绿头外网集团)(Public) 4
+      - 阿聯酋(绿头外网集团)(Public) 2
+      - 美國(绿头外网集团)(Public) 10
+      - FR_561
+      - 澳大利亞(绿头外网集团)(Public) 4
+      - CH_13
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 【426节点池】CN_363
-      - 香港 油尖旺御金·国峯 環球全域電訊 C01
       - US_1475
-      - US_139
+      - JP_91
+      - JP_92
+      - JP | 53
+      - 新加坡(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 9
+      - JP_油管 TG 8度科技
+      - 新加坡(绿头外网集团)(Public) 5
+      - 韓國(绿头外网集团)(Public) 5
+      - 阿聯酋(绿头外网集团)(Public) 3
+      - US_141
+      - 新加坡(绿头外网集团)(Public) 3
+      - 美國(绿头外网集团)(Public) 13
+      - US_142
+      - US_143
       - 香港(绿头外网集团)(Public) 2
-      - TW_831
-      - SG_105
-      - SG_823
-      - 香港 油尖旺御金·国峯 環球全域電訊 C09
-      - 魔戒.net香港a
-      - US | 75
-      - SG_965 | 4.41Mb
-      - 香港1-IEPL-倍率1.0
-      - 香港 油尖旺御金·国峯 名氣通電訊 C07
-      - SG_103
-      - 香港 油尖旺御金·国峯 環球全域電訊 C07
-      - SG_102
-      - 美国实验性 IEPL 中继 C03
-      - SG_966
-      - SG_822
-      - SG_106
-      - 香港 油尖旺御金·国峯 環球全域電訊 C06
-      - 新加坡B 2.5x
-      - CN_油管 TG 8度科技 5
-      - 香港 油尖旺御金·国峯 環球全域電訊 C10
-      - 香港 油尖旺御金·国峯 環球全域電訊 C04
-      - US_124
-      - ZZ_3346 | 0.52Mb
-      - 【426节点池】US_3481
-      - 台湾3-IEPL-倍率1.0
-      - 香港 油尖旺御金·国峯 名氣通電訊 C06
-      - 【426节点池】CN_398
-      - 【426节点池】CN_356
-      - US_128
-      - 魔戒.net韩国高速接入A
-      - 【426节点池】CN_386
-      - 香港 油尖旺御金·国峯 環球全域電訊 C08
-      - US_132
-      - 台湾1-IEPL-倍率1.0
-      - 香港(绿头外网集团)(Public) 4
+      - 阿聯酋(绿头外网集团)(Public) 2
+      - 美國(绿头外网集团)(Public) 10
+      - FR_561
+      - 澳大利亞(绿头外网集团)(Public) 4
+      - CH_13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -411,46 +245,27 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 【426节点池】CN_363
-      - 香港 油尖旺御金·国峯 環球全域電訊 C01
       - US_1475
-      - US_139
+      - JP_91
+      - JP_92
+      - JP | 53
+      - 新加坡(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 9
+      - JP_油管 TG 8度科技
+      - 新加坡(绿头外网集团)(Public) 5
+      - 韓國(绿头外网集团)(Public) 5
+      - 阿聯酋(绿头外网集团)(Public) 3
+      - US_141
+      - 新加坡(绿头外网集团)(Public) 3
+      - 美國(绿头外网集团)(Public) 13
+      - US_142
+      - US_143
       - 香港(绿头外网集团)(Public) 2
-      - TW_831
-      - SG_105
-      - SG_823
-      - 香港 油尖旺御金·国峯 環球全域電訊 C09
-      - 魔戒.net香港a
-      - US | 75
-      - SG_965 | 4.41Mb
-      - 香港1-IEPL-倍率1.0
-      - 香港 油尖旺御金·国峯 名氣通電訊 C07
-      - SG_103
-      - 香港 油尖旺御金·国峯 環球全域電訊 C07
-      - SG_102
-      - 美国实验性 IEPL 中继 C03
-      - SG_966
-      - SG_822
-      - SG_106
-      - 香港 油尖旺御金·国峯 環球全域電訊 C06
-      - 新加坡B 2.5x
-      - CN_油管 TG 8度科技 5
-      - 香港 油尖旺御金·国峯 環球全域電訊 C10
-      - 香港 油尖旺御金·国峯 環球全域電訊 C04
-      - US_124
-      - ZZ_3346 | 0.52Mb
-      - 【426节点池】US_3481
-      - 台湾3-IEPL-倍率1.0
-      - 香港 油尖旺御金·国峯 名氣通電訊 C06
-      - 【426节点池】CN_398
-      - 【426节点池】CN_356
-      - US_128
-      - 魔戒.net韩国高速接入A
-      - 【426节点池】CN_386
-      - 香港 油尖旺御金·国峯 環球全域電訊 C08
-      - US_132
-      - 台湾1-IEPL-倍率1.0
-      - 香港(绿头外网集团)(Public) 4
+      - 阿聯酋(绿头外网集团)(Public) 2
+      - 美國(绿头外网集团)(Public) 10
+      - FR_561
+      - 澳大利亞(绿头外网集团)(Public) 4
+      - CH_13
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
