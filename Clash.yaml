@@ -5,107 +5,187 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_1475, server: 172.99.190.205, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: JP_91, server: 30.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 30.earths.team, skip-cert-verify: true, udp: true}
-  - {name: JP_92, server: 30.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 30.earths.team, skip-cert-verify: true, udp: true}
-  - {name: JP | 53, server: 13.208.54.132, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 4, server: s2.kaxff.com, port: 32432, type: trojan, password: OcABzr5wEG, sni: s2.kaxff.com, skip-cert-verify: true, udp: true}
-  - {name: 韓國(绿头外网集团)(Public) 9, server: 150.230.252.80, port: 35565, type: vmess, uuid: badacc06-e5df-40de-b505-c59d68d105fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_油管 TG 8度科技, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 5, server: s5.kaxff.com, port: 20585, type: trojan, password: JWOLs1gJ0X, sni: s5.kaxff.com, skip-cert-verify: true, udp: true}
-  - {name: 韓國(绿头外网集团)(Public) 5, server: 146.56.106.189, port: 35565, type: vmess, uuid: a9a8ae62-6ff0-4e80-ac0d-a5b5af80a346, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 阿聯酋(绿头外网集团)(Public) 3, server: 193.123.80.75, port: 35565, type: vmess, uuid: d7fc4ad6-b76c-47ac-b090-03fb96174bc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_141, server: 26.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 26.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 3, server: s1.kaxff.com, port: 15654, type: trojan, password: 6Uu5c0cJUV, sni: s1.kaxff.com, skip-cert-verify: true, udp: true}
-  - {name: 美國(绿头外网集团)(Public) 13, server: 7.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 7.earths.team, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |19.68Mb, server: os2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-2.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_ | 3.17Mb, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: US_142, server: 26.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 26.earths.team, skip-cert-verify: true, udp: true}
-  - {name: US_143, server: 20.24.85.234, port: 8001, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 2, server: 104.208.85.120, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: true, udp: true}
-  - {name: 阿聯酋(绿头外网集团)(Public) 2, server: 193.123.84.188, port: 45565, type: vmess, uuid: c8983b5e-ec6f-4c6b-ec9f-6d10540c1a6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /blog, ws-headers: {Host: 193.123.84.188}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 3, server: g1.gs1024.com, port: 60195, type: vmess, uuid: 939b8c74-3499-3dab-b092-3bb05fb2f259, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [g1.gs1024.com]}, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public), server: g3.gs1024.com, port: 60766, type: vmess, uuid: 939b8c74-3499-3dab-b092-3bb05fb2f259, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [g3.gs1024.com]}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 5, server: g2.gs1024.com, port: 20785, type: vmess, uuid: 939b8c74-3499-3dab-b092-3bb05fb2f259, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [g2.gs1024.com]}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 4, server: g2.gs1024.com, port: 20778, type: vmess, uuid: 939b8c74-3499-3dab-b092-3bb05fb2f259, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [g2.gs1024.com]}, udp: true}
+  - {name: US_141, server: 26.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 26.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 2, server: iplc.gs1024.com, port: 61780, type: vmess, uuid: 939b8c74-3499-3dab-b092-3bb05fb2f259, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [iplc.gs1024.com]}, udp: true}
+  - {name: 台灣(绿头外网集团)(Public), server: tw.gs1024.com, port: 20762, type: vmess, uuid: 939b8c74-3499-3dab-b092-3bb05fb2f259, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 2, server: g3.gs1024.com, port: 61765, type: vmess, uuid: 939b8c74-3499-3dab-b092-3bb05fb2f259, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [g3.gs1024.com]}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 18, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 11, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 14, server: fs.evertheless.art, port: 54621, type: trojan, password: 8913bd4d-d7e0-41bd-9ec0-de017adf7a49, sni: fs.evertheless.art, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 3, server: s1.kaxff.com, port: 15654, type: trojan, password: 6Uu5c0cJUV, sni: s1.kaxff.com, skip-cert-verify: true, udp: true}
+  - {name: 愛沙尼亞(绿头外网集团)(Public) 4, server: os2-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-7.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: 愛沙尼亞(绿头外网集团)(Public) 3, server: os2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-6.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 4, server: s2.kaxff.com, port: 32432, type: trojan, password: OcABzr5wEG, sni: s2.kaxff.com, skip-cert-verify: true, udp: true}
+  - {name: JP | 53, server: 13.208.54.132, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: true, udp: true}
+  - {name: 愛沙尼亞(绿头外网集团)(Public) 2, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-8.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP_油管 TG 8度科技, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 4 2, server: mb22.ml, port: 52343, type: vmess, uuid: af20e9ba-3f30-48e9-9d52-9620954b1d67, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 31, server: 155.248.183.96, port: 35565, type: vmess, uuid: 692f603f-7b7c-4646-d406-4affc49584e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP_91, server: 30.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 30.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 33机场👉魔戒.net, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美國(绿头外网集团)(Public) 7, server: 138.2.125.221, port: 35565, type: vmess, uuid: f36521b5-5309-441e-cf4f-52ff0023acea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 阿聯酋(绿头外网集团)(Public) 2, server: 193.123.80.75, port: 35565, type: vmess, uuid: d7fc4ad6-b76c-47ac-b090-03fb96174bc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韓國(绿头外网集团)(Public) 2, server: 146.56.106.189, port: 35565, type: vmess, uuid: a9a8ae62-6ff0-4e80-ac0d-a5b5af80a346, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 34, server: 40.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 40.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 5, server: s5.kaxff.com, port: 20585, type: trojan, password: JWOLs1gJ0X, sni: s5.kaxff.com, skip-cert-verify: true, udp: true}
+  - {name: 阿聯酋(绿头外网集团)(Public) 3, server: 193.123.80.75, port: 35565, type: vmess, uuid: d7fc4ad6-b76c-47ac-b090-03fb96174bc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 33, server: 40.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 40.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 韓國(绿头外网集团)(Public) 4, server: 146.56.106.189, port: 35565, type: vmess, uuid: a9a8ae62-6ff0-4e80-ac0d-a5b5af80a346, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美國(绿头外网集团)(Public) 10, server: 192.18.143.154, port: 35565, type: vmess, uuid: 23d3a259-8a3a-4072-8f03-3263d59121e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: FR_561, server: fr-am1-1.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: gVWc0WaJn, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 澳大利亞(绿头外网集团)(Public) 4, server: 152.67.106.66, port: 35565, type: vmess, uuid: 419d59b3-5b95-4ba1-b969-7cc9a635a33d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韓國(绿头外网集团)(Public) 6, server: 138.2.125.221, port: 35565, type: vmess, uuid: f36521b5-5309-441e-cf4f-52ff0023acea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_143, server: 20.24.85.234, port: 8001, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, skip-cert-verify: true, udp: true}
   - {name: CH_13, server: sw.oracleusa.ml, port: 443, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sw.oracleusa.ml}, udp: true}
+  - {name: 韓國(绿头外网集团)(Public) 9, server: 146.56.178.159, port: 35565, type: vmess, uuid: c53f11c3-86b0-4087-ce45-6f12821575a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亞(绿头外网集团)(Public) 4, server: 152.67.106.66, port: 35565, type: vmess, uuid: 419d59b3-5b95-4ba1-b969-7cc9a635a33d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韓國(绿头外网集团)(Public) 7, server: 152.67.202.177, port: 35565, type: vmess, uuid: 45d10cdf-3e5e-480d-e51e-c0a6e69677c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 20, server: azhk.cnnp.tk, port: 17815, type: vmess, uuid: 392ca636-d1df-40f7-cb9a-07e303e63eec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /flover, ws-headers: {Host: azhk.cnnp.tk}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_1475
-      - JP_91
-      - JP_92
-      - JP | 53
-      - 新加坡(绿头外网集团)(Public) 4
-      - 韓國(绿头外网集团)(Public) 9
-      - JP_油管 TG 8度科技
-      - 新加坡(绿头外网集团)(Public) 5
-      - 韓國(绿头外网集团)(Public) 5
-      - 阿聯酋(绿头外网集团)(Public) 3
-      - US_141
-      - 新加坡(绿头外网集团)(Public) 3
-      - 美國(绿头外网集团)(Public) 13
+      - Relay_ |19.68Mb
+      - Relay_ | 3.17Mb
       - US_142
-      - US_143
+      - 香港(绿头外网集团)(Public) 3
+      - 新加坡(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 5
+      - 香港(绿头外网集团)(Public) 4
+      - US_141
       - 香港(绿头外网集团)(Public) 2
+      - 台灣(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 18
+      - 香港(绿头外网集团)(Public) 11
+      - 香港(绿头外网集团)(Public) 14
+      - 新加坡(绿头外网集团)(Public) 3
+      - 愛沙尼亞(绿头外网集团)(Public) 4
+      - 愛沙尼亞(绿头外网集团)(Public) 3
+      - 新加坡(绿头外网集团)(Public) 4
+      - JP | 53
+      - 愛沙尼亞(绿头外网集团)(Public) 2
+      - JP_油管 TG 8度科技
+      - 新加坡(绿头外网集团)(Public) 4 2
+      - 日本(绿头外网集团)(Public) 31
+      - JP_91
+      - 33机场👉魔戒.net
+      - 美國(绿头外网集团)(Public) 7
       - 阿聯酋(绿头外网集团)(Public) 2
+      - 韓國(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 34
+      - 新加坡(绿头外网集团)(Public) 5
+      - 阿聯酋(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 33
+      - 韓國(绿头外网集团)(Public) 4
       - 美國(绿头外网集团)(Public) 10
-      - FR_561
-      - 澳大利亞(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 6
+      - US_143
       - CH_13
+      - 韓國(绿头外网集团)(Public) 9
+      - 澳大利亞(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 7
+      - 香港(绿头外网集团)(Public) 20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US_1475
-      - JP_91
-      - JP_92
-      - JP | 53
-      - 新加坡(绿头外网集团)(Public) 4
-      - 韓國(绿头外网集团)(Public) 9
-      - JP_油管 TG 8度科技
-      - 新加坡(绿头外网集团)(Public) 5
-      - 韓國(绿头外网集团)(Public) 5
-      - 阿聯酋(绿头外网集团)(Public) 3
-      - US_141
-      - 新加坡(绿头外网集团)(Public) 3
-      - 美國(绿头外网集团)(Public) 13
+      - Relay_ |19.68Mb
+      - Relay_ | 3.17Mb
       - US_142
-      - US_143
+      - 香港(绿头外网集团)(Public) 3
+      - 新加坡(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 5
+      - 香港(绿头外网集团)(Public) 4
+      - US_141
       - 香港(绿头外网集团)(Public) 2
+      - 台灣(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 18
+      - 香港(绿头外网集团)(Public) 11
+      - 香港(绿头外网集团)(Public) 14
+      - 新加坡(绿头外网集团)(Public) 3
+      - 愛沙尼亞(绿头外网集团)(Public) 4
+      - 愛沙尼亞(绿头外网集团)(Public) 3
+      - 新加坡(绿头外网集团)(Public) 4
+      - JP | 53
+      - 愛沙尼亞(绿头外网集团)(Public) 2
+      - JP_油管 TG 8度科技
+      - 新加坡(绿头外网集团)(Public) 4 2
+      - 日本(绿头外网集团)(Public) 31
+      - JP_91
+      - 33机场👉魔戒.net
+      - 美國(绿头外网集团)(Public) 7
       - 阿聯酋(绿头外网集团)(Public) 2
+      - 韓國(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 34
+      - 新加坡(绿头外网集团)(Public) 5
+      - 阿聯酋(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 33
+      - 韓國(绿头外网集团)(Public) 4
       - 美國(绿头外网集团)(Public) 10
-      - FR_561
-      - 澳大利亞(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 6
+      - US_143
       - CH_13
+      - 韓國(绿头外网集团)(Public) 9
+      - 澳大利亞(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 7
+      - 香港(绿头外网集团)(Public) 20
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_1475
-      - JP_91
-      - JP_92
-      - JP | 53
-      - 新加坡(绿头外网集团)(Public) 4
-      - 韓國(绿头外网集团)(Public) 9
-      - JP_油管 TG 8度科技
-      - 新加坡(绿头外网集团)(Public) 5
-      - 韓國(绿头外网集团)(Public) 5
-      - 阿聯酋(绿头外网集团)(Public) 3
-      - US_141
-      - 新加坡(绿头外网集团)(Public) 3
-      - 美國(绿头外网集团)(Public) 13
+      - Relay_ |19.68Mb
+      - Relay_ | 3.17Mb
       - US_142
-      - US_143
+      - 香港(绿头外网集团)(Public) 3
+      - 新加坡(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 5
+      - 香港(绿头外网集团)(Public) 4
+      - US_141
       - 香港(绿头外网集团)(Public) 2
+      - 台灣(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 18
+      - 香港(绿头外网集团)(Public) 11
+      - 香港(绿头外网集团)(Public) 14
+      - 新加坡(绿头外网集团)(Public) 3
+      - 愛沙尼亞(绿头外网集团)(Public) 4
+      - 愛沙尼亞(绿头外网集团)(Public) 3
+      - 新加坡(绿头外网集团)(Public) 4
+      - JP | 53
+      - 愛沙尼亞(绿头外网集团)(Public) 2
+      - JP_油管 TG 8度科技
+      - 新加坡(绿头外网集团)(Public) 4 2
+      - 日本(绿头外网集团)(Public) 31
+      - JP_91
+      - 33机场👉魔戒.net
+      - 美國(绿头外网集团)(Public) 7
       - 阿聯酋(绿头外网集团)(Public) 2
+      - 韓國(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 34
+      - 新加坡(绿头外网集团)(Public) 5
+      - 阿聯酋(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 33
+      - 韓國(绿头外网集团)(Public) 4
       - 美國(绿头外网集团)(Public) 10
-      - FR_561
-      - 澳大利亞(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 6
+      - US_143
       - CH_13
+      - 韓國(绿头外网集团)(Public) 9
+      - 澳大利亞(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 7
+      - 香港(绿头外网集团)(Public) 20
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -124,112 +204,202 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_1475
-      - JP_91
-      - JP_92
-      - JP | 53
-      - 新加坡(绿头外网集团)(Public) 4
-      - 韓國(绿头外网集团)(Public) 9
-      - JP_油管 TG 8度科技
-      - 新加坡(绿头外网集团)(Public) 5
-      - 韓國(绿头外网集团)(Public) 5
-      - 阿聯酋(绿头外网集团)(Public) 3
-      - US_141
-      - 新加坡(绿头外网集团)(Public) 3
-      - 美國(绿头外网集团)(Public) 13
+      - Relay_ |19.68Mb
+      - Relay_ | 3.17Mb
       - US_142
-      - US_143
+      - 香港(绿头外网集团)(Public) 3
+      - 新加坡(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 5
+      - 香港(绿头外网集团)(Public) 4
+      - US_141
       - 香港(绿头外网集团)(Public) 2
+      - 台灣(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 18
+      - 香港(绿头外网集团)(Public) 11
+      - 香港(绿头外网集团)(Public) 14
+      - 新加坡(绿头外网集团)(Public) 3
+      - 愛沙尼亞(绿头外网集团)(Public) 4
+      - 愛沙尼亞(绿头外网集团)(Public) 3
+      - 新加坡(绿头外网集团)(Public) 4
+      - JP | 53
+      - 愛沙尼亞(绿头外网集团)(Public) 2
+      - JP_油管 TG 8度科技
+      - 新加坡(绿头外网集团)(Public) 4 2
+      - 日本(绿头外网集团)(Public) 31
+      - JP_91
+      - 33机场👉魔戒.net
+      - 美國(绿头外网集团)(Public) 7
       - 阿聯酋(绿头外网集团)(Public) 2
+      - 韓國(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 34
+      - 新加坡(绿头外网集团)(Public) 5
+      - 阿聯酋(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 33
+      - 韓國(绿头外网集团)(Public) 4
       - 美國(绿头外网集团)(Public) 10
-      - FR_561
-      - 澳大利亞(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 6
+      - US_143
       - CH_13
+      - 韓國(绿头外网集团)(Public) 9
+      - 澳大利亞(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 7
+      - 香港(绿头外网集团)(Public) 20
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 5
+      - 香港(绿头外网集团)(Public) 4
       - 香港(绿头外网集团)(Public) 2
+      - 台灣(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 18
+      - 香港(绿头外网集团)(Public) 11
+      - 香港(绿头外网集团)(Public) 14
+      - 香港(绿头外网集团)(Public) 34
+      - 香港(绿头外网集团)(Public) 33
+      - 香港(绿头外网集团)(Public) 20
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US_1475
-      - JP_91
-      - JP_92
-      - JP | 53
-      - 新加坡(绿头外网集团)(Public) 4
-      - 韓國(绿头外网集团)(Public) 9
-      - JP_油管 TG 8度科技
-      - 新加坡(绿头外网集团)(Public) 5
-      - 韓國(绿头外网集团)(Public) 5
-      - 阿聯酋(绿头外网集团)(Public) 3
-      - US_141
-      - 新加坡(绿头外网集团)(Public) 3
-      - 美國(绿头外网集团)(Public) 13
+      - Relay_ |19.68Mb
+      - Relay_ | 3.17Mb
       - US_142
-      - US_143
+      - 香港(绿头外网集团)(Public) 3
+      - 新加坡(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 5
+      - 香港(绿头外网集团)(Public) 4
+      - US_141
       - 香港(绿头外网集团)(Public) 2
+      - 台灣(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 18
+      - 香港(绿头外网集团)(Public) 11
+      - 香港(绿头外网集团)(Public) 14
+      - 新加坡(绿头外网集团)(Public) 3
+      - 愛沙尼亞(绿头外网集团)(Public) 4
+      - 愛沙尼亞(绿头外网集团)(Public) 3
+      - 新加坡(绿头外网集团)(Public) 4
+      - JP | 53
+      - 愛沙尼亞(绿头外网集团)(Public) 2
+      - JP_油管 TG 8度科技
+      - 新加坡(绿头外网集团)(Public) 4 2
+      - 日本(绿头外网集团)(Public) 31
+      - JP_91
+      - 33机场👉魔戒.net
+      - 美國(绿头外网集团)(Public) 7
       - 阿聯酋(绿头外网集团)(Public) 2
+      - 韓國(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 34
+      - 新加坡(绿头外网集团)(Public) 5
+      - 阿聯酋(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 33
+      - 韓國(绿头外网集团)(Public) 4
       - 美國(绿头外网集团)(Public) 10
-      - FR_561
-      - 澳大利亞(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 6
+      - US_143
       - CH_13
+      - 韓國(绿头外网集团)(Public) 9
+      - 澳大利亞(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 7
+      - 香港(绿头外网集团)(Public) 20
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US_1475
-      - JP_91
-      - JP_92
-      - JP | 53
-      - 新加坡(绿头外网集团)(Public) 4
-      - 韓國(绿头外网集团)(Public) 9
-      - JP_油管 TG 8度科技
-      - 新加坡(绿头外网集团)(Public) 5
-      - 韓國(绿头外网集团)(Public) 5
-      - 阿聯酋(绿头外网集团)(Public) 3
-      - US_141
-      - 新加坡(绿头外网集团)(Public) 3
-      - 美國(绿头外网集团)(Public) 13
+      - Relay_ |19.68Mb
+      - Relay_ | 3.17Mb
       - US_142
-      - US_143
+      - 香港(绿头外网集团)(Public) 3
+      - 新加坡(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 5
+      - 香港(绿头外网集团)(Public) 4
+      - US_141
       - 香港(绿头外网集团)(Public) 2
+      - 台灣(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 18
+      - 香港(绿头外网集团)(Public) 11
+      - 香港(绿头外网集团)(Public) 14
+      - 新加坡(绿头外网集团)(Public) 3
+      - 愛沙尼亞(绿头外网集团)(Public) 4
+      - 愛沙尼亞(绿头外网集团)(Public) 3
+      - 新加坡(绿头外网集团)(Public) 4
+      - JP | 53
+      - 愛沙尼亞(绿头外网集团)(Public) 2
+      - JP_油管 TG 8度科技
+      - 新加坡(绿头外网集团)(Public) 4 2
+      - 日本(绿头外网集团)(Public) 31
+      - JP_91
+      - 33机场👉魔戒.net
+      - 美國(绿头外网集团)(Public) 7
       - 阿聯酋(绿头外网集团)(Public) 2
+      - 韓國(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 34
+      - 新加坡(绿头外网集团)(Public) 5
+      - 阿聯酋(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 33
+      - 韓國(绿头外网集团)(Public) 4
       - 美國(绿头外网集团)(Public) 10
-      - FR_561
-      - 澳大利亞(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 6
+      - US_143
       - CH_13
+      - 韓國(绿头外网集团)(Public) 9
+      - 澳大利亞(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 7
+      - 香港(绿头外网集团)(Public) 20
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_1475
-      - JP_91
-      - JP_92
-      - JP | 53
-      - 新加坡(绿头外网集团)(Public) 4
-      - 韓國(绿头外网集团)(Public) 9
-      - JP_油管 TG 8度科技
-      - 新加坡(绿头外网集团)(Public) 5
-      - 韓國(绿头外网集团)(Public) 5
-      - 阿聯酋(绿头外网集团)(Public) 3
-      - US_141
-      - 新加坡(绿头外网集团)(Public) 3
-      - 美國(绿头外网集团)(Public) 13
+      - Relay_ |19.68Mb
+      - Relay_ | 3.17Mb
       - US_142
-      - US_143
+      - 香港(绿头外网集团)(Public) 3
+      - 新加坡(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 5
+      - 香港(绿头外网集团)(Public) 4
+      - US_141
       - 香港(绿头外网集团)(Public) 2
+      - 台灣(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 18
+      - 香港(绿头外网集团)(Public) 11
+      - 香港(绿头外网集团)(Public) 14
+      - 新加坡(绿头外网集团)(Public) 3
+      - 愛沙尼亞(绿头外网集团)(Public) 4
+      - 愛沙尼亞(绿头外网集团)(Public) 3
+      - 新加坡(绿头外网集团)(Public) 4
+      - JP | 53
+      - 愛沙尼亞(绿头外网集团)(Public) 2
+      - JP_油管 TG 8度科技
+      - 新加坡(绿头外网集团)(Public) 4 2
+      - 日本(绿头外网集团)(Public) 31
+      - JP_91
+      - 33机场👉魔戒.net
+      - 美國(绿头外网集团)(Public) 7
       - 阿聯酋(绿头外网集团)(Public) 2
+      - 韓國(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 34
+      - 新加坡(绿头外网集团)(Public) 5
+      - 阿聯酋(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 33
+      - 韓國(绿头外网集团)(Public) 4
       - 美國(绿头外网集团)(Public) 10
-      - FR_561
-      - 澳大利亞(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 6
+      - US_143
       - CH_13
+      - 韓國(绿头外网集团)(Public) 9
+      - 澳大利亞(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 7
+      - 香港(绿头外网集团)(Public) 20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -245,27 +415,47 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_1475
-      - JP_91
-      - JP_92
-      - JP | 53
-      - 新加坡(绿头外网集团)(Public) 4
-      - 韓國(绿头外网集团)(Public) 9
-      - JP_油管 TG 8度科技
-      - 新加坡(绿头外网集团)(Public) 5
-      - 韓國(绿头外网集团)(Public) 5
-      - 阿聯酋(绿头外网集团)(Public) 3
-      - US_141
-      - 新加坡(绿头外网集团)(Public) 3
-      - 美國(绿头外网集团)(Public) 13
+      - Relay_ |19.68Mb
+      - Relay_ | 3.17Mb
       - US_142
-      - US_143
+      - 香港(绿头外网集团)(Public) 3
+      - 新加坡(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 5
+      - 香港(绿头外网集团)(Public) 4
+      - US_141
       - 香港(绿头外网集团)(Public) 2
+      - 台灣(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 18
+      - 香港(绿头外网集团)(Public) 11
+      - 香港(绿头外网集团)(Public) 14
+      - 新加坡(绿头外网集团)(Public) 3
+      - 愛沙尼亞(绿头外网集团)(Public) 4
+      - 愛沙尼亞(绿头外网集团)(Public) 3
+      - 新加坡(绿头外网集团)(Public) 4
+      - JP | 53
+      - 愛沙尼亞(绿头外网集团)(Public) 2
+      - JP_油管 TG 8度科技
+      - 新加坡(绿头外网集团)(Public) 4 2
+      - 日本(绿头外网集团)(Public) 31
+      - JP_91
+      - 33机场👉魔戒.net
+      - 美國(绿头外网集团)(Public) 7
       - 阿聯酋(绿头外网集团)(Public) 2
+      - 韓國(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 34
+      - 新加坡(绿头外网集团)(Public) 5
+      - 阿聯酋(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 33
+      - 韓國(绿头外网集团)(Public) 4
       - 美國(绿头外网集团)(Public) 10
-      - FR_561
-      - 澳大利亞(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 6
+      - US_143
       - CH_13
+      - 韓國(绿头外网集团)(Public) 9
+      - 澳大利亞(绿头外网集团)(Public) 4
+      - 韓國(绿头外网集团)(Public) 7
+      - 香港(绿头外网集团)(Public) 20
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
