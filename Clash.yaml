@@ -5,147 +5,143 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "魔戒.net 🇯🇵TYO/JP - 2 [LINODE][TRANSIT]", server: china-zj-hz-1.forwardserver.xyz, port: 44658, type: trojan, password: 99dcbc89-57ef-49de-b0af-8a1127a797d9, sni: china-zj-hz-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 4, server: g2.gs1024.com, port: 20778, type: vmess, uuid: 939b8c74-3499-3dab-b092-3bb05fb2f259, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [g2.gs1024.com]}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 2, server: iplc.gs1024.com, port: 61780, type: vmess, uuid: 939b8c74-3499-3dab-b092-3bb05fb2f259, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [iplc.gs1024.com]}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 5, server: g2.gs1024.com, port: 20785, type: vmess, uuid: 939b8c74-3499-3dab-b092-3bb05fb2f259, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [g2.gs1024.com]}, udp: true}
-  - {name: "魔戒.net 🇸🇬SIN/SG - 1 [LINODE][TRANSIT]", server: china-zj-hz-1.forwardserver.xyz, port: 43841, type: trojan, password: 99dcbc89-57ef-49de-b0af-8a1127a797d9, sni: china-zj-hz-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: "魔戒.net 🇨🇳HKG/CN - 2 [AZ][DIRECT]", server: 52.175.62.234, port: 10853, type: trojan, password: 99dcbc89-57ef-49de-b0af-8a1127a797d9, skip-cert-verify: true, udp: true}
+  - {name: 香港 01 11, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292460:sWqa1UY7re, obfs-param: "", udp: true}
+  - {name: 香港 01 2, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292447:e9Uy8JEACs, obfs-param: "", udp: true}
+  - {name: 香港 01 7, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292453:z9YtwaA2Hb, obfs-param: "", udp: true}
+  - {name: 香港 01, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292446:CSMKBe20Ar, obfs-param: "", udp: true}
+  - {name: 香港 01 13, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292462:waA2ZC3Rmu, obfs-param: "", udp: true}
+  - {name: 香港 01 9, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292457:SC7DPZf84Q, obfs-param: "", udp: true}
+  - {name: 香港 01 12, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292461:x5OPCAclZY, obfs-param: "", udp: true}
+  - {name: 香港 01 3, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292448:Q5zZ28EG7l, obfs-param: "", udp: true}
+  - {name: 香港 01 10, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292459:XkFq2UW3KY, obfs-param: "", udp: true}
   - {name: CN_67 TG@peekfun, server: e2322f9.na.gladns.com, port: 3389, type: trojan, password: c3c448da2363a6f7, sni: e2322f9.na.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 3, server: g1.gs1024.com, port: 60195, type: vmess, uuid: 939b8c74-3499-3dab-b092-3bb05fb2f259, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [g1.gs1024.com]}, udp: true}
-  - {name: _KR_韩国 5, server: 141.164.57.134, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 301破解_KR_韩国_32, server: 158.247.226.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Relay_ |19.68Mb, server: os2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-2.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 01 5, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292451:ftzwFro61n, obfs-param: "", udp: true}
+  - {name: 香港 01 14, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292463:jU3iglpQfm, obfs-param: "", udp: true}
   - {name: JP_油管 TG 8度科技, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}, udp: true}
-  - {name: 301更新_US_美国_55, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _美国_老杨爱分享_76, server: 38.143.66.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_204 TG@peekfun, server: 158.247.203.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 301破解_US_美国_29, server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 301更新_US_美国_30, server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 301更新_US_美国_36, server: 167.88.61.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 301更新_US_美国_32, server: 167.88.61.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 301更新_US_美国_39, server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 301更新_US_美国_93, server: 167.88.61.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 301破解_US_美国_21, server: 38.143.66.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 301更新_US_美国_35, server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 301更新_US_美国_42, server: 38.114.114.19, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 301更新_CA_加拿大_58, server: 134.195.196.71, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 301更新_CA_加拿大_71, server: 134.195.196.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 301更新_US_美国_33, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 301更新_CA_加拿大_88, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 301更新_CA_加拿大_92, server: 134.195.196.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 301更新_CA_加拿大_66, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 301更新_CA_加拿大_85, server: 134.195.196.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: JP_846 | 9.01Mb, server: 141.164.34.179, port: 43210, type: vmess, uuid: a51943b4-d9b8-4227-d772-fcb6c538a59d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港 01 6, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292452:HpiRkVF2qh, obfs-param: "", udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_343, server: gz-cm-kl.klee.store, port: 11156, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
+  - {name: _KR_韩国 5, server: 141.164.57.134, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 香港 01 8, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292454:AuNKm0L9kJ, obfs-param: "", udp: true}
+  - {name: 香港 01 4, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292449:572uGTVkip, obfs-param: "", udp: true}
+  - {name: Relay_🇨🇳CN-🇮🇳IN_359, server: gz-cm-kl.klee.store, port: 11248, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇻🇳VN_338, server: gz-cm-kl.klee.store, port: 11270, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
+  - {name: US_150 TG@peekfun, server: 38.91.102.86, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Relay_🇨🇳CN-🇷🇺RU_379, server: gz-cm-kl.klee.store, port: 11125, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇷🇺RU_386, server: gz-cm-kl.klee.store, port: 11199, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
+  - {name: US_156 TG@peekfun, server: 38.91.102.86, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_148 TG@peekfun, server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _11.54Mb, server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_173 TG@peekfun, server: 38.91.102.86, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_🇨🇳CN-🇷🇺RU_353, server: gz-cm-kl.klee.store, port: 11200, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_368, server: gz-cm-kl.klee.store, port: 11102, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net 🇯🇵TYO/JP - 2 [LINODE][TRANSIT]
-      - 香港(绿头外网集团)(Public) 4
-      - 香港(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 5
-      - 魔戒.net 🇸🇬SIN/SG - 1 [LINODE][TRANSIT]
-      - 魔戒.net 🇨🇳HKG/CN - 2 [AZ][DIRECT]
+      - 香港 01 11
+      - 香港 01 2
+      - 香港 01 7
+      - 香港 01
+      - 香港 01 13
+      - 香港 01 9
+      - 香港 01 12
+      - 香港 01 3
+      - 香港 01 10
       - CN_67 TG@peekfun
-      - 香港(绿头外网集团)(Public) 3
-      - _KR_韩国 5
-      - 301破解_KR_韩国_32
-      - Relay_ |19.68Mb
+      - 香港 01 5
+      - 香港 01 14
       - JP_油管 TG 8度科技
-      - 301更新_US_美国_55
-      - _美国_老杨爱分享_76
-      - US_204 TG@peekfun
-      - 301破解_US_美国_29
-      - 301更新_US_美国_30
-      - 301更新_US_美国_36
-      - 301更新_US_美国_32
-      - 301更新_US_美国_39
-      - 301更新_US_美国_93
-      - 301破解_US_美国_21
-      - 301更新_US_美国_35
-      - 301更新_US_美国_42
-      - 301更新_CA_加拿大_58
-      - 301更新_CA_加拿大_71
-      - 301更新_US_美国_33
-      - 301更新_CA_加拿大_88
-      - 301更新_CA_加拿大_92
-      - 301更新_CA_加拿大_66
-      - 301更新_CA_加拿大_85
+      - JP_846 | 9.01Mb
+      - 香港 01 6
+      - Relay_🇨🇳CN-🇺🇸US_343
+      - _KR_韩国 5
+      - 香港 01 8
+      - 香港 01 4
+      - Relay_🇨🇳CN-🇮🇳IN_359
+      - Relay_🇨🇳CN-🇻🇳VN_338
+      - US_150 TG@peekfun
+      - Relay_🇨🇳CN-🇷🇺RU_379
+      - Relay_🇨🇳CN-🇷🇺RU_386
+      - US_156 TG@peekfun
+      - US_148 TG@peekfun
+      - _11.54Mb
+      - US_173 TG@peekfun
+      - Relay_🇨🇳CN-🇷🇺RU_353
+      - Relay_🇨🇳CN-🇺🇸US_368
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 魔戒.net 🇯🇵TYO/JP - 2 [LINODE][TRANSIT]
-      - 香港(绿头外网集团)(Public) 4
-      - 香港(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 5
-      - 魔戒.net 🇸🇬SIN/SG - 1 [LINODE][TRANSIT]
-      - 魔戒.net 🇨🇳HKG/CN - 2 [AZ][DIRECT]
+      - 香港 01 11
+      - 香港 01 2
+      - 香港 01 7
+      - 香港 01
+      - 香港 01 13
+      - 香港 01 9
+      - 香港 01 12
+      - 香港 01 3
+      - 香港 01 10
       - CN_67 TG@peekfun
-      - 香港(绿头外网集团)(Public) 3
-      - _KR_韩国 5
-      - 301破解_KR_韩国_32
-      - Relay_ |19.68Mb
+      - 香港 01 5
+      - 香港 01 14
       - JP_油管 TG 8度科技
-      - 301更新_US_美国_55
-      - _美国_老杨爱分享_76
-      - US_204 TG@peekfun
-      - 301破解_US_美国_29
-      - 301更新_US_美国_30
-      - 301更新_US_美国_36
-      - 301更新_US_美国_32
-      - 301更新_US_美国_39
-      - 301更新_US_美国_93
-      - 301破解_US_美国_21
-      - 301更新_US_美国_35
-      - 301更新_US_美国_42
-      - 301更新_CA_加拿大_58
-      - 301更新_CA_加拿大_71
-      - 301更新_US_美国_33
-      - 301更新_CA_加拿大_88
-      - 301更新_CA_加拿大_92
-      - 301更新_CA_加拿大_66
-      - 301更新_CA_加拿大_85
+      - JP_846 | 9.01Mb
+      - 香港 01 6
+      - Relay_🇨🇳CN-🇺🇸US_343
+      - _KR_韩国 5
+      - 香港 01 8
+      - 香港 01 4
+      - Relay_🇨🇳CN-🇮🇳IN_359
+      - Relay_🇨🇳CN-🇻🇳VN_338
+      - US_150 TG@peekfun
+      - Relay_🇨🇳CN-🇷🇺RU_379
+      - Relay_🇨🇳CN-🇷🇺RU_386
+      - US_156 TG@peekfun
+      - US_148 TG@peekfun
+      - _11.54Mb
+      - US_173 TG@peekfun
+      - Relay_🇨🇳CN-🇷🇺RU_353
+      - Relay_🇨🇳CN-🇺🇸US_368
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net 🇯🇵TYO/JP - 2 [LINODE][TRANSIT]
-      - 香港(绿头外网集团)(Public) 4
-      - 香港(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 5
-      - 魔戒.net 🇸🇬SIN/SG - 1 [LINODE][TRANSIT]
-      - 魔戒.net 🇨🇳HKG/CN - 2 [AZ][DIRECT]
+      - 香港 01 11
+      - 香港 01 2
+      - 香港 01 7
+      - 香港 01
+      - 香港 01 13
+      - 香港 01 9
+      - 香港 01 12
+      - 香港 01 3
+      - 香港 01 10
       - CN_67 TG@peekfun
-      - 香港(绿头外网集团)(Public) 3
-      - _KR_韩国 5
-      - 301破解_KR_韩国_32
-      - Relay_ |19.68Mb
+      - 香港 01 5
+      - 香港 01 14
       - JP_油管 TG 8度科技
-      - 301更新_US_美国_55
-      - _美国_老杨爱分享_76
-      - US_204 TG@peekfun
-      - 301破解_US_美国_29
-      - 301更新_US_美国_30
-      - 301更新_US_美国_36
-      - 301更新_US_美国_32
-      - 301更新_US_美国_39
-      - 301更新_US_美国_93
-      - 301破解_US_美国_21
-      - 301更新_US_美国_35
-      - 301更新_US_美国_42
-      - 301更新_CA_加拿大_58
-      - 301更新_CA_加拿大_71
-      - 301更新_US_美国_33
-      - 301更新_CA_加拿大_88
-      - 301更新_CA_加拿大_92
-      - 301更新_CA_加拿大_66
-      - 301更新_CA_加拿大_85
+      - JP_846 | 9.01Mb
+      - 香港 01 6
+      - Relay_🇨🇳CN-🇺🇸US_343
+      - _KR_韩国 5
+      - 香港 01 8
+      - 香港 01 4
+      - Relay_🇨🇳CN-🇮🇳IN_359
+      - Relay_🇨🇳CN-🇻🇳VN_338
+      - US_150 TG@peekfun
+      - Relay_🇨🇳CN-🇷🇺RU_379
+      - Relay_🇨🇳CN-🇷🇺RU_386
+      - US_156 TG@peekfun
+      - US_148 TG@peekfun
+      - _11.54Mb
+      - US_173 TG@peekfun
+      - Relay_🇨🇳CN-🇷🇺RU_353
+      - Relay_🇨🇳CN-🇺🇸US_368
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -164,155 +160,161 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net 🇯🇵TYO/JP - 2 [LINODE][TRANSIT]
-      - 香港(绿头外网集团)(Public) 4
-      - 香港(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 5
-      - 魔戒.net 🇸🇬SIN/SG - 1 [LINODE][TRANSIT]
-      - 魔戒.net 🇨🇳HKG/CN - 2 [AZ][DIRECT]
+      - 香港 01 11
+      - 香港 01 2
+      - 香港 01 7
+      - 香港 01
+      - 香港 01 13
+      - 香港 01 9
+      - 香港 01 12
+      - 香港 01 3
+      - 香港 01 10
       - CN_67 TG@peekfun
-      - 香港(绿头外网集团)(Public) 3
-      - _KR_韩国 5
-      - 301破解_KR_韩国_32
-      - Relay_ |19.68Mb
+      - 香港 01 5
+      - 香港 01 14
       - JP_油管 TG 8度科技
-      - 301更新_US_美国_55
-      - _美国_老杨爱分享_76
-      - US_204 TG@peekfun
-      - 301破解_US_美国_29
-      - 301更新_US_美国_30
-      - 301更新_US_美国_36
-      - 301更新_US_美国_32
-      - 301更新_US_美国_39
-      - 301更新_US_美国_93
-      - 301破解_US_美国_21
-      - 301更新_US_美国_35
-      - 301更新_US_美国_42
-      - 301更新_CA_加拿大_58
-      - 301更新_CA_加拿大_71
-      - 301更新_US_美国_33
-      - 301更新_CA_加拿大_88
-      - 301更新_CA_加拿大_92
-      - 301更新_CA_加拿大_66
-      - 301更新_CA_加拿大_85
+      - JP_846 | 9.01Mb
+      - 香港 01 6
+      - Relay_🇨🇳CN-🇺🇸US_343
+      - _KR_韩国 5
+      - 香港 01 8
+      - 香港 01 4
+      - Relay_🇨🇳CN-🇮🇳IN_359
+      - Relay_🇨🇳CN-🇻🇳VN_338
+      - US_150 TG@peekfun
+      - Relay_🇨🇳CN-🇷🇺RU_379
+      - Relay_🇨🇳CN-🇷🇺RU_386
+      - US_156 TG@peekfun
+      - US_148 TG@peekfun
+      - _11.54Mb
+      - US_173 TG@peekfun
+      - Relay_🇨🇳CN-🇷🇺RU_353
+      - Relay_🇨🇳CN-🇺🇸US_368
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港(绿头外网集团)(Public) 4
-      - 香港(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 5
-      - 香港(绿头外网集团)(Public) 3
+      - 香港 01 11
+      - 香港 01 2
+      - 香港 01 7
+      - 香港 01
+      - 香港 01 13
+      - 香港 01 9
+      - 香港 01 12
+      - 香港 01 3
+      - 香港 01 10
+      - 香港 01 5
+      - 香港 01 14
+      - 香港 01 6
+      - 香港 01 8
+      - 香港 01 4
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 魔戒.net 🇯🇵TYO/JP - 2 [LINODE][TRANSIT]
-      - 香港(绿头外网集团)(Public) 4
-      - 香港(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 5
-      - 魔戒.net 🇸🇬SIN/SG - 1 [LINODE][TRANSIT]
-      - 魔戒.net 🇨🇳HKG/CN - 2 [AZ][DIRECT]
+      - 香港 01 11
+      - 香港 01 2
+      - 香港 01 7
+      - 香港 01
+      - 香港 01 13
+      - 香港 01 9
+      - 香港 01 12
+      - 香港 01 3
+      - 香港 01 10
       - CN_67 TG@peekfun
-      - 香港(绿头外网集团)(Public) 3
-      - _KR_韩国 5
-      - 301破解_KR_韩国_32
-      - Relay_ |19.68Mb
+      - 香港 01 5
+      - 香港 01 14
       - JP_油管 TG 8度科技
-      - 301更新_US_美国_55
-      - _美国_老杨爱分享_76
-      - US_204 TG@peekfun
-      - 301破解_US_美国_29
-      - 301更新_US_美国_30
-      - 301更新_US_美国_36
-      - 301更新_US_美国_32
-      - 301更新_US_美国_39
-      - 301更新_US_美国_93
-      - 301破解_US_美国_21
-      - 301更新_US_美国_35
-      - 301更新_US_美国_42
-      - 301更新_CA_加拿大_58
-      - 301更新_CA_加拿大_71
-      - 301更新_US_美国_33
-      - 301更新_CA_加拿大_88
-      - 301更新_CA_加拿大_92
-      - 301更新_CA_加拿大_66
-      - 301更新_CA_加拿大_85
+      - JP_846 | 9.01Mb
+      - 香港 01 6
+      - Relay_🇨🇳CN-🇺🇸US_343
+      - _KR_韩国 5
+      - 香港 01 8
+      - 香港 01 4
+      - Relay_🇨🇳CN-🇮🇳IN_359
+      - Relay_🇨🇳CN-🇻🇳VN_338
+      - US_150 TG@peekfun
+      - Relay_🇨🇳CN-🇷🇺RU_379
+      - Relay_🇨🇳CN-🇷🇺RU_386
+      - US_156 TG@peekfun
+      - US_148 TG@peekfun
+      - _11.54Mb
+      - US_173 TG@peekfun
+      - Relay_🇨🇳CN-🇷🇺RU_353
+      - Relay_🇨🇳CN-🇺🇸US_368
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 魔戒.net 🇯🇵TYO/JP - 2 [LINODE][TRANSIT]
-      - 香港(绿头外网集团)(Public) 4
-      - 香港(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 5
-      - 魔戒.net 🇸🇬SIN/SG - 1 [LINODE][TRANSIT]
-      - 魔戒.net 🇨🇳HKG/CN - 2 [AZ][DIRECT]
+      - 香港 01 11
+      - 香港 01 2
+      - 香港 01 7
+      - 香港 01
+      - 香港 01 13
+      - 香港 01 9
+      - 香港 01 12
+      - 香港 01 3
+      - 香港 01 10
       - CN_67 TG@peekfun
-      - 香港(绿头外网集团)(Public) 3
-      - _KR_韩国 5
-      - 301破解_KR_韩国_32
-      - Relay_ |19.68Mb
+      - 香港 01 5
+      - 香港 01 14
       - JP_油管 TG 8度科技
-      - 301更新_US_美国_55
-      - _美国_老杨爱分享_76
-      - US_204 TG@peekfun
-      - 301破解_US_美国_29
-      - 301更新_US_美国_30
-      - 301更新_US_美国_36
-      - 301更新_US_美国_32
-      - 301更新_US_美国_39
-      - 301更新_US_美国_93
-      - 301破解_US_美国_21
-      - 301更新_US_美国_35
-      - 301更新_US_美国_42
-      - 301更新_CA_加拿大_58
-      - 301更新_CA_加拿大_71
-      - 301更新_US_美国_33
-      - 301更新_CA_加拿大_88
-      - 301更新_CA_加拿大_92
-      - 301更新_CA_加拿大_66
-      - 301更新_CA_加拿大_85
+      - JP_846 | 9.01Mb
+      - 香港 01 6
+      - Relay_🇨🇳CN-🇺🇸US_343
+      - _KR_韩国 5
+      - 香港 01 8
+      - 香港 01 4
+      - Relay_🇨🇳CN-🇮🇳IN_359
+      - Relay_🇨🇳CN-🇻🇳VN_338
+      - US_150 TG@peekfun
+      - Relay_🇨🇳CN-🇷🇺RU_379
+      - Relay_🇨🇳CN-🇷🇺RU_386
+      - US_156 TG@peekfun
+      - US_148 TG@peekfun
+      - _11.54Mb
+      - US_173 TG@peekfun
+      - Relay_🇨🇳CN-🇷🇺RU_353
+      - Relay_🇨🇳CN-🇺🇸US_368
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 魔戒.net 🇯🇵TYO/JP - 2 [LINODE][TRANSIT]
-      - 香港(绿头外网集团)(Public) 4
-      - 香港(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 5
-      - 魔戒.net 🇸🇬SIN/SG - 1 [LINODE][TRANSIT]
-      - 魔戒.net 🇨🇳HKG/CN - 2 [AZ][DIRECT]
+      - 香港 01 11
+      - 香港 01 2
+      - 香港 01 7
+      - 香港 01
+      - 香港 01 13
+      - 香港 01 9
+      - 香港 01 12
+      - 香港 01 3
+      - 香港 01 10
       - CN_67 TG@peekfun
-      - 香港(绿头外网集团)(Public) 3
-      - _KR_韩国 5
-      - 301破解_KR_韩国_32
-      - Relay_ |19.68Mb
+      - 香港 01 5
+      - 香港 01 14
       - JP_油管 TG 8度科技
-      - 301更新_US_美国_55
-      - _美国_老杨爱分享_76
-      - US_204 TG@peekfun
-      - 301破解_US_美国_29
-      - 301更新_US_美国_30
-      - 301更新_US_美国_36
-      - 301更新_US_美国_32
-      - 301更新_US_美国_39
-      - 301更新_US_美国_93
-      - 301破解_US_美国_21
-      - 301更新_US_美国_35
-      - 301更新_US_美国_42
-      - 301更新_CA_加拿大_58
-      - 301更新_CA_加拿大_71
-      - 301更新_US_美国_33
-      - 301更新_CA_加拿大_88
-      - 301更新_CA_加拿大_92
-      - 301更新_CA_加拿大_66
-      - 301更新_CA_加拿大_85
+      - JP_846 | 9.01Mb
+      - 香港 01 6
+      - Relay_🇨🇳CN-🇺🇸US_343
+      - _KR_韩国 5
+      - 香港 01 8
+      - 香港 01 4
+      - Relay_🇨🇳CN-🇮🇳IN_359
+      - Relay_🇨🇳CN-🇻🇳VN_338
+      - US_150 TG@peekfun
+      - Relay_🇨🇳CN-🇷🇺RU_379
+      - Relay_🇨🇳CN-🇷🇺RU_386
+      - US_156 TG@peekfun
+      - US_148 TG@peekfun
+      - _11.54Mb
+      - US_173 TG@peekfun
+      - Relay_🇨🇳CN-🇷🇺RU_353
+      - Relay_🇨🇳CN-🇺🇸US_368
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -328,37 +330,36 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 魔戒.net 🇯🇵TYO/JP - 2 [LINODE][TRANSIT]
-      - 香港(绿头外网集团)(Public) 4
-      - 香港(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 5
-      - 魔戒.net 🇸🇬SIN/SG - 1 [LINODE][TRANSIT]
-      - 魔戒.net 🇨🇳HKG/CN - 2 [AZ][DIRECT]
+      - 香港 01 11
+      - 香港 01 2
+      - 香港 01 7
+      - 香港 01
+      - 香港 01 13
+      - 香港 01 9
+      - 香港 01 12
+      - 香港 01 3
+      - 香港 01 10
       - CN_67 TG@peekfun
-      - 香港(绿头外网集团)(Public) 3
-      - _KR_韩国 5
-      - 301破解_KR_韩国_32
-      - Relay_ |19.68Mb
+      - 香港 01 5
+      - 香港 01 14
       - JP_油管 TG 8度科技
-      - 301更新_US_美国_55
-      - _美国_老杨爱分享_76
-      - US_204 TG@peekfun
-      - 301破解_US_美国_29
-      - 301更新_US_美国_30
-      - 301更新_US_美国_36
-      - 301更新_US_美国_32
-      - 301更新_US_美国_39
-      - 301更新_US_美国_93
-      - 301破解_US_美国_21
-      - 301更新_US_美国_35
-      - 301更新_US_美国_42
-      - 301更新_CA_加拿大_58
-      - 301更新_CA_加拿大_71
-      - 301更新_US_美国_33
-      - 301更新_CA_加拿大_88
-      - 301更新_CA_加拿大_92
-      - 301更新_CA_加拿大_66
-      - 301更新_CA_加拿大_85
+      - JP_846 | 9.01Mb
+      - 香港 01 6
+      - Relay_🇨🇳CN-🇺🇸US_343
+      - _KR_韩国 5
+      - 香港 01 8
+      - 香港 01 4
+      - Relay_🇨🇳CN-🇮🇳IN_359
+      - Relay_🇨🇳CN-🇻🇳VN_338
+      - US_150 TG@peekfun
+      - Relay_🇨🇳CN-🇷🇺RU_379
+      - Relay_🇨🇳CN-🇷🇺RU_386
+      - US_156 TG@peekfun
+      - US_148 TG@peekfun
+      - _11.54Mb
+      - US_173 TG@peekfun
+      - Relay_🇨🇳CN-🇷🇺RU_353
+      - Relay_🇨🇳CN-🇺🇸US_368
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
