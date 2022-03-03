@@ -5,143 +5,143 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港 01 11, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292460:sWqa1UY7re, obfs-param: "", udp: true}
-  - {name: 香港 01 2, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292447:e9Uy8JEACs, obfs-param: "", udp: true}
-  - {name: 香港 01 7, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292453:z9YtwaA2Hb, obfs-param: "", udp: true}
-  - {name: 香港 01, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292446:CSMKBe20Ar, obfs-param: "", udp: true}
-  - {name: 香港 01 13, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292462:waA2ZC3Rmu, obfs-param: "", udp: true}
-  - {name: 香港 01 9, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292457:SC7DPZf84Q, obfs-param: "", udp: true}
-  - {name: 香港 01 12, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292461:x5OPCAclZY, obfs-param: "", udp: true}
-  - {name: 香港 01 3, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292448:Q5zZ28EG7l, obfs-param: "", udp: true}
-  - {name: 香港 01 10, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292459:XkFq2UW3KY, obfs-param: "", udp: true}
-  - {name: CN_67 TG@peekfun, server: e2322f9.na.gladns.com, port: 3389, type: trojan, password: c3c448da2363a6f7, sni: e2322f9.na.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: V3-IEPL专线 港HKBGP01 | 8x, server: iplc01.dns2333.xyz, port: 3084, type: vmess, uuid: 08c13347-4b34-32bc-b292-1887b9d42d31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中继 新加坡 04, server: in02.xbxb1122.xyz, port: 8723, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
+  - {name: V3-IEPL专线 港FDC01 6x, server: iplc01.dns2333.xyz, port: 3174, type: vmess, uuid: 08c13347-4b34-32bc-b292-1887b9d42d31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1-港 多台负载均衡 中继B | 2x, server: in02.dns2333.xyz, port: 64078, type: vmess, uuid: 08c13347-4b34-32bc-b292-1887b9d42d31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
   - {name: 香港 01 5, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292451:ftzwFro61n, obfs-param: "", udp: true}
-  - {name: 香港 01 14, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292463:jU3iglpQfm, obfs-param: "", udp: true}
-  - {name: JP_油管 TG 8度科技, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}, udp: true}
-  - {name: JP_846 | 9.01Mb, server: 141.164.34.179, port: 43210, type: vmess, uuid: a51943b4-d9b8-4227-d772-fcb6c538a59d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中继 新加坡 03, server: in05.xbxb1122.xyz, port: 8723, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
+  - {name: V1-港 多台负载均衡 中继D | 2x, server: in04.dns2333.xyz, port: 64078, type: vmess, uuid: 08c13347-4b34-32bc-b292-1887b9d42d31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: 专线 台湾 01, server: iepl03.xbxb1122.xyz, port: 8541, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
+  - {name: 专线 台湾 02, server: iepl01.xbxb1122.xyz, port: 8541, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
+  - {name: 香港 01 10, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292459:XkFq2UW3KY, obfs-param: "", udp: true}
+  - {name: 专线 马来西亚 02, server: iepl02.xbxb1122.xyz, port: 8522, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
+  - {name: 专线 香港 04, server: iepl01.xbxb1122.xyz, port: 8564, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
+  - {name: V1-台 多台负载均衡 中继B 1.5x, server: in02.dns2333.xyz, port: 64088, type: vmess, uuid: 08c13347-4b34-32bc-b292-1887b9d42d31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
+  - {name: V1-日 多台负载均衡 中继D 1.5x, server: in04.dns2333.xyz, port: 64086, type: vmess, uuid: 08c13347-4b34-32bc-b292-1887b9d42d31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
   - {name: 香港 01 6, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292452:HpiRkVF2qh, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_343, server: gz-cm-kl.klee.store, port: 11156, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
-  - {name: _KR_韩国 5, server: 141.164.57.134, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 香港 01 8, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292454:AuNKm0L9kJ, obfs-param: "", udp: true}
-  - {name: 香港 01 4, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292449:572uGTVkip, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇮🇳IN_359, server: gz-cm-kl.klee.store, port: 11248, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇻🇳VN_338, server: gz-cm-kl.klee.store, port: 11270, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
-  - {name: US_150 TG@peekfun, server: 38.91.102.86, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Relay_🇨🇳CN-🇷🇺RU_379, server: gz-cm-kl.klee.store, port: 11125, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇷🇺RU_386, server: gz-cm-kl.klee.store, port: 11199, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
-  - {name: US_156 TG@peekfun, server: 38.91.102.86, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_148 TG@peekfun, server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _11.54Mb, server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_173 TG@peekfun, server: 38.91.102.86, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇨🇳CN-🇷🇺RU_353, server: gz-cm-kl.klee.store, port: 11200, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_368, server: gz-cm-kl.klee.store, port: 11102, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
+  - {name: 专线 香港 01, server: iepl01.xbxb1122.xyz, port: 8561, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
+  - {name: 专线 香港 02, server: iepl02.xbxb1122.xyz, port: 8562, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
+  - {name: V1-港 多台负载均衡 中继C | 2x, server: in03.dns2333.xyz, port: 64078, type: vmess, uuid: 08c13347-4b34-32bc-b292-1887b9d42d31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: V2-韩01 中继B 2x, server: in02.dns2333.xyz, port: 64004, type: vmess, uuid: 08c13347-4b34-32bc-b292-1887b9d42d31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: biteb-kr01.covid19.rip}, udp: true}
+  - {name: V3-IEPL专线 日04 | 7x, server: iplc01.dns2333.xyz, port: 3014, type: vmess, uuid: 08c13347-4b34-32bc-b292-1887b9d42d31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线 新加坡 03, server: iepl01.xbxb1122.xyz, port: 8523, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
+  - {name: 专线 马来西亚 01, server: iepl01.xbxb1122.xyz, port: 8521, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
+  - {name: V1-日 多台负载均衡 中继B 1.5x, server: in02.dns2333.xyz, port: 64086, type: vmess, uuid: 08c13347-4b34-32bc-b292-1887b9d42d31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
+  - {name: V3-IEPL专线 马来西亚02 | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3194, type: vmess, uuid: 08c13347-4b34-32bc-b292-1887b9d42d31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线 日本 03, server: iepl01.xbxb1122.xyz, port: 8513, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
+  - {name: 中继 新加坡 02, server: in04.xbxb1122.xyz, port: 8722, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
+  - {name: V3-IEPL专线 新05 | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3054, type: vmess, uuid: 08c13347-4b34-32bc-b292-1887b9d42d31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港 01, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292446:CSMKBe20Ar, obfs-param: "", udp: true}
+  - {name: 香港 01 14, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292463:jU3iglpQfm, obfs-param: "", udp: true}
+  - {name: 专线 新加坡 02, server: iepl03.xbxb1122.xyz, port: 8522, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港 01 11
-      - 香港 01 2
-      - 香港 01 7
-      - 香港 01
-      - 香港 01 13
-      - 香港 01 9
-      - 香港 01 12
-      - 香港 01 3
-      - 香港 01 10
-      - CN_67 TG@peekfun
+      - V3-IEPL专线 港HKBGP01 | 8x
+      - 中继 新加坡 04
+      - V3-IEPL专线 港FDC01 6x
+      - V1-港 多台负载均衡 中继B | 2x
       - 香港 01 5
-      - 香港 01 14
-      - JP_油管 TG 8度科技
-      - JP_846 | 9.01Mb
+      - 中继 新加坡 03
+      - V1-港 多台负载均衡 中继D | 2x
+      - 专线 台湾 01
+      - 专线 台湾 02
+      - 香港 01 10
+      - 专线 马来西亚 02
+      - 专线 香港 04
+      - V1-台 多台负载均衡 中继B 1.5x
+      - V1-日 多台负载均衡 中继D 1.5x
       - 香港 01 6
-      - Relay_🇨🇳CN-🇺🇸US_343
-      - _KR_韩国 5
-      - 香港 01 8
-      - 香港 01 4
-      - Relay_🇨🇳CN-🇮🇳IN_359
-      - Relay_🇨🇳CN-🇻🇳VN_338
-      - US_150 TG@peekfun
-      - Relay_🇨🇳CN-🇷🇺RU_379
-      - Relay_🇨🇳CN-🇷🇺RU_386
-      - US_156 TG@peekfun
-      - US_148 TG@peekfun
-      - _11.54Mb
-      - US_173 TG@peekfun
-      - Relay_🇨🇳CN-🇷🇺RU_353
-      - Relay_🇨🇳CN-🇺🇸US_368
+      - 专线 香港 01
+      - 专线 香港 02
+      - V1-港 多台负载均衡 中继C | 2x
+      - V2-韩01 中继B 2x
+      - V3-IEPL专线 日04 | 7x
+      - 专线 新加坡 03
+      - 专线 马来西亚 01
+      - V1-日 多台负载均衡 中继B 1.5x
+      - V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - 专线 日本 03
+      - 中继 新加坡 02
+      - V3-IEPL专线 新05 | 8x 原生IP
+      - 香港 01
+      - 香港 01 14
+      - 专线 新加坡 02
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港 01 11
-      - 香港 01 2
-      - 香港 01 7
-      - 香港 01
-      - 香港 01 13
-      - 香港 01 9
-      - 香港 01 12
-      - 香港 01 3
-      - 香港 01 10
-      - CN_67 TG@peekfun
+      - V3-IEPL专线 港HKBGP01 | 8x
+      - 中继 新加坡 04
+      - V3-IEPL专线 港FDC01 6x
+      - V1-港 多台负载均衡 中继B | 2x
       - 香港 01 5
-      - 香港 01 14
-      - JP_油管 TG 8度科技
-      - JP_846 | 9.01Mb
+      - 中继 新加坡 03
+      - V1-港 多台负载均衡 中继D | 2x
+      - 专线 台湾 01
+      - 专线 台湾 02
+      - 香港 01 10
+      - 专线 马来西亚 02
+      - 专线 香港 04
+      - V1-台 多台负载均衡 中继B 1.5x
+      - V1-日 多台负载均衡 中继D 1.5x
       - 香港 01 6
-      - Relay_🇨🇳CN-🇺🇸US_343
-      - _KR_韩国 5
-      - 香港 01 8
-      - 香港 01 4
-      - Relay_🇨🇳CN-🇮🇳IN_359
-      - Relay_🇨🇳CN-🇻🇳VN_338
-      - US_150 TG@peekfun
-      - Relay_🇨🇳CN-🇷🇺RU_379
-      - Relay_🇨🇳CN-🇷🇺RU_386
-      - US_156 TG@peekfun
-      - US_148 TG@peekfun
-      - _11.54Mb
-      - US_173 TG@peekfun
-      - Relay_🇨🇳CN-🇷🇺RU_353
-      - Relay_🇨🇳CN-🇺🇸US_368
+      - 专线 香港 01
+      - 专线 香港 02
+      - V1-港 多台负载均衡 中继C | 2x
+      - V2-韩01 中继B 2x
+      - V3-IEPL专线 日04 | 7x
+      - 专线 新加坡 03
+      - 专线 马来西亚 01
+      - V1-日 多台负载均衡 中继B 1.5x
+      - V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - 专线 日本 03
+      - 中继 新加坡 02
+      - V3-IEPL专线 新05 | 8x 原生IP
+      - 香港 01
+      - 香港 01 14
+      - 专线 新加坡 02
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港 01 11
-      - 香港 01 2
-      - 香港 01 7
-      - 香港 01
-      - 香港 01 13
-      - 香港 01 9
-      - 香港 01 12
-      - 香港 01 3
-      - 香港 01 10
-      - CN_67 TG@peekfun
+      - V3-IEPL专线 港HKBGP01 | 8x
+      - 中继 新加坡 04
+      - V3-IEPL专线 港FDC01 6x
+      - V1-港 多台负载均衡 中继B | 2x
       - 香港 01 5
-      - 香港 01 14
-      - JP_油管 TG 8度科技
-      - JP_846 | 9.01Mb
+      - 中继 新加坡 03
+      - V1-港 多台负载均衡 中继D | 2x
+      - 专线 台湾 01
+      - 专线 台湾 02
+      - 香港 01 10
+      - 专线 马来西亚 02
+      - 专线 香港 04
+      - V1-台 多台负载均衡 中继B 1.5x
+      - V1-日 多台负载均衡 中继D 1.5x
       - 香港 01 6
-      - Relay_🇨🇳CN-🇺🇸US_343
-      - _KR_韩国 5
-      - 香港 01 8
-      - 香港 01 4
-      - Relay_🇨🇳CN-🇮🇳IN_359
-      - Relay_🇨🇳CN-🇻🇳VN_338
-      - US_150 TG@peekfun
-      - Relay_🇨🇳CN-🇷🇺RU_379
-      - Relay_🇨🇳CN-🇷🇺RU_386
-      - US_156 TG@peekfun
-      - US_148 TG@peekfun
-      - _11.54Mb
-      - US_173 TG@peekfun
-      - Relay_🇨🇳CN-🇷🇺RU_353
-      - Relay_🇨🇳CN-🇺🇸US_368
+      - 专线 香港 01
+      - 专线 香港 02
+      - V1-港 多台负载均衡 中继C | 2x
+      - V2-韩01 中继B 2x
+      - V3-IEPL专线 日04 | 7x
+      - 专线 新加坡 03
+      - 专线 马来西亚 01
+      - V1-日 多台负载均衡 中继B 1.5x
+      - V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - 专线 日本 03
+      - 中继 新加坡 02
+      - V3-IEPL专线 新05 | 8x 原生IP
+      - 香港 01
+      - 香港 01 14
+      - 专线 新加坡 02
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -160,161 +160,165 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港 01 11
-      - 香港 01 2
-      - 香港 01 7
-      - 香港 01
-      - 香港 01 13
-      - 香港 01 9
-      - 香港 01 12
-      - 香港 01 3
-      - 香港 01 10
-      - CN_67 TG@peekfun
+      - V3-IEPL专线 港HKBGP01 | 8x
+      - 中继 新加坡 04
+      - V3-IEPL专线 港FDC01 6x
+      - V1-港 多台负载均衡 中继B | 2x
       - 香港 01 5
-      - 香港 01 14
-      - JP_油管 TG 8度科技
-      - JP_846 | 9.01Mb
+      - 中继 新加坡 03
+      - V1-港 多台负载均衡 中继D | 2x
+      - 专线 台湾 01
+      - 专线 台湾 02
+      - 香港 01 10
+      - 专线 马来西亚 02
+      - 专线 香港 04
+      - V1-台 多台负载均衡 中继B 1.5x
+      - V1-日 多台负载均衡 中继D 1.5x
       - 香港 01 6
-      - Relay_🇨🇳CN-🇺🇸US_343
-      - _KR_韩国 5
-      - 香港 01 8
-      - 香港 01 4
-      - Relay_🇨🇳CN-🇮🇳IN_359
-      - Relay_🇨🇳CN-🇻🇳VN_338
-      - US_150 TG@peekfun
-      - Relay_🇨🇳CN-🇷🇺RU_379
-      - Relay_🇨🇳CN-🇷🇺RU_386
-      - US_156 TG@peekfun
-      - US_148 TG@peekfun
-      - _11.54Mb
-      - US_173 TG@peekfun
-      - Relay_🇨🇳CN-🇷🇺RU_353
-      - Relay_🇨🇳CN-🇺🇸US_368
+      - 专线 香港 01
+      - 专线 香港 02
+      - V1-港 多台负载均衡 中继C | 2x
+      - V2-韩01 中继B 2x
+      - V3-IEPL专线 日04 | 7x
+      - 专线 新加坡 03
+      - 专线 马来西亚 01
+      - V1-日 多台负载均衡 中继B 1.5x
+      - V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - 专线 日本 03
+      - 中继 新加坡 02
+      - V3-IEPL专线 新05 | 8x 原生IP
+      - 香港 01
+      - 香港 01 14
+      - 专线 新加坡 02
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港 01 11
-      - 香港 01 2
-      - 香港 01 7
-      - 香港 01
-      - 香港 01 13
-      - 香港 01 9
-      - 香港 01 12
-      - 香港 01 3
-      - 香港 01 10
+      - V3-IEPL专线 港HKBGP01 | 8x
+      - V3-IEPL专线 港FDC01 6x
+      - V1-港 多台负载均衡 中继B | 2x
       - 香港 01 5
-      - 香港 01 14
+      - V1-港 多台负载均衡 中继D | 2x
+      - 专线 台湾 01
+      - 专线 台湾 02
+      - 香港 01 10
+      - 专线 香港 04
+      - V1-台 多台负载均衡 中继B 1.5x
+      - V1-日 多台负载均衡 中继D 1.5x
       - 香港 01 6
-      - 香港 01 8
-      - 香港 01 4
+      - 专线 香港 01
+      - 专线 香港 02
+      - V1-港 多台负载均衡 中继C | 2x
+      - V1-日 多台负载均衡 中继B 1.5x
+      - 香港 01
+      - 香港 01 14
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港 01 11
-      - 香港 01 2
-      - 香港 01 7
-      - 香港 01
-      - 香港 01 13
-      - 香港 01 9
-      - 香港 01 12
-      - 香港 01 3
-      - 香港 01 10
-      - CN_67 TG@peekfun
+      - V3-IEPL专线 港HKBGP01 | 8x
+      - 中继 新加坡 04
+      - V3-IEPL专线 港FDC01 6x
+      - V1-港 多台负载均衡 中继B | 2x
       - 香港 01 5
-      - 香港 01 14
-      - JP_油管 TG 8度科技
-      - JP_846 | 9.01Mb
+      - 中继 新加坡 03
+      - V1-港 多台负载均衡 中继D | 2x
+      - 专线 台湾 01
+      - 专线 台湾 02
+      - 香港 01 10
+      - 专线 马来西亚 02
+      - 专线 香港 04
+      - V1-台 多台负载均衡 中继B 1.5x
+      - V1-日 多台负载均衡 中继D 1.5x
       - 香港 01 6
-      - Relay_🇨🇳CN-🇺🇸US_343
-      - _KR_韩国 5
-      - 香港 01 8
-      - 香港 01 4
-      - Relay_🇨🇳CN-🇮🇳IN_359
-      - Relay_🇨🇳CN-🇻🇳VN_338
-      - US_150 TG@peekfun
-      - Relay_🇨🇳CN-🇷🇺RU_379
-      - Relay_🇨🇳CN-🇷🇺RU_386
-      - US_156 TG@peekfun
-      - US_148 TG@peekfun
-      - _11.54Mb
-      - US_173 TG@peekfun
-      - Relay_🇨🇳CN-🇷🇺RU_353
-      - Relay_🇨🇳CN-🇺🇸US_368
+      - 专线 香港 01
+      - 专线 香港 02
+      - V1-港 多台负载均衡 中继C | 2x
+      - V2-韩01 中继B 2x
+      - V3-IEPL专线 日04 | 7x
+      - 专线 新加坡 03
+      - 专线 马来西亚 01
+      - V1-日 多台负载均衡 中继B 1.5x
+      - V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - 专线 日本 03
+      - 中继 新加坡 02
+      - V3-IEPL专线 新05 | 8x 原生IP
+      - 香港 01
+      - 香港 01 14
+      - 专线 新加坡 02
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港 01 11
-      - 香港 01 2
-      - 香港 01 7
-      - 香港 01
-      - 香港 01 13
-      - 香港 01 9
-      - 香港 01 12
-      - 香港 01 3
-      - 香港 01 10
-      - CN_67 TG@peekfun
+      - V3-IEPL专线 港HKBGP01 | 8x
+      - 中继 新加坡 04
+      - V3-IEPL专线 港FDC01 6x
+      - V1-港 多台负载均衡 中继B | 2x
       - 香港 01 5
-      - 香港 01 14
-      - JP_油管 TG 8度科技
-      - JP_846 | 9.01Mb
+      - 中继 新加坡 03
+      - V1-港 多台负载均衡 中继D | 2x
+      - 专线 台湾 01
+      - 专线 台湾 02
+      - 香港 01 10
+      - 专线 马来西亚 02
+      - 专线 香港 04
+      - V1-台 多台负载均衡 中继B 1.5x
+      - V1-日 多台负载均衡 中继D 1.5x
       - 香港 01 6
-      - Relay_🇨🇳CN-🇺🇸US_343
-      - _KR_韩国 5
-      - 香港 01 8
-      - 香港 01 4
-      - Relay_🇨🇳CN-🇮🇳IN_359
-      - Relay_🇨🇳CN-🇻🇳VN_338
-      - US_150 TG@peekfun
-      - Relay_🇨🇳CN-🇷🇺RU_379
-      - Relay_🇨🇳CN-🇷🇺RU_386
-      - US_156 TG@peekfun
-      - US_148 TG@peekfun
-      - _11.54Mb
-      - US_173 TG@peekfun
-      - Relay_🇨🇳CN-🇷🇺RU_353
-      - Relay_🇨🇳CN-🇺🇸US_368
+      - 专线 香港 01
+      - 专线 香港 02
+      - V1-港 多台负载均衡 中继C | 2x
+      - V2-韩01 中继B 2x
+      - V3-IEPL专线 日04 | 7x
+      - 专线 新加坡 03
+      - 专线 马来西亚 01
+      - V1-日 多台负载均衡 中继B 1.5x
+      - V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - 专线 日本 03
+      - 中继 新加坡 02
+      - V3-IEPL专线 新05 | 8x 原生IP
+      - 香港 01
+      - 香港 01 14
+      - 专线 新加坡 02
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港 01 11
-      - 香港 01 2
-      - 香港 01 7
-      - 香港 01
-      - 香港 01 13
-      - 香港 01 9
-      - 香港 01 12
-      - 香港 01 3
-      - 香港 01 10
-      - CN_67 TG@peekfun
+      - V3-IEPL专线 港HKBGP01 | 8x
+      - 中继 新加坡 04
+      - V3-IEPL专线 港FDC01 6x
+      - V1-港 多台负载均衡 中继B | 2x
       - 香港 01 5
-      - 香港 01 14
-      - JP_油管 TG 8度科技
-      - JP_846 | 9.01Mb
+      - 中继 新加坡 03
+      - V1-港 多台负载均衡 中继D | 2x
+      - 专线 台湾 01
+      - 专线 台湾 02
+      - 香港 01 10
+      - 专线 马来西亚 02
+      - 专线 香港 04
+      - V1-台 多台负载均衡 中继B 1.5x
+      - V1-日 多台负载均衡 中继D 1.5x
       - 香港 01 6
-      - Relay_🇨🇳CN-🇺🇸US_343
-      - _KR_韩国 5
-      - 香港 01 8
-      - 香港 01 4
-      - Relay_🇨🇳CN-🇮🇳IN_359
-      - Relay_🇨🇳CN-🇻🇳VN_338
-      - US_150 TG@peekfun
-      - Relay_🇨🇳CN-🇷🇺RU_379
-      - Relay_🇨🇳CN-🇷🇺RU_386
-      - US_156 TG@peekfun
-      - US_148 TG@peekfun
-      - _11.54Mb
-      - US_173 TG@peekfun
-      - Relay_🇨🇳CN-🇷🇺RU_353
-      - Relay_🇨🇳CN-🇺🇸US_368
+      - 专线 香港 01
+      - 专线 香港 02
+      - V1-港 多台负载均衡 中继C | 2x
+      - V2-韩01 中继B 2x
+      - V3-IEPL专线 日04 | 7x
+      - 专线 新加坡 03
+      - 专线 马来西亚 01
+      - V1-日 多台负载均衡 中继B 1.5x
+      - V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - 专线 日本 03
+      - 中继 新加坡 02
+      - V3-IEPL专线 新05 | 8x 原生IP
+      - 香港 01
+      - 香港 01 14
+      - 专线 新加坡 02
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -330,36 +334,36 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港 01 11
-      - 香港 01 2
-      - 香港 01 7
-      - 香港 01
-      - 香港 01 13
-      - 香港 01 9
-      - 香港 01 12
-      - 香港 01 3
-      - 香港 01 10
-      - CN_67 TG@peekfun
+      - V3-IEPL专线 港HKBGP01 | 8x
+      - 中继 新加坡 04
+      - V3-IEPL专线 港FDC01 6x
+      - V1-港 多台负载均衡 中继B | 2x
       - 香港 01 5
-      - 香港 01 14
-      - JP_油管 TG 8度科技
-      - JP_846 | 9.01Mb
+      - 中继 新加坡 03
+      - V1-港 多台负载均衡 中继D | 2x
+      - 专线 台湾 01
+      - 专线 台湾 02
+      - 香港 01 10
+      - 专线 马来西亚 02
+      - 专线 香港 04
+      - V1-台 多台负载均衡 中继B 1.5x
+      - V1-日 多台负载均衡 中继D 1.5x
       - 香港 01 6
-      - Relay_🇨🇳CN-🇺🇸US_343
-      - _KR_韩国 5
-      - 香港 01 8
-      - 香港 01 4
-      - Relay_🇨🇳CN-🇮🇳IN_359
-      - Relay_🇨🇳CN-🇻🇳VN_338
-      - US_150 TG@peekfun
-      - Relay_🇨🇳CN-🇷🇺RU_379
-      - Relay_🇨🇳CN-🇷🇺RU_386
-      - US_156 TG@peekfun
-      - US_148 TG@peekfun
-      - _11.54Mb
-      - US_173 TG@peekfun
-      - Relay_🇨🇳CN-🇷🇺RU_353
-      - Relay_🇨🇳CN-🇺🇸US_368
+      - 专线 香港 01
+      - 专线 香港 02
+      - V1-港 多台负载均衡 中继C | 2x
+      - V2-韩01 中继B 2x
+      - V3-IEPL专线 日04 | 7x
+      - 专线 新加坡 03
+      - 专线 马来西亚 01
+      - V1-日 多台负载均衡 中继B 1.5x
+      - V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - 专线 日本 03
+      - 中继 新加坡 02
+      - V3-IEPL专线 新05 | 8x 原生IP
+      - 香港 01
+      - 香港 01 14
+      - 专线 新加坡 02
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
