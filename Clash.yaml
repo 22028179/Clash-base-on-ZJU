@@ -5,175 +5,215 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港 01 13, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 292462:waA2ZC3Rmu, obfs-param: "", udp: true}
-  - {name: JP_995 @WangCai_1, server: olivia.monolink.net, port: 995, type: ss, cipher: chacha20-ietf-poly1305, password: qK4WEobTeeBS, udp: true}
-  - {name: JP_996 @WangCai_1, server: emma.monolink.net, port: 996, type: ss, cipher: chacha20-ietf-poly1305, password: qK4WEobTeeBS, udp: true}
-  - {name: 魔戒.net香港 B, server: shcn2tohkt44.ggboynextdoor.best, port: 49042, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
-  - {name: 魔戒.net香港 A, server: shcn2tohkt66.ggboynextdoor.best, port: 49041, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
-  - {name: 日本(绿头外网集团)(Public), server: 113.240.72.239, port: 18806, type: vmess, uuid: 89ad04b4-a702-3753-ac97-9e693709f9ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: TW_590 @WangCai_1, server: cn9.monolink.net, port: 590, type: ss, cipher: chacha20-ietf-poly1305, password: qK4WEobTeeBS, udp: true}
-  - {name: SG_587 @WangCai_1, server: sg1.monolink.net, port: 587, type: ss, cipher: chacha20-ietf-poly1305, password: qK4WEobTeeBS, udp: true}
-  - {name: 魔戒.net香港 D, server: cnctfstohkt55.ggboynextdoor.best, port: 34000, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
-  - {name: TW_995 @WangCai_1, server: cn10.monolink.net, port: 995, type: ss, cipher: chacha20-ietf-poly1305, password: qK4WEobTeeBS, udp: true}
-  - {name: 专线 台湾 01, server: iepl03.xbxb1122.xyz, port: 8541, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
-  - {name: 魔戒.net HK1, server: iepl1.ggboynextdoor.best, port: 65115, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
-  - {name: 魔戒.net 🇭🇰 CN4-HK, server: cn4.monolink.net, port: 179, type: ss, cipher: chacha20-ietf-poly1305, password: qK4WEobTeeBS, udp: true}
-  - {name: HK_144, server: 18.163.73.125, port: 10123, type: vmess, uuid: 9c0d7058-45b7-49ad-802e-55b69a8dfb01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 18.163.73.125}, udp: true}
-  - {name: 专线 台湾 02, server: iepl01.xbxb1122.xyz, port: 8541, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
-  - {name: US_587 @WangCai_1, server: cn7.monolink.net, port: 587, type: ss, cipher: chacha20-ietf-poly1305, password: qK4WEobTeeBS, udp: true}
-  - {name: 专线 新加坡 03, server: iepl01.xbxb1122.xyz, port: 8523, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
-  - {name: 专线 日本 03, server: iepl01.xbxb1122.xyz, port: 8513, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
+  - {name: TW_2 @WangCai_1, server: cstwrelay.onlineto.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: TW_6 @WangCai_1, server: cstwrelay.onlineto.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: TW_8 @WangCai_1, server: cstwrelay.onlineto.xyz, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: TW_7 @WangCai_1, server: cstwrelay.onlineto.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: TW_5 @WangCai_1, server: cstwrelay.onlineto.xyz, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: HK_15 @WangCai_1, server: shonlinesandcu03.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: HK_16 @WangCai_1, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: HK_8 @WangCai_1, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: KR_1 @WangCai_1, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: HK_1 @WangCai_1, server: hktactivc-e.onlineqitv-ns.xyz, port: 443, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: HK_12 @WangCai_1, server: shonlinecu.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: TW_14 @WangCai_1, server: shallaz2.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: HK_22 @WangCai_1, server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: TW_9 @WangCai_1, server: shallaz2.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: HK_10 @WangCai_1, server: cusouthcmhk.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: TW_13 @WangCai_1, server: shallaz2.proconcn.xyz, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: TW_10 @WangCai_1, server: shallaz2.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: HK_14 @WangCai_1, server: shonlinesandcu02.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: HK_13 @WangCai_1, server: cusouthcmhk.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: HK_18 @WangCai_1, server: shcris02stand.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: JP_2 @WangCai_1, server: shallaz.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: JP_1 @WangCai_1, server: shallaz.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: TW_12 @WangCai_1, server: shallaz2.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: HK_17 @WangCai_1, server: shonlinesandcu03.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: SG_266, server: 139.162.29.186, port: 54869, type: trojan, password: HqNAQ9UBJN, skip-cert-verify: true, udp: true}
+  - {name: HK_11 @WangCai_1, server: cusouthcmhk.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: HK_21 @WangCai_1, server: cncusouth.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: az-hk, server: 52.175.74.188, port: 11151, type: vmess, uuid: c7de6538-7914-419c-e7c4-91b71f812e9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 52.175.74.188}, udp: true}
+  - {name: HK_9 @WangCai_1, server: cncusouth.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: HK_19 @WangCai_1, server: shonlinesandcu02.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
   - {name: JP_油管 TG 8度科技, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}, udp: true}
-  - {name: US_996 @WangCai_1, server: cn8.monolink.net, port: 996, type: ss, cipher: chacha20-ietf-poly1305, password: qK4WEobTeeBS, udp: true}
-  - {name: Relay__53.58Mb, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-8.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇦🇺AU_304 |18.57Mb, server: gzydddns.xyz, port: 11806, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13714:LswI8M, obfs-param: e832c13714.microsoft.com, udp: true}
-  - {name: 【426节点池】CN_346, server: 117.28.243.220, port: 8254, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: Relay__34.02Mb, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay__44.62Mb, server: os2-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-7.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay__43.20Mb, server: os2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-2.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 专线 马来西亚 01, server: iepl01.xbxb1122.xyz, port: 8521, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
-  - {name: 专线 新加坡 02, server: iepl03.xbxb1122.xyz, port: 8522, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
-  - {name: JP_206, server: 139.162.67.80, port: 8443, type: trojan, password: Freebaipiao666, skip-cert-verify: true, udp: true}
-  - {name: US_9 @WangCai_1, server: cmrelay01.yiyorelay.xyz, port: 7708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
-  - {name: Relay__41.72Mb, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: SG_237, server: 172.104.168.83, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: SG_236, server: 172.104.168.83, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ‌‌🇨🇦CA_8119 @WangCai_1, server: 198.57.27.218, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _ 8.88Mb, server: 134.195.196.12, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _ 2.52Mb, server: 167.88.61.175, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ‌‌🇨🇦CA_7002 @WangCai_1, server: 198.57.27.218, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ‌‌🇨🇦CA_8000 @WangCai_1, server: 198.57.27.218, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: DE_1 @WangCai_1, server: relaypro.procncon.xyz, port: 618, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: HK_4 @WangCai_1, server: csdynhkt.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: RU_3 @WangCai_1, server: relaypro.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: TR_1 @WangCai_1, server: relaypro.procncon.xyz, port: 620, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: US_6 @WangCai_1, server: usastandard2.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: US_8 @WangCai_1, server: usastandard2.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: TW_11 @WangCai_1, server: shallaz2.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: US_6 @WangCai_1 2, server: usastandard2.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: RU_2 @WangCai_1, server: relaypro.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: TW_15 @WangCai_1, server: shallaz2.proconcn.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: IT_1 @WangCai_1, server: relaypro.procncon.xyz, port: 612, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2149, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_359, server: in04.dns2333.xyz, port: 63014, type: vmess, uuid: f5851fa4-8c76-3148-860e-9641afcd3576, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: in04.dns2333.xyz}, udp: true}
+  - {name: RU_1 @WangCai_1, server: relaypro.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: ‌🇨🇦CA_1 @WangCai_1, server: relaypro.procncon.xyz, port: 615, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2538_14.63Mb, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美國(绿头外网集团)(Public) 7, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港 01 13
-      - JP_995 @WangCai_1
-      - JP_996 @WangCai_1
-      - 魔戒.net香港 B
-      - 魔戒.net香港 A
-      - 日本(绿头外网集团)(Public)
-      - TW_590 @WangCai_1
-      - SG_587 @WangCai_1
-      - 魔戒.net香港 D
-      - TW_995 @WangCai_1
-      - 专线 台湾 01
-      - 魔戒.net HK1
-      - 魔戒.net 🇭🇰 CN4-HK
-      - HK_144
-      - 专线 台湾 02
-      - US_587 @WangCai_1
-      - 专线 新加坡 03
-      - 专线 日本 03
+      - TW_2 @WangCai_1
+      - TW_6 @WangCai_1
+      - TW_8 @WangCai_1
+      - TW_7 @WangCai_1
+      - TW_5 @WangCai_1
+      - HK_15 @WangCai_1
+      - HK_16 @WangCai_1
+      - HK_8 @WangCai_1
+      - KR_1 @WangCai_1
+      - HK_1 @WangCai_1
+      - HK_12 @WangCai_1
+      - TW_14 @WangCai_1
+      - HK_22 @WangCai_1
+      - TW_9 @WangCai_1
+      - HK_10 @WangCai_1
+      - TW_13 @WangCai_1
+      - TW_10 @WangCai_1
+      - HK_14 @WangCai_1
+      - HK_13 @WangCai_1
+      - HK_18 @WangCai_1
+      - JP_2 @WangCai_1
+      - JP_1 @WangCai_1
+      - TW_12 @WangCai_1
+      - HK_17 @WangCai_1
+      - SG_266
+      - HK_11 @WangCai_1
+      - HK_21 @WangCai_1
+      - az-hk
+      - HK_9 @WangCai_1
+      - HK_19 @WangCai_1
       - JP_油管 TG 8度科技
-      - US_996 @WangCai_1
-      - Relay__53.58Mb
-      - Relay_🇨🇳CN-🇦🇺AU_304 |18.57Mb
-      - 【426节点池】CN_346
-      - Relay__34.02Mb
-      - Relay__44.62Mb
-      - Relay__43.20Mb
-      - 专线 马来西亚 01
-      - 专线 新加坡 02
-      - JP_206
-      - US_9 @WangCai_1
-      - Relay__41.72Mb
-      - SG_237
-      - SG_236
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - _ 8.88Mb
-      - _ 2.52Mb
-      - ‌‌🇨🇦CA_7002 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1
+      - DE_1 @WangCai_1
+      - HK_4 @WangCai_1
+      - RU_3 @WangCai_1
+      - TR_1 @WangCai_1
+      - US_6 @WangCai_1
+      - US_8 @WangCai_1
+      - TW_11 @WangCai_1
+      - US_6 @WangCai_1 2
+      - RU_2 @WangCai_1
+      - TW_15 @WangCai_1
+      - IT_1 @WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2149
+      - Relay_🇨🇳CN-🇺🇸US_359
+      - RU_1 @WangCai_1
+      - ‌🇨🇦CA_1 @WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2538_14.63Mb
+      - 美國(绿头外网集团)(Public) 7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港 01 13
-      - JP_995 @WangCai_1
-      - JP_996 @WangCai_1
-      - 魔戒.net香港 B
-      - 魔戒.net香港 A
-      - 日本(绿头外网集团)(Public)
-      - TW_590 @WangCai_1
-      - SG_587 @WangCai_1
-      - 魔戒.net香港 D
-      - TW_995 @WangCai_1
-      - 专线 台湾 01
-      - 魔戒.net HK1
-      - 魔戒.net 🇭🇰 CN4-HK
-      - HK_144
-      - 专线 台湾 02
-      - US_587 @WangCai_1
-      - 专线 新加坡 03
-      - 专线 日本 03
+      - TW_2 @WangCai_1
+      - TW_6 @WangCai_1
+      - TW_8 @WangCai_1
+      - TW_7 @WangCai_1
+      - TW_5 @WangCai_1
+      - HK_15 @WangCai_1
+      - HK_16 @WangCai_1
+      - HK_8 @WangCai_1
+      - KR_1 @WangCai_1
+      - HK_1 @WangCai_1
+      - HK_12 @WangCai_1
+      - TW_14 @WangCai_1
+      - HK_22 @WangCai_1
+      - TW_9 @WangCai_1
+      - HK_10 @WangCai_1
+      - TW_13 @WangCai_1
+      - TW_10 @WangCai_1
+      - HK_14 @WangCai_1
+      - HK_13 @WangCai_1
+      - HK_18 @WangCai_1
+      - JP_2 @WangCai_1
+      - JP_1 @WangCai_1
+      - TW_12 @WangCai_1
+      - HK_17 @WangCai_1
+      - SG_266
+      - HK_11 @WangCai_1
+      - HK_21 @WangCai_1
+      - az-hk
+      - HK_9 @WangCai_1
+      - HK_19 @WangCai_1
       - JP_油管 TG 8度科技
-      - US_996 @WangCai_1
-      - Relay__53.58Mb
-      - Relay_🇨🇳CN-🇦🇺AU_304 |18.57Mb
-      - 【426节点池】CN_346
-      - Relay__34.02Mb
-      - Relay__44.62Mb
-      - Relay__43.20Mb
-      - 专线 马来西亚 01
-      - 专线 新加坡 02
-      - JP_206
-      - US_9 @WangCai_1
-      - Relay__41.72Mb
-      - SG_237
-      - SG_236
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - _ 8.88Mb
-      - _ 2.52Mb
-      - ‌‌🇨🇦CA_7002 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1
+      - DE_1 @WangCai_1
+      - HK_4 @WangCai_1
+      - RU_3 @WangCai_1
+      - TR_1 @WangCai_1
+      - US_6 @WangCai_1
+      - US_8 @WangCai_1
+      - TW_11 @WangCai_1
+      - US_6 @WangCai_1 2
+      - RU_2 @WangCai_1
+      - TW_15 @WangCai_1
+      - IT_1 @WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2149
+      - Relay_🇨🇳CN-🇺🇸US_359
+      - RU_1 @WangCai_1
+      - ‌🇨🇦CA_1 @WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2538_14.63Mb
+      - 美國(绿头外网集团)(Public) 7
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港 01 13
-      - JP_995 @WangCai_1
-      - JP_996 @WangCai_1
-      - 魔戒.net香港 B
-      - 魔戒.net香港 A
-      - 日本(绿头外网集团)(Public)
-      - TW_590 @WangCai_1
-      - SG_587 @WangCai_1
-      - 魔戒.net香港 D
-      - TW_995 @WangCai_1
-      - 专线 台湾 01
-      - 魔戒.net HK1
-      - 魔戒.net 🇭🇰 CN4-HK
-      - HK_144
-      - 专线 台湾 02
-      - US_587 @WangCai_1
-      - 专线 新加坡 03
-      - 专线 日本 03
+      - TW_2 @WangCai_1
+      - TW_6 @WangCai_1
+      - TW_8 @WangCai_1
+      - TW_7 @WangCai_1
+      - TW_5 @WangCai_1
+      - HK_15 @WangCai_1
+      - HK_16 @WangCai_1
+      - HK_8 @WangCai_1
+      - KR_1 @WangCai_1
+      - HK_1 @WangCai_1
+      - HK_12 @WangCai_1
+      - TW_14 @WangCai_1
+      - HK_22 @WangCai_1
+      - TW_9 @WangCai_1
+      - HK_10 @WangCai_1
+      - TW_13 @WangCai_1
+      - TW_10 @WangCai_1
+      - HK_14 @WangCai_1
+      - HK_13 @WangCai_1
+      - HK_18 @WangCai_1
+      - JP_2 @WangCai_1
+      - JP_1 @WangCai_1
+      - TW_12 @WangCai_1
+      - HK_17 @WangCai_1
+      - SG_266
+      - HK_11 @WangCai_1
+      - HK_21 @WangCai_1
+      - az-hk
+      - HK_9 @WangCai_1
+      - HK_19 @WangCai_1
       - JP_油管 TG 8度科技
-      - US_996 @WangCai_1
-      - Relay__53.58Mb
-      - Relay_🇨🇳CN-🇦🇺AU_304 |18.57Mb
-      - 【426节点池】CN_346
-      - Relay__34.02Mb
-      - Relay__44.62Mb
-      - Relay__43.20Mb
-      - 专线 马来西亚 01
-      - 专线 新加坡 02
-      - JP_206
-      - US_9 @WangCai_1
-      - Relay__41.72Mb
-      - SG_237
-      - SG_236
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - _ 8.88Mb
-      - _ 2.52Mb
-      - ‌‌🇨🇦CA_7002 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1
+      - DE_1 @WangCai_1
+      - HK_4 @WangCai_1
+      - RU_3 @WangCai_1
+      - TR_1 @WangCai_1
+      - US_6 @WangCai_1
+      - US_8 @WangCai_1
+      - TW_11 @WangCai_1
+      - US_6 @WangCai_1 2
+      - RU_2 @WangCai_1
+      - TW_15 @WangCai_1
+      - IT_1 @WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2149
+      - Relay_🇨🇳CN-🇺🇸US_359
+      - RU_1 @WangCai_1
+      - ‌🇨🇦CA_1 @WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2538_14.63Mb
+      - 美國(绿头外网集团)(Public) 7
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -192,185 +232,220 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港 01 13
-      - JP_995 @WangCai_1
-      - JP_996 @WangCai_1
-      - 魔戒.net香港 B
-      - 魔戒.net香港 A
-      - 日本(绿头外网集团)(Public)
-      - TW_590 @WangCai_1
-      - SG_587 @WangCai_1
-      - 魔戒.net香港 D
-      - TW_995 @WangCai_1
-      - 专线 台湾 01
-      - 魔戒.net HK1
-      - 魔戒.net 🇭🇰 CN4-HK
-      - HK_144
-      - 专线 台湾 02
-      - US_587 @WangCai_1
-      - 专线 新加坡 03
-      - 专线 日本 03
+      - TW_2 @WangCai_1
+      - TW_6 @WangCai_1
+      - TW_8 @WangCai_1
+      - TW_7 @WangCai_1
+      - TW_5 @WangCai_1
+      - HK_15 @WangCai_1
+      - HK_16 @WangCai_1
+      - HK_8 @WangCai_1
+      - KR_1 @WangCai_1
+      - HK_1 @WangCai_1
+      - HK_12 @WangCai_1
+      - TW_14 @WangCai_1
+      - HK_22 @WangCai_1
+      - TW_9 @WangCai_1
+      - HK_10 @WangCai_1
+      - TW_13 @WangCai_1
+      - TW_10 @WangCai_1
+      - HK_14 @WangCai_1
+      - HK_13 @WangCai_1
+      - HK_18 @WangCai_1
+      - JP_2 @WangCai_1
+      - JP_1 @WangCai_1
+      - TW_12 @WangCai_1
+      - HK_17 @WangCai_1
+      - SG_266
+      - HK_11 @WangCai_1
+      - HK_21 @WangCai_1
+      - az-hk
+      - HK_9 @WangCai_1
+      - HK_19 @WangCai_1
       - JP_油管 TG 8度科技
-      - US_996 @WangCai_1
-      - Relay__53.58Mb
-      - Relay_🇨🇳CN-🇦🇺AU_304 |18.57Mb
-      - 【426节点池】CN_346
-      - Relay__34.02Mb
-      - Relay__44.62Mb
-      - Relay__43.20Mb
-      - 专线 马来西亚 01
-      - 专线 新加坡 02
-      - JP_206
-      - US_9 @WangCai_1
-      - Relay__41.72Mb
-      - SG_237
-      - SG_236
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - _ 8.88Mb
-      - _ 2.52Mb
-      - ‌‌🇨🇦CA_7002 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1
+      - DE_1 @WangCai_1
+      - HK_4 @WangCai_1
+      - RU_3 @WangCai_1
+      - TR_1 @WangCai_1
+      - US_6 @WangCai_1
+      - US_8 @WangCai_1
+      - TW_11 @WangCai_1
+      - US_6 @WangCai_1 2
+      - RU_2 @WangCai_1
+      - TW_15 @WangCai_1
+      - IT_1 @WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2149
+      - Relay_🇨🇳CN-🇺🇸US_359
+      - RU_1 @WangCai_1
+      - ‌🇨🇦CA_1 @WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2538_14.63Mb
+      - 美國(绿头外网集团)(Public) 7
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港 01 13
-      - 魔戒.net香港 B
-      - 魔戒.net香港 A
-      - 魔戒.net香港 D
-      - 专线 台湾 01
-      - 专线 台湾 02
+      - az-hk
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港 01 13
-      - JP_995 @WangCai_1
-      - JP_996 @WangCai_1
-      - 魔戒.net香港 B
-      - 魔戒.net香港 A
-      - 日本(绿头外网集团)(Public)
-      - TW_590 @WangCai_1
-      - SG_587 @WangCai_1
-      - 魔戒.net香港 D
-      - TW_995 @WangCai_1
-      - 专线 台湾 01
-      - 魔戒.net HK1
-      - 魔戒.net 🇭🇰 CN4-HK
-      - HK_144
-      - 专线 台湾 02
-      - US_587 @WangCai_1
-      - 专线 新加坡 03
-      - 专线 日本 03
+      - TW_2 @WangCai_1
+      - TW_6 @WangCai_1
+      - TW_8 @WangCai_1
+      - TW_7 @WangCai_1
+      - TW_5 @WangCai_1
+      - HK_15 @WangCai_1
+      - HK_16 @WangCai_1
+      - HK_8 @WangCai_1
+      - KR_1 @WangCai_1
+      - HK_1 @WangCai_1
+      - HK_12 @WangCai_1
+      - TW_14 @WangCai_1
+      - HK_22 @WangCai_1
+      - TW_9 @WangCai_1
+      - HK_10 @WangCai_1
+      - TW_13 @WangCai_1
+      - TW_10 @WangCai_1
+      - HK_14 @WangCai_1
+      - HK_13 @WangCai_1
+      - HK_18 @WangCai_1
+      - JP_2 @WangCai_1
+      - JP_1 @WangCai_1
+      - TW_12 @WangCai_1
+      - HK_17 @WangCai_1
+      - SG_266
+      - HK_11 @WangCai_1
+      - HK_21 @WangCai_1
+      - az-hk
+      - HK_9 @WangCai_1
+      - HK_19 @WangCai_1
       - JP_油管 TG 8度科技
-      - US_996 @WangCai_1
-      - Relay__53.58Mb
-      - Relay_🇨🇳CN-🇦🇺AU_304 |18.57Mb
-      - 【426节点池】CN_346
-      - Relay__34.02Mb
-      - Relay__44.62Mb
-      - Relay__43.20Mb
-      - 专线 马来西亚 01
-      - 专线 新加坡 02
-      - JP_206
-      - US_9 @WangCai_1
-      - Relay__41.72Mb
-      - SG_237
-      - SG_236
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - _ 8.88Mb
-      - _ 2.52Mb
-      - ‌‌🇨🇦CA_7002 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1
+      - DE_1 @WangCai_1
+      - HK_4 @WangCai_1
+      - RU_3 @WangCai_1
+      - TR_1 @WangCai_1
+      - US_6 @WangCai_1
+      - US_8 @WangCai_1
+      - TW_11 @WangCai_1
+      - US_6 @WangCai_1 2
+      - RU_2 @WangCai_1
+      - TW_15 @WangCai_1
+      - IT_1 @WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2149
+      - Relay_🇨🇳CN-🇺🇸US_359
+      - RU_1 @WangCai_1
+      - ‌🇨🇦CA_1 @WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2538_14.63Mb
+      - 美國(绿头外网集团)(Public) 7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港 01 13
-      - JP_995 @WangCai_1
-      - JP_996 @WangCai_1
-      - 魔戒.net香港 B
-      - 魔戒.net香港 A
-      - 日本(绿头外网集团)(Public)
-      - TW_590 @WangCai_1
-      - SG_587 @WangCai_1
-      - 魔戒.net香港 D
-      - TW_995 @WangCai_1
-      - 专线 台湾 01
-      - 魔戒.net HK1
-      - 魔戒.net 🇭🇰 CN4-HK
-      - HK_144
-      - 专线 台湾 02
-      - US_587 @WangCai_1
-      - 专线 新加坡 03
-      - 专线 日本 03
+      - TW_2 @WangCai_1
+      - TW_6 @WangCai_1
+      - TW_8 @WangCai_1
+      - TW_7 @WangCai_1
+      - TW_5 @WangCai_1
+      - HK_15 @WangCai_1
+      - HK_16 @WangCai_1
+      - HK_8 @WangCai_1
+      - KR_1 @WangCai_1
+      - HK_1 @WangCai_1
+      - HK_12 @WangCai_1
+      - TW_14 @WangCai_1
+      - HK_22 @WangCai_1
+      - TW_9 @WangCai_1
+      - HK_10 @WangCai_1
+      - TW_13 @WangCai_1
+      - TW_10 @WangCai_1
+      - HK_14 @WangCai_1
+      - HK_13 @WangCai_1
+      - HK_18 @WangCai_1
+      - JP_2 @WangCai_1
+      - JP_1 @WangCai_1
+      - TW_12 @WangCai_1
+      - HK_17 @WangCai_1
+      - SG_266
+      - HK_11 @WangCai_1
+      - HK_21 @WangCai_1
+      - az-hk
+      - HK_9 @WangCai_1
+      - HK_19 @WangCai_1
       - JP_油管 TG 8度科技
-      - US_996 @WangCai_1
-      - Relay__53.58Mb
-      - Relay_🇨🇳CN-🇦🇺AU_304 |18.57Mb
-      - 【426节点池】CN_346
-      - Relay__34.02Mb
-      - Relay__44.62Mb
-      - Relay__43.20Mb
-      - 专线 马来西亚 01
-      - 专线 新加坡 02
-      - JP_206
-      - US_9 @WangCai_1
-      - Relay__41.72Mb
-      - SG_237
-      - SG_236
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - _ 8.88Mb
-      - _ 2.52Mb
-      - ‌‌🇨🇦CA_7002 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1
+      - DE_1 @WangCai_1
+      - HK_4 @WangCai_1
+      - RU_3 @WangCai_1
+      - TR_1 @WangCai_1
+      - US_6 @WangCai_1
+      - US_8 @WangCai_1
+      - TW_11 @WangCai_1
+      - US_6 @WangCai_1 2
+      - RU_2 @WangCai_1
+      - TW_15 @WangCai_1
+      - IT_1 @WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2149
+      - Relay_🇨🇳CN-🇺🇸US_359
+      - RU_1 @WangCai_1
+      - ‌🇨🇦CA_1 @WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2538_14.63Mb
+      - 美國(绿头外网集团)(Public) 7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港 01 13
-      - JP_995 @WangCai_1
-      - JP_996 @WangCai_1
-      - 魔戒.net香港 B
-      - 魔戒.net香港 A
-      - 日本(绿头外网集团)(Public)
-      - TW_590 @WangCai_1
-      - SG_587 @WangCai_1
-      - 魔戒.net香港 D
-      - TW_995 @WangCai_1
-      - 专线 台湾 01
-      - 魔戒.net HK1
-      - 魔戒.net 🇭🇰 CN4-HK
-      - HK_144
-      - 专线 台湾 02
-      - US_587 @WangCai_1
-      - 专线 新加坡 03
-      - 专线 日本 03
+      - TW_2 @WangCai_1
+      - TW_6 @WangCai_1
+      - TW_8 @WangCai_1
+      - TW_7 @WangCai_1
+      - TW_5 @WangCai_1
+      - HK_15 @WangCai_1
+      - HK_16 @WangCai_1
+      - HK_8 @WangCai_1
+      - KR_1 @WangCai_1
+      - HK_1 @WangCai_1
+      - HK_12 @WangCai_1
+      - TW_14 @WangCai_1
+      - HK_22 @WangCai_1
+      - TW_9 @WangCai_1
+      - HK_10 @WangCai_1
+      - TW_13 @WangCai_1
+      - TW_10 @WangCai_1
+      - HK_14 @WangCai_1
+      - HK_13 @WangCai_1
+      - HK_18 @WangCai_1
+      - JP_2 @WangCai_1
+      - JP_1 @WangCai_1
+      - TW_12 @WangCai_1
+      - HK_17 @WangCai_1
+      - SG_266
+      - HK_11 @WangCai_1
+      - HK_21 @WangCai_1
+      - az-hk
+      - HK_9 @WangCai_1
+      - HK_19 @WangCai_1
       - JP_油管 TG 8度科技
-      - US_996 @WangCai_1
-      - Relay__53.58Mb
-      - Relay_🇨🇳CN-🇦🇺AU_304 |18.57Mb
-      - 【426节点池】CN_346
-      - Relay__34.02Mb
-      - Relay__44.62Mb
-      - Relay__43.20Mb
-      - 专线 马来西亚 01
-      - 专线 新加坡 02
-      - JP_206
-      - US_9 @WangCai_1
-      - Relay__41.72Mb
-      - SG_237
-      - SG_236
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - _ 8.88Mb
-      - _ 2.52Mb
-      - ‌‌🇨🇦CA_7002 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1
+      - DE_1 @WangCai_1
+      - HK_4 @WangCai_1
+      - RU_3 @WangCai_1
+      - TR_1 @WangCai_1
+      - US_6 @WangCai_1
+      - US_8 @WangCai_1
+      - TW_11 @WangCai_1
+      - US_6 @WangCai_1 2
+      - RU_2 @WangCai_1
+      - TW_15 @WangCai_1
+      - IT_1 @WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2149
+      - Relay_🇨🇳CN-🇺🇸US_359
+      - RU_1 @WangCai_1
+      - ‌🇨🇦CA_1 @WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2538_14.63Mb
+      - 美國(绿头外网集团)(Public) 7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -386,44 +461,54 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港 01 13
-      - JP_995 @WangCai_1
-      - JP_996 @WangCai_1
-      - 魔戒.net香港 B
-      - 魔戒.net香港 A
-      - 日本(绿头外网集团)(Public)
-      - TW_590 @WangCai_1
-      - SG_587 @WangCai_1
-      - 魔戒.net香港 D
-      - TW_995 @WangCai_1
-      - 专线 台湾 01
-      - 魔戒.net HK1
-      - 魔戒.net 🇭🇰 CN4-HK
-      - HK_144
-      - 专线 台湾 02
-      - US_587 @WangCai_1
-      - 专线 新加坡 03
-      - 专线 日本 03
+      - TW_2 @WangCai_1
+      - TW_6 @WangCai_1
+      - TW_8 @WangCai_1
+      - TW_7 @WangCai_1
+      - TW_5 @WangCai_1
+      - HK_15 @WangCai_1
+      - HK_16 @WangCai_1
+      - HK_8 @WangCai_1
+      - KR_1 @WangCai_1
+      - HK_1 @WangCai_1
+      - HK_12 @WangCai_1
+      - TW_14 @WangCai_1
+      - HK_22 @WangCai_1
+      - TW_9 @WangCai_1
+      - HK_10 @WangCai_1
+      - TW_13 @WangCai_1
+      - TW_10 @WangCai_1
+      - HK_14 @WangCai_1
+      - HK_13 @WangCai_1
+      - HK_18 @WangCai_1
+      - JP_2 @WangCai_1
+      - JP_1 @WangCai_1
+      - TW_12 @WangCai_1
+      - HK_17 @WangCai_1
+      - SG_266
+      - HK_11 @WangCai_1
+      - HK_21 @WangCai_1
+      - az-hk
+      - HK_9 @WangCai_1
+      - HK_19 @WangCai_1
       - JP_油管 TG 8度科技
-      - US_996 @WangCai_1
-      - Relay__53.58Mb
-      - Relay_🇨🇳CN-🇦🇺AU_304 |18.57Mb
-      - 【426节点池】CN_346
-      - Relay__34.02Mb
-      - Relay__44.62Mb
-      - Relay__43.20Mb
-      - 专线 马来西亚 01
-      - 专线 新加坡 02
-      - JP_206
-      - US_9 @WangCai_1
-      - Relay__41.72Mb
-      - SG_237
-      - SG_236
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - _ 8.88Mb
-      - _ 2.52Mb
-      - ‌‌🇨🇦CA_7002 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1
+      - DE_1 @WangCai_1
+      - HK_4 @WangCai_1
+      - RU_3 @WangCai_1
+      - TR_1 @WangCai_1
+      - US_6 @WangCai_1
+      - US_8 @WangCai_1
+      - TW_11 @WangCai_1
+      - US_6 @WangCai_1 2
+      - RU_2 @WangCai_1
+      - TW_15 @WangCai_1
+      - IT_1 @WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2149
+      - Relay_🇨🇳CN-🇺🇸US_359
+      - RU_1 @WangCai_1
+      - ‌🇨🇦CA_1 @WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2538_14.63Mb
+      - 美國(绿头外网集团)(Public) 7
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
