@@ -5,123 +5,127 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: JP_208, server: 139.162.67.80, port: 8443, type: trojan, password: Freebaipiao666, skip-cert-verify: true, udp: true}
-  - {name: hk, server: zz06.mcddns02.com, port: 22013, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:CUoqXuxltNm1fo6Y, obfs-param: cd1a920071.microsoft.com, udp: true}
+  - {name: 香港-移动中转, server: yidong.latiao.cyou, port: 26806, type: ss, cipher: chacha20-ietf-poly1305, password: 42d4b116-8cc4-4b9a-b114-89d4982e614d, udp: true}
+  - {name: 新加坡-联通中转, server: liantong.latiao.cyou, port: 26802, type: ss, cipher: chacha20-ietf-poly1305, password: 42d4b116-8cc4-4b9a-b114-89d4982e614d, udp: true}
+  - {name: 日本-移动中转, server: yidong.latiao.cyou, port: 26801, type: ss, cipher: chacha20-ietf-poly1305, password: 42d4b116-8cc4-4b9a-b114-89d4982e614d, udp: true}
+  - {name: 新加坡- 移动中转, server: yidong.latiao.cyou, port: 26802, type: ss, cipher: chacha20-ietf-poly1305, password: 42d4b116-8cc4-4b9a-b114-89d4982e614d, udp: true}
+  - {name: 日本-联通中转, server: liantong.latiao.cyou, port: 26801, type: ss, cipher: chacha20-ietf-poly1305, password: 42d4b116-8cc4-4b9a-b114-89d4982e614d, udp: true}
+  - {name: sl201.jdxx1.com:26386, server: sl201.jdxx1.com, port: 26386, type: ssr, cipher: chacha20-ietf, password: MaOKEa, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 34:qf3R2I, obfs-param: 9455c5822.microsoft.com, udp: true}
+  - {name: 韩国-移动中转, server: yidong.latiao.cyou, port: 26803, type: ss, cipher: chacha20-ietf-poly1305, password: 42d4b116-8cc4-4b9a-b114-89d4982e614d, udp: true}
+  - {name: "新加坡 | A | 1.2x | 青銅 |\tAZ |", server: qinton001.bmbai.buzz, port: 909, type: vmess, uuid: 86ce106d-6fa7-3a22-af42-24251e7c47bb, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1.baiyun.pw}, udp: true}
+  - {name: 韩国-联通中转, server: liantong.latiao.cyou, port: 26803, type: ss, cipher: chacha20-ietf-poly1305, password: 42d4b116-8cc4-4b9a-b114-89d4982e614d, udp: true}
+  - {name: 新加坡 | A | 1.2x | 青铜 |  AZ |, server: qinton001.bmbai.buzz, port: 638, type: vmess, uuid: 86ce106d-6fa7-3a22-af42-24251e7c47bb, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1.baiyun.pw}, udp: true}
+  - {name: 美国-联通中转, server: liantong.latiao.cyou, port: 26804, type: ss, cipher: chacha20-ietf-poly1305, password: 42d4b116-8cc4-4b9a-b114-89d4982e614d, udp: true}
+  - {name: 美国-移动中转, server: yidong.latiao.cyou, port: 26804, type: ss, cipher: chacha20-ietf-poly1305, password: 42d4b116-8cc4-4b9a-b114-89d4982e614d, udp: true}
+  - {name: 香港-l联通中转, server: liantong.latiao.cyou, port: 26806, type: ss, cipher: chacha20-ietf-poly1305, password: 42d4b116-8cc4-4b9a-b114-89d4982e614d, udp: true}
+  - {name: 德国-联通中转, server: liantong.latiao.cyou, port: 26805, type: ss, cipher: chacha20-ietf-poly1305, password: 42d4b116-8cc4-4b9a-b114-89d4982e614d, udp: true}
+  - {name: 新加坡 | B | 1.2x | 青铜 | AZ |, server: qinton001.bmbai.buzz, port: 644, type: vmess, uuid: 86ce106d-6fa7-3a22-af42-24251e7c47bb, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1.baiyun.pw}, udp: true}
+  - {name: 德国-移动中转, server: yidong.latiao.cyou, port: 26805, type: ss, cipher: chacha20-ietf-poly1305, password: 42d4b116-8cc4-4b9a-b114-89d4982e614d, udp: true}
+  - {name: 英国-联通中转, server: liantong.latiao.cyou, port: 26807, type: ss, cipher: chacha20-ietf-poly1305, password: 42d4b116-8cc4-4b9a-b114-89d4982e614d, udp: true}
+  - {name: 英国-移动中转, server: yidong.latiao.cyou, port: 26807, type: ss, cipher: chacha20-ietf-poly1305, password: 42d4b116-8cc4-4b9a-b114-89d4982e614d, udp: true}
   - {name: 新加坡➤高速➤x1_10, server: 1.v2yun.vip, port: 13526, type: vmess, uuid: a2b606a2-3dd7-3bb6-a989-3542264e503f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 1.v2yun.vip}, udp: true}
   - {name: SG_266, server: 139.162.29.186, port: 54869, type: trojan, password: HqNAQ9UBJN, skip-cert-verify: true, udp: true}
-  - {name: 印度➤高速➤x1_8, server: 1.v2yun.vip, port: 22986, type: vmess, uuid: a2b606a2-3dd7-3bb6-a989-3542264e503f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 1.v2yun.vip}, udp: true}
+  - {name: hk, server: zz06.mcddns02.com, port: 22013, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:CUoqXuxltNm1fo6Y, obfs-param: cd1a920071.microsoft.com, udp: true}
   - {name: 台湾-784_7KB/s(Youtube:不良林)_5, server: tw.tcpbbr.net, port: 443, type: trojan, password: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 印度➤高速➤x1_8, server: 1.v2yun.vip, port: 22986, type: vmess, uuid: a2b606a2-3dd7-3bb6-a989-3542264e503f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 1.v2yun.vip}, udp: true}
+  - {name: 德国 | 體驗套餐 | A | 10x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |, server: qinton001.bmbai.buzz, port: 898, type: vmess, uuid: 86ce106d-6fa7-3a22-af42-24251e7c47bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1.baiyun.pw}, udp: true}
   - {name: JP_油管 TG 8度科技, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}, udp: true}
-  - {name: kr_vnklwwv_com_vmess_ws_1, server: kr.vnklwwv.com, port: 443, type: vmess, uuid: d9883c4d-2bc2-4737-be75-a65c2e63d61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/nuzfvws?ed=2048", ws-headers: {Host: kr.vnklwwv.com}, udp: true}
-  - {name: JP_1160, server: 153.127.13.203, port: 18899, type: vmess, uuid: 3cc23eed-b3f9-4366-c085-76117f92268b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 153.127.13.203}, udp: true}
   - {name: 233v2_com_140_238_36_111, server: 140.238.36.111, port: 80, type: vmess, uuid: befdb5b5-1e37-491f-b355-ca274a75798e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国洛杉矶➤高速➤x1_13, server: 1.v2yun.vip, port: 13133, type: vmess, uuid: a2b606a2-3dd7-3bb6-a989-3542264e503f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 1.v2yun.vip}, udp: true}
-  - {name: 韩国➤高速➤x1_14, server: krgs.v2yun.vip, port: 80, type: vmess, uuid: a2b606a2-3dd7-3bb6-a989-3542264e503f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: krgs.v2yun.vip}, udp: true}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_596, server: gz2.52168.xyz, port: 2101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: 伦敦➤高速➤x1_6, server: 1.v2yun.vip, port: 13135, type: vmess, uuid: a2b606a2-3dd7-3bb6-a989-3542264e503f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 1.v2yun.vip}, udp: true}
-  - {name: 德国➤高速➤x1_9, server: 1.v2yun.vip, port: 11251, type: vmess, uuid: a2b606a2-3dd7-3bb6-a989-3542264e503f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 1.v2yun.vip}, udp: true}
-  - {name: Relay_🇨🇳CN |10.55Mb, server: gz1.52168.xyz, port: 1116, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: 美国_TGatnodesharing_31, server: iyus.tnty.xyz, port: 41364, type: vmess, uuid: b9ace5b9-b8b2-44d7-9a15-4166f03d2b2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: iyus.tnty.xyz}, udp: true}
-  - {name: US_2777 |73.21Mb, server: 104.168.176.152, port: 23308, type: vmess, uuid: 5bf287e9-c85d-40f2-e85b-bf9774d7fa32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 104.168.176.152}, udp: true}
-  - {name: v2ray_1, server: www.yiandxu.buzz, port: 56615, type: vmess, uuid: 32a83cd5-ca6e-4aa4-d53d-790b4a2c6a71, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dfg45y, ws-headers: {Host: www.yiandxu.buzz}, udp: true}
-  - {name: 香港05➤高速➤x1_4, server: hk05gs.v2yun.vip, port: 80, type: vmess, uuid: a2b606a2-3dd7-3bb6-a989-3542264e503f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk05gs.v2yun.vip}, udp: true}
-  - {name: 香港➤高速➤x1_1, server: hkgs.v2yun.vip, port: 80, type: vmess, uuid: a2b606a2-3dd7-3bb6-a989-3542264e503f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkgs.v2yun.vip}, udp: true}
-  - {name: 美国加拿大➤高速➤x1_12, server: 1.v2yun.vip, port: 12720, type: vmess, uuid: a2b606a2-3dd7-3bb6-a989-3542264e503f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 1.v2yun.vip}, udp: true}
-  - {name: NL_774_ 3.85Mb, server: 85.208.108.90, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_油管 TG 8度科技 5, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_油管 TG 8度科技, server: iyus.tnty.xyz, port: 41364, type: vmess, uuid: dd9b4819-974f-451a-bc3b-fc45feb1c092, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: iyus.tnty.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP_208
-      - hk
+      - 香港-移动中转
+      - 新加坡-联通中转
+      - 日本-移动中转
+      - 新加坡- 移动中转
+      - 日本-联通中转
+      - sl201.jdxx1.com:26386
+      - 韩国-移动中转
+      - "新加坡 | A | 1.2x | 青銅 |\tAZ |"
+      - 韩国-联通中转
+      - 新加坡 | A | 1.2x | 青铜 |  AZ |
+      - 美国-联通中转
+      - 美国-移动中转
+      - 香港-l联通中转
+      - 德国-联通中转
+      - 新加坡 | B | 1.2x | 青铜 | AZ |
+      - 德国-移动中转
+      - 英国-联通中转
+      - 英国-移动中转
       - 新加坡➤高速➤x1_10
       - SG_266
-      - 印度➤高速➤x1_8
+      - hk
       - 台湾-784_7KB/s(Youtube:不良林)_5
+      - 印度➤高速➤x1_8
+      - 德国 | 體驗套餐 | A | 10x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - JP_油管 TG 8度科技
-      - kr_vnklwwv_com_vmess_ws_1
-      - JP_1160
       - 233v2_com_140_238_36_111
-      - 美国洛杉矶➤高速➤x1_13
-      - 韩国➤高速➤x1_14
-      - Relay_🇨🇳CN-🇩🇪DE_596
-      - 伦敦➤高速➤x1_6
-      - 德国➤高速➤x1_9
-      - Relay_🇨🇳CN |10.55Mb
-      - 美国_TGatnodesharing_31
-      - US_2777 |73.21Mb
-      - v2ray_1
-      - 香港05➤高速➤x1_4
-      - 香港➤高速➤x1_1
-      - 美国加拿大➤高速➤x1_12
-      - NL_774_ 3.85Mb
-      - US_油管 TG 8度科技 5
-      - US_油管 TG 8度科技
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - JP_208
-      - hk
+      - 香港-移动中转
+      - 新加坡-联通中转
+      - 日本-移动中转
+      - 新加坡- 移动中转
+      - 日本-联通中转
+      - sl201.jdxx1.com:26386
+      - 韩国-移动中转
+      - "新加坡 | A | 1.2x | 青銅 |\tAZ |"
+      - 韩国-联通中转
+      - 新加坡 | A | 1.2x | 青铜 |  AZ |
+      - 美国-联通中转
+      - 美国-移动中转
+      - 香港-l联通中转
+      - 德国-联通中转
+      - 新加坡 | B | 1.2x | 青铜 | AZ |
+      - 德国-移动中转
+      - 英国-联通中转
+      - 英国-移动中转
       - 新加坡➤高速➤x1_10
       - SG_266
-      - 印度➤高速➤x1_8
+      - hk
       - 台湾-784_7KB/s(Youtube:不良林)_5
+      - 印度➤高速➤x1_8
+      - 德国 | 體驗套餐 | A | 10x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - JP_油管 TG 8度科技
-      - kr_vnklwwv_com_vmess_ws_1
-      - JP_1160
       - 233v2_com_140_238_36_111
-      - 美国洛杉矶➤高速➤x1_13
-      - 韩国➤高速➤x1_14
-      - Relay_🇨🇳CN-🇩🇪DE_596
-      - 伦敦➤高速➤x1_6
-      - 德国➤高速➤x1_9
-      - Relay_🇨🇳CN |10.55Mb
-      - 美国_TGatnodesharing_31
-      - US_2777 |73.21Mb
-      - v2ray_1
-      - 香港05➤高速➤x1_4
-      - 香港➤高速➤x1_1
-      - 美国加拿大➤高速➤x1_12
-      - NL_774_ 3.85Mb
-      - US_油管 TG 8度科技 5
-      - US_油管 TG 8度科技
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP_208
-      - hk
+      - 香港-移动中转
+      - 新加坡-联通中转
+      - 日本-移动中转
+      - 新加坡- 移动中转
+      - 日本-联通中转
+      - sl201.jdxx1.com:26386
+      - 韩国-移动中转
+      - "新加坡 | A | 1.2x | 青銅 |\tAZ |"
+      - 韩国-联通中转
+      - 新加坡 | A | 1.2x | 青铜 |  AZ |
+      - 美国-联通中转
+      - 美国-移动中转
+      - 香港-l联通中转
+      - 德国-联通中转
+      - 新加坡 | B | 1.2x | 青铜 | AZ |
+      - 德国-移动中转
+      - 英国-联通中转
+      - 英国-移动中转
       - 新加坡➤高速➤x1_10
       - SG_266
-      - 印度➤高速➤x1_8
+      - hk
       - 台湾-784_7KB/s(Youtube:不良林)_5
+      - 印度➤高速➤x1_8
+      - 德国 | 體驗套餐 | A | 10x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - JP_油管 TG 8度科技
-      - kr_vnklwwv_com_vmess_ws_1
-      - JP_1160
       - 233v2_com_140_238_36_111
-      - 美国洛杉矶➤高速➤x1_13
-      - 韩国➤高速➤x1_14
-      - Relay_🇨🇳CN-🇩🇪DE_596
-      - 伦敦➤高速➤x1_6
-      - 德国➤高速➤x1_9
-      - Relay_🇨🇳CN |10.55Mb
-      - 美国_TGatnodesharing_31
-      - US_2777 |73.21Mb
-      - v2ray_1
-      - 香港05➤高速➤x1_4
-      - 香港➤高速➤x1_1
-      - 美国加拿大➤高速➤x1_12
-      - NL_774_ 3.85Mb
-      - US_油管 TG 8度科技 5
-      - US_油管 TG 8度科技
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -140,131 +144,135 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP_208
-      - hk
+      - 香港-移动中转
+      - 新加坡-联通中转
+      - 日本-移动中转
+      - 新加坡- 移动中转
+      - 日本-联通中转
+      - sl201.jdxx1.com:26386
+      - 韩国-移动中转
+      - "新加坡 | A | 1.2x | 青銅 |\tAZ |"
+      - 韩国-联通中转
+      - 新加坡 | A | 1.2x | 青铜 |  AZ |
+      - 美国-联通中转
+      - 美国-移动中转
+      - 香港-l联通中转
+      - 德国-联通中转
+      - 新加坡 | B | 1.2x | 青铜 | AZ |
+      - 德国-移动中转
+      - 英国-联通中转
+      - 英国-移动中转
       - 新加坡➤高速➤x1_10
       - SG_266
-      - 印度➤高速➤x1_8
+      - hk
       - 台湾-784_7KB/s(Youtube:不良林)_5
+      - 印度➤高速➤x1_8
+      - 德国 | 體驗套餐 | A | 10x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - JP_油管 TG 8度科技
-      - kr_vnklwwv_com_vmess_ws_1
-      - JP_1160
       - 233v2_com_140_238_36_111
-      - 美国洛杉矶➤高速➤x1_13
-      - 韩国➤高速➤x1_14
-      - Relay_🇨🇳CN-🇩🇪DE_596
-      - 伦敦➤高速➤x1_6
-      - 德国➤高速➤x1_9
-      - Relay_🇨🇳CN |10.55Mb
-      - 美国_TGatnodesharing_31
-      - US_2777 |73.21Mb
-      - v2ray_1
-      - 香港05➤高速➤x1_4
-      - 香港➤高速➤x1_1
-      - 美国加拿大➤高速➤x1_12
-      - NL_774_ 3.85Mb
-      - US_油管 TG 8度科技 5
-      - US_油管 TG 8度科技
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港-移动中转
+      - 香港-l联通中转
       - hk
       - 台湾-784_7KB/s(Youtube:不良林)_5
-      - 香港05➤高速➤x1_4
-      - 香港➤高速➤x1_1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - JP_208
-      - hk
+      - 香港-移动中转
+      - 新加坡-联通中转
+      - 日本-移动中转
+      - 新加坡- 移动中转
+      - 日本-联通中转
+      - sl201.jdxx1.com:26386
+      - 韩国-移动中转
+      - "新加坡 | A | 1.2x | 青銅 |\tAZ |"
+      - 韩国-联通中转
+      - 新加坡 | A | 1.2x | 青铜 |  AZ |
+      - 美国-联通中转
+      - 美国-移动中转
+      - 香港-l联通中转
+      - 德国-联通中转
+      - 新加坡 | B | 1.2x | 青铜 | AZ |
+      - 德国-移动中转
+      - 英国-联通中转
+      - 英国-移动中转
       - 新加坡➤高速➤x1_10
       - SG_266
-      - 印度➤高速➤x1_8
+      - hk
       - 台湾-784_7KB/s(Youtube:不良林)_5
+      - 印度➤高速➤x1_8
+      - 德国 | 體驗套餐 | A | 10x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - JP_油管 TG 8度科技
-      - kr_vnklwwv_com_vmess_ws_1
-      - JP_1160
       - 233v2_com_140_238_36_111
-      - 美国洛杉矶➤高速➤x1_13
-      - 韩国➤高速➤x1_14
-      - Relay_🇨🇳CN-🇩🇪DE_596
-      - 伦敦➤高速➤x1_6
-      - 德国➤高速➤x1_9
-      - Relay_🇨🇳CN |10.55Mb
-      - 美国_TGatnodesharing_31
-      - US_2777 |73.21Mb
-      - v2ray_1
-      - 香港05➤高速➤x1_4
-      - 香港➤高速➤x1_1
-      - 美国加拿大➤高速➤x1_12
-      - NL_774_ 3.85Mb
-      - US_油管 TG 8度科技 5
-      - US_油管 TG 8度科技
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - JP_208
-      - hk
+      - 香港-移动中转
+      - 新加坡-联通中转
+      - 日本-移动中转
+      - 新加坡- 移动中转
+      - 日本-联通中转
+      - sl201.jdxx1.com:26386
+      - 韩国-移动中转
+      - "新加坡 | A | 1.2x | 青銅 |\tAZ |"
+      - 韩国-联通中转
+      - 新加坡 | A | 1.2x | 青铜 |  AZ |
+      - 美国-联通中转
+      - 美国-移动中转
+      - 香港-l联通中转
+      - 德国-联通中转
+      - 新加坡 | B | 1.2x | 青铜 | AZ |
+      - 德国-移动中转
+      - 英国-联通中转
+      - 英国-移动中转
       - 新加坡➤高速➤x1_10
       - SG_266
-      - 印度➤高速➤x1_8
+      - hk
       - 台湾-784_7KB/s(Youtube:不良林)_5
+      - 印度➤高速➤x1_8
+      - 德国 | 體驗套餐 | A | 10x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - JP_油管 TG 8度科技
-      - kr_vnklwwv_com_vmess_ws_1
-      - JP_1160
       - 233v2_com_140_238_36_111
-      - 美国洛杉矶➤高速➤x1_13
-      - 韩国➤高速➤x1_14
-      - Relay_🇨🇳CN-🇩🇪DE_596
-      - 伦敦➤高速➤x1_6
-      - 德国➤高速➤x1_9
-      - Relay_🇨🇳CN |10.55Mb
-      - 美国_TGatnodesharing_31
-      - US_2777 |73.21Mb
-      - v2ray_1
-      - 香港05➤高速➤x1_4
-      - 香港➤高速➤x1_1
-      - 美国加拿大➤高速➤x1_12
-      - NL_774_ 3.85Mb
-      - US_油管 TG 8度科技 5
-      - US_油管 TG 8度科技
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JP_208
-      - hk
+      - 香港-移动中转
+      - 新加坡-联通中转
+      - 日本-移动中转
+      - 新加坡- 移动中转
+      - 日本-联通中转
+      - sl201.jdxx1.com:26386
+      - 韩国-移动中转
+      - "新加坡 | A | 1.2x | 青銅 |\tAZ |"
+      - 韩国-联通中转
+      - 新加坡 | A | 1.2x | 青铜 |  AZ |
+      - 美国-联通中转
+      - 美国-移动中转
+      - 香港-l联通中转
+      - 德国-联通中转
+      - 新加坡 | B | 1.2x | 青铜 | AZ |
+      - 德国-移动中转
+      - 英国-联通中转
+      - 英国-移动中转
       - 新加坡➤高速➤x1_10
       - SG_266
-      - 印度➤高速➤x1_8
+      - hk
       - 台湾-784_7KB/s(Youtube:不良林)_5
+      - 印度➤高速➤x1_8
+      - 德国 | 體驗套餐 | A | 10x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - JP_油管 TG 8度科技
-      - kr_vnklwwv_com_vmess_ws_1
-      - JP_1160
       - 233v2_com_140_238_36_111
-      - 美国洛杉矶➤高速➤x1_13
-      - 韩国➤高速➤x1_14
-      - Relay_🇨🇳CN-🇩🇪DE_596
-      - 伦敦➤高速➤x1_6
-      - 德国➤高速➤x1_9
-      - Relay_🇨🇳CN |10.55Mb
-      - 美国_TGatnodesharing_31
-      - US_2777 |73.21Mb
-      - v2ray_1
-      - 香港05➤高速➤x1_4
-      - 香港➤高速➤x1_1
-      - 美国加拿大➤高速➤x1_12
-      - NL_774_ 3.85Mb
-      - US_油管 TG 8度科技 5
-      - US_油管 TG 8度科技
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -280,31 +288,32 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JP_208
-      - hk
+      - 香港-移动中转
+      - 新加坡-联通中转
+      - 日本-移动中转
+      - 新加坡- 移动中转
+      - 日本-联通中转
+      - sl201.jdxx1.com:26386
+      - 韩国-移动中转
+      - "新加坡 | A | 1.2x | 青銅 |\tAZ |"
+      - 韩国-联通中转
+      - 新加坡 | A | 1.2x | 青铜 |  AZ |
+      - 美国-联通中转
+      - 美国-移动中转
+      - 香港-l联通中转
+      - 德国-联通中转
+      - 新加坡 | B | 1.2x | 青铜 | AZ |
+      - 德国-移动中转
+      - 英国-联通中转
+      - 英国-移动中转
       - 新加坡➤高速➤x1_10
       - SG_266
-      - 印度➤高速➤x1_8
+      - hk
       - 台湾-784_7KB/s(Youtube:不良林)_5
+      - 印度➤高速➤x1_8
+      - 德国 | 體驗套餐 | A | 10x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - JP_油管 TG 8度科技
-      - kr_vnklwwv_com_vmess_ws_1
-      - JP_1160
       - 233v2_com_140_238_36_111
-      - 美国洛杉矶➤高速➤x1_13
-      - 韩国➤高速➤x1_14
-      - Relay_🇨🇳CN-🇩🇪DE_596
-      - 伦敦➤高速➤x1_6
-      - 德国➤高速➤x1_9
-      - Relay_🇨🇳CN |10.55Mb
-      - 美国_TGatnodesharing_31
-      - US_2777 |73.21Mb
-      - v2ray_1
-      - 香港05➤高速➤x1_4
-      - 香港➤高速➤x1_1
-      - 美国加拿大➤高速➤x1_12
-      - NL_774_ 3.85Mb
-      - US_油管 TG 8度科技 5
-      - US_油管 TG 8度科技
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
