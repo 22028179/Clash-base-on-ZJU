@@ -5,143 +5,143 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_361, server: flbgpi.yixuedianzishu.com, port: 58514, type: vmess, uuid: b3184351-0436-30bf-abc1-a9b551b1cb99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V01|台湾|中转|流媒体|01, server: 116.163.31.59, port: 47033, type: vmess, uuid: a650656a-2e7d-3d88-8f88-d6a96a985886, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: n28.boom.party:13000, server: n28.boom.party, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 166268:I4o21k, obfs-param: www.baidu.com, udp: true}
-  - {name: 308更新_CN_中国_38, server: gzyd1.noded.one, port: 19500, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gzyd1.noded.one}, udp: true}
-  - {name: V0|新加坡|负载|01, server: 116.163.31.59, port: 47003, type: vmess, uuid: a650656a-2e7d-3d88-8f88-d6a96a985886, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: V01|新加坡|中转|02, server: 116.163.31.59, port: 47006, type: vmess, uuid: a650656a-2e7d-3d88-8f88-d6a96a985886, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 动态BGP+IPLC_香港01(原生)_3x_6, server: flbgpi.yixuedianzishu.com, port: 58501, type: vmess, uuid: b3184351-0436-30bf-abc1-a9b551b1cb99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V01|台湾|中转|流媒体|03, server: 116.163.31.59, port: 47042, type: vmess, uuid: a650656a-2e7d-3d88-8f88-d6a96a985886, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 动态BGP+IPLC_香港04(原生)_3x_9, server: flbgpi.yixuedianzishu.com, port: 58504, type: vmess, uuid: b3184351-0436-30bf-abc1-a9b551b1cb99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V01|新加坡|中转|01, server: 116.163.31.59, port: 47018, type: vmess, uuid: a650656a-2e7d-3d88-8f88-d6a96a985886, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: n54.boom.party:14000, server: n54.boom.party, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 166268:I4o21k, obfs-param: www.baidu.com, udp: true}
-  - {name: 动态BGP+IPLC_香港03_3x_3, server: flbgpi.yixuedianzishu.com, port: 58513, type: vmess, uuid: b3184351-0436-30bf-abc1-a9b551b1cb99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_349, server: flbgpi.yixuedianzishu.com, port: 58505, type: vmess, uuid: b3184351-0436-30bf-abc1-a9b551b1cb99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_356, server: flbgpi.yixuedianzishu.com, port: 58504, type: vmess, uuid: b3184351-0436-30bf-abc1-a9b551b1cb99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: n21.boom.party:15000, server: n21.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 166268:I4o21k, obfs-param: www.baidu.com, udp: true}
-  - {name: 动态BGP+IPLC_香港04_3x_4, server: flbgpi.yixuedianzishu.com, port: 58514, type: vmess, uuid: b3184351-0436-30bf-abc1-a9b551b1cb99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_396 | 3.71Mb, server: 117.28.243.173, port: 2173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 动态BGP+IPLC_香港05_3x_5, server: flbgpi.yixuedianzishu.com, port: 58515, type: vmess, uuid: b3184351-0436-30bf-abc1-a9b551b1cb99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: n32.boom.party:16000, server: n32.boom.party, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 166268:I4o21k, obfs-param: www.baidu.com, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_256, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: 魔戒.net-28, server: 183.232.56.161, port: 1202, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%22183.232.56.161%22%7D"}, udp: true}
-  - {name: 动态BGP+IPLC_香港05(原生)_3x_10, server: flbgpi.yixuedianzishu.com, port: 58505, type: vmess, uuid: b3184351-0436-30bf-abc1-a9b551b1cb99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_362, server: flbgpi.yixuedianzishu.com, port: 58512, type: vmess, uuid: b3184351-0436-30bf-abc1-a9b551b1cb99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾➤原生ip解锁Netflix动漫等流媒体➤x1_6, server: 1.v2yun.vip, port: 8080, type: vmess, uuid: e2eac26e-b18e-327e-b8cb-526c00d72980, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 1.v2yun.vip}, udp: true}
-  - {name: Relay_🇨🇳CN-🇵🇭PH_346_62.62Mb, server: gz1.52168.xyz, port: 1101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_360, server: flbgpi.yixuedianzishu.com, port: 58503, type: vmess, uuid: b3184351-0436-30bf-abc1-a9b551b1cb99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 澳洲-阿阳AYANG-科技大师*分享, server: ls.yunsu.ke666.net, port: 34025, type: vmess, uuid: 7a875411-5911-4752-b129-e89722f0e740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yunsunode, ws-headers: {Host: ls.yunsu.ke666.net}, udp: true}
-  - {name: 动态BGP+IPLC_香港02_3x_2, server: flbgpi.yixuedianzishu.com, port: 58512, type: vmess, uuid: b3184351-0436-30bf-abc1-a9b551b1cb99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66_com玉豆分享)_142, server: flbgpi.yixuedianzishu.com, port: 58513, type: vmess, uuid: b3184351-0436-30bf-abc1-a9b551b1cb99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_358, server: flbgpi.yixuedianzishu.com, port: 58502, type: vmess, uuid: b3184351-0436-30bf-abc1-a9b551b1cb99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本 11丨2x JP, server: asusjobhr.0064.shuyue521.com, port: 13019, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
+  - {name: 日本 12丨1x JP, server: asusjobhr.0064.shuyue521.com, port: 13022, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
+  - {name: 日本 15丨3x JP, server: asusjobhr.0064.shuyue521.com, port: 13026, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
+  - {name: 日本 13丨1x JP, server: asusjobhr.0064.shuyue521.com, port: 13021, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
+  - {name: shonlinecu.proconcn.xyz:561, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: 香港 06丨1x HK, server: activity.huawei.daanyht.com, port: 12027, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
+  - {name: shonlinecu.proconcn.xyz:562, server: shonlinecu.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: cncusouth.procncon.xyz:561, server: cncusouth.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: shonlinesandcu02.proconcn.xyz:560, server: shonlinesandcu02.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: 香港 04丨1x HK, server: activity.huawei.daanyht.com, port: 12025, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
+  - {name: 日本 17丨3x JP, server: asusjobhr.0064.shuyue521.com, port: 13020, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
+  - {name: shcris02stand.proconcn.xyz:560, server: shcris02stand.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: 香港 05丨1x HK, server: activity.huawei.daanyht.com, port: 12026, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
+  - {name: cusouthcmhk.procncon.xyz:561, server: cusouthcmhk.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: cncusouth.procncon.xyz:560, server: cncusouth.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: shonlinesandcu02.proconcn.xyz:561, server: shonlinesandcu02.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: 香港 09丨1x HK, server: activity.huawei.daanyht.com, port: 12030, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
+  - {name: 香港 03丨1x HK, server: activity.huawei.daanyht.com, port: 12024, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
+  - {name: 香港 02丨1x HK, server: activity.huawei.daanyht.com, port: 12023, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
+  - {name: 香港 07丨1x HK, server: activity.huawei.daanyht.com, port: 12028, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
+  - {name: Pool_🇭🇰 HK_981, server: 119.42.147.76, port: 5656, type: vmess, uuid: adf29de4-f6a5-4e77-a172-2f58507425b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_695, server: 119.42.147.76, port: 5656, type: vmess, uuid: adf29de4-f6a5-4e77-a172-2f58507425b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: cstwrelay.onlineto.xyz:560, server: cstwrelay.onlineto.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: 香港 08丨1x HK, server: activity.huawei.daanyht.com, port: 12029, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
+  - {name: cncusouth.procncon.xyz:562, server: cncusouth.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: shallaz2.proconcn.xyz:566, server: shallaz2.proconcn.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: 柬埔寨丨3x KH, server: activity.huawei.daanyht.com, port: 12701, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
+  - {name: 新加坡 01丨1x SG, server: activity.huawei.daanyht.com, port: 12000, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
+  - {name: 新加坡 02丨1x SG, server: activity.huawei.daanyht.com, port: 12001, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
+  - {name: 韩国 01丨3x KR, server: asusjobhr.0064.shuyue521.com, port: 12317, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳 CN-🇭🇰HK_361
-      - V01|台湾|中转|流媒体|01
-      - n28.boom.party:13000
-      - 308更新_CN_中国_38
-      - V0|新加坡|负载|01
-      - V01|新加坡|中转|02
-      - 动态BGP+IPLC_香港01(原生)_3x_6
-      - V01|台湾|中转|流媒体|03
-      - 动态BGP+IPLC_香港04(原生)_3x_9
-      - V01|新加坡|中转|01
-      - n54.boom.party:14000
-      - 动态BGP+IPLC_香港03_3x_3
-      - Relay_🇨🇳 CN-🇭🇰HK_349
-      - Relay_🇨🇳 CN-🇭🇰HK_356
-      - n21.boom.party:15000
-      - 动态BGP+IPLC_香港04_3x_4
-      - CN_396 | 3.71Mb
-      - 动态BGP+IPLC_香港05_3x_5
-      - n32.boom.party:16000
-      - ♥️♥️YouTube梦歌♥️♥️_256
-      - 魔戒.net-28
-      - 动态BGP+IPLC_香港05(原生)_3x_10
-      - Relay_🇨🇳 CN-🇭🇰HK_362
-      - 台湾➤原生ip解锁Netflix动漫等流媒体➤x1_6
-      - Relay_🇨🇳CN-🇵🇭PH_346_62.62Mb
-      - Relay_🇨🇳 CN-🇭🇰HK_360
-      - 澳洲-阿阳AYANG-科技大师*分享
-      - 动态BGP+IPLC_香港02_3x_2
-      - 美国(yudou66_com玉豆分享)_142
-      - Relay_🇨🇳 CN-🇭🇰HK_358
+      - 日本 11丨2x JP
+      - 日本 12丨1x JP
+      - 日本 15丨3x JP
+      - 日本 13丨1x JP
+      - shonlinecu.proconcn.xyz:561
+      - 香港 06丨1x HK
+      - shonlinecu.proconcn.xyz:562
+      - cncusouth.procncon.xyz:561
+      - shonlinesandcu02.proconcn.xyz:560
+      - 香港 04丨1x HK
+      - 日本 17丨3x JP
+      - shcris02stand.proconcn.xyz:560
+      - 香港 05丨1x HK
+      - cusouthcmhk.procncon.xyz:561
+      - cncusouth.procncon.xyz:560
+      - shonlinesandcu02.proconcn.xyz:561
+      - 香港 09丨1x HK
+      - 香港 03丨1x HK
+      - 香港 02丨1x HK
+      - 香港 07丨1x HK
+      - Pool_🇭🇰 HK_981
+      - HK_695
+      - cstwrelay.onlineto.xyz:560
+      - 香港 08丨1x HK
+      - cncusouth.procncon.xyz:562
+      - shallaz2.proconcn.xyz:566
+      - 柬埔寨丨3x KH
+      - 新加坡 01丨1x SG
+      - 新加坡 02丨1x SG
+      - 韩国 01丨3x KR
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇨🇳 CN-🇭🇰HK_361
-      - V01|台湾|中转|流媒体|01
-      - n28.boom.party:13000
-      - 308更新_CN_中国_38
-      - V0|新加坡|负载|01
-      - V01|新加坡|中转|02
-      - 动态BGP+IPLC_香港01(原生)_3x_6
-      - V01|台湾|中转|流媒体|03
-      - 动态BGP+IPLC_香港04(原生)_3x_9
-      - V01|新加坡|中转|01
-      - n54.boom.party:14000
-      - 动态BGP+IPLC_香港03_3x_3
-      - Relay_🇨🇳 CN-🇭🇰HK_349
-      - Relay_🇨🇳 CN-🇭🇰HK_356
-      - n21.boom.party:15000
-      - 动态BGP+IPLC_香港04_3x_4
-      - CN_396 | 3.71Mb
-      - 动态BGP+IPLC_香港05_3x_5
-      - n32.boom.party:16000
-      - ♥️♥️YouTube梦歌♥️♥️_256
-      - 魔戒.net-28
-      - 动态BGP+IPLC_香港05(原生)_3x_10
-      - Relay_🇨🇳 CN-🇭🇰HK_362
-      - 台湾➤原生ip解锁Netflix动漫等流媒体➤x1_6
-      - Relay_🇨🇳CN-🇵🇭PH_346_62.62Mb
-      - Relay_🇨🇳 CN-🇭🇰HK_360
-      - 澳洲-阿阳AYANG-科技大师*分享
-      - 动态BGP+IPLC_香港02_3x_2
-      - 美国(yudou66_com玉豆分享)_142
-      - Relay_🇨🇳 CN-🇭🇰HK_358
+      - 日本 11丨2x JP
+      - 日本 12丨1x JP
+      - 日本 15丨3x JP
+      - 日本 13丨1x JP
+      - shonlinecu.proconcn.xyz:561
+      - 香港 06丨1x HK
+      - shonlinecu.proconcn.xyz:562
+      - cncusouth.procncon.xyz:561
+      - shonlinesandcu02.proconcn.xyz:560
+      - 香港 04丨1x HK
+      - 日本 17丨3x JP
+      - shcris02stand.proconcn.xyz:560
+      - 香港 05丨1x HK
+      - cusouthcmhk.procncon.xyz:561
+      - cncusouth.procncon.xyz:560
+      - shonlinesandcu02.proconcn.xyz:561
+      - 香港 09丨1x HK
+      - 香港 03丨1x HK
+      - 香港 02丨1x HK
+      - 香港 07丨1x HK
+      - Pool_🇭🇰 HK_981
+      - HK_695
+      - cstwrelay.onlineto.xyz:560
+      - 香港 08丨1x HK
+      - cncusouth.procncon.xyz:562
+      - shallaz2.proconcn.xyz:566
+      - 柬埔寨丨3x KH
+      - 新加坡 01丨1x SG
+      - 新加坡 02丨1x SG
+      - 韩国 01丨3x KR
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳 CN-🇭🇰HK_361
-      - V01|台湾|中转|流媒体|01
-      - n28.boom.party:13000
-      - 308更新_CN_中国_38
-      - V0|新加坡|负载|01
-      - V01|新加坡|中转|02
-      - 动态BGP+IPLC_香港01(原生)_3x_6
-      - V01|台湾|中转|流媒体|03
-      - 动态BGP+IPLC_香港04(原生)_3x_9
-      - V01|新加坡|中转|01
-      - n54.boom.party:14000
-      - 动态BGP+IPLC_香港03_3x_3
-      - Relay_🇨🇳 CN-🇭🇰HK_349
-      - Relay_🇨🇳 CN-🇭🇰HK_356
-      - n21.boom.party:15000
-      - 动态BGP+IPLC_香港04_3x_4
-      - CN_396 | 3.71Mb
-      - 动态BGP+IPLC_香港05_3x_5
-      - n32.boom.party:16000
-      - ♥️♥️YouTube梦歌♥️♥️_256
-      - 魔戒.net-28
-      - 动态BGP+IPLC_香港05(原生)_3x_10
-      - Relay_🇨🇳 CN-🇭🇰HK_362
-      - 台湾➤原生ip解锁Netflix动漫等流媒体➤x1_6
-      - Relay_🇨🇳CN-🇵🇭PH_346_62.62Mb
-      - Relay_🇨🇳 CN-🇭🇰HK_360
-      - 澳洲-阿阳AYANG-科技大师*分享
-      - 动态BGP+IPLC_香港02_3x_2
-      - 美国(yudou66_com玉豆分享)_142
-      - Relay_🇨🇳 CN-🇭🇰HK_358
+      - 日本 11丨2x JP
+      - 日本 12丨1x JP
+      - 日本 15丨3x JP
+      - 日本 13丨1x JP
+      - shonlinecu.proconcn.xyz:561
+      - 香港 06丨1x HK
+      - shonlinecu.proconcn.xyz:562
+      - cncusouth.procncon.xyz:561
+      - shonlinesandcu02.proconcn.xyz:560
+      - 香港 04丨1x HK
+      - 日本 17丨3x JP
+      - shcris02stand.proconcn.xyz:560
+      - 香港 05丨1x HK
+      - cusouthcmhk.procncon.xyz:561
+      - cncusouth.procncon.xyz:560
+      - shonlinesandcu02.proconcn.xyz:561
+      - 香港 09丨1x HK
+      - 香港 03丨1x HK
+      - 香港 02丨1x HK
+      - 香港 07丨1x HK
+      - Pool_🇭🇰 HK_981
+      - HK_695
+      - cstwrelay.onlineto.xyz:560
+      - 香港 08丨1x HK
+      - cncusouth.procncon.xyz:562
+      - shallaz2.proconcn.xyz:566
+      - 柬埔寨丨3x KH
+      - 新加坡 01丨1x SG
+      - 新加坡 02丨1x SG
+      - 韩国 01丨3x KR
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -160,157 +160,157 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳 CN-🇭🇰HK_361
-      - V01|台湾|中转|流媒体|01
-      - n28.boom.party:13000
-      - 308更新_CN_中国_38
-      - V0|新加坡|负载|01
-      - V01|新加坡|中转|02
-      - 动态BGP+IPLC_香港01(原生)_3x_6
-      - V01|台湾|中转|流媒体|03
-      - 动态BGP+IPLC_香港04(原生)_3x_9
-      - V01|新加坡|中转|01
-      - n54.boom.party:14000
-      - 动态BGP+IPLC_香港03_3x_3
-      - Relay_🇨🇳 CN-🇭🇰HK_349
-      - Relay_🇨🇳 CN-🇭🇰HK_356
-      - n21.boom.party:15000
-      - 动态BGP+IPLC_香港04_3x_4
-      - CN_396 | 3.71Mb
-      - 动态BGP+IPLC_香港05_3x_5
-      - n32.boom.party:16000
-      - ♥️♥️YouTube梦歌♥️♥️_256
-      - 魔戒.net-28
-      - 动态BGP+IPLC_香港05(原生)_3x_10
-      - Relay_🇨🇳 CN-🇭🇰HK_362
-      - 台湾➤原生ip解锁Netflix动漫等流媒体➤x1_6
-      - Relay_🇨🇳CN-🇵🇭PH_346_62.62Mb
-      - Relay_🇨🇳 CN-🇭🇰HK_360
-      - 澳洲-阿阳AYANG-科技大师*分享
-      - 动态BGP+IPLC_香港02_3x_2
-      - 美国(yudou66_com玉豆分享)_142
-      - Relay_🇨🇳 CN-🇭🇰HK_358
+      - 日本 11丨2x JP
+      - 日本 12丨1x JP
+      - 日本 15丨3x JP
+      - 日本 13丨1x JP
+      - shonlinecu.proconcn.xyz:561
+      - 香港 06丨1x HK
+      - shonlinecu.proconcn.xyz:562
+      - cncusouth.procncon.xyz:561
+      - shonlinesandcu02.proconcn.xyz:560
+      - 香港 04丨1x HK
+      - 日本 17丨3x JP
+      - shcris02stand.proconcn.xyz:560
+      - 香港 05丨1x HK
+      - cusouthcmhk.procncon.xyz:561
+      - cncusouth.procncon.xyz:560
+      - shonlinesandcu02.proconcn.xyz:561
+      - 香港 09丨1x HK
+      - 香港 03丨1x HK
+      - 香港 02丨1x HK
+      - 香港 07丨1x HK
+      - Pool_🇭🇰 HK_981
+      - HK_695
+      - cstwrelay.onlineto.xyz:560
+      - 香港 08丨1x HK
+      - cncusouth.procncon.xyz:562
+      - shallaz2.proconcn.xyz:566
+      - 柬埔寨丨3x KH
+      - 新加坡 01丨1x SG
+      - 新加坡 02丨1x SG
+      - 韩国 01丨3x KR
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - V01|台湾|中转|流媒体|01
-      - 动态BGP+IPLC_香港01(原生)_3x_6
-      - V01|台湾|中转|流媒体|03
-      - 动态BGP+IPLC_香港04(原生)_3x_9
-      - 动态BGP+IPLC_香港03_3x_3
-      - 动态BGP+IPLC_香港04_3x_4
-      - 动态BGP+IPLC_香港05_3x_5
-      - 动态BGP+IPLC_香港05(原生)_3x_10
-      - 台湾➤原生ip解锁Netflix动漫等流媒体➤x1_6
-      - 动态BGP+IPLC_香港02_3x_2
+      - 香港 06丨1x HK
+      - 香港 04丨1x HK
+      - 香港 05丨1x HK
+      - cusouthcmhk.procncon.xyz:561
+      - 香港 09丨1x HK
+      - 香港 03丨1x HK
+      - 香港 02丨1x HK
+      - 香港 07丨1x HK
+      - cstwrelay.onlineto.xyz:560
+      - 香港 08丨1x HK
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳 CN-🇭🇰HK_361
-      - V01|台湾|中转|流媒体|01
-      - n28.boom.party:13000
-      - 308更新_CN_中国_38
-      - V0|新加坡|负载|01
-      - V01|新加坡|中转|02
-      - 动态BGP+IPLC_香港01(原生)_3x_6
-      - V01|台湾|中转|流媒体|03
-      - 动态BGP+IPLC_香港04(原生)_3x_9
-      - V01|新加坡|中转|01
-      - n54.boom.party:14000
-      - 动态BGP+IPLC_香港03_3x_3
-      - Relay_🇨🇳 CN-🇭🇰HK_349
-      - Relay_🇨🇳 CN-🇭🇰HK_356
-      - n21.boom.party:15000
-      - 动态BGP+IPLC_香港04_3x_4
-      - CN_396 | 3.71Mb
-      - 动态BGP+IPLC_香港05_3x_5
-      - n32.boom.party:16000
-      - ♥️♥️YouTube梦歌♥️♥️_256
-      - 魔戒.net-28
-      - 动态BGP+IPLC_香港05(原生)_3x_10
-      - Relay_🇨🇳 CN-🇭🇰HK_362
-      - 台湾➤原生ip解锁Netflix动漫等流媒体➤x1_6
-      - Relay_🇨🇳CN-🇵🇭PH_346_62.62Mb
-      - Relay_🇨🇳 CN-🇭🇰HK_360
-      - 澳洲-阿阳AYANG-科技大师*分享
-      - 动态BGP+IPLC_香港02_3x_2
-      - 美国(yudou66_com玉豆分享)_142
-      - Relay_🇨🇳 CN-🇭🇰HK_358
+      - 日本 11丨2x JP
+      - 日本 12丨1x JP
+      - 日本 15丨3x JP
+      - 日本 13丨1x JP
+      - shonlinecu.proconcn.xyz:561
+      - 香港 06丨1x HK
+      - shonlinecu.proconcn.xyz:562
+      - cncusouth.procncon.xyz:561
+      - shonlinesandcu02.proconcn.xyz:560
+      - 香港 04丨1x HK
+      - 日本 17丨3x JP
+      - shcris02stand.proconcn.xyz:560
+      - 香港 05丨1x HK
+      - cusouthcmhk.procncon.xyz:561
+      - cncusouth.procncon.xyz:560
+      - shonlinesandcu02.proconcn.xyz:561
+      - 香港 09丨1x HK
+      - 香港 03丨1x HK
+      - 香港 02丨1x HK
+      - 香港 07丨1x HK
+      - Pool_🇭🇰 HK_981
+      - HK_695
+      - cstwrelay.onlineto.xyz:560
+      - 香港 08丨1x HK
+      - cncusouth.procncon.xyz:562
+      - shallaz2.proconcn.xyz:566
+      - 柬埔寨丨3x KH
+      - 新加坡 01丨1x SG
+      - 新加坡 02丨1x SG
+      - 韩国 01丨3x KR
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳 CN-🇭🇰HK_361
-      - V01|台湾|中转|流媒体|01
-      - n28.boom.party:13000
-      - 308更新_CN_中国_38
-      - V0|新加坡|负载|01
-      - V01|新加坡|中转|02
-      - 动态BGP+IPLC_香港01(原生)_3x_6
-      - V01|台湾|中转|流媒体|03
-      - 动态BGP+IPLC_香港04(原生)_3x_9
-      - V01|新加坡|中转|01
-      - n54.boom.party:14000
-      - 动态BGP+IPLC_香港03_3x_3
-      - Relay_🇨🇳 CN-🇭🇰HK_349
-      - Relay_🇨🇳 CN-🇭🇰HK_356
-      - n21.boom.party:15000
-      - 动态BGP+IPLC_香港04_3x_4
-      - CN_396 | 3.71Mb
-      - 动态BGP+IPLC_香港05_3x_5
-      - n32.boom.party:16000
-      - ♥️♥️YouTube梦歌♥️♥️_256
-      - 魔戒.net-28
-      - 动态BGP+IPLC_香港05(原生)_3x_10
-      - Relay_🇨🇳 CN-🇭🇰HK_362
-      - 台湾➤原生ip解锁Netflix动漫等流媒体➤x1_6
-      - Relay_🇨🇳CN-🇵🇭PH_346_62.62Mb
-      - Relay_🇨🇳 CN-🇭🇰HK_360
-      - 澳洲-阿阳AYANG-科技大师*分享
-      - 动态BGP+IPLC_香港02_3x_2
-      - 美国(yudou66_com玉豆分享)_142
-      - Relay_🇨🇳 CN-🇭🇰HK_358
+      - 日本 11丨2x JP
+      - 日本 12丨1x JP
+      - 日本 15丨3x JP
+      - 日本 13丨1x JP
+      - shonlinecu.proconcn.xyz:561
+      - 香港 06丨1x HK
+      - shonlinecu.proconcn.xyz:562
+      - cncusouth.procncon.xyz:561
+      - shonlinesandcu02.proconcn.xyz:560
+      - 香港 04丨1x HK
+      - 日本 17丨3x JP
+      - shcris02stand.proconcn.xyz:560
+      - 香港 05丨1x HK
+      - cusouthcmhk.procncon.xyz:561
+      - cncusouth.procncon.xyz:560
+      - shonlinesandcu02.proconcn.xyz:561
+      - 香港 09丨1x HK
+      - 香港 03丨1x HK
+      - 香港 02丨1x HK
+      - 香港 07丨1x HK
+      - Pool_🇭🇰 HK_981
+      - HK_695
+      - cstwrelay.onlineto.xyz:560
+      - 香港 08丨1x HK
+      - cncusouth.procncon.xyz:562
+      - shallaz2.proconcn.xyz:566
+      - 柬埔寨丨3x KH
+      - 新加坡 01丨1x SG
+      - 新加坡 02丨1x SG
+      - 韩国 01丨3x KR
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳 CN-🇭🇰HK_361
-      - V01|台湾|中转|流媒体|01
-      - n28.boom.party:13000
-      - 308更新_CN_中国_38
-      - V0|新加坡|负载|01
-      - V01|新加坡|中转|02
-      - 动态BGP+IPLC_香港01(原生)_3x_6
-      - V01|台湾|中转|流媒体|03
-      - 动态BGP+IPLC_香港04(原生)_3x_9
-      - V01|新加坡|中转|01
-      - n54.boom.party:14000
-      - 动态BGP+IPLC_香港03_3x_3
-      - Relay_🇨🇳 CN-🇭🇰HK_349
-      - Relay_🇨🇳 CN-🇭🇰HK_356
-      - n21.boom.party:15000
-      - 动态BGP+IPLC_香港04_3x_4
-      - CN_396 | 3.71Mb
-      - 动态BGP+IPLC_香港05_3x_5
-      - n32.boom.party:16000
-      - ♥️♥️YouTube梦歌♥️♥️_256
-      - 魔戒.net-28
-      - 动态BGP+IPLC_香港05(原生)_3x_10
-      - Relay_🇨🇳 CN-🇭🇰HK_362
-      - 台湾➤原生ip解锁Netflix动漫等流媒体➤x1_6
-      - Relay_🇨🇳CN-🇵🇭PH_346_62.62Mb
-      - Relay_🇨🇳 CN-🇭🇰HK_360
-      - 澳洲-阿阳AYANG-科技大师*分享
-      - 动态BGP+IPLC_香港02_3x_2
-      - 美国(yudou66_com玉豆分享)_142
-      - Relay_🇨🇳 CN-🇭🇰HK_358
+      - 日本 11丨2x JP
+      - 日本 12丨1x JP
+      - 日本 15丨3x JP
+      - 日本 13丨1x JP
+      - shonlinecu.proconcn.xyz:561
+      - 香港 06丨1x HK
+      - shonlinecu.proconcn.xyz:562
+      - cncusouth.procncon.xyz:561
+      - shonlinesandcu02.proconcn.xyz:560
+      - 香港 04丨1x HK
+      - 日本 17丨3x JP
+      - shcris02stand.proconcn.xyz:560
+      - 香港 05丨1x HK
+      - cusouthcmhk.procncon.xyz:561
+      - cncusouth.procncon.xyz:560
+      - shonlinesandcu02.proconcn.xyz:561
+      - 香港 09丨1x HK
+      - 香港 03丨1x HK
+      - 香港 02丨1x HK
+      - 香港 07丨1x HK
+      - Pool_🇭🇰 HK_981
+      - HK_695
+      - cstwrelay.onlineto.xyz:560
+      - 香港 08丨1x HK
+      - cncusouth.procncon.xyz:562
+      - shallaz2.proconcn.xyz:566
+      - 柬埔寨丨3x KH
+      - 新加坡 01丨1x SG
+      - 新加坡 02丨1x SG
+      - 韩国 01丨3x KR
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -326,36 +326,36 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳 CN-🇭🇰HK_361
-      - V01|台湾|中转|流媒体|01
-      - n28.boom.party:13000
-      - 308更新_CN_中国_38
-      - V0|新加坡|负载|01
-      - V01|新加坡|中转|02
-      - 动态BGP+IPLC_香港01(原生)_3x_6
-      - V01|台湾|中转|流媒体|03
-      - 动态BGP+IPLC_香港04(原生)_3x_9
-      - V01|新加坡|中转|01
-      - n54.boom.party:14000
-      - 动态BGP+IPLC_香港03_3x_3
-      - Relay_🇨🇳 CN-🇭🇰HK_349
-      - Relay_🇨🇳 CN-🇭🇰HK_356
-      - n21.boom.party:15000
-      - 动态BGP+IPLC_香港04_3x_4
-      - CN_396 | 3.71Mb
-      - 动态BGP+IPLC_香港05_3x_5
-      - n32.boom.party:16000
-      - ♥️♥️YouTube梦歌♥️♥️_256
-      - 魔戒.net-28
-      - 动态BGP+IPLC_香港05(原生)_3x_10
-      - Relay_🇨🇳 CN-🇭🇰HK_362
-      - 台湾➤原生ip解锁Netflix动漫等流媒体➤x1_6
-      - Relay_🇨🇳CN-🇵🇭PH_346_62.62Mb
-      - Relay_🇨🇳 CN-🇭🇰HK_360
-      - 澳洲-阿阳AYANG-科技大师*分享
-      - 动态BGP+IPLC_香港02_3x_2
-      - 美国(yudou66_com玉豆分享)_142
-      - Relay_🇨🇳 CN-🇭🇰HK_358
+      - 日本 11丨2x JP
+      - 日本 12丨1x JP
+      - 日本 15丨3x JP
+      - 日本 13丨1x JP
+      - shonlinecu.proconcn.xyz:561
+      - 香港 06丨1x HK
+      - shonlinecu.proconcn.xyz:562
+      - cncusouth.procncon.xyz:561
+      - shonlinesandcu02.proconcn.xyz:560
+      - 香港 04丨1x HK
+      - 日本 17丨3x JP
+      - shcris02stand.proconcn.xyz:560
+      - 香港 05丨1x HK
+      - cusouthcmhk.procncon.xyz:561
+      - cncusouth.procncon.xyz:560
+      - shonlinesandcu02.proconcn.xyz:561
+      - 香港 09丨1x HK
+      - 香港 03丨1x HK
+      - 香港 02丨1x HK
+      - 香港 07丨1x HK
+      - Pool_🇭🇰 HK_981
+      - HK_695
+      - cstwrelay.onlineto.xyz:560
+      - 香港 08丨1x HK
+      - cncusouth.procncon.xyz:562
+      - shallaz2.proconcn.xyz:566
+      - 柬埔寨丨3x KH
+      - 新加坡 01丨1x SG
+      - 新加坡 02丨1x SG
+      - 韩国 01丨3x KR
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
