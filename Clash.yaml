@@ -5,143 +5,143 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 日本 11丨2x JP, server: asusjobhr.0064.shuyue521.com, port: 13019, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
-  - {name: 日本 12丨1x JP, server: asusjobhr.0064.shuyue521.com, port: 13022, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
-  - {name: 日本 15丨3x JP, server: asusjobhr.0064.shuyue521.com, port: 13026, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
-  - {name: 日本 13丨1x JP, server: asusjobhr.0064.shuyue521.com, port: 13021, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
   - {name: shonlinecu.proconcn.xyz:561, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: 香港 06丨1x HK, server: activity.huawei.daanyht.com, port: 12027, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
   - {name: shonlinecu.proconcn.xyz:562, server: shonlinecu.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
   - {name: cncusouth.procncon.xyz:561, server: cncusouth.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
   - {name: shonlinesandcu02.proconcn.xyz:560, server: shonlinesandcu02.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: 香港 04丨1x HK, server: activity.huawei.daanyht.com, port: 12025, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
-  - {name: 日本 17丨3x JP, server: asusjobhr.0064.shuyue521.com, port: 13020, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
   - {name: shcris02stand.proconcn.xyz:560, server: shcris02stand.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: 香港 05丨1x HK, server: activity.huawei.daanyht.com, port: 12026, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
   - {name: cusouthcmhk.procncon.xyz:561, server: cusouthcmhk.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
   - {name: cncusouth.procncon.xyz:560, server: cncusouth.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
   - {name: shonlinesandcu02.proconcn.xyz:561, server: shonlinesandcu02.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: 香港 09丨1x HK, server: activity.huawei.daanyht.com, port: 12030, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
-  - {name: 香港 03丨1x HK, server: activity.huawei.daanyht.com, port: 12024, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
-  - {name: 香港 02丨1x HK, server: activity.huawei.daanyht.com, port: 12023, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
-  - {name: 香港 07丨1x HK, server: activity.huawei.daanyht.com, port: 12028, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
   - {name: Pool_🇭🇰 HK_981, server: 119.42.147.76, port: 5656, type: vmess, uuid: adf29de4-f6a5-4e77-a172-2f58507425b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: HK_695, server: 119.42.147.76, port: 5656, type: vmess, uuid: adf29de4-f6a5-4e77-a172-2f58507425b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: cstwrelay.onlineto.xyz:560, server: cstwrelay.onlineto.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: 香港 08丨1x HK, server: activity.huawei.daanyht.com, port: 12029, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
   - {name: cncusouth.procncon.xyz:562, server: cncusouth.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
   - {name: shallaz2.proconcn.xyz:566, server: shallaz2.proconcn.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: 柬埔寨丨3x KH, server: activity.huawei.daanyht.com, port: 12701, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
-  - {name: 新加坡 01丨1x SG, server: activity.huawei.daanyht.com, port: 12000, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
-  - {name: 新加坡 02丨1x SG, server: activity.huawei.daanyht.com, port: 12001, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
-  - {name: 韩国 01丨3x KR, server: asusjobhr.0064.shuyue521.com, port: 12317, type: ss, cipher: aes-128-gcm, password: dd8fd801-7dea-4b31-829d-82d143001a75, udp: true}
+  - {name: cusouthcmhk.procncon.xyz:560, server: cusouthcmhk.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: shallaz2.proconcn.xyz:565, server: shallaz2.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: cstwrelay.onlineto.xyz:563, server: cstwrelay.onlineto.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: shallaz.proconcn.xyz:565, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: 香港_TG@nodesharing_16, server: 119.42.147.76, port: 5656, type: vmess, uuid: adf29de4-f6a5-4e77-a172-2f58507425b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: F酸酸乳_183_236_60_181, server: cncusouth.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52937:zzzzzz.me, obfs-param: "", udp: true}
+  - {name: cstwrelay.onlineto.xyz:564, server: cstwrelay.onlineto.xyz, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: csdynhkt.proconcn.xyz:560, server: csdynhkt.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: cstwrelay.onlineto.xyz:562, server: cstwrelay.onlineto.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: CN_39 TG@peekfun, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 117.28.242.156}, udp: true}
+  - {name: shallaz2.proconcn.xyz:560, server: shallaz2.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: cstwrelay.onlineto.xyz:566, server: cstwrelay.onlineto.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: shallaz2.proconcn.xyz:561, server: shallaz2.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: shallaz.proconcn.xyz:560, server: shallaz.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: csdynhkt.proconcn.xyz:562, server: csdynhkt.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: shcris03.proconcn.xyz:568, server: shcris03.proconcn.xyz, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: 热播频道t_me/TBBRB_5, server: 120.233.7.78, port: 50111, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 294269:SoPIbjQmGC, obfs-param: "", udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本 11丨2x JP
-      - 日本 12丨1x JP
-      - 日本 15丨3x JP
-      - 日本 13丨1x JP
       - shonlinecu.proconcn.xyz:561
-      - 香港 06丨1x HK
       - shonlinecu.proconcn.xyz:562
       - cncusouth.procncon.xyz:561
       - shonlinesandcu02.proconcn.xyz:560
-      - 香港 04丨1x HK
-      - 日本 17丨3x JP
       - shcris02stand.proconcn.xyz:560
-      - 香港 05丨1x HK
       - cusouthcmhk.procncon.xyz:561
       - cncusouth.procncon.xyz:560
       - shonlinesandcu02.proconcn.xyz:561
-      - 香港 09丨1x HK
-      - 香港 03丨1x HK
-      - 香港 02丨1x HK
-      - 香港 07丨1x HK
       - Pool_🇭🇰 HK_981
       - HK_695
       - cstwrelay.onlineto.xyz:560
-      - 香港 08丨1x HK
       - cncusouth.procncon.xyz:562
       - shallaz2.proconcn.xyz:566
-      - 柬埔寨丨3x KH
-      - 新加坡 01丨1x SG
-      - 新加坡 02丨1x SG
-      - 韩国 01丨3x KR
+      - cusouthcmhk.procncon.xyz:560
+      - shallaz2.proconcn.xyz:565
+      - cstwrelay.onlineto.xyz:563
+      - shallaz.proconcn.xyz:565
+      - 香港_TG@nodesharing_16
+      - F酸酸乳_183_236_60_181
+      - cstwrelay.onlineto.xyz:564
+      - csdynhkt.proconcn.xyz:560
+      - cstwrelay.onlineto.xyz:562
+      - CN_39 TG@peekfun
+      - shallaz2.proconcn.xyz:560
+      - cstwrelay.onlineto.xyz:566
+      - shallaz2.proconcn.xyz:561
+      - shallaz.proconcn.xyz:560
+      - csdynhkt.proconcn.xyz:562
+      - shcris03.proconcn.xyz:568
+      - 热播频道t_me/TBBRB_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日本 11丨2x JP
-      - 日本 12丨1x JP
-      - 日本 15丨3x JP
-      - 日本 13丨1x JP
       - shonlinecu.proconcn.xyz:561
-      - 香港 06丨1x HK
       - shonlinecu.proconcn.xyz:562
       - cncusouth.procncon.xyz:561
       - shonlinesandcu02.proconcn.xyz:560
-      - 香港 04丨1x HK
-      - 日本 17丨3x JP
       - shcris02stand.proconcn.xyz:560
-      - 香港 05丨1x HK
       - cusouthcmhk.procncon.xyz:561
       - cncusouth.procncon.xyz:560
       - shonlinesandcu02.proconcn.xyz:561
-      - 香港 09丨1x HK
-      - 香港 03丨1x HK
-      - 香港 02丨1x HK
-      - 香港 07丨1x HK
       - Pool_🇭🇰 HK_981
       - HK_695
       - cstwrelay.onlineto.xyz:560
-      - 香港 08丨1x HK
       - cncusouth.procncon.xyz:562
       - shallaz2.proconcn.xyz:566
-      - 柬埔寨丨3x KH
-      - 新加坡 01丨1x SG
-      - 新加坡 02丨1x SG
-      - 韩国 01丨3x KR
+      - cusouthcmhk.procncon.xyz:560
+      - shallaz2.proconcn.xyz:565
+      - cstwrelay.onlineto.xyz:563
+      - shallaz.proconcn.xyz:565
+      - 香港_TG@nodesharing_16
+      - F酸酸乳_183_236_60_181
+      - cstwrelay.onlineto.xyz:564
+      - csdynhkt.proconcn.xyz:560
+      - cstwrelay.onlineto.xyz:562
+      - CN_39 TG@peekfun
+      - shallaz2.proconcn.xyz:560
+      - cstwrelay.onlineto.xyz:566
+      - shallaz2.proconcn.xyz:561
+      - shallaz.proconcn.xyz:560
+      - csdynhkt.proconcn.xyz:562
+      - shcris03.proconcn.xyz:568
+      - 热播频道t_me/TBBRB_5
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本 11丨2x JP
-      - 日本 12丨1x JP
-      - 日本 15丨3x JP
-      - 日本 13丨1x JP
       - shonlinecu.proconcn.xyz:561
-      - 香港 06丨1x HK
       - shonlinecu.proconcn.xyz:562
       - cncusouth.procncon.xyz:561
       - shonlinesandcu02.proconcn.xyz:560
-      - 香港 04丨1x HK
-      - 日本 17丨3x JP
       - shcris02stand.proconcn.xyz:560
-      - 香港 05丨1x HK
       - cusouthcmhk.procncon.xyz:561
       - cncusouth.procncon.xyz:560
       - shonlinesandcu02.proconcn.xyz:561
-      - 香港 09丨1x HK
-      - 香港 03丨1x HK
-      - 香港 02丨1x HK
-      - 香港 07丨1x HK
       - Pool_🇭🇰 HK_981
       - HK_695
       - cstwrelay.onlineto.xyz:560
-      - 香港 08丨1x HK
       - cncusouth.procncon.xyz:562
       - shallaz2.proconcn.xyz:566
-      - 柬埔寨丨3x KH
-      - 新加坡 01丨1x SG
-      - 新加坡 02丨1x SG
-      - 韩国 01丨3x KR
+      - cusouthcmhk.procncon.xyz:560
+      - shallaz2.proconcn.xyz:565
+      - cstwrelay.onlineto.xyz:563
+      - shallaz.proconcn.xyz:565
+      - 香港_TG@nodesharing_16
+      - F酸酸乳_183_236_60_181
+      - cstwrelay.onlineto.xyz:564
+      - csdynhkt.proconcn.xyz:560
+      - cstwrelay.onlineto.xyz:562
+      - CN_39 TG@peekfun
+      - shallaz2.proconcn.xyz:560
+      - cstwrelay.onlineto.xyz:566
+      - shallaz2.proconcn.xyz:561
+      - shallaz.proconcn.xyz:560
+      - csdynhkt.proconcn.xyz:562
+      - shcris03.proconcn.xyz:568
+      - 热播频道t_me/TBBRB_5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -160,157 +160,157 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本 11丨2x JP
-      - 日本 12丨1x JP
-      - 日本 15丨3x JP
-      - 日本 13丨1x JP
       - shonlinecu.proconcn.xyz:561
-      - 香港 06丨1x HK
       - shonlinecu.proconcn.xyz:562
       - cncusouth.procncon.xyz:561
       - shonlinesandcu02.proconcn.xyz:560
-      - 香港 04丨1x HK
-      - 日本 17丨3x JP
       - shcris02stand.proconcn.xyz:560
-      - 香港 05丨1x HK
       - cusouthcmhk.procncon.xyz:561
       - cncusouth.procncon.xyz:560
       - shonlinesandcu02.proconcn.xyz:561
-      - 香港 09丨1x HK
-      - 香港 03丨1x HK
-      - 香港 02丨1x HK
-      - 香港 07丨1x HK
       - Pool_🇭🇰 HK_981
       - HK_695
       - cstwrelay.onlineto.xyz:560
-      - 香港 08丨1x HK
       - cncusouth.procncon.xyz:562
       - shallaz2.proconcn.xyz:566
-      - 柬埔寨丨3x KH
-      - 新加坡 01丨1x SG
-      - 新加坡 02丨1x SG
-      - 韩国 01丨3x KR
+      - cusouthcmhk.procncon.xyz:560
+      - shallaz2.proconcn.xyz:565
+      - cstwrelay.onlineto.xyz:563
+      - shallaz.proconcn.xyz:565
+      - 香港_TG@nodesharing_16
+      - F酸酸乳_183_236_60_181
+      - cstwrelay.onlineto.xyz:564
+      - csdynhkt.proconcn.xyz:560
+      - cstwrelay.onlineto.xyz:562
+      - CN_39 TG@peekfun
+      - shallaz2.proconcn.xyz:560
+      - cstwrelay.onlineto.xyz:566
+      - shallaz2.proconcn.xyz:561
+      - shallaz.proconcn.xyz:560
+      - csdynhkt.proconcn.xyz:562
+      - shcris03.proconcn.xyz:568
+      - 热播频道t_me/TBBRB_5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港 06丨1x HK
-      - 香港 04丨1x HK
-      - 香港 05丨1x HK
       - cusouthcmhk.procncon.xyz:561
-      - 香港 09丨1x HK
-      - 香港 03丨1x HK
-      - 香港 02丨1x HK
-      - 香港 07丨1x HK
       - cstwrelay.onlineto.xyz:560
-      - 香港 08丨1x HK
+      - cusouthcmhk.procncon.xyz:560
+      - cstwrelay.onlineto.xyz:563
+      - 香港_TG@nodesharing_16
+      - cstwrelay.onlineto.xyz:564
+      - csdynhkt.proconcn.xyz:560
+      - cstwrelay.onlineto.xyz:562
+      - cstwrelay.onlineto.xyz:566
+      - csdynhkt.proconcn.xyz:562
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本 11丨2x JP
-      - 日本 12丨1x JP
-      - 日本 15丨3x JP
-      - 日本 13丨1x JP
       - shonlinecu.proconcn.xyz:561
-      - 香港 06丨1x HK
       - shonlinecu.proconcn.xyz:562
       - cncusouth.procncon.xyz:561
       - shonlinesandcu02.proconcn.xyz:560
-      - 香港 04丨1x HK
-      - 日本 17丨3x JP
       - shcris02stand.proconcn.xyz:560
-      - 香港 05丨1x HK
       - cusouthcmhk.procncon.xyz:561
       - cncusouth.procncon.xyz:560
       - shonlinesandcu02.proconcn.xyz:561
-      - 香港 09丨1x HK
-      - 香港 03丨1x HK
-      - 香港 02丨1x HK
-      - 香港 07丨1x HK
       - Pool_🇭🇰 HK_981
       - HK_695
       - cstwrelay.onlineto.xyz:560
-      - 香港 08丨1x HK
       - cncusouth.procncon.xyz:562
       - shallaz2.proconcn.xyz:566
-      - 柬埔寨丨3x KH
-      - 新加坡 01丨1x SG
-      - 新加坡 02丨1x SG
-      - 韩国 01丨3x KR
+      - cusouthcmhk.procncon.xyz:560
+      - shallaz2.proconcn.xyz:565
+      - cstwrelay.onlineto.xyz:563
+      - shallaz.proconcn.xyz:565
+      - 香港_TG@nodesharing_16
+      - F酸酸乳_183_236_60_181
+      - cstwrelay.onlineto.xyz:564
+      - csdynhkt.proconcn.xyz:560
+      - cstwrelay.onlineto.xyz:562
+      - CN_39 TG@peekfun
+      - shallaz2.proconcn.xyz:560
+      - cstwrelay.onlineto.xyz:566
+      - shallaz2.proconcn.xyz:561
+      - shallaz.proconcn.xyz:560
+      - csdynhkt.proconcn.xyz:562
+      - shcris03.proconcn.xyz:568
+      - 热播频道t_me/TBBRB_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 日本 11丨2x JP
-      - 日本 12丨1x JP
-      - 日本 15丨3x JP
-      - 日本 13丨1x JP
       - shonlinecu.proconcn.xyz:561
-      - 香港 06丨1x HK
       - shonlinecu.proconcn.xyz:562
       - cncusouth.procncon.xyz:561
       - shonlinesandcu02.proconcn.xyz:560
-      - 香港 04丨1x HK
-      - 日本 17丨3x JP
       - shcris02stand.proconcn.xyz:560
-      - 香港 05丨1x HK
       - cusouthcmhk.procncon.xyz:561
       - cncusouth.procncon.xyz:560
       - shonlinesandcu02.proconcn.xyz:561
-      - 香港 09丨1x HK
-      - 香港 03丨1x HK
-      - 香港 02丨1x HK
-      - 香港 07丨1x HK
       - Pool_🇭🇰 HK_981
       - HK_695
       - cstwrelay.onlineto.xyz:560
-      - 香港 08丨1x HK
       - cncusouth.procncon.xyz:562
       - shallaz2.proconcn.xyz:566
-      - 柬埔寨丨3x KH
-      - 新加坡 01丨1x SG
-      - 新加坡 02丨1x SG
-      - 韩国 01丨3x KR
+      - cusouthcmhk.procncon.xyz:560
+      - shallaz2.proconcn.xyz:565
+      - cstwrelay.onlineto.xyz:563
+      - shallaz.proconcn.xyz:565
+      - 香港_TG@nodesharing_16
+      - F酸酸乳_183_236_60_181
+      - cstwrelay.onlineto.xyz:564
+      - csdynhkt.proconcn.xyz:560
+      - cstwrelay.onlineto.xyz:562
+      - CN_39 TG@peekfun
+      - shallaz2.proconcn.xyz:560
+      - cstwrelay.onlineto.xyz:566
+      - shallaz2.proconcn.xyz:561
+      - shallaz.proconcn.xyz:560
+      - csdynhkt.proconcn.xyz:562
+      - shcris03.proconcn.xyz:568
+      - 热播频道t_me/TBBRB_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本 11丨2x JP
-      - 日本 12丨1x JP
-      - 日本 15丨3x JP
-      - 日本 13丨1x JP
       - shonlinecu.proconcn.xyz:561
-      - 香港 06丨1x HK
       - shonlinecu.proconcn.xyz:562
       - cncusouth.procncon.xyz:561
       - shonlinesandcu02.proconcn.xyz:560
-      - 香港 04丨1x HK
-      - 日本 17丨3x JP
       - shcris02stand.proconcn.xyz:560
-      - 香港 05丨1x HK
       - cusouthcmhk.procncon.xyz:561
       - cncusouth.procncon.xyz:560
       - shonlinesandcu02.proconcn.xyz:561
-      - 香港 09丨1x HK
-      - 香港 03丨1x HK
-      - 香港 02丨1x HK
-      - 香港 07丨1x HK
       - Pool_🇭🇰 HK_981
       - HK_695
       - cstwrelay.onlineto.xyz:560
-      - 香港 08丨1x HK
       - cncusouth.procncon.xyz:562
       - shallaz2.proconcn.xyz:566
-      - 柬埔寨丨3x KH
-      - 新加坡 01丨1x SG
-      - 新加坡 02丨1x SG
-      - 韩国 01丨3x KR
+      - cusouthcmhk.procncon.xyz:560
+      - shallaz2.proconcn.xyz:565
+      - cstwrelay.onlineto.xyz:563
+      - shallaz.proconcn.xyz:565
+      - 香港_TG@nodesharing_16
+      - F酸酸乳_183_236_60_181
+      - cstwrelay.onlineto.xyz:564
+      - csdynhkt.proconcn.xyz:560
+      - cstwrelay.onlineto.xyz:562
+      - CN_39 TG@peekfun
+      - shallaz2.proconcn.xyz:560
+      - cstwrelay.onlineto.xyz:566
+      - shallaz2.proconcn.xyz:561
+      - shallaz.proconcn.xyz:560
+      - csdynhkt.proconcn.xyz:562
+      - shcris03.proconcn.xyz:568
+      - 热播频道t_me/TBBRB_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -326,36 +326,36 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本 11丨2x JP
-      - 日本 12丨1x JP
-      - 日本 15丨3x JP
-      - 日本 13丨1x JP
       - shonlinecu.proconcn.xyz:561
-      - 香港 06丨1x HK
       - shonlinecu.proconcn.xyz:562
       - cncusouth.procncon.xyz:561
       - shonlinesandcu02.proconcn.xyz:560
-      - 香港 04丨1x HK
-      - 日本 17丨3x JP
       - shcris02stand.proconcn.xyz:560
-      - 香港 05丨1x HK
       - cusouthcmhk.procncon.xyz:561
       - cncusouth.procncon.xyz:560
       - shonlinesandcu02.proconcn.xyz:561
-      - 香港 09丨1x HK
-      - 香港 03丨1x HK
-      - 香港 02丨1x HK
-      - 香港 07丨1x HK
       - Pool_🇭🇰 HK_981
       - HK_695
       - cstwrelay.onlineto.xyz:560
-      - 香港 08丨1x HK
       - cncusouth.procncon.xyz:562
       - shallaz2.proconcn.xyz:566
-      - 柬埔寨丨3x KH
-      - 新加坡 01丨1x SG
-      - 新加坡 02丨1x SG
-      - 韩国 01丨3x KR
+      - cusouthcmhk.procncon.xyz:560
+      - shallaz2.proconcn.xyz:565
+      - cstwrelay.onlineto.xyz:563
+      - shallaz.proconcn.xyz:565
+      - 香港_TG@nodesharing_16
+      - F酸酸乳_183_236_60_181
+      - cstwrelay.onlineto.xyz:564
+      - csdynhkt.proconcn.xyz:560
+      - cstwrelay.onlineto.xyz:562
+      - CN_39 TG@peekfun
+      - shallaz2.proconcn.xyz:560
+      - cstwrelay.onlineto.xyz:566
+      - shallaz2.proconcn.xyz:561
+      - shallaz.proconcn.xyz:560
+      - csdynhkt.proconcn.xyz:562
+      - shcris03.proconcn.xyz:568
+      - 热播频道t_me/TBBRB_5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
