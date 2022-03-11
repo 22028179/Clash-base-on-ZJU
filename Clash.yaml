@@ -5,143 +5,139 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港-Trail30M80ws隧道_7, server: tunnel-trail.sserver.top, port: 80, type: vmess, uuid: 8a86f15f-fb35-3522-86d8-809826156323, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: tunnel-trail.sserver.top}, udp: true}
-  - {name: 308更新_CN_中国_23, server: gzyd1.noded.one, port: 10801, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gzyd1.noded.one}, udp: true}
-  - {name: shonlinecu.proconcn.xyz:560, server: shonlinecu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: V2-#89_CN2-香港_NF_x2_0_V2ray_27, server: jzyjxcn2.ddns-oink.xyz, port: 40089, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: jzyjxcn2.ddns-oink.xyz}, udp: true}
+  - {name: shonlinesandcu02.proconcn.xyz:562, server: shonlinesandcu02.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: shcris02stand.proconcn.xyz:562, server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: shonlinesandcu02.proconcn.xyz:561, server: shonlinesandcu02.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
   - {name: shonlinesandcu03.proconcn.xyz:560, server: shonlinesandcu03.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_122+_46_29Mb_53, server: 183.240.132.27, port: 20227, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: true, udp: true}
-  - {name: 台湾02, server: cu.chashao.buzz, port: 21211, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
-  - {name: V2-#206_CN2-香港_NF_x2_0_V2ray_10, server: jzyjxcn2.ddns-oink.xyz, port: 40206, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: jzyjxcn2.ddns-oink.xyz}, udp: true}
-  - {name: 中国_TG@nodesharing_37, server: 120.232.174.85, port: 45647, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
-  - {name: shonlinecu.proconcn.xyz:561, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: 日本02, server: cu.chashao.buzz, port: 21205, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
-  - {name: V3-#23_广东-香港HKBN_NF_x1_5_V2ray_35, server: jzdjd-01.ddns-oink.xyz, port: 40023, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: jzdjd-01.ddns-oink.xyz}, udp: true}
-  - {name: shallaz2.proconcn.xyz:564, server: shallaz2.proconcn.xyz, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: cncusouth.procncon.xyz:562, server: cncusouth.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: shcris02stand.proconcn.xyz:560, server: shcris02stand.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
   - {name: shonlinesandcu03.proconcn.xyz:561, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: 台湾01, server: cm.chashao.buzz, port: 21211, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
-  - {name: 这个世界不要俺了_指莹为梅_🇨🇳_中国, server: gzyd1.noded.one, port: 26003, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/proxypoolqwerty426}, udp: true}
-  - {name: 日本01, server: cm.chashao.buzz, port: 21205, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
+  - {name: cusouthcmhk.procncon.xyz:561, server: cusouthcmhk.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: shonlinesandcu03.proconcn.xyz:562, server: shonlinesandcu03.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: cusouthcmhk.procncon.xyz:562, server: cusouthcmhk.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: shonlinecu.proconcn.xyz:561, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: cncusouth.procncon.xyz:560, server: cncusouth.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: shonlinesandcu02.proconcn.xyz:560, server: shonlinesandcu02.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: V2-#89_CN2-香港_NF_x2_0_V2ray_27, server: jzyjxcn2.ddns-oink.xyz, port: 40089, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: jzyjxcn2.ddns-oink.xyz}, udp: true}
   - {name: shonlinecu.proconcn.xyz:562, server: shonlinecu.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: V4-#196_广东-香港_NF_x1_0_V2ray_61, server: jzdjd-01.ddns-oink.xyz, port: 40196, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: jzdjd-01.ddns-oink.xyz}, udp: true}
-  - {name: 香港06, server: cm1.chashao.buzz, port: 21203, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
-  - {name: 中国_TG@nodesharing_29, server: 120.232.174.85, port: 25081, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
-  - {name: gsou3_3, server: iepl.hk.stohb.nodeg.cloud, port: 30008, type: vmess, uuid: 23a3db66-2651-3fae-b042-83b437e871fc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V3-#21_广东-香港_NF_x1_5_V2ray_33, server: jzdjd-01.ddns-oink.xyz, port: 40021, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: jzdjd-01.ddns-oink.xyz}, udp: true}
-  - {name: shallaz2.proconcn.xyz:566, server: shallaz2.proconcn.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: 香港05, server: cm.chashao.buzz, port: 21203, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
-  - {name: gsou10_10, server: iepl.hk.stohb.nodeg.cloud, port: 30020, type: vmess, uuid: 23a3db66-2651-3fae-b042-83b437e871fc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V2-#237_广东-香港HKBN_NF_x1_2_V2ray_13, server: jzdjd-01.ddns-oink.xyz, port: 40237, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: jzdjd-01.ddns-oink.xyz}, udp: true}
+  - {name: shcris02stand.proconcn.xyz:561, server: shcris02stand.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_111+_33_03Mb_43, server: iplc.gs1024.com, port: 20227, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, sni: iplc.gs1024.com, skip-cert-verify: true, udp: true}
   - {name: shallaz.proconcn.xyz:565, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: V2-#105_cn2-新加坡_NF_x1_5_V2ray_3, server: shanghai-cn2-01.ddns-oink.xyz, port: 40105, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: shanghai-cn2-01.ddns-oink.xyz}, udp: true}
-  - {name: gsou11_11, server: iepl.hk.stohb.nodeg.cloud, port: 30004, type: vmess, uuid: 23a3db66-2651-3fae-b042-83b437e871fc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: shallaz2.proconcn.xyz:565, server: shallaz2.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: shallaz2.proconcn.xyz:562, server: shallaz2.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: 香港➤高速➤x1_1, server: hkgs.v2yun.vip, port: 80, type: vmess, uuid: e2eac26e-b18e-327e-b8cb-526c00d72980, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkgs.v2yun.vip}, udp: true}
+  - {name: "Hongkong, V2 - B Group", server: V2-NODE-4-B.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 8c5d0301-83c3-428e-964a-72a4066bc3e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: V2-NODE-4-B.GFWAIRPORT.NET}, udp: true}
+  - {name: shallaz2.proconcn.xyz:567, server: shallaz2.proconcn.xyz, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: shallaz2.proconcn.xyz:561, server: shallaz2.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: 香港阿伟科技@TG/油管, server: iepl.hk.stohb.nodeg.cloud, port: 30007, type: vmess, uuid: 23a3db66-2651-3fae-b042-83b437e871fc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: jp2.boom.party:31000, server: jp2.boom.party, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 166268:I4o21k, obfs-param: www.baidu.com, udp: true}
+  - {name: V2-#111_cn2-台湾_NF_x2_5_V2ray_6, server: jzyjxcn2.ddns-oink.xyz, port: 40111, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: jzyjxcn2.ddns-oink.xyz}, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_689, server: 120.233.10.120, port: 30007, type: vmess, uuid: 23a3db66-2651-3fae-b042-83b437e871fc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: +CN_361, server: 183.240.132.27, port: 21228, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港-Trail30M80ws隧道_7
-      - 308更新_CN_中国_23
-      - shonlinecu.proconcn.xyz:560
-      - V2-#89_CN2-香港_NF_x2_0_V2ray_27
+      - shonlinesandcu02.proconcn.xyz:562
+      - shcris02stand.proconcn.xyz:562
+      - shonlinesandcu02.proconcn.xyz:561
       - shonlinesandcu03.proconcn.xyz:560
-      - Relay_🇨🇳CN-🇸🇬SG_122+_46_29Mb_53
-      - 台湾02
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
-      - 中国_TG@nodesharing_37
-      - shonlinecu.proconcn.xyz:561
-      - 日本02
-      - V3-#23_广东-香港HKBN_NF_x1_5_V2ray_35
-      - shallaz2.proconcn.xyz:564
+      - cncusouth.procncon.xyz:562
+      - shcris02stand.proconcn.xyz:560
       - shonlinesandcu03.proconcn.xyz:561
-      - 台湾01
-      - 这个世界不要俺了_指莹为梅_🇨🇳_中国
-      - 日本01
+      - cusouthcmhk.procncon.xyz:561
+      - shonlinesandcu03.proconcn.xyz:562
+      - cusouthcmhk.procncon.xyz:562
+      - shonlinecu.proconcn.xyz:561
+      - cncusouth.procncon.xyz:560
+      - shonlinesandcu02.proconcn.xyz:560
+      - V2-#89_CN2-香港_NF_x2_0_V2ray_27
       - shonlinecu.proconcn.xyz:562
-      - V4-#196_广东-香港_NF_x1_0_V2ray_61
-      - 香港06
-      - 中国_TG@nodesharing_29
-      - gsou3_3
-      - V3-#21_广东-香港_NF_x1_5_V2ray_33
-      - shallaz2.proconcn.xyz:566
-      - 香港05
-      - gsou10_10
-      - V2-#237_广东-香港HKBN_NF_x1_2_V2ray_13
+      - shcris02stand.proconcn.xyz:561
+      - Relay_🇨🇳CN-🇸🇬SG_111+_33_03Mb_43
       - shallaz.proconcn.xyz:565
-      - V2-#105_cn2-新加坡_NF_x1_5_V2ray_3
-      - gsou11_11
+      - shallaz2.proconcn.xyz:565
+      - shallaz2.proconcn.xyz:562
+      - 香港➤高速➤x1_1
+      - Hongkong, V2 - B Group
+      - shallaz2.proconcn.xyz:567
+      - shallaz2.proconcn.xyz:561
+      - 香港阿伟科技@TG/油管
+      - jp2.boom.party:31000
+      - V2-#111_cn2-台湾_NF_x2_5_V2ray_6
+      - Relay_🇨🇳CN-🇺🇸US_689
+      - +CN_361
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港-Trail30M80ws隧道_7
-      - 308更新_CN_中国_23
-      - shonlinecu.proconcn.xyz:560
-      - V2-#89_CN2-香港_NF_x2_0_V2ray_27
+      - shonlinesandcu02.proconcn.xyz:562
+      - shcris02stand.proconcn.xyz:562
+      - shonlinesandcu02.proconcn.xyz:561
       - shonlinesandcu03.proconcn.xyz:560
-      - Relay_🇨🇳CN-🇸🇬SG_122+_46_29Mb_53
-      - 台湾02
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
-      - 中国_TG@nodesharing_37
-      - shonlinecu.proconcn.xyz:561
-      - 日本02
-      - V3-#23_广东-香港HKBN_NF_x1_5_V2ray_35
-      - shallaz2.proconcn.xyz:564
+      - cncusouth.procncon.xyz:562
+      - shcris02stand.proconcn.xyz:560
       - shonlinesandcu03.proconcn.xyz:561
-      - 台湾01
-      - 这个世界不要俺了_指莹为梅_🇨🇳_中国
-      - 日本01
+      - cusouthcmhk.procncon.xyz:561
+      - shonlinesandcu03.proconcn.xyz:562
+      - cusouthcmhk.procncon.xyz:562
+      - shonlinecu.proconcn.xyz:561
+      - cncusouth.procncon.xyz:560
+      - shonlinesandcu02.proconcn.xyz:560
+      - V2-#89_CN2-香港_NF_x2_0_V2ray_27
       - shonlinecu.proconcn.xyz:562
-      - V4-#196_广东-香港_NF_x1_0_V2ray_61
-      - 香港06
-      - 中国_TG@nodesharing_29
-      - gsou3_3
-      - V3-#21_广东-香港_NF_x1_5_V2ray_33
-      - shallaz2.proconcn.xyz:566
-      - 香港05
-      - gsou10_10
-      - V2-#237_广东-香港HKBN_NF_x1_2_V2ray_13
+      - shcris02stand.proconcn.xyz:561
+      - Relay_🇨🇳CN-🇸🇬SG_111+_33_03Mb_43
       - shallaz.proconcn.xyz:565
-      - V2-#105_cn2-新加坡_NF_x1_5_V2ray_3
-      - gsou11_11
+      - shallaz2.proconcn.xyz:565
+      - shallaz2.proconcn.xyz:562
+      - 香港➤高速➤x1_1
+      - Hongkong, V2 - B Group
+      - shallaz2.proconcn.xyz:567
+      - shallaz2.proconcn.xyz:561
+      - 香港阿伟科技@TG/油管
+      - jp2.boom.party:31000
+      - V2-#111_cn2-台湾_NF_x2_5_V2ray_6
+      - Relay_🇨🇳CN-🇺🇸US_689
+      - +CN_361
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港-Trail30M80ws隧道_7
-      - 308更新_CN_中国_23
-      - shonlinecu.proconcn.xyz:560
-      - V2-#89_CN2-香港_NF_x2_0_V2ray_27
+      - shonlinesandcu02.proconcn.xyz:562
+      - shcris02stand.proconcn.xyz:562
+      - shonlinesandcu02.proconcn.xyz:561
       - shonlinesandcu03.proconcn.xyz:560
-      - Relay_🇨🇳CN-🇸🇬SG_122+_46_29Mb_53
-      - 台湾02
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
-      - 中国_TG@nodesharing_37
-      - shonlinecu.proconcn.xyz:561
-      - 日本02
-      - V3-#23_广东-香港HKBN_NF_x1_5_V2ray_35
-      - shallaz2.proconcn.xyz:564
+      - cncusouth.procncon.xyz:562
+      - shcris02stand.proconcn.xyz:560
       - shonlinesandcu03.proconcn.xyz:561
-      - 台湾01
-      - 这个世界不要俺了_指莹为梅_🇨🇳_中国
-      - 日本01
+      - cusouthcmhk.procncon.xyz:561
+      - shonlinesandcu03.proconcn.xyz:562
+      - cusouthcmhk.procncon.xyz:562
+      - shonlinecu.proconcn.xyz:561
+      - cncusouth.procncon.xyz:560
+      - shonlinesandcu02.proconcn.xyz:560
+      - V2-#89_CN2-香港_NF_x2_0_V2ray_27
       - shonlinecu.proconcn.xyz:562
-      - V4-#196_广东-香港_NF_x1_0_V2ray_61
-      - 香港06
-      - 中国_TG@nodesharing_29
-      - gsou3_3
-      - V3-#21_广东-香港_NF_x1_5_V2ray_33
-      - shallaz2.proconcn.xyz:566
-      - 香港05
-      - gsou10_10
-      - V2-#237_广东-香港HKBN_NF_x1_2_V2ray_13
+      - shcris02stand.proconcn.xyz:561
+      - Relay_🇨🇳CN-🇸🇬SG_111+_33_03Mb_43
       - shallaz.proconcn.xyz:565
-      - V2-#105_cn2-新加坡_NF_x1_5_V2ray_3
-      - gsou11_11
+      - shallaz2.proconcn.xyz:565
+      - shallaz2.proconcn.xyz:562
+      - 香港➤高速➤x1_1
+      - Hongkong, V2 - B Group
+      - shallaz2.proconcn.xyz:567
+      - shallaz2.proconcn.xyz:561
+      - 香港阿伟科技@TG/油管
+      - jp2.boom.party:31000
+      - V2-#111_cn2-台湾_NF_x2_5_V2ray_6
+      - Relay_🇨🇳CN-🇺🇸US_689
+      - +CN_361
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -160,158 +156,149 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港-Trail30M80ws隧道_7
-      - 308更新_CN_中国_23
-      - shonlinecu.proconcn.xyz:560
-      - V2-#89_CN2-香港_NF_x2_0_V2ray_27
+      - shonlinesandcu02.proconcn.xyz:562
+      - shcris02stand.proconcn.xyz:562
+      - shonlinesandcu02.proconcn.xyz:561
       - shonlinesandcu03.proconcn.xyz:560
-      - Relay_🇨🇳CN-🇸🇬SG_122+_46_29Mb_53
-      - 台湾02
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
-      - 中国_TG@nodesharing_37
-      - shonlinecu.proconcn.xyz:561
-      - 日本02
-      - V3-#23_广东-香港HKBN_NF_x1_5_V2ray_35
-      - shallaz2.proconcn.xyz:564
+      - cncusouth.procncon.xyz:562
+      - shcris02stand.proconcn.xyz:560
       - shonlinesandcu03.proconcn.xyz:561
-      - 台湾01
-      - 这个世界不要俺了_指莹为梅_🇨🇳_中国
-      - 日本01
+      - cusouthcmhk.procncon.xyz:561
+      - shonlinesandcu03.proconcn.xyz:562
+      - cusouthcmhk.procncon.xyz:562
+      - shonlinecu.proconcn.xyz:561
+      - cncusouth.procncon.xyz:560
+      - shonlinesandcu02.proconcn.xyz:560
+      - V2-#89_CN2-香港_NF_x2_0_V2ray_27
       - shonlinecu.proconcn.xyz:562
-      - V4-#196_广东-香港_NF_x1_0_V2ray_61
-      - 香港06
-      - 中国_TG@nodesharing_29
-      - gsou3_3
-      - V3-#21_广东-香港_NF_x1_5_V2ray_33
-      - shallaz2.proconcn.xyz:566
-      - 香港05
-      - gsou10_10
-      - V2-#237_广东-香港HKBN_NF_x1_2_V2ray_13
+      - shcris02stand.proconcn.xyz:561
+      - Relay_🇨🇳CN-🇸🇬SG_111+_33_03Mb_43
       - shallaz.proconcn.xyz:565
-      - V2-#105_cn2-新加坡_NF_x1_5_V2ray_3
-      - gsou11_11
+      - shallaz2.proconcn.xyz:565
+      - shallaz2.proconcn.xyz:562
+      - 香港➤高速➤x1_1
+      - Hongkong, V2 - B Group
+      - shallaz2.proconcn.xyz:567
+      - shallaz2.proconcn.xyz:561
+      - 香港阿伟科技@TG/油管
+      - jp2.boom.party:31000
+      - V2-#111_cn2-台湾_NF_x2_5_V2ray_6
+      - Relay_🇨🇳CN-🇺🇸US_689
+      - +CN_361
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港-Trail30M80ws隧道_7
+      - cusouthcmhk.procncon.xyz:561
+      - cusouthcmhk.procncon.xyz:562
       - V2-#89_CN2-香港_NF_x2_0_V2ray_27
-      - 台湾02
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
-      - V3-#23_广东-香港HKBN_NF_x1_5_V2ray_35
-      - 台湾01
-      - V4-#196_广东-香港_NF_x1_0_V2ray_61
-      - 香港06
-      - V3-#21_广东-香港_NF_x1_5_V2ray_33
-      - 香港05
-      - V2-#237_广东-香港HKBN_NF_x1_2_V2ray_13
+      - 香港➤高速➤x1_1
+      - 香港阿伟科技@TG/油管
+      - V2-#111_cn2-台湾_NF_x2_5_V2ray_6
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港-Trail30M80ws隧道_7
-      - 308更新_CN_中国_23
-      - shonlinecu.proconcn.xyz:560
-      - V2-#89_CN2-香港_NF_x2_0_V2ray_27
+      - shonlinesandcu02.proconcn.xyz:562
+      - shcris02stand.proconcn.xyz:562
+      - shonlinesandcu02.proconcn.xyz:561
       - shonlinesandcu03.proconcn.xyz:560
-      - Relay_🇨🇳CN-🇸🇬SG_122+_46_29Mb_53
-      - 台湾02
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
-      - 中国_TG@nodesharing_37
-      - shonlinecu.proconcn.xyz:561
-      - 日本02
-      - V3-#23_广东-香港HKBN_NF_x1_5_V2ray_35
-      - shallaz2.proconcn.xyz:564
+      - cncusouth.procncon.xyz:562
+      - shcris02stand.proconcn.xyz:560
       - shonlinesandcu03.proconcn.xyz:561
-      - 台湾01
-      - 这个世界不要俺了_指莹为梅_🇨🇳_中国
-      - 日本01
+      - cusouthcmhk.procncon.xyz:561
+      - shonlinesandcu03.proconcn.xyz:562
+      - cusouthcmhk.procncon.xyz:562
+      - shonlinecu.proconcn.xyz:561
+      - cncusouth.procncon.xyz:560
+      - shonlinesandcu02.proconcn.xyz:560
+      - V2-#89_CN2-香港_NF_x2_0_V2ray_27
       - shonlinecu.proconcn.xyz:562
-      - V4-#196_广东-香港_NF_x1_0_V2ray_61
-      - 香港06
-      - 中国_TG@nodesharing_29
-      - gsou3_3
-      - V3-#21_广东-香港_NF_x1_5_V2ray_33
-      - shallaz2.proconcn.xyz:566
-      - 香港05
-      - gsou10_10
-      - V2-#237_广东-香港HKBN_NF_x1_2_V2ray_13
+      - shcris02stand.proconcn.xyz:561
+      - Relay_🇨🇳CN-🇸🇬SG_111+_33_03Mb_43
       - shallaz.proconcn.xyz:565
-      - V2-#105_cn2-新加坡_NF_x1_5_V2ray_3
-      - gsou11_11
+      - shallaz2.proconcn.xyz:565
+      - shallaz2.proconcn.xyz:562
+      - 香港➤高速➤x1_1
+      - Hongkong, V2 - B Group
+      - shallaz2.proconcn.xyz:567
+      - shallaz2.proconcn.xyz:561
+      - 香港阿伟科技@TG/油管
+      - jp2.boom.party:31000
+      - V2-#111_cn2-台湾_NF_x2_5_V2ray_6
+      - Relay_🇨🇳CN-🇺🇸US_689
+      - +CN_361
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港-Trail30M80ws隧道_7
-      - 308更新_CN_中国_23
-      - shonlinecu.proconcn.xyz:560
-      - V2-#89_CN2-香港_NF_x2_0_V2ray_27
+      - shonlinesandcu02.proconcn.xyz:562
+      - shcris02stand.proconcn.xyz:562
+      - shonlinesandcu02.proconcn.xyz:561
       - shonlinesandcu03.proconcn.xyz:560
-      - Relay_🇨🇳CN-🇸🇬SG_122+_46_29Mb_53
-      - 台湾02
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
-      - 中国_TG@nodesharing_37
-      - shonlinecu.proconcn.xyz:561
-      - 日本02
-      - V3-#23_广东-香港HKBN_NF_x1_5_V2ray_35
-      - shallaz2.proconcn.xyz:564
+      - cncusouth.procncon.xyz:562
+      - shcris02stand.proconcn.xyz:560
       - shonlinesandcu03.proconcn.xyz:561
-      - 台湾01
-      - 这个世界不要俺了_指莹为梅_🇨🇳_中国
-      - 日本01
+      - cusouthcmhk.procncon.xyz:561
+      - shonlinesandcu03.proconcn.xyz:562
+      - cusouthcmhk.procncon.xyz:562
+      - shonlinecu.proconcn.xyz:561
+      - cncusouth.procncon.xyz:560
+      - shonlinesandcu02.proconcn.xyz:560
+      - V2-#89_CN2-香港_NF_x2_0_V2ray_27
       - shonlinecu.proconcn.xyz:562
-      - V4-#196_广东-香港_NF_x1_0_V2ray_61
-      - 香港06
-      - 中国_TG@nodesharing_29
-      - gsou3_3
-      - V3-#21_广东-香港_NF_x1_5_V2ray_33
-      - shallaz2.proconcn.xyz:566
-      - 香港05
-      - gsou10_10
-      - V2-#237_广东-香港HKBN_NF_x1_2_V2ray_13
+      - shcris02stand.proconcn.xyz:561
+      - Relay_🇨🇳CN-🇸🇬SG_111+_33_03Mb_43
       - shallaz.proconcn.xyz:565
-      - V2-#105_cn2-新加坡_NF_x1_5_V2ray_3
-      - gsou11_11
+      - shallaz2.proconcn.xyz:565
+      - shallaz2.proconcn.xyz:562
+      - 香港➤高速➤x1_1
+      - Hongkong, V2 - B Group
+      - shallaz2.proconcn.xyz:567
+      - shallaz2.proconcn.xyz:561
+      - 香港阿伟科技@TG/油管
+      - jp2.boom.party:31000
+      - V2-#111_cn2-台湾_NF_x2_5_V2ray_6
+      - Relay_🇨🇳CN-🇺🇸US_689
+      - +CN_361
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港-Trail30M80ws隧道_7
-      - 308更新_CN_中国_23
-      - shonlinecu.proconcn.xyz:560
-      - V2-#89_CN2-香港_NF_x2_0_V2ray_27
+      - shonlinesandcu02.proconcn.xyz:562
+      - shcris02stand.proconcn.xyz:562
+      - shonlinesandcu02.proconcn.xyz:561
       - shonlinesandcu03.proconcn.xyz:560
-      - Relay_🇨🇳CN-🇸🇬SG_122+_46_29Mb_53
-      - 台湾02
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
-      - 中国_TG@nodesharing_37
-      - shonlinecu.proconcn.xyz:561
-      - 日本02
-      - V3-#23_广东-香港HKBN_NF_x1_5_V2ray_35
-      - shallaz2.proconcn.xyz:564
+      - cncusouth.procncon.xyz:562
+      - shcris02stand.proconcn.xyz:560
       - shonlinesandcu03.proconcn.xyz:561
-      - 台湾01
-      - 这个世界不要俺了_指莹为梅_🇨🇳_中国
-      - 日本01
+      - cusouthcmhk.procncon.xyz:561
+      - shonlinesandcu03.proconcn.xyz:562
+      - cusouthcmhk.procncon.xyz:562
+      - shonlinecu.proconcn.xyz:561
+      - cncusouth.procncon.xyz:560
+      - shonlinesandcu02.proconcn.xyz:560
+      - V2-#89_CN2-香港_NF_x2_0_V2ray_27
       - shonlinecu.proconcn.xyz:562
-      - V4-#196_广东-香港_NF_x1_0_V2ray_61
-      - 香港06
-      - 中国_TG@nodesharing_29
-      - gsou3_3
-      - V3-#21_广东-香港_NF_x1_5_V2ray_33
-      - shallaz2.proconcn.xyz:566
-      - 香港05
-      - gsou10_10
-      - V2-#237_广东-香港HKBN_NF_x1_2_V2ray_13
+      - shcris02stand.proconcn.xyz:561
+      - Relay_🇨🇳CN-🇸🇬SG_111+_33_03Mb_43
       - shallaz.proconcn.xyz:565
-      - V2-#105_cn2-新加坡_NF_x1_5_V2ray_3
-      - gsou11_11
+      - shallaz2.proconcn.xyz:565
+      - shallaz2.proconcn.xyz:562
+      - 香港➤高速➤x1_1
+      - Hongkong, V2 - B Group
+      - shallaz2.proconcn.xyz:567
+      - shallaz2.proconcn.xyz:561
+      - 香港阿伟科技@TG/油管
+      - jp2.boom.party:31000
+      - V2-#111_cn2-台湾_NF_x2_5_V2ray_6
+      - Relay_🇨🇳CN-🇺🇸US_689
+      - +CN_361
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -327,36 +314,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港-Trail30M80ws隧道_7
-      - 308更新_CN_中国_23
-      - shonlinecu.proconcn.xyz:560
-      - V2-#89_CN2-香港_NF_x2_0_V2ray_27
+      - shonlinesandcu02.proconcn.xyz:562
+      - shcris02stand.proconcn.xyz:562
+      - shonlinesandcu02.proconcn.xyz:561
       - shonlinesandcu03.proconcn.xyz:560
-      - Relay_🇨🇳CN-🇸🇬SG_122+_46_29Mb_53
-      - 台湾02
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
-      - 中国_TG@nodesharing_37
-      - shonlinecu.proconcn.xyz:561
-      - 日本02
-      - V3-#23_广东-香港HKBN_NF_x1_5_V2ray_35
-      - shallaz2.proconcn.xyz:564
+      - cncusouth.procncon.xyz:562
+      - shcris02stand.proconcn.xyz:560
       - shonlinesandcu03.proconcn.xyz:561
-      - 台湾01
-      - 这个世界不要俺了_指莹为梅_🇨🇳_中国
-      - 日本01
+      - cusouthcmhk.procncon.xyz:561
+      - shonlinesandcu03.proconcn.xyz:562
+      - cusouthcmhk.procncon.xyz:562
+      - shonlinecu.proconcn.xyz:561
+      - cncusouth.procncon.xyz:560
+      - shonlinesandcu02.proconcn.xyz:560
+      - V2-#89_CN2-香港_NF_x2_0_V2ray_27
       - shonlinecu.proconcn.xyz:562
-      - V4-#196_广东-香港_NF_x1_0_V2ray_61
-      - 香港06
-      - 中国_TG@nodesharing_29
-      - gsou3_3
-      - V3-#21_广东-香港_NF_x1_5_V2ray_33
-      - shallaz2.proconcn.xyz:566
-      - 香港05
-      - gsou10_10
-      - V2-#237_广东-香港HKBN_NF_x1_2_V2ray_13
+      - shcris02stand.proconcn.xyz:561
+      - Relay_🇨🇳CN-🇸🇬SG_111+_33_03Mb_43
       - shallaz.proconcn.xyz:565
-      - V2-#105_cn2-新加坡_NF_x1_5_V2ray_3
-      - gsou11_11
+      - shallaz2.proconcn.xyz:565
+      - shallaz2.proconcn.xyz:562
+      - 香港➤高速➤x1_1
+      - Hongkong, V2 - B Group
+      - shallaz2.proconcn.xyz:567
+      - shallaz2.proconcn.xyz:561
+      - 香港阿伟科技@TG/油管
+      - jp2.boom.party:31000
+      - V2-#111_cn2-台湾_NF_x2_5_V2ray_6
+      - Relay_🇨🇳CN-🇺🇸US_689
+      - +CN_361
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
