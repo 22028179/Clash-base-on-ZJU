@@ -5,127 +5,111 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: V1香港A10丨1x, server: gz-cm-kl.klee.store, port: 11182, type: trojan, password: 08b2f55d-f2d8-3f28-9ffe-efbba21c7344, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
-  - {name: V2-#206_CN2-香港_NF_x2_0_V2ray_10, server: jzyjxcn2.ddns-oink.xyz, port: 40206, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: jzyjxcn2.ddns-oink.xyz}, udp: true}
-  - {name: V1香港A05丨1x, server: gz-cm-kl.klee.store, port: 11177, type: trojan, password: 08b2f55d-f2d8-3f28-9ffe-efbba21c7344, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
-  - {name: cstwrelay.onlineto.xyz:567, server: cstwrelay.onlineto.xyz, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: V1香港A07丨1x, server: gz-cm-kl.klee.store, port: 11179, type: trojan, password: 08b2f55d-f2d8-3f28-9ffe-efbba21c7344, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
-  - {name: V1香港A01丨1x, server: gz-cm-kl.klee.store, port: 11173, type: trojan, password: 08b2f55d-f2d8-3f28-9ffe-efbba21c7344, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
+  - {name: 香港➤高速➤x1_1, server: hkgs.v2yun.vip, port: 80, type: vmess, uuid: e2eac26e-b18e-327e-b8cb-526c00d72980, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkgs.v2yun.vip}, udp: true}
   - {name: V2-#103_cn2-新加坡_NF_x1_5_V2ray_2, server: shanghai-cn2-01.ddns-oink.xyz, port: 40103, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: shanghai-cn2-01.ddns-oink.xyz}, udp: true}
-  - {name: defaultName_20, server: cn1.relay.starlink.st, port: 50104, type: ss, cipher: aes-128-gcm, password: 696fd8c5-c2da-4590-9614-46d3fbf93917, udp: true}
-  - {name: V1日本A07丨1x, server: gz-cm-kl.klee.store, port: 11107, type: trojan, password: 08b2f55d-f2d8-3f28-9ffe-efbba21c7344, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
   - {name: V2-#101_cn2-新加坡_NF_x1_5_V2ray_1, server: shanghai-cn2-01.ddns-oink.xyz, port: 40101, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: shanghai-cn2-01.ddns-oink.xyz}, udp: true}
-  - {name: V1新加坡A08丨1x, server: gz-cm-kl.klee.store, port: 11132, type: trojan, password: 08b2f55d-f2d8-3f28-9ffe-efbba21c7344, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
+  - {name: "Hongkong, SS - B Group", server: SS-NODE-4-B.GFWAIRPORT.NET, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 8c5d0301-83c3-428e-964a-72a4066bc3e9, udp: true}
+  - {name: V2-#206_CN2-香港_NF_x2_0_V2ray_10, server: jzyjxcn2.ddns-oink.xyz, port: 40206, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: jzyjxcn2.ddns-oink.xyz}, udp: true}
+  - {name: shallaz2.proconcn.xyz:560, server: shallaz2.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: cusouthcmhk.procncon.xyz:562, server: cusouthcmhk.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: shallaz2.proconcn.xyz:566, server: shallaz2.proconcn.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: shonlinesandcu02.proconcn.xyz:562, server: shonlinesandcu02.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: jp_16, server: 14.v2-ray.cyou, port: 15014, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 14.v2-ray.cyou}, udp: true}
+  - {name: shallaz2.proconcn.xyz:562, server: shallaz2.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
   - {name: shonlinesandcu03.proconcn.xyz:561, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
   - {name: defaultName_21, server: cn1.relay.starlink.st, port: 50105, type: ss, cipher: aes-128-gcm, password: 696fd8c5-c2da-4590-9614-46d3fbf93917, udp: true}
-  - {name: V1越南A01丨1x, server: gz-cm-kl.klee.store, port: 11270, type: trojan, password: 08b2f55d-f2d8-3f28-9ffe-efbba21c7344, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
-  - {name: V1新加坡A03丨1x, server: gz-cm-kl.klee.store, port: 11127, type: trojan, password: 08b2f55d-f2d8-3f28-9ffe-efbba21c7344, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
-  - {name: V1台湾A11丨1x, server: gz-cm-kl.klee.store, port: 11231, type: trojan, password: 08b2f55d-f2d8-3f28-9ffe-efbba21c7344, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
-  - {name: V1香港A09丨1x, server: gz-cm-kl.klee.store, port: 11181, type: trojan, password: 08b2f55d-f2d8-3f28-9ffe-efbba21c7344, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
-  - {name: V1日本A04丨1x, server: gz-cm-kl.klee.store, port: 11104, type: trojan, password: 08b2f55d-f2d8-3f28-9ffe-efbba21c7344, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
-  - {name: shonlinesandcu02.proconcn.xyz:560, server: shonlinesandcu02.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: V1日本A02丨1x, server: gz-cm-kl.klee.store, port: 11102, type: trojan, password: 08b2f55d-f2d8-3f28-9ffe-efbba21c7344, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
-  - {name: V1新加坡A13丨1x, server: gz-cm-kl.klee.store, port: 11137, type: trojan, password: 08b2f55d-f2d8-3f28-9ffe-efbba21c7344, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
-  - {name: shallaz2.proconcn.xyz:562, server: shallaz2.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: V1香港A08丨1x, server: gz-cm-kl.klee.store, port: 11180, type: trojan, password: 08b2f55d-f2d8-3f28-9ffe-efbba21c7344, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
-  - {name: V1台湾A08丨1x, server: gz-cm-kl.klee.store, port: 11228, type: trojan, password: 08b2f55d-f2d8-3f28-9ffe-efbba21c7344, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
-  - {name: V1新加坡A14丨1x, server: gz-cm-kl.klee.store, port: 11138, type: trojan, password: 08b2f55d-f2d8-3f28-9ffe-efbba21c7344, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
-  - {name: V1新加坡A04丨1x, server: gz-cm-kl.klee.store, port: 11128, type: trojan, password: 08b2f55d-f2d8-3f28-9ffe-efbba21c7344, sni: gz-cm-kl.klee.store, skip-cert-verify: true, udp: true}
+  - {name: sg2_19, server: 37.v2-ray.cyou, port: 15037, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 37.v2-ray.cyou}, udp: true}
+  - {name: 233v2_com_140_238_36_111, server: 140.238.36.111, port: 80, type: vmess, uuid: befdb5b5-1e37-491f-b355-ca274a75798e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国➤高速➤x1_11, server: krgs.v2yun.vip, port: 80, type: vmess, uuid: e2eac26e-b18e-327e-b8cb-526c00d72980, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: krgs.v2yun.vip}, udp: true}
+  - {name: ip_150_230_249_169, server: 150.230.249.169, port: 8888, type: vmess, uuid: f836d00e-73e0-4eb5-a0ac-18a8e9ee61ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: relaypro.procncon.xyz:610, server: relaypro.procncon.xyz, port: 610, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: kr_vnklwwv_com_vmess_ws_1, server: kr.vnklwwv.com, port: 443, type: vmess, uuid: d9883c4d-2bc2-4737-be75-a65c2e63d61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/nuzfvws?ed=2048", ws-headers: {Host: kr.vnklwwv.com}, udp: true}
+  - {name: relaypro.procncon.xyz:560, server: relaypro.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: "Incheon, SS - B Group", server: SS-NODE-2-B.GFWAIRPORT.NET, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 8c5d0301-83c3-428e-964a-72a4066bc3e9, udp: true}
+  - {name: HK_1, server: a.hxtwhille.tk, port: 443, type: trojan, password: !<str> 138228138228, sni: a.hxtwhille.tk, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V1香港A10丨1x
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
-      - V1香港A05丨1x
-      - cstwrelay.onlineto.xyz:567
-      - V1香港A07丨1x
-      - V1香港A01丨1x
+      - 香港➤高速➤x1_1
       - V2-#103_cn2-新加坡_NF_x1_5_V2ray_2
-      - defaultName_20
-      - V1日本A07丨1x
       - V2-#101_cn2-新加坡_NF_x1_5_V2ray_1
-      - V1新加坡A08丨1x
+      - Hongkong, SS - B Group
+      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
+      - shallaz2.proconcn.xyz:560
+      - cusouthcmhk.procncon.xyz:562
+      - shallaz2.proconcn.xyz:566
+      - shonlinesandcu02.proconcn.xyz:562
+      - jp_16
+      - shallaz2.proconcn.xyz:562
       - shonlinesandcu03.proconcn.xyz:561
       - defaultName_21
-      - V1越南A01丨1x
-      - V1新加坡A03丨1x
-      - V1台湾A11丨1x
-      - V1香港A09丨1x
-      - V1日本A04丨1x
-      - shonlinesandcu02.proconcn.xyz:560
-      - V1日本A02丨1x
-      - V1新加坡A13丨1x
-      - shallaz2.proconcn.xyz:562
-      - V1香港A08丨1x
-      - V1台湾A08丨1x
-      - V1新加坡A14丨1x
-      - V1新加坡A04丨1x
+      - sg2_19
+      - 233v2_com_140_238_36_111
+      - 韩国➤高速➤x1_11
+      - ip_150_230_249_169
+      - relaypro.procncon.xyz:610
+      - kr_vnklwwv_com_vmess_ws_1
+      - relaypro.procncon.xyz:560
+      - Incheon, SS - B Group
+      - HK_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - V1香港A10丨1x
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
-      - V1香港A05丨1x
-      - cstwrelay.onlineto.xyz:567
-      - V1香港A07丨1x
-      - V1香港A01丨1x
+      - 香港➤高速➤x1_1
       - V2-#103_cn2-新加坡_NF_x1_5_V2ray_2
-      - defaultName_20
-      - V1日本A07丨1x
       - V2-#101_cn2-新加坡_NF_x1_5_V2ray_1
-      - V1新加坡A08丨1x
+      - Hongkong, SS - B Group
+      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
+      - shallaz2.proconcn.xyz:560
+      - cusouthcmhk.procncon.xyz:562
+      - shallaz2.proconcn.xyz:566
+      - shonlinesandcu02.proconcn.xyz:562
+      - jp_16
+      - shallaz2.proconcn.xyz:562
       - shonlinesandcu03.proconcn.xyz:561
       - defaultName_21
-      - V1越南A01丨1x
-      - V1新加坡A03丨1x
-      - V1台湾A11丨1x
-      - V1香港A09丨1x
-      - V1日本A04丨1x
-      - shonlinesandcu02.proconcn.xyz:560
-      - V1日本A02丨1x
-      - V1新加坡A13丨1x
-      - shallaz2.proconcn.xyz:562
-      - V1香港A08丨1x
-      - V1台湾A08丨1x
-      - V1新加坡A14丨1x
-      - V1新加坡A04丨1x
+      - sg2_19
+      - 233v2_com_140_238_36_111
+      - 韩国➤高速➤x1_11
+      - ip_150_230_249_169
+      - relaypro.procncon.xyz:610
+      - kr_vnklwwv_com_vmess_ws_1
+      - relaypro.procncon.xyz:560
+      - Incheon, SS - B Group
+      - HK_1
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V1香港A10丨1x
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
-      - V1香港A05丨1x
-      - cstwrelay.onlineto.xyz:567
-      - V1香港A07丨1x
-      - V1香港A01丨1x
+      - 香港➤高速➤x1_1
       - V2-#103_cn2-新加坡_NF_x1_5_V2ray_2
-      - defaultName_20
-      - V1日本A07丨1x
       - V2-#101_cn2-新加坡_NF_x1_5_V2ray_1
-      - V1新加坡A08丨1x
+      - Hongkong, SS - B Group
+      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
+      - shallaz2.proconcn.xyz:560
+      - cusouthcmhk.procncon.xyz:562
+      - shallaz2.proconcn.xyz:566
+      - shonlinesandcu02.proconcn.xyz:562
+      - jp_16
+      - shallaz2.proconcn.xyz:562
       - shonlinesandcu03.proconcn.xyz:561
       - defaultName_21
-      - V1越南A01丨1x
-      - V1新加坡A03丨1x
-      - V1台湾A11丨1x
-      - V1香港A09丨1x
-      - V1日本A04丨1x
-      - shonlinesandcu02.proconcn.xyz:560
-      - V1日本A02丨1x
-      - V1新加坡A13丨1x
-      - shallaz2.proconcn.xyz:562
-      - V1香港A08丨1x
-      - V1台湾A08丨1x
-      - V1新加坡A14丨1x
-      - V1新加坡A04丨1x
+      - sg2_19
+      - 233v2_com_140_238_36_111
+      - 韩国➤高速➤x1_11
+      - ip_150_230_249_169
+      - relaypro.procncon.xyz:610
+      - kr_vnklwwv_com_vmess_ws_1
+      - relaypro.procncon.xyz:560
+      - Incheon, SS - B Group
+      - HK_1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -144,141 +128,118 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V1香港A10丨1x
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
-      - V1香港A05丨1x
-      - cstwrelay.onlineto.xyz:567
-      - V1香港A07丨1x
-      - V1香港A01丨1x
+      - 香港➤高速➤x1_1
       - V2-#103_cn2-新加坡_NF_x1_5_V2ray_2
-      - defaultName_20
-      - V1日本A07丨1x
       - V2-#101_cn2-新加坡_NF_x1_5_V2ray_1
-      - V1新加坡A08丨1x
+      - Hongkong, SS - B Group
+      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
+      - shallaz2.proconcn.xyz:560
+      - cusouthcmhk.procncon.xyz:562
+      - shallaz2.proconcn.xyz:566
+      - shonlinesandcu02.proconcn.xyz:562
+      - jp_16
+      - shallaz2.proconcn.xyz:562
       - shonlinesandcu03.proconcn.xyz:561
       - defaultName_21
-      - V1越南A01丨1x
-      - V1新加坡A03丨1x
-      - V1台湾A11丨1x
-      - V1香港A09丨1x
-      - V1日本A04丨1x
-      - shonlinesandcu02.proconcn.xyz:560
-      - V1日本A02丨1x
-      - V1新加坡A13丨1x
-      - shallaz2.proconcn.xyz:562
-      - V1香港A08丨1x
-      - V1台湾A08丨1x
-      - V1新加坡A14丨1x
-      - V1新加坡A04丨1x
+      - sg2_19
+      - 233v2_com_140_238_36_111
+      - 韩国➤高速➤x1_11
+      - ip_150_230_249_169
+      - relaypro.procncon.xyz:610
+      - kr_vnklwwv_com_vmess_ws_1
+      - relaypro.procncon.xyz:560
+      - Incheon, SS - B Group
+      - HK_1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - V1香港A10丨1x
+      - 香港➤高速➤x1_1
       - V2-#206_CN2-香港_NF_x2_0_V2ray_10
-      - V1香港A05丨1x
-      - cstwrelay.onlineto.xyz:567
-      - V1香港A07丨1x
-      - V1香港A01丨1x
-      - V1台湾A11丨1x
-      - V1香港A09丨1x
-      - V1香港A08丨1x
-      - V1台湾A08丨1x
+      - cusouthcmhk.procncon.xyz:562
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - V1香港A10丨1x
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
-      - V1香港A05丨1x
-      - cstwrelay.onlineto.xyz:567
-      - V1香港A07丨1x
-      - V1香港A01丨1x
+      - 香港➤高速➤x1_1
       - V2-#103_cn2-新加坡_NF_x1_5_V2ray_2
-      - defaultName_20
-      - V1日本A07丨1x
       - V2-#101_cn2-新加坡_NF_x1_5_V2ray_1
-      - V1新加坡A08丨1x
+      - Hongkong, SS - B Group
+      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
+      - shallaz2.proconcn.xyz:560
+      - cusouthcmhk.procncon.xyz:562
+      - shallaz2.proconcn.xyz:566
+      - shonlinesandcu02.proconcn.xyz:562
+      - jp_16
+      - shallaz2.proconcn.xyz:562
       - shonlinesandcu03.proconcn.xyz:561
       - defaultName_21
-      - V1越南A01丨1x
-      - V1新加坡A03丨1x
-      - V1台湾A11丨1x
-      - V1香港A09丨1x
-      - V1日本A04丨1x
-      - shonlinesandcu02.proconcn.xyz:560
-      - V1日本A02丨1x
-      - V1新加坡A13丨1x
-      - shallaz2.proconcn.xyz:562
-      - V1香港A08丨1x
-      - V1台湾A08丨1x
-      - V1新加坡A14丨1x
-      - V1新加坡A04丨1x
+      - sg2_19
+      - 233v2_com_140_238_36_111
+      - 韩国➤高速➤x1_11
+      - ip_150_230_249_169
+      - relaypro.procncon.xyz:610
+      - kr_vnklwwv_com_vmess_ws_1
+      - relaypro.procncon.xyz:560
+      - Incheon, SS - B Group
+      - HK_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - V1香港A10丨1x
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
-      - V1香港A05丨1x
-      - cstwrelay.onlineto.xyz:567
-      - V1香港A07丨1x
-      - V1香港A01丨1x
+      - 香港➤高速➤x1_1
       - V2-#103_cn2-新加坡_NF_x1_5_V2ray_2
-      - defaultName_20
-      - V1日本A07丨1x
       - V2-#101_cn2-新加坡_NF_x1_5_V2ray_1
-      - V1新加坡A08丨1x
+      - Hongkong, SS - B Group
+      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
+      - shallaz2.proconcn.xyz:560
+      - cusouthcmhk.procncon.xyz:562
+      - shallaz2.proconcn.xyz:566
+      - shonlinesandcu02.proconcn.xyz:562
+      - jp_16
+      - shallaz2.proconcn.xyz:562
       - shonlinesandcu03.proconcn.xyz:561
       - defaultName_21
-      - V1越南A01丨1x
-      - V1新加坡A03丨1x
-      - V1台湾A11丨1x
-      - V1香港A09丨1x
-      - V1日本A04丨1x
-      - shonlinesandcu02.proconcn.xyz:560
-      - V1日本A02丨1x
-      - V1新加坡A13丨1x
-      - shallaz2.proconcn.xyz:562
-      - V1香港A08丨1x
-      - V1台湾A08丨1x
-      - V1新加坡A14丨1x
-      - V1新加坡A04丨1x
+      - sg2_19
+      - 233v2_com_140_238_36_111
+      - 韩国➤高速➤x1_11
+      - ip_150_230_249_169
+      - relaypro.procncon.xyz:610
+      - kr_vnklwwv_com_vmess_ws_1
+      - relaypro.procncon.xyz:560
+      - Incheon, SS - B Group
+      - HK_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - V1香港A10丨1x
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
-      - V1香港A05丨1x
-      - cstwrelay.onlineto.xyz:567
-      - V1香港A07丨1x
-      - V1香港A01丨1x
+      - 香港➤高速➤x1_1
       - V2-#103_cn2-新加坡_NF_x1_5_V2ray_2
-      - defaultName_20
-      - V1日本A07丨1x
       - V2-#101_cn2-新加坡_NF_x1_5_V2ray_1
-      - V1新加坡A08丨1x
+      - Hongkong, SS - B Group
+      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
+      - shallaz2.proconcn.xyz:560
+      - cusouthcmhk.procncon.xyz:562
+      - shallaz2.proconcn.xyz:566
+      - shonlinesandcu02.proconcn.xyz:562
+      - jp_16
+      - shallaz2.proconcn.xyz:562
       - shonlinesandcu03.proconcn.xyz:561
       - defaultName_21
-      - V1越南A01丨1x
-      - V1新加坡A03丨1x
-      - V1台湾A11丨1x
-      - V1香港A09丨1x
-      - V1日本A04丨1x
-      - shonlinesandcu02.proconcn.xyz:560
-      - V1日本A02丨1x
-      - V1新加坡A13丨1x
-      - shallaz2.proconcn.xyz:562
-      - V1香港A08丨1x
-      - V1台湾A08丨1x
-      - V1新加坡A14丨1x
-      - V1新加坡A04丨1x
+      - sg2_19
+      - 233v2_com_140_238_36_111
+      - 韩国➤高速➤x1_11
+      - ip_150_230_249_169
+      - relaypro.procncon.xyz:610
+      - kr_vnklwwv_com_vmess_ws_1
+      - relaypro.procncon.xyz:560
+      - Incheon, SS - B Group
+      - HK_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -294,32 +255,28 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - V1香港A10丨1x
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
-      - V1香港A05丨1x
-      - cstwrelay.onlineto.xyz:567
-      - V1香港A07丨1x
-      - V1香港A01丨1x
+      - 香港➤高速➤x1_1
       - V2-#103_cn2-新加坡_NF_x1_5_V2ray_2
-      - defaultName_20
-      - V1日本A07丨1x
       - V2-#101_cn2-新加坡_NF_x1_5_V2ray_1
-      - V1新加坡A08丨1x
+      - Hongkong, SS - B Group
+      - V2-#206_CN2-香港_NF_x2_0_V2ray_10
+      - shallaz2.proconcn.xyz:560
+      - cusouthcmhk.procncon.xyz:562
+      - shallaz2.proconcn.xyz:566
+      - shonlinesandcu02.proconcn.xyz:562
+      - jp_16
+      - shallaz2.proconcn.xyz:562
       - shonlinesandcu03.proconcn.xyz:561
       - defaultName_21
-      - V1越南A01丨1x
-      - V1新加坡A03丨1x
-      - V1台湾A11丨1x
-      - V1香港A09丨1x
-      - V1日本A04丨1x
-      - shonlinesandcu02.proconcn.xyz:560
-      - V1日本A02丨1x
-      - V1新加坡A13丨1x
-      - shallaz2.proconcn.xyz:562
-      - V1香港A08丨1x
-      - V1台湾A08丨1x
-      - V1新加坡A14丨1x
-      - V1新加坡A04丨1x
+      - sg2_19
+      - 233v2_com_140_238_36_111
+      - 韩国➤高速➤x1_11
+      - ip_150_230_249_169
+      - relaypro.procncon.xyz:610
+      - kr_vnklwwv_com_vmess_ws_1
+      - relaypro.procncon.xyz:560
+      - Incheon, SS - B Group
+      - HK_1
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
