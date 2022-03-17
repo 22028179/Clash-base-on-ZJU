@@ -5,131 +5,143 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: shonlinesandcu02.proconcn.xyz:561, server: shonlinesandcu02.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: shallaz2.proconcn.xyz:566, server: shallaz2.proconcn.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: V2-#103_cn2-新加坡_NF_x1_5_V2ray_2, server: shanghai-cn2-01.ddns-oink.xyz, port: 40103, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: shanghai-cn2-01.ddns-oink.xyz}, udp: true}
-  - {name: defaultName_20, server: cn1.relay.starlink.st, port: 50104, type: ss, cipher: aes-128-gcm, password: 696fd8c5-c2da-4590-9614-46d3fbf93917, udp: true}
-  - {name: defaultName_21, server: cn1.relay.starlink.st, port: 50105, type: ss, cipher: aes-128-gcm, password: 696fd8c5-c2da-4590-9614-46d3fbf93917, udp: true}
-  - {name: 香港HKT-dipatvpnhat_251, server: 120.232.215.138, port: 13502, type: vmess, uuid: 8820142b-516c-3521-982b-e7fe28d85de3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: 120.232.215.138}, udp: true}
-  - {name: 美国102_182, server: hk3.mlsao.dynv6.net, port: 80, type: vmess, uuid: 80f911dc-699e-4b32-a024-f8e66993a9a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: hk3.mlsao.dynv6.net}, udp: true}
-  - {name: shonlinesandcu03.proconcn.xyz:560, server: shonlinesandcu03.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: 美国107_187, server: hk2.mlsao.dynv6.net, port: 80, type: vmess, uuid: 80f911dc-699e-4b32-a024-f8e66993a9a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: hk2.mlsao.dynv6.net}, udp: true}
-  - {name: senbang186_1, server: 94.103.5.6, port: 15575, type: vmess, uuid: 8c226d2a-e526-48ed-d28a-be2190d92e55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 94.103.5.6}, udp: true}
-  - {name: HK_32, server: azhk.relay.qchwnd.moe, port: 44603, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: shonlinesandcu03.proconcn.xyz:561, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: 香港➤高速➤x1_1, server: hkgs.v2yun.vip, port: 80, type: vmess, uuid: e2eac26e-b18e-327e-b8cb-526c00d72980, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkgs.v2yun.vip}, udp: true}
+  - {name: cn01.efan.men:8759, server: cn01.efan.men, port: 8759, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8715, server: cn01.efan.men, port: 8715, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8757, server: cn01.efan.men, port: 8757, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8752, server: cn01.efan.men, port: 8752, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8756, server: cn01.efan.men, port: 8756, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8753, server: cn01.efan.men, port: 8753, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8760, server: cn01.efan.men, port: 8760, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8755, server: cn01.efan.men, port: 8755, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8716, server: cn01.efan.men, port: 8716, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8751, server: cn01.efan.men, port: 8751, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8720, server: cn01.efan.men, port: 8720, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8712, server: cn01.efan.men, port: 8712, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: 中国-1_12MB/s(Youtube:不良林)_5, server: cn01.efan.men, port: 8718, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8713, server: cn01.efan.men, port: 8713, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8718, server: cn01.efan.men, port: 8718, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8754, server: cn01.efan.men, port: 8754, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8717, server: cn01.efan.men, port: 8717, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 117.28.242.156}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_250, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
   - {name: "Hongkong, SS - B Group", server: SS-NODE-4-B.GFWAIRPORT.NET, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 8c5d0301-83c3-428e-964a-72a4066bc3e9, udp: true}
-  - {name: 美国111_191, server: hk1.mlsao.dynv6.net, port: 80, type: vmess, uuid: 80f911dc-699e-4b32-a024-f8e66993a9a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: hk1.mlsao.dynv6.net}, udp: true}
-  - {name: shonlinesandcu02.proconcn.xyz:562, server: shonlinesandcu02.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: 美国108_188, server: hk6.mlsao.dynv6.net, port: 80, type: vmess, uuid: 80f911dc-699e-4b32-a024-f8e66993a9a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: hk6.mlsao.dynv6.net}, udp: true}
-  - {name: cusouthcmhk.procncon.xyz:562, server: cusouthcmhk.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国, server: 120.232.192.119, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
-  - {name: HK_20, server: azhk.relay.qchwnd.moe, port: 44604, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 美国096_176, server: 13.214.213.199, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 中国-185_6KB/s(Youtube:不良林)_4, server: cn01.efan.men, port: 8782, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8782, server: cn01.efan.men, port: 8782, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_249, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_256, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: shonlinesandcu03.proconcn.xyz:561, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: shonlinesandcu02.proconcn.xyz:561, server: shonlinesandcu02.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
+  - {name: cn01.efan.men:8719, server: cn01.efan.men, port: 8719, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: defaultName_21, server: cn1.relay.starlink.st, port: 50105, type: ss, cipher: aes-128-gcm, password: 696fd8c5-c2da-4590-9614-46d3fbf93917, udp: true}
+  - {name: 日本京东A_1, server: jp.azzhuangaping.tw, port: 80, type: vmess, uuid: ab8c4e39-dbd4-3c38-bd7c-ca3c5976dce7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: jp.azzhuangaping.tw}, udp: true}
   - {name: jp_16, server: 14.v2-ray.cyou, port: 15014, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 14.v2-ray.cyou}, udp: true}
-  - {name: 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 2, server: 120.232.192.119, port: 3389, type: trojan, password: 0437e2b78115adc2, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_312, server: gz1.52168.xyz, port: 1114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: Netflix台湾阿伟科技atTG/油管_1, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 节点更新https://bit.ly/3oOSZUc 35, server: hk-bgp-se.jiashumao.net, port: 38888, type: trojan, password: 20e00b23-b535-3286-9bac-ec7cc34aa83a, sni: hk-bgp-se.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: _76, server: 103.135.249.25, port: 153, type: vmess, uuid: cd93c530-a7fe-3f44-985d-5f0836f5e83b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 74527113825.laowanxiang.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - shonlinesandcu02.proconcn.xyz:561
-      - shallaz2.proconcn.xyz:566
-      - V2-#103_cn2-新加坡_NF_x1_5_V2ray_2
-      - defaultName_20
-      - defaultName_21
-      - 香港HKT-dipatvpnhat_251
-      - 美国102_182
-      - shonlinesandcu03.proconcn.xyz:560
-      - 美国107_187
-      - senbang186_1
-      - HK_32
-      - shonlinesandcu03.proconcn.xyz:561
-      - 香港➤高速➤x1_1
-      - Hongkong, SS - B Group
-      - 美国111_191
-      - shonlinesandcu02.proconcn.xyz:562
-      - 美国108_188
-      - cusouthcmhk.procncon.xyz:562
+      - cn01.efan.men:8759
+      - cn01.efan.men:8715
+      - cn01.efan.men:8757
+      - cn01.efan.men:8752
+      - cn01.efan.men:8756
+      - cn01.efan.men:8753
+      - cn01.efan.men:8760
+      - cn01.efan.men:8755
+      - cn01.efan.men:8716
+      - cn01.efan.men:8751
+      - cn01.efan.men:8720
+      - cn01.efan.men:8712
+      - 中国-1_12MB/s(Youtube:不良林)_5
+      - cn01.efan.men:8713
+      - cn01.efan.men:8718
+      - cn01.efan.men:8754
+      - cn01.efan.men:8717
       - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国
-      - HK_20
-      - 美国096_176
+      - ♥️♥️YouTube梦歌♥️♥️_250
+      - Hongkong, SS - B Group
+      - 中国-185_6KB/s(Youtube:不良林)_4
+      - cn01.efan.men:8782
+      - ♥️♥️YouTube梦歌♥️♥️_249
+      - ♥️♥️YouTube梦歌♥️♥️_256
+      - shonlinesandcu03.proconcn.xyz:561
+      - shonlinesandcu02.proconcn.xyz:561
+      - cn01.efan.men:8719
+      - defaultName_21
+      - 日本京东A_1
       - jp_16
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 2
-      - Relay_🇨🇳CN-🇺🇸US_312
-      - Netflix台湾阿伟科技atTG/油管_1
-      - 节点更新https://bit.ly/3oOSZUc 35
-      - _76
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - shonlinesandcu02.proconcn.xyz:561
-      - shallaz2.proconcn.xyz:566
-      - V2-#103_cn2-新加坡_NF_x1_5_V2ray_2
-      - defaultName_20
-      - defaultName_21
-      - 香港HKT-dipatvpnhat_251
-      - 美国102_182
-      - shonlinesandcu03.proconcn.xyz:560
-      - 美国107_187
-      - senbang186_1
-      - HK_32
-      - shonlinesandcu03.proconcn.xyz:561
-      - 香港➤高速➤x1_1
-      - Hongkong, SS - B Group
-      - 美国111_191
-      - shonlinesandcu02.proconcn.xyz:562
-      - 美国108_188
-      - cusouthcmhk.procncon.xyz:562
+      - cn01.efan.men:8759
+      - cn01.efan.men:8715
+      - cn01.efan.men:8757
+      - cn01.efan.men:8752
+      - cn01.efan.men:8756
+      - cn01.efan.men:8753
+      - cn01.efan.men:8760
+      - cn01.efan.men:8755
+      - cn01.efan.men:8716
+      - cn01.efan.men:8751
+      - cn01.efan.men:8720
+      - cn01.efan.men:8712
+      - 中国-1_12MB/s(Youtube:不良林)_5
+      - cn01.efan.men:8713
+      - cn01.efan.men:8718
+      - cn01.efan.men:8754
+      - cn01.efan.men:8717
       - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国
-      - HK_20
-      - 美国096_176
+      - ♥️♥️YouTube梦歌♥️♥️_250
+      - Hongkong, SS - B Group
+      - 中国-185_6KB/s(Youtube:不良林)_4
+      - cn01.efan.men:8782
+      - ♥️♥️YouTube梦歌♥️♥️_249
+      - ♥️♥️YouTube梦歌♥️♥️_256
+      - shonlinesandcu03.proconcn.xyz:561
+      - shonlinesandcu02.proconcn.xyz:561
+      - cn01.efan.men:8719
+      - defaultName_21
+      - 日本京东A_1
       - jp_16
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 2
-      - Relay_🇨🇳CN-🇺🇸US_312
-      - Netflix台湾阿伟科技atTG/油管_1
-      - 节点更新https://bit.ly/3oOSZUc 35
-      - _76
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - shonlinesandcu02.proconcn.xyz:561
-      - shallaz2.proconcn.xyz:566
-      - V2-#103_cn2-新加坡_NF_x1_5_V2ray_2
-      - defaultName_20
-      - defaultName_21
-      - 香港HKT-dipatvpnhat_251
-      - 美国102_182
-      - shonlinesandcu03.proconcn.xyz:560
-      - 美国107_187
-      - senbang186_1
-      - HK_32
-      - shonlinesandcu03.proconcn.xyz:561
-      - 香港➤高速➤x1_1
-      - Hongkong, SS - B Group
-      - 美国111_191
-      - shonlinesandcu02.proconcn.xyz:562
-      - 美国108_188
-      - cusouthcmhk.procncon.xyz:562
+      - cn01.efan.men:8759
+      - cn01.efan.men:8715
+      - cn01.efan.men:8757
+      - cn01.efan.men:8752
+      - cn01.efan.men:8756
+      - cn01.efan.men:8753
+      - cn01.efan.men:8760
+      - cn01.efan.men:8755
+      - cn01.efan.men:8716
+      - cn01.efan.men:8751
+      - cn01.efan.men:8720
+      - cn01.efan.men:8712
+      - 中国-1_12MB/s(Youtube:不良林)_5
+      - cn01.efan.men:8713
+      - cn01.efan.men:8718
+      - cn01.efan.men:8754
+      - cn01.efan.men:8717
       - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国
-      - HK_20
-      - 美国096_176
+      - ♥️♥️YouTube梦歌♥️♥️_250
+      - Hongkong, SS - B Group
+      - 中国-185_6KB/s(Youtube:不良林)_4
+      - cn01.efan.men:8782
+      - ♥️♥️YouTube梦歌♥️♥️_249
+      - ♥️♥️YouTube梦歌♥️♥️_256
+      - shonlinesandcu03.proconcn.xyz:561
+      - shonlinesandcu02.proconcn.xyz:561
+      - cn01.efan.men:8719
+      - defaultName_21
+      - 日本京东A_1
       - jp_16
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 2
-      - Relay_🇨🇳CN-🇺🇸US_312
-      - Netflix台湾阿伟科技atTG/油管_1
-      - 节点更新https://bit.ly/3oOSZUc 35
-      - _76
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -148,139 +160,147 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - shonlinesandcu02.proconcn.xyz:561
-      - shallaz2.proconcn.xyz:566
-      - V2-#103_cn2-新加坡_NF_x1_5_V2ray_2
-      - defaultName_20
-      - defaultName_21
-      - 香港HKT-dipatvpnhat_251
-      - 美国102_182
-      - shonlinesandcu03.proconcn.xyz:560
-      - 美国107_187
-      - senbang186_1
-      - HK_32
-      - shonlinesandcu03.proconcn.xyz:561
-      - 香港➤高速➤x1_1
-      - Hongkong, SS - B Group
-      - 美国111_191
-      - shonlinesandcu02.proconcn.xyz:562
-      - 美国108_188
-      - cusouthcmhk.procncon.xyz:562
+      - cn01.efan.men:8759
+      - cn01.efan.men:8715
+      - cn01.efan.men:8757
+      - cn01.efan.men:8752
+      - cn01.efan.men:8756
+      - cn01.efan.men:8753
+      - cn01.efan.men:8760
+      - cn01.efan.men:8755
+      - cn01.efan.men:8716
+      - cn01.efan.men:8751
+      - cn01.efan.men:8720
+      - cn01.efan.men:8712
+      - 中国-1_12MB/s(Youtube:不良林)_5
+      - cn01.efan.men:8713
+      - cn01.efan.men:8718
+      - cn01.efan.men:8754
+      - cn01.efan.men:8717
       - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国
-      - HK_20
-      - 美国096_176
+      - ♥️♥️YouTube梦歌♥️♥️_250
+      - Hongkong, SS - B Group
+      - 中国-185_6KB/s(Youtube:不良林)_4
+      - cn01.efan.men:8782
+      - ♥️♥️YouTube梦歌♥️♥️_249
+      - ♥️♥️YouTube梦歌♥️♥️_256
+      - shonlinesandcu03.proconcn.xyz:561
+      - shonlinesandcu02.proconcn.xyz:561
+      - cn01.efan.men:8719
+      - defaultName_21
+      - 日本京东A_1
       - jp_16
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 2
-      - Relay_🇨🇳CN-🇺🇸US_312
-      - Netflix台湾阿伟科技atTG/油管_1
-      - 节点更新https://bit.ly/3oOSZUc 35
-      - _76
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港HKT-dipatvpnhat_251
-      - 香港➤高速➤x1_1
-      - cusouthcmhk.procncon.xyz:562
-      - Netflix台湾阿伟科技atTG/油管_1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - shonlinesandcu02.proconcn.xyz:561
-      - shallaz2.proconcn.xyz:566
-      - V2-#103_cn2-新加坡_NF_x1_5_V2ray_2
-      - defaultName_20
-      - defaultName_21
-      - 香港HKT-dipatvpnhat_251
-      - 美国102_182
-      - shonlinesandcu03.proconcn.xyz:560
-      - 美国107_187
-      - senbang186_1
-      - HK_32
-      - shonlinesandcu03.proconcn.xyz:561
-      - 香港➤高速➤x1_1
-      - Hongkong, SS - B Group
-      - 美国111_191
-      - shonlinesandcu02.proconcn.xyz:562
-      - 美国108_188
-      - cusouthcmhk.procncon.xyz:562
+      - cn01.efan.men:8759
+      - cn01.efan.men:8715
+      - cn01.efan.men:8757
+      - cn01.efan.men:8752
+      - cn01.efan.men:8756
+      - cn01.efan.men:8753
+      - cn01.efan.men:8760
+      - cn01.efan.men:8755
+      - cn01.efan.men:8716
+      - cn01.efan.men:8751
+      - cn01.efan.men:8720
+      - cn01.efan.men:8712
+      - 中国-1_12MB/s(Youtube:不良林)_5
+      - cn01.efan.men:8713
+      - cn01.efan.men:8718
+      - cn01.efan.men:8754
+      - cn01.efan.men:8717
       - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国
-      - HK_20
-      - 美国096_176
+      - ♥️♥️YouTube梦歌♥️♥️_250
+      - Hongkong, SS - B Group
+      - 中国-185_6KB/s(Youtube:不良林)_4
+      - cn01.efan.men:8782
+      - ♥️♥️YouTube梦歌♥️♥️_249
+      - ♥️♥️YouTube梦歌♥️♥️_256
+      - shonlinesandcu03.proconcn.xyz:561
+      - shonlinesandcu02.proconcn.xyz:561
+      - cn01.efan.men:8719
+      - defaultName_21
+      - 日本京东A_1
       - jp_16
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 2
-      - Relay_🇨🇳CN-🇺🇸US_312
-      - Netflix台湾阿伟科技atTG/油管_1
-      - 节点更新https://bit.ly/3oOSZUc 35
-      - _76
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - shonlinesandcu02.proconcn.xyz:561
-      - shallaz2.proconcn.xyz:566
-      - V2-#103_cn2-新加坡_NF_x1_5_V2ray_2
-      - defaultName_20
-      - defaultName_21
-      - 香港HKT-dipatvpnhat_251
-      - 美国102_182
-      - shonlinesandcu03.proconcn.xyz:560
-      - 美国107_187
-      - senbang186_1
-      - HK_32
-      - shonlinesandcu03.proconcn.xyz:561
-      - 香港➤高速➤x1_1
-      - Hongkong, SS - B Group
-      - 美国111_191
-      - shonlinesandcu02.proconcn.xyz:562
-      - 美国108_188
-      - cusouthcmhk.procncon.xyz:562
+      - cn01.efan.men:8759
+      - cn01.efan.men:8715
+      - cn01.efan.men:8757
+      - cn01.efan.men:8752
+      - cn01.efan.men:8756
+      - cn01.efan.men:8753
+      - cn01.efan.men:8760
+      - cn01.efan.men:8755
+      - cn01.efan.men:8716
+      - cn01.efan.men:8751
+      - cn01.efan.men:8720
+      - cn01.efan.men:8712
+      - 中国-1_12MB/s(Youtube:不良林)_5
+      - cn01.efan.men:8713
+      - cn01.efan.men:8718
+      - cn01.efan.men:8754
+      - cn01.efan.men:8717
       - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国
-      - HK_20
-      - 美国096_176
+      - ♥️♥️YouTube梦歌♥️♥️_250
+      - Hongkong, SS - B Group
+      - 中国-185_6KB/s(Youtube:不良林)_4
+      - cn01.efan.men:8782
+      - ♥️♥️YouTube梦歌♥️♥️_249
+      - ♥️♥️YouTube梦歌♥️♥️_256
+      - shonlinesandcu03.proconcn.xyz:561
+      - shonlinesandcu02.proconcn.xyz:561
+      - cn01.efan.men:8719
+      - defaultName_21
+      - 日本京东A_1
       - jp_16
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 2
-      - Relay_🇨🇳CN-🇺🇸US_312
-      - Netflix台湾阿伟科技atTG/油管_1
-      - 节点更新https://bit.ly/3oOSZUc 35
-      - _76
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - shonlinesandcu02.proconcn.xyz:561
-      - shallaz2.proconcn.xyz:566
-      - V2-#103_cn2-新加坡_NF_x1_5_V2ray_2
-      - defaultName_20
-      - defaultName_21
-      - 香港HKT-dipatvpnhat_251
-      - 美国102_182
-      - shonlinesandcu03.proconcn.xyz:560
-      - 美国107_187
-      - senbang186_1
-      - HK_32
-      - shonlinesandcu03.proconcn.xyz:561
-      - 香港➤高速➤x1_1
-      - Hongkong, SS - B Group
-      - 美国111_191
-      - shonlinesandcu02.proconcn.xyz:562
-      - 美国108_188
-      - cusouthcmhk.procncon.xyz:562
+      - cn01.efan.men:8759
+      - cn01.efan.men:8715
+      - cn01.efan.men:8757
+      - cn01.efan.men:8752
+      - cn01.efan.men:8756
+      - cn01.efan.men:8753
+      - cn01.efan.men:8760
+      - cn01.efan.men:8755
+      - cn01.efan.men:8716
+      - cn01.efan.men:8751
+      - cn01.efan.men:8720
+      - cn01.efan.men:8712
+      - 中国-1_12MB/s(Youtube:不良林)_5
+      - cn01.efan.men:8713
+      - cn01.efan.men:8718
+      - cn01.efan.men:8754
+      - cn01.efan.men:8717
       - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国
-      - HK_20
-      - 美国096_176
+      - ♥️♥️YouTube梦歌♥️♥️_250
+      - Hongkong, SS - B Group
+      - 中国-185_6KB/s(Youtube:不良林)_4
+      - cn01.efan.men:8782
+      - ♥️♥️YouTube梦歌♥️♥️_249
+      - ♥️♥️YouTube梦歌♥️♥️_256
+      - shonlinesandcu03.proconcn.xyz:561
+      - shonlinesandcu02.proconcn.xyz:561
+      - cn01.efan.men:8719
+      - defaultName_21
+      - 日本京东A_1
       - jp_16
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 2
-      - Relay_🇨🇳CN-🇺🇸US_312
-      - Netflix台湾阿伟科技atTG/油管_1
-      - 节点更新https://bit.ly/3oOSZUc 35
-      - _76
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -296,33 +316,36 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - shonlinesandcu02.proconcn.xyz:561
-      - shallaz2.proconcn.xyz:566
-      - V2-#103_cn2-新加坡_NF_x1_5_V2ray_2
-      - defaultName_20
-      - defaultName_21
-      - 香港HKT-dipatvpnhat_251
-      - 美国102_182
-      - shonlinesandcu03.proconcn.xyz:560
-      - 美国107_187
-      - senbang186_1
-      - HK_32
-      - shonlinesandcu03.proconcn.xyz:561
-      - 香港➤高速➤x1_1
-      - Hongkong, SS - B Group
-      - 美国111_191
-      - shonlinesandcu02.proconcn.xyz:562
-      - 美国108_188
-      - cusouthcmhk.procncon.xyz:562
+      - cn01.efan.men:8759
+      - cn01.efan.men:8715
+      - cn01.efan.men:8757
+      - cn01.efan.men:8752
+      - cn01.efan.men:8756
+      - cn01.efan.men:8753
+      - cn01.efan.men:8760
+      - cn01.efan.men:8755
+      - cn01.efan.men:8716
+      - cn01.efan.men:8751
+      - cn01.efan.men:8720
+      - cn01.efan.men:8712
+      - 中国-1_12MB/s(Youtube:不良林)_5
+      - cn01.efan.men:8713
+      - cn01.efan.men:8718
+      - cn01.efan.men:8754
+      - cn01.efan.men:8717
       - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国
-      - HK_20
-      - 美国096_176
+      - ♥️♥️YouTube梦歌♥️♥️_250
+      - Hongkong, SS - B Group
+      - 中国-185_6KB/s(Youtube:不良林)_4
+      - cn01.efan.men:8782
+      - ♥️♥️YouTube梦歌♥️♥️_249
+      - ♥️♥️YouTube梦歌♥️♥️_256
+      - shonlinesandcu03.proconcn.xyz:561
+      - shonlinesandcu02.proconcn.xyz:561
+      - cn01.efan.men:8719
+      - defaultName_21
+      - 日本京东A_1
       - jp_16
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 2
-      - Relay_🇨🇳CN-🇺🇸US_312
-      - Netflix台湾阿伟科技atTG/油管_1
-      - 节点更新https://bit.ly/3oOSZUc 35
-      - _76
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
