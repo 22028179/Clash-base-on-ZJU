@@ -5,119 +5,139 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: shonlinesandcu02.proconcn.xyz:561, server: shonlinesandcu02.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: shonlinesandcu02.proconcn.xyz:562, server: shonlinesandcu02.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: shonlinesandcu03.proconcn.xyz:561, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_250, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 117.28.242.156}, udp: true}
-  - {name: 香港➤高速➤x1_1, server: hkgs.v2yun.vip, port: 80, type: vmess, uuid: e2eac26e-b18e-327e-b8cb-526c00d72980, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkgs.v2yun.vip}, udp: true}
-  - {name: 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 2, server: 120.232.192.119, port: 3389, type: trojan, password: 0437e2b78115adc2, skip-cert-verify: true, udp: true}
-  - {name: cusouthcmhk.procncon.xyz:562, server: cusouthcmhk.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: shallaz2.proconcn.xyz:566, server: shallaz2.proconcn.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_249, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: jp_16, server: 14.v2-ray.cyou, port: 15014, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 14.v2-ray.cyou}, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_359, server: 120.232.192.119, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: true, udp: true}
-  - {name: 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 3, server: 120.232.192.119, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
-  - {name: 英国004_286, server: 5.44.249.43, port: 3389, type: trojan, password: 0437e2b78115adc2, skip-cert-verify: true, udp: true}
-  - {name: 美国096_176, server: 13.214.213.199, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: v2ray_1, server: kj.aitutu.xyz, port: 57420, type: vmess, uuid: 5671df0d-273e-4131-ffce-b9c736a2377f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 233v2_com_140_238_36_111, server: 140.238.36.111, port: 80, type: vmess, uuid: befdb5b5-1e37-491f-b355-ca274a75798e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK_1, server: a.hxtwhille.tk, port: 443, type: trojan, password: !<str> 138228138228, sni: a.hxtwhille.tk, skip-cert-verify: true, udp: true}
-  - {name: 日本京东B_2, server: jp2.azzhuangaping.tw, port: 80, type: vmess, uuid: ab8c4e39-dbd4-3c38-bd7c-ca3c5976dce7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: jp2.azzhuangaping.tw}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_256, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: relaypro.procncon.xyz:560, server: relaypro.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: 日本京东A_1, server: jp.azzhuangaping.tw, port: 80, type: vmess, uuid: ab8c4e39-dbd4-3c38-bd7c-ca3c5976dce7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: jp.azzhuangaping.tw}, udp: true}
-  - {name: 韩国➤高速➤x1_11, server: krgs.v2yun.vip, port: 80, type: vmess, uuid: e2eac26e-b18e-327e-b8cb-526c00d72980, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: krgs.v2yun.vip}, udp: true}
-  - {name: ip_150_230_249_169, server: 150.230.249.169, port: 8888, type: vmess, uuid: f836d00e-73e0-4eb5-a0ac-18a8e9ee61ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022_03_17）_299, server: cn01.efan.men, port: 8756, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8718, server: cn01.efan.men, port: 8718, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: CYL-科技（2022_03_17）_303, server: cn01.efan.men, port: 8718, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: CYL-科技（2022_03_17）_294, server: cn01.efan.men, port: 8753, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8717, server: cn01.efan.men, port: 8717, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8714, server: cn01.efan.men, port: 8714, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8755, server: cn01.efan.men, port: 8755, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: CN-🇸🇬SG_244_5_68Mb_195, server: 101.67.8.151, port: 16107, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022_03_17）_296, server: cn01.efan.men, port: 8714, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: CYL-科技（2022.03.17）, server: cn01.efan.men, port: 8759, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 14, server: 101.67.8.151, port: 16108, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: cn01.efan.men:8719, server: cn01.efan.men, port: 8719, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8716, server: cn01.efan.men, port: 8716, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8757, server: cn01.efan.men, port: 8757, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 18, server: 113.240.73.12, port: 16228, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: cn01.efan.men:8758, server: cn01.efan.men, port: 8758, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 32, server: 183.240.181.40, port: 16218, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: cn01.efan.men:8712, server: cn01.efan.men, port: 8712, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: CN-🇸🇬SG_213_54_47Mb_12, server: 113.240.73.12, port: 16230, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022_03_17）_4, server: cn01.efan.men, port: 8758, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: CYL-科技（2022.03.17） 2, server: cn01.efan.men, port: 8753, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8753, server: cn01.efan.men, port: 8753, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: CYL-科技（2022.03.17） 3, server: cn01.efan.men, port: 8714, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: CN-🇸🇬SG_227_64_72Mb_26, server: 113.240.73.12, port: 16108, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-🇸🇬SG_227_64_72Mb_26 2, server: 113.240.73.12, port: 16108, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.03.17） 4, server: cn01.efan.men, port: 8718, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: CN-🇬🇧GB_102_19_75Mb_44, server: 120.240.86.91, port: 16218, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.03.17） 5, server: cn01.efan.men, port: 8758, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: cn01.efan.men:8713, server: cn01.efan.men, port: 8713, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - shonlinesandcu02.proconcn.xyz:561
-      - shonlinesandcu02.proconcn.xyz:562
-      - shonlinesandcu03.proconcn.xyz:561
-      - ♥️♥️YouTube梦歌♥️♥️_250
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国
-      - 香港➤高速➤x1_1
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 2
-      - cusouthcmhk.procncon.xyz:562
-      - shallaz2.proconcn.xyz:566
-      - ♥️♥️YouTube梦歌♥️♥️_249
-      - jp_16
-      - Relay_🇨🇳CN-🇹🇼TW_359
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 3
-      - 英国004_286
-      - 美国096_176
-      - v2ray_1
-      - 233v2_com_140_238_36_111
-      - HK_1
-      - 日本京东B_2
-      - ♥️♥️YouTube梦歌♥️♥️_256
-      - relaypro.procncon.xyz:560
-      - 日本京东A_1
-      - 韩国➤高速➤x1_11
-      - ip_150_230_249_169
+      - CYL-科技（2022_03_17）_299
+      - cn01.efan.men:8718
+      - CYL-科技（2022_03_17）_303
+      - CYL-科技（2022_03_17）_294
+      - cn01.efan.men:8717
+      - cn01.efan.men:8714
+      - cn01.efan.men:8755
+      - CN-🇸🇬SG_244_5_68Mb_195
+      - CYL-科技（2022_03_17）_296
+      - CYL-科技（2022.03.17）
+      - 新加坡(绿头外网集团)(Public) 14
+      - cn01.efan.men:8719
+      - cn01.efan.men:8716
+      - cn01.efan.men:8757
+      - 新加坡(绿头外网集团)(Public) 18
+      - cn01.efan.men:8758
+      - 香港(绿头外网集团)(Public) 32
+      - cn01.efan.men:8712
+      - CN-🇸🇬SG_213_54_47Mb_12
+      - CYL-科技（2022_03_17）_4
+      - CYL-科技（2022.03.17） 2
+      - cn01.efan.men:8753
+      - CYL-科技（2022.03.17） 3
+      - CN-🇸🇬SG_227_64_72Mb_26
+      - CN-🇸🇬SG_227_64_72Mb_26 2
+      - CYL-科技（2022.03.17） 4
+      - CN-🇬🇧GB_102_19_75Mb_44
+      - CYL-科技（2022.03.17） 5
+      - cn01.efan.men:8713
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - shonlinesandcu02.proconcn.xyz:561
-      - shonlinesandcu02.proconcn.xyz:562
-      - shonlinesandcu03.proconcn.xyz:561
-      - ♥️♥️YouTube梦歌♥️♥️_250
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国
-      - 香港➤高速➤x1_1
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 2
-      - cusouthcmhk.procncon.xyz:562
-      - shallaz2.proconcn.xyz:566
-      - ♥️♥️YouTube梦歌♥️♥️_249
-      - jp_16
-      - Relay_🇨🇳CN-🇹🇼TW_359
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 3
-      - 英国004_286
-      - 美国096_176
-      - v2ray_1
-      - 233v2_com_140_238_36_111
-      - HK_1
-      - 日本京东B_2
-      - ♥️♥️YouTube梦歌♥️♥️_256
-      - relaypro.procncon.xyz:560
-      - 日本京东A_1
-      - 韩国➤高速➤x1_11
-      - ip_150_230_249_169
+      - CYL-科技（2022_03_17）_299
+      - cn01.efan.men:8718
+      - CYL-科技（2022_03_17）_303
+      - CYL-科技（2022_03_17）_294
+      - cn01.efan.men:8717
+      - cn01.efan.men:8714
+      - cn01.efan.men:8755
+      - CN-🇸🇬SG_244_5_68Mb_195
+      - CYL-科技（2022_03_17）_296
+      - CYL-科技（2022.03.17）
+      - 新加坡(绿头外网集团)(Public) 14
+      - cn01.efan.men:8719
+      - cn01.efan.men:8716
+      - cn01.efan.men:8757
+      - 新加坡(绿头外网集团)(Public) 18
+      - cn01.efan.men:8758
+      - 香港(绿头外网集团)(Public) 32
+      - cn01.efan.men:8712
+      - CN-🇸🇬SG_213_54_47Mb_12
+      - CYL-科技（2022_03_17）_4
+      - CYL-科技（2022.03.17） 2
+      - cn01.efan.men:8753
+      - CYL-科技（2022.03.17） 3
+      - CN-🇸🇬SG_227_64_72Mb_26
+      - CN-🇸🇬SG_227_64_72Mb_26 2
+      - CYL-科技（2022.03.17） 4
+      - CN-🇬🇧GB_102_19_75Mb_44
+      - CYL-科技（2022.03.17） 5
+      - cn01.efan.men:8713
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - shonlinesandcu02.proconcn.xyz:561
-      - shonlinesandcu02.proconcn.xyz:562
-      - shonlinesandcu03.proconcn.xyz:561
-      - ♥️♥️YouTube梦歌♥️♥️_250
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国
-      - 香港➤高速➤x1_1
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 2
-      - cusouthcmhk.procncon.xyz:562
-      - shallaz2.proconcn.xyz:566
-      - ♥️♥️YouTube梦歌♥️♥️_249
-      - jp_16
-      - Relay_🇨🇳CN-🇹🇼TW_359
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 3
-      - 英国004_286
-      - 美国096_176
-      - v2ray_1
-      - 233v2_com_140_238_36_111
-      - HK_1
-      - 日本京东B_2
-      - ♥️♥️YouTube梦歌♥️♥️_256
-      - relaypro.procncon.xyz:560
-      - 日本京东A_1
-      - 韩国➤高速➤x1_11
-      - ip_150_230_249_169
+      - CYL-科技（2022_03_17）_299
+      - cn01.efan.men:8718
+      - CYL-科技（2022_03_17）_303
+      - CYL-科技（2022_03_17）_294
+      - cn01.efan.men:8717
+      - cn01.efan.men:8714
+      - cn01.efan.men:8755
+      - CN-🇸🇬SG_244_5_68Mb_195
+      - CYL-科技（2022_03_17）_296
+      - CYL-科技（2022.03.17）
+      - 新加坡(绿头外网集团)(Public) 14
+      - cn01.efan.men:8719
+      - cn01.efan.men:8716
+      - cn01.efan.men:8757
+      - 新加坡(绿头外网集团)(Public) 18
+      - cn01.efan.men:8758
+      - 香港(绿头外网集团)(Public) 32
+      - cn01.efan.men:8712
+      - CN-🇸🇬SG_213_54_47Mb_12
+      - CYL-科技（2022_03_17）_4
+      - CYL-科技（2022.03.17） 2
+      - cn01.efan.men:8753
+      - CYL-科技（2022.03.17） 3
+      - CN-🇸🇬SG_227_64_72Mb_26
+      - CN-🇸🇬SG_227_64_72Mb_26 2
+      - CYL-科技（2022.03.17） 4
+      - CN-🇬🇧GB_102_19_75Mb_44
+      - CYL-科技（2022.03.17） 5
+      - cn01.efan.men:8713
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -136,125 +156,144 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - shonlinesandcu02.proconcn.xyz:561
-      - shonlinesandcu02.proconcn.xyz:562
-      - shonlinesandcu03.proconcn.xyz:561
-      - ♥️♥️YouTube梦歌♥️♥️_250
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国
-      - 香港➤高速➤x1_1
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 2
-      - cusouthcmhk.procncon.xyz:562
-      - shallaz2.proconcn.xyz:566
-      - ♥️♥️YouTube梦歌♥️♥️_249
-      - jp_16
-      - Relay_🇨🇳CN-🇹🇼TW_359
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 3
-      - 英国004_286
-      - 美国096_176
-      - v2ray_1
-      - 233v2_com_140_238_36_111
-      - HK_1
-      - 日本京东B_2
-      - ♥️♥️YouTube梦歌♥️♥️_256
-      - relaypro.procncon.xyz:560
-      - 日本京东A_1
-      - 韩国➤高速➤x1_11
-      - ip_150_230_249_169
+      - CYL-科技（2022_03_17）_299
+      - cn01.efan.men:8718
+      - CYL-科技（2022_03_17）_303
+      - CYL-科技（2022_03_17）_294
+      - cn01.efan.men:8717
+      - cn01.efan.men:8714
+      - cn01.efan.men:8755
+      - CN-🇸🇬SG_244_5_68Mb_195
+      - CYL-科技（2022_03_17）_296
+      - CYL-科技（2022.03.17）
+      - 新加坡(绿头外网集团)(Public) 14
+      - cn01.efan.men:8719
+      - cn01.efan.men:8716
+      - cn01.efan.men:8757
+      - 新加坡(绿头外网集团)(Public) 18
+      - cn01.efan.men:8758
+      - 香港(绿头外网集团)(Public) 32
+      - cn01.efan.men:8712
+      - CN-🇸🇬SG_213_54_47Mb_12
+      - CYL-科技（2022_03_17）_4
+      - CYL-科技（2022.03.17） 2
+      - cn01.efan.men:8753
+      - CYL-科技（2022.03.17） 3
+      - CN-🇸🇬SG_227_64_72Mb_26
+      - CN-🇸🇬SG_227_64_72Mb_26 2
+      - CYL-科技（2022.03.17） 4
+      - CN-🇬🇧GB_102_19_75Mb_44
+      - CYL-科技（2022.03.17） 5
+      - cn01.efan.men:8713
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港➤高速➤x1_1
-      - cusouthcmhk.procncon.xyz:562
+      - 香港(绿头外网集团)(Public) 32
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - shonlinesandcu02.proconcn.xyz:561
-      - shonlinesandcu02.proconcn.xyz:562
-      - shonlinesandcu03.proconcn.xyz:561
-      - ♥️♥️YouTube梦歌♥️♥️_250
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国
-      - 香港➤高速➤x1_1
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 2
-      - cusouthcmhk.procncon.xyz:562
-      - shallaz2.proconcn.xyz:566
-      - ♥️♥️YouTube梦歌♥️♥️_249
-      - jp_16
-      - Relay_🇨🇳CN-🇹🇼TW_359
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 3
-      - 英国004_286
-      - 美国096_176
-      - v2ray_1
-      - 233v2_com_140_238_36_111
-      - HK_1
-      - 日本京东B_2
-      - ♥️♥️YouTube梦歌♥️♥️_256
-      - relaypro.procncon.xyz:560
-      - 日本京东A_1
-      - 韩国➤高速➤x1_11
-      - ip_150_230_249_169
+      - CYL-科技（2022_03_17）_299
+      - cn01.efan.men:8718
+      - CYL-科技（2022_03_17）_303
+      - CYL-科技（2022_03_17）_294
+      - cn01.efan.men:8717
+      - cn01.efan.men:8714
+      - cn01.efan.men:8755
+      - CN-🇸🇬SG_244_5_68Mb_195
+      - CYL-科技（2022_03_17）_296
+      - CYL-科技（2022.03.17）
+      - 新加坡(绿头外网集团)(Public) 14
+      - cn01.efan.men:8719
+      - cn01.efan.men:8716
+      - cn01.efan.men:8757
+      - 新加坡(绿头外网集团)(Public) 18
+      - cn01.efan.men:8758
+      - 香港(绿头外网集团)(Public) 32
+      - cn01.efan.men:8712
+      - CN-🇸🇬SG_213_54_47Mb_12
+      - CYL-科技（2022_03_17）_4
+      - CYL-科技（2022.03.17） 2
+      - cn01.efan.men:8753
+      - CYL-科技（2022.03.17） 3
+      - CN-🇸🇬SG_227_64_72Mb_26
+      - CN-🇸🇬SG_227_64_72Mb_26 2
+      - CYL-科技（2022.03.17） 4
+      - CN-🇬🇧GB_102_19_75Mb_44
+      - CYL-科技（2022.03.17） 5
+      - cn01.efan.men:8713
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - shonlinesandcu02.proconcn.xyz:561
-      - shonlinesandcu02.proconcn.xyz:562
-      - shonlinesandcu03.proconcn.xyz:561
-      - ♥️♥️YouTube梦歌♥️♥️_250
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国
-      - 香港➤高速➤x1_1
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 2
-      - cusouthcmhk.procncon.xyz:562
-      - shallaz2.proconcn.xyz:566
-      - ♥️♥️YouTube梦歌♥️♥️_249
-      - jp_16
-      - Relay_🇨🇳CN-🇹🇼TW_359
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 3
-      - 英国004_286
-      - 美国096_176
-      - v2ray_1
-      - 233v2_com_140_238_36_111
-      - HK_1
-      - 日本京东B_2
-      - ♥️♥️YouTube梦歌♥️♥️_256
-      - relaypro.procncon.xyz:560
-      - 日本京东A_1
-      - 韩国➤高速➤x1_11
-      - ip_150_230_249_169
+      - CYL-科技（2022_03_17）_299
+      - cn01.efan.men:8718
+      - CYL-科技（2022_03_17）_303
+      - CYL-科技（2022_03_17）_294
+      - cn01.efan.men:8717
+      - cn01.efan.men:8714
+      - cn01.efan.men:8755
+      - CN-🇸🇬SG_244_5_68Mb_195
+      - CYL-科技（2022_03_17）_296
+      - CYL-科技（2022.03.17）
+      - 新加坡(绿头外网集团)(Public) 14
+      - cn01.efan.men:8719
+      - cn01.efan.men:8716
+      - cn01.efan.men:8757
+      - 新加坡(绿头外网集团)(Public) 18
+      - cn01.efan.men:8758
+      - 香港(绿头外网集团)(Public) 32
+      - cn01.efan.men:8712
+      - CN-🇸🇬SG_213_54_47Mb_12
+      - CYL-科技（2022_03_17）_4
+      - CYL-科技（2022.03.17） 2
+      - cn01.efan.men:8753
+      - CYL-科技（2022.03.17） 3
+      - CN-🇸🇬SG_227_64_72Mb_26
+      - CN-🇸🇬SG_227_64_72Mb_26 2
+      - CYL-科技（2022.03.17） 4
+      - CN-🇬🇧GB_102_19_75Mb_44
+      - CYL-科技（2022.03.17） 5
+      - cn01.efan.men:8713
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - shonlinesandcu02.proconcn.xyz:561
-      - shonlinesandcu02.proconcn.xyz:562
-      - shonlinesandcu03.proconcn.xyz:561
-      - ♥️♥️YouTube梦歌♥️♥️_250
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国
-      - 香港➤高速➤x1_1
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 2
-      - cusouthcmhk.procncon.xyz:562
-      - shallaz2.proconcn.xyz:566
-      - ♥️♥️YouTube梦歌♥️♥️_249
-      - jp_16
-      - Relay_🇨🇳CN-🇹🇼TW_359
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 3
-      - 英国004_286
-      - 美国096_176
-      - v2ray_1
-      - 233v2_com_140_238_36_111
-      - HK_1
-      - 日本京东B_2
-      - ♥️♥️YouTube梦歌♥️♥️_256
-      - relaypro.procncon.xyz:560
-      - 日本京东A_1
-      - 韩国➤高速➤x1_11
-      - ip_150_230_249_169
+      - CYL-科技（2022_03_17）_299
+      - cn01.efan.men:8718
+      - CYL-科技（2022_03_17）_303
+      - CYL-科技（2022_03_17）_294
+      - cn01.efan.men:8717
+      - cn01.efan.men:8714
+      - cn01.efan.men:8755
+      - CN-🇸🇬SG_244_5_68Mb_195
+      - CYL-科技（2022_03_17）_296
+      - CYL-科技（2022.03.17）
+      - 新加坡(绿头外网集团)(Public) 14
+      - cn01.efan.men:8719
+      - cn01.efan.men:8716
+      - cn01.efan.men:8757
+      - 新加坡(绿头外网集团)(Public) 18
+      - cn01.efan.men:8758
+      - 香港(绿头外网集团)(Public) 32
+      - cn01.efan.men:8712
+      - CN-🇸🇬SG_213_54_47Mb_12
+      - CYL-科技（2022_03_17）_4
+      - CYL-科技（2022.03.17） 2
+      - cn01.efan.men:8753
+      - CYL-科技（2022.03.17） 3
+      - CN-🇸🇬SG_227_64_72Mb_26
+      - CN-🇸🇬SG_227_64_72Mb_26 2
+      - CYL-科技（2022.03.17） 4
+      - CN-🇬🇧GB_102_19_75Mb_44
+      - CYL-科技（2022.03.17） 5
+      - cn01.efan.men:8713
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -270,30 +309,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - shonlinesandcu02.proconcn.xyz:561
-      - shonlinesandcu02.proconcn.xyz:562
-      - shonlinesandcu03.proconcn.xyz:561
-      - ♥️♥️YouTube梦歌♥️♥️_250
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国
-      - 香港➤高速➤x1_1
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 2
-      - cusouthcmhk.procncon.xyz:562
-      - shallaz2.proconcn.xyz:566
-      - ♥️♥️YouTube梦歌♥️♥️_249
-      - jp_16
-      - Relay_🇨🇳CN-🇹🇼TW_359
-      - 这个世界不要俺了_指莹为梅_🇨🇳_CN_中国 3
-      - 英国004_286
-      - 美国096_176
-      - v2ray_1
-      - 233v2_com_140_238_36_111
-      - HK_1
-      - 日本京东B_2
-      - ♥️♥️YouTube梦歌♥️♥️_256
-      - relaypro.procncon.xyz:560
-      - 日本京东A_1
-      - 韩国➤高速➤x1_11
-      - ip_150_230_249_169
+      - CYL-科技（2022_03_17）_299
+      - cn01.efan.men:8718
+      - CYL-科技（2022_03_17）_303
+      - CYL-科技（2022_03_17）_294
+      - cn01.efan.men:8717
+      - cn01.efan.men:8714
+      - cn01.efan.men:8755
+      - CN-🇸🇬SG_244_5_68Mb_195
+      - CYL-科技（2022_03_17）_296
+      - CYL-科技（2022.03.17）
+      - 新加坡(绿头外网集团)(Public) 14
+      - cn01.efan.men:8719
+      - cn01.efan.men:8716
+      - cn01.efan.men:8757
+      - 新加坡(绿头外网集团)(Public) 18
+      - cn01.efan.men:8758
+      - 香港(绿头外网集团)(Public) 32
+      - cn01.efan.men:8712
+      - CN-🇸🇬SG_213_54_47Mb_12
+      - CYL-科技（2022_03_17）_4
+      - CYL-科技（2022.03.17） 2
+      - cn01.efan.men:8753
+      - CYL-科技（2022.03.17） 3
+      - CN-🇸🇬SG_227_64_72Mb_26
+      - CN-🇸🇬SG_227_64_72Mb_26 2
+      - CYL-科技（2022.03.17） 4
+      - CN-🇬🇧GB_102_19_75Mb_44
+      - CYL-科技（2022.03.17） 5
+      - cn01.efan.men:8713
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
