@@ -5,139 +5,99 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CYL-科技（2022_03_17）_299, server: cn01.efan.men, port: 8756, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: cn01.efan.men:8718, server: cn01.efan.men, port: 8718, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: CYL-科技（2022_03_17）_303, server: cn01.efan.men, port: 8718, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: CYL-科技（2022_03_17）_294, server: cn01.efan.men, port: 8753, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: cn01.efan.men:8717, server: cn01.efan.men, port: 8717, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: cn01.efan.men:8714, server: cn01.efan.men, port: 8714, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: cn01.efan.men:8755, server: cn01.efan.men, port: 8755, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: CN-🇸🇬SG_244_5_68Mb_195, server: 101.67.8.151, port: 16107, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_296, server: cn01.efan.men, port: 8714, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: CYL-科技（2022.03.17）, server: cn01.efan.men, port: 8759, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 14, server: 101.67.8.151, port: 16108, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: cn01.efan.men:8719, server: cn01.efan.men, port: 8719, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: cn01.efan.men:8716, server: cn01.efan.men, port: 8716, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: cn01.efan.men:8757, server: cn01.efan.men, port: 8757, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 18, server: 113.240.73.12, port: 16228, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: cn01.efan.men:8758, server: cn01.efan.men, port: 8758, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
   - {name: 香港(绿头外网集团)(Public) 32, server: 183.240.181.40, port: 16218, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: cn01.efan.men:8712, server: cn01.efan.men, port: 8712, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: CN-🇸🇬SG_213_54_47Mb_12, server: 113.240.73.12, port: 16230, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022_03_17）_4, server: cn01.efan.men, port: 8758, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: CYL-科技（2022.03.17） 2, server: cn01.efan.men, port: 8753, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: cn01.efan.men:8753, server: cn01.efan.men, port: 8753, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: CYL-科技（2022.03.17） 3, server: cn01.efan.men, port: 8714, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: CN-🇸🇬SG_160_56_65Mb_13, server: 113.240.73.12, port: 16110, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-🇬🇧GB_92_14_62Mb_119, server: 183.240.181.40, port: 16115, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾(绿头外网集团)(Public) 20, server: 113.240.73.12, port: 16133, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-🇬🇧GB_92_14_62Mb_119 2, server: 183.240.181.40, port: 16115, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-🇹🇼TW_257_10_13Mb_77, server: 183.240.181.40, port: 16215, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-🇯🇵JP_212_15_91Mb_16, server: 113.240.73.12, port: 16210, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 18, server: 113.240.73.12, port: 16121, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 18, server: 113.240.73.12, port: 16228, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 25, server: 113.240.73.12, port: 16209, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: CN-🇸🇬SG_227_64_72Mb_26, server: 113.240.73.12, port: 16108, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN-🇸🇬SG_227_64_72Mb_26 2, server: 113.240.73.12, port: 16108, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.03.17） 4, server: cn01.efan.men, port: 8718, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: CN-🇬🇧GB_102_19_75Mb_44, server: 120.240.86.91, port: 16218, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.03.17） 5, server: cn01.efan.men, port: 8758, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: cn01.efan.men:8713, server: cn01.efan.men, port: 8713, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: CN-🇹🇼TW_257_10_13Mb_77 2, server: 183.240.181.40, port: 16215, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-🇯🇵JP_218_58_81Mb_17, server: 113.240.73.12, port: 16207, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 18, server: 113.240.73.12, port: 16214, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-🇯🇵JP_229_18_62Mb_6, server: 113.240.73.12, port: 16209, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 24, server: 101.67.8.151, port: 16121, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-🇯🇵JP_212_15_91Mb_16 2, server: 113.240.73.12, port: 16210, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-🇬🇧GB_77_6_33Mb_81, server: 183.240.181.40, port: 16217, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-🇬🇧GB_87_5_18Mb_45, server: 120.240.86.91, port: 16115, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CYL-科技（2022_03_17）_299
-      - cn01.efan.men:8718
-      - CYL-科技（2022_03_17）_303
-      - CYL-科技（2022_03_17）_294
-      - cn01.efan.men:8717
-      - cn01.efan.men:8714
-      - cn01.efan.men:8755
-      - CN-🇸🇬SG_244_5_68Mb_195
-      - CYL-科技（2022_03_17）_296
-      - CYL-科技（2022.03.17）
-      - 新加坡(绿头外网集团)(Public) 14
-      - cn01.efan.men:8719
-      - cn01.efan.men:8716
-      - cn01.efan.men:8757
-      - 新加坡(绿头外网集团)(Public) 18
-      - cn01.efan.men:8758
       - 香港(绿头外网集团)(Public) 32
-      - cn01.efan.men:8712
-      - CN-🇸🇬SG_213_54_47Mb_12
-      - CYL-科技（2022_03_17）_4
-      - CYL-科技（2022.03.17） 2
-      - cn01.efan.men:8753
-      - CYL-科技（2022.03.17） 3
+      - CN-🇸🇬SG_160_56_65Mb_13
+      - CN-🇬🇧GB_92_14_62Mb_119
+      - 台湾(绿头外网集团)(Public) 20
+      - CN-🇬🇧GB_92_14_62Mb_119 2
+      - CN-🇹🇼TW_257_10_13Mb_77
+      - CN-🇯🇵JP_212_15_91Mb_16
+      - 日本(绿头外网集团)(Public) 18
+      - 新加坡(绿头外网集团)(Public) 18
+      - 日本(绿头外网集团)(Public) 25
       - CN-🇸🇬SG_227_64_72Mb_26
-      - CN-🇸🇬SG_227_64_72Mb_26 2
-      - CYL-科技（2022.03.17） 4
-      - CN-🇬🇧GB_102_19_75Mb_44
-      - CYL-科技（2022.03.17） 5
-      - cn01.efan.men:8713
+      - CN-🇹🇼TW_257_10_13Mb_77 2
+      - CN-🇯🇵JP_218_58_81Mb_17
+      - 香港(绿头外网集团)(Public) 18
+      - CN-🇯🇵JP_229_18_62Mb_6
+      - 日本(绿头外网集团)(Public) 24
+      - CN-🇯🇵JP_212_15_91Mb_16 2
+      - CN-🇬🇧GB_77_6_33Mb_81
+      - CN-🇬🇧GB_87_5_18Mb_45
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CYL-科技（2022_03_17）_299
-      - cn01.efan.men:8718
-      - CYL-科技（2022_03_17）_303
-      - CYL-科技（2022_03_17）_294
-      - cn01.efan.men:8717
-      - cn01.efan.men:8714
-      - cn01.efan.men:8755
-      - CN-🇸🇬SG_244_5_68Mb_195
-      - CYL-科技（2022_03_17）_296
-      - CYL-科技（2022.03.17）
-      - 新加坡(绿头外网集团)(Public) 14
-      - cn01.efan.men:8719
-      - cn01.efan.men:8716
-      - cn01.efan.men:8757
-      - 新加坡(绿头外网集团)(Public) 18
-      - cn01.efan.men:8758
       - 香港(绿头外网集团)(Public) 32
-      - cn01.efan.men:8712
-      - CN-🇸🇬SG_213_54_47Mb_12
-      - CYL-科技（2022_03_17）_4
-      - CYL-科技（2022.03.17） 2
-      - cn01.efan.men:8753
-      - CYL-科技（2022.03.17） 3
+      - CN-🇸🇬SG_160_56_65Mb_13
+      - CN-🇬🇧GB_92_14_62Mb_119
+      - 台湾(绿头外网集团)(Public) 20
+      - CN-🇬🇧GB_92_14_62Mb_119 2
+      - CN-🇹🇼TW_257_10_13Mb_77
+      - CN-🇯🇵JP_212_15_91Mb_16
+      - 日本(绿头外网集团)(Public) 18
+      - 新加坡(绿头外网集团)(Public) 18
+      - 日本(绿头外网集团)(Public) 25
       - CN-🇸🇬SG_227_64_72Mb_26
-      - CN-🇸🇬SG_227_64_72Mb_26 2
-      - CYL-科技（2022.03.17） 4
-      - CN-🇬🇧GB_102_19_75Mb_44
-      - CYL-科技（2022.03.17） 5
-      - cn01.efan.men:8713
+      - CN-🇹🇼TW_257_10_13Mb_77 2
+      - CN-🇯🇵JP_218_58_81Mb_17
+      - 香港(绿头外网集团)(Public) 18
+      - CN-🇯🇵JP_229_18_62Mb_6
+      - 日本(绿头外网集团)(Public) 24
+      - CN-🇯🇵JP_212_15_91Mb_16 2
+      - CN-🇬🇧GB_77_6_33Mb_81
+      - CN-🇬🇧GB_87_5_18Mb_45
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CYL-科技（2022_03_17）_299
-      - cn01.efan.men:8718
-      - CYL-科技（2022_03_17）_303
-      - CYL-科技（2022_03_17）_294
-      - cn01.efan.men:8717
-      - cn01.efan.men:8714
-      - cn01.efan.men:8755
-      - CN-🇸🇬SG_244_5_68Mb_195
-      - CYL-科技（2022_03_17）_296
-      - CYL-科技（2022.03.17）
-      - 新加坡(绿头外网集团)(Public) 14
-      - cn01.efan.men:8719
-      - cn01.efan.men:8716
-      - cn01.efan.men:8757
-      - 新加坡(绿头外网集团)(Public) 18
-      - cn01.efan.men:8758
       - 香港(绿头外网集团)(Public) 32
-      - cn01.efan.men:8712
-      - CN-🇸🇬SG_213_54_47Mb_12
-      - CYL-科技（2022_03_17）_4
-      - CYL-科技（2022.03.17） 2
-      - cn01.efan.men:8753
-      - CYL-科技（2022.03.17） 3
+      - CN-🇸🇬SG_160_56_65Mb_13
+      - CN-🇬🇧GB_92_14_62Mb_119
+      - 台湾(绿头外网集团)(Public) 20
+      - CN-🇬🇧GB_92_14_62Mb_119 2
+      - CN-🇹🇼TW_257_10_13Mb_77
+      - CN-🇯🇵JP_212_15_91Mb_16
+      - 日本(绿头外网集团)(Public) 18
+      - 新加坡(绿头外网集团)(Public) 18
+      - 日本(绿头外网集团)(Public) 25
       - CN-🇸🇬SG_227_64_72Mb_26
-      - CN-🇸🇬SG_227_64_72Mb_26 2
-      - CYL-科技（2022.03.17） 4
-      - CN-🇬🇧GB_102_19_75Mb_44
-      - CYL-科技（2022.03.17） 5
-      - cn01.efan.men:8713
+      - CN-🇹🇼TW_257_10_13Mb_77 2
+      - CN-🇯🇵JP_218_58_81Mb_17
+      - 香港(绿头外网集团)(Public) 18
+      - CN-🇯🇵JP_229_18_62Mb_6
+      - 日本(绿头外网集团)(Public) 24
+      - CN-🇯🇵JP_212_15_91Mb_16 2
+      - CN-🇬🇧GB_77_6_33Mb_81
+      - CN-🇬🇧GB_87_5_18Mb_45
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -156,144 +116,106 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CYL-科技（2022_03_17）_299
-      - cn01.efan.men:8718
-      - CYL-科技（2022_03_17）_303
-      - CYL-科技（2022_03_17）_294
-      - cn01.efan.men:8717
-      - cn01.efan.men:8714
-      - cn01.efan.men:8755
-      - CN-🇸🇬SG_244_5_68Mb_195
-      - CYL-科技（2022_03_17）_296
-      - CYL-科技（2022.03.17）
-      - 新加坡(绿头外网集团)(Public) 14
-      - cn01.efan.men:8719
-      - cn01.efan.men:8716
-      - cn01.efan.men:8757
-      - 新加坡(绿头外网集团)(Public) 18
-      - cn01.efan.men:8758
       - 香港(绿头外网集团)(Public) 32
-      - cn01.efan.men:8712
-      - CN-🇸🇬SG_213_54_47Mb_12
-      - CYL-科技（2022_03_17）_4
-      - CYL-科技（2022.03.17） 2
-      - cn01.efan.men:8753
-      - CYL-科技（2022.03.17） 3
+      - CN-🇸🇬SG_160_56_65Mb_13
+      - CN-🇬🇧GB_92_14_62Mb_119
+      - 台湾(绿头外网集团)(Public) 20
+      - CN-🇬🇧GB_92_14_62Mb_119 2
+      - CN-🇹🇼TW_257_10_13Mb_77
+      - CN-🇯🇵JP_212_15_91Mb_16
+      - 日本(绿头外网集团)(Public) 18
+      - 新加坡(绿头外网集团)(Public) 18
+      - 日本(绿头外网集团)(Public) 25
       - CN-🇸🇬SG_227_64_72Mb_26
-      - CN-🇸🇬SG_227_64_72Mb_26 2
-      - CYL-科技（2022.03.17） 4
-      - CN-🇬🇧GB_102_19_75Mb_44
-      - CYL-科技（2022.03.17） 5
-      - cn01.efan.men:8713
+      - CN-🇹🇼TW_257_10_13Mb_77 2
+      - CN-🇯🇵JP_218_58_81Mb_17
+      - 香港(绿头外网集团)(Public) 18
+      - CN-🇯🇵JP_229_18_62Mb_6
+      - 日本(绿头外网集团)(Public) 24
+      - CN-🇯🇵JP_212_15_91Mb_16 2
+      - CN-🇬🇧GB_77_6_33Mb_81
+      - CN-🇬🇧GB_87_5_18Mb_45
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 香港(绿头外网集团)(Public) 32
+      - 台湾(绿头外网集团)(Public) 20
+      - 香港(绿头外网集团)(Public) 18
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CYL-科技（2022_03_17）_299
-      - cn01.efan.men:8718
-      - CYL-科技（2022_03_17）_303
-      - CYL-科技（2022_03_17）_294
-      - cn01.efan.men:8717
-      - cn01.efan.men:8714
-      - cn01.efan.men:8755
-      - CN-🇸🇬SG_244_5_68Mb_195
-      - CYL-科技（2022_03_17）_296
-      - CYL-科技（2022.03.17）
-      - 新加坡(绿头外网集团)(Public) 14
-      - cn01.efan.men:8719
-      - cn01.efan.men:8716
-      - cn01.efan.men:8757
-      - 新加坡(绿头外网集团)(Public) 18
-      - cn01.efan.men:8758
       - 香港(绿头外网集团)(Public) 32
-      - cn01.efan.men:8712
-      - CN-🇸🇬SG_213_54_47Mb_12
-      - CYL-科技（2022_03_17）_4
-      - CYL-科技（2022.03.17） 2
-      - cn01.efan.men:8753
-      - CYL-科技（2022.03.17） 3
+      - CN-🇸🇬SG_160_56_65Mb_13
+      - CN-🇬🇧GB_92_14_62Mb_119
+      - 台湾(绿头外网集团)(Public) 20
+      - CN-🇬🇧GB_92_14_62Mb_119 2
+      - CN-🇹🇼TW_257_10_13Mb_77
+      - CN-🇯🇵JP_212_15_91Mb_16
+      - 日本(绿头外网集团)(Public) 18
+      - 新加坡(绿头外网集团)(Public) 18
+      - 日本(绿头外网集团)(Public) 25
       - CN-🇸🇬SG_227_64_72Mb_26
-      - CN-🇸🇬SG_227_64_72Mb_26 2
-      - CYL-科技（2022.03.17） 4
-      - CN-🇬🇧GB_102_19_75Mb_44
-      - CYL-科技（2022.03.17） 5
-      - cn01.efan.men:8713
+      - CN-🇹🇼TW_257_10_13Mb_77 2
+      - CN-🇯🇵JP_218_58_81Mb_17
+      - 香港(绿头外网集团)(Public) 18
+      - CN-🇯🇵JP_229_18_62Mb_6
+      - 日本(绿头外网集团)(Public) 24
+      - CN-🇯🇵JP_212_15_91Mb_16 2
+      - CN-🇬🇧GB_77_6_33Mb_81
+      - CN-🇬🇧GB_87_5_18Mb_45
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CYL-科技（2022_03_17）_299
-      - cn01.efan.men:8718
-      - CYL-科技（2022_03_17）_303
-      - CYL-科技（2022_03_17）_294
-      - cn01.efan.men:8717
-      - cn01.efan.men:8714
-      - cn01.efan.men:8755
-      - CN-🇸🇬SG_244_5_68Mb_195
-      - CYL-科技（2022_03_17）_296
-      - CYL-科技（2022.03.17）
-      - 新加坡(绿头外网集团)(Public) 14
-      - cn01.efan.men:8719
-      - cn01.efan.men:8716
-      - cn01.efan.men:8757
-      - 新加坡(绿头外网集团)(Public) 18
-      - cn01.efan.men:8758
       - 香港(绿头外网集团)(Public) 32
-      - cn01.efan.men:8712
-      - CN-🇸🇬SG_213_54_47Mb_12
-      - CYL-科技（2022_03_17）_4
-      - CYL-科技（2022.03.17） 2
-      - cn01.efan.men:8753
-      - CYL-科技（2022.03.17） 3
+      - CN-🇸🇬SG_160_56_65Mb_13
+      - CN-🇬🇧GB_92_14_62Mb_119
+      - 台湾(绿头外网集团)(Public) 20
+      - CN-🇬🇧GB_92_14_62Mb_119 2
+      - CN-🇹🇼TW_257_10_13Mb_77
+      - CN-🇯🇵JP_212_15_91Mb_16
+      - 日本(绿头外网集团)(Public) 18
+      - 新加坡(绿头外网集团)(Public) 18
+      - 日本(绿头外网集团)(Public) 25
       - CN-🇸🇬SG_227_64_72Mb_26
-      - CN-🇸🇬SG_227_64_72Mb_26 2
-      - CYL-科技（2022.03.17） 4
-      - CN-🇬🇧GB_102_19_75Mb_44
-      - CYL-科技（2022.03.17） 5
-      - cn01.efan.men:8713
+      - CN-🇹🇼TW_257_10_13Mb_77 2
+      - CN-🇯🇵JP_218_58_81Mb_17
+      - 香港(绿头外网集团)(Public) 18
+      - CN-🇯🇵JP_229_18_62Mb_6
+      - 日本(绿头外网集团)(Public) 24
+      - CN-🇯🇵JP_212_15_91Mb_16 2
+      - CN-🇬🇧GB_77_6_33Mb_81
+      - CN-🇬🇧GB_87_5_18Mb_45
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CYL-科技（2022_03_17）_299
-      - cn01.efan.men:8718
-      - CYL-科技（2022_03_17）_303
-      - CYL-科技（2022_03_17）_294
-      - cn01.efan.men:8717
-      - cn01.efan.men:8714
-      - cn01.efan.men:8755
-      - CN-🇸🇬SG_244_5_68Mb_195
-      - CYL-科技（2022_03_17）_296
-      - CYL-科技（2022.03.17）
-      - 新加坡(绿头外网集团)(Public) 14
-      - cn01.efan.men:8719
-      - cn01.efan.men:8716
-      - cn01.efan.men:8757
-      - 新加坡(绿头外网集团)(Public) 18
-      - cn01.efan.men:8758
       - 香港(绿头外网集团)(Public) 32
-      - cn01.efan.men:8712
-      - CN-🇸🇬SG_213_54_47Mb_12
-      - CYL-科技（2022_03_17）_4
-      - CYL-科技（2022.03.17） 2
-      - cn01.efan.men:8753
-      - CYL-科技（2022.03.17） 3
+      - CN-🇸🇬SG_160_56_65Mb_13
+      - CN-🇬🇧GB_92_14_62Mb_119
+      - 台湾(绿头外网集团)(Public) 20
+      - CN-🇬🇧GB_92_14_62Mb_119 2
+      - CN-🇹🇼TW_257_10_13Mb_77
+      - CN-🇯🇵JP_212_15_91Mb_16
+      - 日本(绿头外网集团)(Public) 18
+      - 新加坡(绿头外网集团)(Public) 18
+      - 日本(绿头外网集团)(Public) 25
       - CN-🇸🇬SG_227_64_72Mb_26
-      - CN-🇸🇬SG_227_64_72Mb_26 2
-      - CYL-科技（2022.03.17） 4
-      - CN-🇬🇧GB_102_19_75Mb_44
-      - CYL-科技（2022.03.17） 5
-      - cn01.efan.men:8713
+      - CN-🇹🇼TW_257_10_13Mb_77 2
+      - CN-🇯🇵JP_218_58_81Mb_17
+      - 香港(绿头外网集团)(Public) 18
+      - CN-🇯🇵JP_229_18_62Mb_6
+      - 日本(绿头外网集团)(Public) 24
+      - CN-🇯🇵JP_212_15_91Mb_16 2
+      - CN-🇬🇧GB_77_6_33Mb_81
+      - CN-🇬🇧GB_87_5_18Mb_45
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -309,35 +231,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CYL-科技（2022_03_17）_299
-      - cn01.efan.men:8718
-      - CYL-科技（2022_03_17）_303
-      - CYL-科技（2022_03_17）_294
-      - cn01.efan.men:8717
-      - cn01.efan.men:8714
-      - cn01.efan.men:8755
-      - CN-🇸🇬SG_244_5_68Mb_195
-      - CYL-科技（2022_03_17）_296
-      - CYL-科技（2022.03.17）
-      - 新加坡(绿头外网集团)(Public) 14
-      - cn01.efan.men:8719
-      - cn01.efan.men:8716
-      - cn01.efan.men:8757
-      - 新加坡(绿头外网集团)(Public) 18
-      - cn01.efan.men:8758
       - 香港(绿头外网集团)(Public) 32
-      - cn01.efan.men:8712
-      - CN-🇸🇬SG_213_54_47Mb_12
-      - CYL-科技（2022_03_17）_4
-      - CYL-科技（2022.03.17） 2
-      - cn01.efan.men:8753
-      - CYL-科技（2022.03.17） 3
+      - CN-🇸🇬SG_160_56_65Mb_13
+      - CN-🇬🇧GB_92_14_62Mb_119
+      - 台湾(绿头外网集团)(Public) 20
+      - CN-🇬🇧GB_92_14_62Mb_119 2
+      - CN-🇹🇼TW_257_10_13Mb_77
+      - CN-🇯🇵JP_212_15_91Mb_16
+      - 日本(绿头外网集团)(Public) 18
+      - 新加坡(绿头外网集团)(Public) 18
+      - 日本(绿头外网集团)(Public) 25
       - CN-🇸🇬SG_227_64_72Mb_26
-      - CN-🇸🇬SG_227_64_72Mb_26 2
-      - CYL-科技（2022.03.17） 4
-      - CN-🇬🇧GB_102_19_75Mb_44
-      - CYL-科技（2022.03.17） 5
-      - cn01.efan.men:8713
+      - CN-🇹🇼TW_257_10_13Mb_77 2
+      - CN-🇯🇵JP_218_58_81Mb_17
+      - 香港(绿头外网集团)(Public) 18
+      - CN-🇯🇵JP_229_18_62Mb_6
+      - 日本(绿头外网集团)(Public) 24
+      - CN-🇯🇵JP_212_15_91Mb_16 2
+      - CN-🇬🇧GB_77_6_33Mb_81
+      - CN-🇬🇧GB_87_5_18Mb_45
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
