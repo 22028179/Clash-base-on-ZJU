@@ -5,127 +5,147 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 港WTT3 2, server: api.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: api.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 港WTT3, server: api.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: api.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: _香港_奔驰ＡＭＧ_34, server: gz.yd01.paopaocloud.cyou, port: 10010, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%22paopao.v2.az01.paopaocloud.cyou%22%7D"}, udp: true}
-  - {name: _香港_奔驰ＡＭＧ_10, server: gz.yd01.paopaocloud.cyou, port: 10014, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%22paopao.v2.sgp01.paopaocloud.cyou%22%7D"}, udp: true}
-  - {name: ^🇸🇬新加坡SG2524*hi-moon_pw_22, server: kj.aitutu.xyz, port: 57420, type: vmess, uuid: 5671df0d-273e-4131-ffce-b9c736a2377f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: _香港_奔驰ＡＭＧ_2, server: gz.yd01.paopaocloud.cyou, port: 10009, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%22paopao.v2.hk06.paopaocloud.cyou%22%7D"}, udp: true}
   - {name: ♥️♥️YouTube梦歌♥️♥️_256, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: CYL-科技（2022.03.17）, server: 103.172.116.8, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: ip_150_230_249_169, server: 150.230.249.169, port: 8888, type: vmess, uuid: f836d00e-73e0-4eb5-a0ac-18a8e9ee61ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net_中国_奔驰ＡＭＧ_40, server: az.hk01.paopaocloud.cyou, port: 10011, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%22paopao.v2.hk07.paopaocloud.cyou%22%7D"}, udp: true}
-  - {name: CYL-科技（2022.03.17） 2, server: 103.172.116.9, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: CYL-科技（2022_03_17）_82, server: 103.172.116.8, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: CYL-科技（2022.03.17） 3, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: 魔戒.net_中国_奔驰ＡＭＧ_18, server: az.hk01.paopaocloud.cyou, port: 10010, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%22paopao.v2.az01.paopaocloud.cyou%22%7D"}, udp: true}
-  - {name: v2ray_1, server: www.yiandxu.buzz, port: 56615, type: vmess, uuid: 32a83cd5-ca6e-4aa4-d53d-790b4a2c6a71, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dfg45y, ws-headers: {Host: www.yiandxu.buzz}, udp: true}
-  - {name: CYL-科技（2022_03_17）_106, server: 103.172.116.9, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: shonlinesandcu02.proconcn.xyz:561, server: shonlinesandcu02.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: 魔戒.net-222, server: 169.197.143.121, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 美國-费利蒙, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: ion_vnklwwv_com_vmess_ws_2, server: ion.vnklwwv.com, port: 443, type: vmess, uuid: 36583320-4c2e-4671-b08b-c358fce74316, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/vazbvws?ed=2048", ws-headers: {Host: ion.vnklwwv.com}, udp: true}
-  - {name: 美國-费利蒙 2, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 这个世界不要俺了_指莹为梅_🇺🇸_US_美国, server: rn.uuuuuu.eu, port: 443, type: trojan, password: !<str> 888888, sni: rn.uuuuuu.eu, skip-cert-verify: true, udp: true}
-  - {name: US美国(Youtube技术分享室)_35, server: 167.88.61.175, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美國-费利蒙 4, server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: US美国(Youtube技术分享室)_25, server: 167.88.61.175, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _香港_奔驰ＡＭＧ_7, server: gz.yd01.paopaocloud.cyou, port: 10006, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%22paopao.v2.tw01.paopaocloud.cyou%22%7D"}, udp: true}
+  - {name: CN_中国_9, server: br-cn-south-cm1.node-fnf.xyz, port: 10218, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾【YouTube由零開始】_11, server: br-cn-south-cu1.node-fnf.xyz, port: 10202, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡【YouTube由零開始】_7, server: br-cn-south-cm1.node-fnf.xyz, port: 10214, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡【YouTube由零開始】_6, server: br-cn-south-cm1.node-fnf.xyz, port: 10218, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 菲律宾【YouTube由零開始】_18, server: br-cn-south-cu1.node-fnf.xyz, port: 25032, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾【YouTube由零開始】_4, server: br-cn-east-cu1.node-fnf.xyz, port: 10208, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_中国_12, server: br-cn-south-cm1.node-fnf.xyz, port: 10214, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_中国_5, server: br-cn-east-cu1.node-fnf.xyz, port: 10208, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国【YouTube由零開始】_1, server: br-cn-east-cu1.node-fnf.xyz, port: 10402, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube由零開始】_3, server: br-cn-east-cu1.node-fnf.xyz, port: 10406, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_中国_13, server: br-cn-east-cu1.node-fnf.xyz, port: 10402, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "泰[x0_75_NF_V2Ray]at480Mbps_17", server: br-cn-south-cu1.node-fnf.xyz, port: 25042, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国_TG@nodesharing_76, server: br-cn-south-cu1.node-fnf.xyz, port: 10202, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "新AWS1[x0_75_NF*_V2Ray]at1Gbps_88", server: br-cn-south-cm1.node-fnf.xyz, port: 10216, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本【YouTube由零開始】_5, server: br-cn-east-cu1.node-fnf.xyz, port: 10302, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_中国_4, server: br-cn-south-cu1.node-fnf.xyz, port: 10202, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.03.17）, server: cn01.efan.men, port: 8753, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: 台湾【YouTube由零開始】_2, server: br-cn-south-cu1.node-fnf.xyz, port: 25052, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: S-115+_+香港_10, server: cu-1.ssp-node.com, port: 16105, type: ss, cipher: chacha20-ietf-poly1305, password: cbb28263-934c-428a-8360-2433f6f1a08a, udp: true}
+  - {name: S-114+_+香港_9, server: cu-1.ssp-node.com, port: 16104, type: ss, cipher: chacha20-ietf-poly1305, password: cbb28263-934c-428a-8360-2433f6f1a08a, udp: true}
+  - {name: S-113+_+香港_8, server: cu-1.ssp-node.com, port: 16103, type: ss, cipher: chacha20-ietf-poly1305, password: cbb28263-934c-428a-8360-2433f6f1a08a, udp: true}
+  - {name: R-133_香港_16, server: cu-1.ssp-node.com, port: 17123, type: vmess, uuid: cbb28263-934c-428a-8360-2433f6f1a08a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: R-232_新加坡_26, server: cu-1.ssp-node.com, port: 17222, type: vmess, uuid: cbb28263-934c-428a-8360-2433f6f1a08a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国_TG@nodesharing_48, server: br-cn-south-cm1.node-fnf.xyz, port: 10214, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: S-212+_+新加坡_21, server: cu-1.ssp-node.com, port: 16202, type: ss, cipher: chacha20-ietf-poly1305, password: cbb28263-934c-428a-8360-2433f6f1a08a, udp: true}
+  - {name: S-112+_+香港_7, server: cu-1.ssp-node.com, port: 16102, type: ss, cipher: chacha20-ietf-poly1305, password: cbb28263-934c-428a-8360-2433f6f1a08a, udp: true}
+  - {name: R-131_香港_14, server: cu-1.ssp-node.com, port: 17121, type: vmess, uuid: cbb28263-934c-428a-8360-2433f6f1a08a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.03.17） 2, server: cn01.efan.men, port: 8718, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: CN_中国_1, server: br-cn-south-iepl1.node-fnf.xyz, port: 10104, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube由零開始】, server: br-cn-east-cu1.node-fnf.xyz, port: 10406, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 港WTT3 2
-      - 港WTT3
-      - _香港_奔驰ＡＭＧ_34
-      - _香港_奔驰ＡＭＧ_10
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
-      - _香港_奔驰ＡＭＧ_2
       - ♥️♥️YouTube梦歌♥️♥️_256
+      - CN_中国_9
+      - 台湾【YouTube由零開始】_11
+      - 新加坡【YouTube由零開始】_7
+      - 新加坡【YouTube由零開始】_6
+      - 菲律宾【YouTube由零開始】_18
+      - 台湾【YouTube由零開始】_4
+      - CN_中国_12
+      - CN_中国_5
+      - 韩国【YouTube由零開始】_1
+      - 美国【YouTube由零開始】_3
+      - CN_中国_13
+      - 泰[x0_75_NF_V2Ray]at480Mbps_17
+      - 中国_TG@nodesharing_76
+      - 新AWS1[x0_75_NF*_V2Ray]at1Gbps_88
+      - 日本【YouTube由零開始】_5
+      - CN_中国_4
       - CYL-科技（2022.03.17）
-      - ip_150_230_249_169
-      - 魔戒.net_中国_奔驰ＡＭＧ_40
+      - 台湾【YouTube由零開始】_2
+      - S-115+_+香港_10
+      - S-114+_+香港_9
+      - S-113+_+香港_8
+      - R-133_香港_16
+      - R-232_新加坡_26
+      - 中国_TG@nodesharing_48
+      - S-212+_+新加坡_21
+      - S-112+_+香港_7
+      - R-131_香港_14
       - CYL-科技（2022.03.17） 2
-      - CYL-科技（2022_03_17）_82
-      - CYL-科技（2022.03.17） 3
-      - 魔戒.net_中国_奔驰ＡＭＧ_18
-      - v2ray_1
-      - CYL-科技（2022_03_17）_106
-      - shonlinesandcu02.proconcn.xyz:561
-      - 魔戒.net-222
-      - 美國-费利蒙
-      - ion_vnklwwv_com_vmess_ws_2
-      - 美國-费利蒙 2
-      - 这个世界不要俺了_指莹为梅_🇺🇸_US_美国
-      - US美国(Youtube技术分享室)_35
-      - 美國-费利蒙 4
-      - US美国(Youtube技术分享室)_25
-      - _香港_奔驰ＡＭＧ_7
+      - CN_中国_1
+      - 美国【YouTube由零開始】
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 港WTT3 2
-      - 港WTT3
-      - _香港_奔驰ＡＭＧ_34
-      - _香港_奔驰ＡＭＧ_10
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
-      - _香港_奔驰ＡＭＧ_2
       - ♥️♥️YouTube梦歌♥️♥️_256
+      - CN_中国_9
+      - 台湾【YouTube由零開始】_11
+      - 新加坡【YouTube由零開始】_7
+      - 新加坡【YouTube由零開始】_6
+      - 菲律宾【YouTube由零開始】_18
+      - 台湾【YouTube由零開始】_4
+      - CN_中国_12
+      - CN_中国_5
+      - 韩国【YouTube由零開始】_1
+      - 美国【YouTube由零開始】_3
+      - CN_中国_13
+      - 泰[x0_75_NF_V2Ray]at480Mbps_17
+      - 中国_TG@nodesharing_76
+      - 新AWS1[x0_75_NF*_V2Ray]at1Gbps_88
+      - 日本【YouTube由零開始】_5
+      - CN_中国_4
       - CYL-科技（2022.03.17）
-      - ip_150_230_249_169
-      - 魔戒.net_中国_奔驰ＡＭＧ_40
+      - 台湾【YouTube由零開始】_2
+      - S-115+_+香港_10
+      - S-114+_+香港_9
+      - S-113+_+香港_8
+      - R-133_香港_16
+      - R-232_新加坡_26
+      - 中国_TG@nodesharing_48
+      - S-212+_+新加坡_21
+      - S-112+_+香港_7
+      - R-131_香港_14
       - CYL-科技（2022.03.17） 2
-      - CYL-科技（2022_03_17）_82
-      - CYL-科技（2022.03.17） 3
-      - 魔戒.net_中国_奔驰ＡＭＧ_18
-      - v2ray_1
-      - CYL-科技（2022_03_17）_106
-      - shonlinesandcu02.proconcn.xyz:561
-      - 魔戒.net-222
-      - 美國-费利蒙
-      - ion_vnklwwv_com_vmess_ws_2
-      - 美國-费利蒙 2
-      - 这个世界不要俺了_指莹为梅_🇺🇸_US_美国
-      - US美国(Youtube技术分享室)_35
-      - 美國-费利蒙 4
-      - US美国(Youtube技术分享室)_25
-      - _香港_奔驰ＡＭＧ_7
+      - CN_中国_1
+      - 美国【YouTube由零開始】
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 港WTT3 2
-      - 港WTT3
-      - _香港_奔驰ＡＭＧ_34
-      - _香港_奔驰ＡＭＧ_10
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
-      - _香港_奔驰ＡＭＧ_2
       - ♥️♥️YouTube梦歌♥️♥️_256
+      - CN_中国_9
+      - 台湾【YouTube由零開始】_11
+      - 新加坡【YouTube由零開始】_7
+      - 新加坡【YouTube由零開始】_6
+      - 菲律宾【YouTube由零開始】_18
+      - 台湾【YouTube由零開始】_4
+      - CN_中国_12
+      - CN_中国_5
+      - 韩国【YouTube由零開始】_1
+      - 美国【YouTube由零開始】_3
+      - CN_中国_13
+      - 泰[x0_75_NF_V2Ray]at480Mbps_17
+      - 中国_TG@nodesharing_76
+      - 新AWS1[x0_75_NF*_V2Ray]at1Gbps_88
+      - 日本【YouTube由零開始】_5
+      - CN_中国_4
       - CYL-科技（2022.03.17）
-      - ip_150_230_249_169
-      - 魔戒.net_中国_奔驰ＡＭＧ_40
+      - 台湾【YouTube由零開始】_2
+      - S-115+_+香港_10
+      - S-114+_+香港_9
+      - S-113+_+香港_8
+      - R-133_香港_16
+      - R-232_新加坡_26
+      - 中国_TG@nodesharing_48
+      - S-212+_+新加坡_21
+      - S-112+_+香港_7
+      - R-131_香港_14
       - CYL-科技（2022.03.17） 2
-      - CYL-科技（2022_03_17）_82
-      - CYL-科技（2022.03.17） 3
-      - 魔戒.net_中国_奔驰ＡＭＧ_18
-      - v2ray_1
-      - CYL-科技（2022_03_17）_106
-      - shonlinesandcu02.proconcn.xyz:561
-      - 魔戒.net-222
-      - 美國-费利蒙
-      - ion_vnklwwv_com_vmess_ws_2
-      - 美國-费利蒙 2
-      - 这个世界不要俺了_指莹为梅_🇺🇸_US_美国
-      - US美国(Youtube技术分享室)_35
-      - 美國-费利蒙 4
-      - US美国(Youtube技术分享室)_25
-      - _香港_奔驰ＡＭＧ_7
+      - CN_中国_1
+      - 美国【YouTube由零開始】
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -144,137 +164,160 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 港WTT3 2
-      - 港WTT3
-      - _香港_奔驰ＡＭＧ_34
-      - _香港_奔驰ＡＭＧ_10
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
-      - _香港_奔驰ＡＭＧ_2
       - ♥️♥️YouTube梦歌♥️♥️_256
+      - CN_中国_9
+      - 台湾【YouTube由零開始】_11
+      - 新加坡【YouTube由零開始】_7
+      - 新加坡【YouTube由零開始】_6
+      - 菲律宾【YouTube由零開始】_18
+      - 台湾【YouTube由零開始】_4
+      - CN_中国_12
+      - CN_中国_5
+      - 韩国【YouTube由零開始】_1
+      - 美国【YouTube由零開始】_3
+      - CN_中国_13
+      - 泰[x0_75_NF_V2Ray]at480Mbps_17
+      - 中国_TG@nodesharing_76
+      - 新AWS1[x0_75_NF*_V2Ray]at1Gbps_88
+      - 日本【YouTube由零開始】_5
+      - CN_中国_4
       - CYL-科技（2022.03.17）
-      - ip_150_230_249_169
-      - 魔戒.net_中国_奔驰ＡＭＧ_40
+      - 台湾【YouTube由零開始】_2
+      - S-115+_+香港_10
+      - S-114+_+香港_9
+      - S-113+_+香港_8
+      - R-133_香港_16
+      - R-232_新加坡_26
+      - 中国_TG@nodesharing_48
+      - S-212+_+新加坡_21
+      - S-112+_+香港_7
+      - R-131_香港_14
       - CYL-科技（2022.03.17） 2
-      - CYL-科技（2022_03_17）_82
-      - CYL-科技（2022.03.17） 3
-      - 魔戒.net_中国_奔驰ＡＭＧ_18
-      - v2ray_1
-      - CYL-科技（2022_03_17）_106
-      - shonlinesandcu02.proconcn.xyz:561
-      - 魔戒.net-222
-      - 美國-费利蒙
-      - ion_vnklwwv_com_vmess_ws_2
-      - 美國-费利蒙 2
-      - 这个世界不要俺了_指莹为梅_🇺🇸_US_美国
-      - US美国(Youtube技术分享室)_35
-      - 美國-费利蒙 4
-      - US美国(Youtube技术分享室)_25
-      - _香港_奔驰ＡＭＧ_7
+      - CN_中国_1
+      - 美国【YouTube由零開始】
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 港WTT3 2
-      - 港WTT3
-      - _香港_奔驰ＡＭＧ_34
-      - _香港_奔驰ＡＭＧ_10
-      - _香港_奔驰ＡＭＧ_2
-      - _香港_奔驰ＡＭＧ_7
+      - 台湾【YouTube由零開始】_11
+      - 台湾【YouTube由零開始】_4
+      - 台湾【YouTube由零開始】_2
+      - S-115+_+香港_10
+      - S-114+_+香港_9
+      - S-113+_+香港_8
+      - R-133_香港_16
+      - S-112+_+香港_7
+      - R-131_香港_14
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 港WTT3 2
-      - 港WTT3
-      - _香港_奔驰ＡＭＧ_34
-      - _香港_奔驰ＡＭＧ_10
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
-      - _香港_奔驰ＡＭＧ_2
       - ♥️♥️YouTube梦歌♥️♥️_256
+      - CN_中国_9
+      - 台湾【YouTube由零開始】_11
+      - 新加坡【YouTube由零開始】_7
+      - 新加坡【YouTube由零開始】_6
+      - 菲律宾【YouTube由零開始】_18
+      - 台湾【YouTube由零開始】_4
+      - CN_中国_12
+      - CN_中国_5
+      - 韩国【YouTube由零開始】_1
+      - 美国【YouTube由零開始】_3
+      - CN_中国_13
+      - 泰[x0_75_NF_V2Ray]at480Mbps_17
+      - 中国_TG@nodesharing_76
+      - 新AWS1[x0_75_NF*_V2Ray]at1Gbps_88
+      - 日本【YouTube由零開始】_5
+      - CN_中国_4
       - CYL-科技（2022.03.17）
-      - ip_150_230_249_169
-      - 魔戒.net_中国_奔驰ＡＭＧ_40
+      - 台湾【YouTube由零開始】_2
+      - S-115+_+香港_10
+      - S-114+_+香港_9
+      - S-113+_+香港_8
+      - R-133_香港_16
+      - R-232_新加坡_26
+      - 中国_TG@nodesharing_48
+      - S-212+_+新加坡_21
+      - S-112+_+香港_7
+      - R-131_香港_14
       - CYL-科技（2022.03.17） 2
-      - CYL-科技（2022_03_17）_82
-      - CYL-科技（2022.03.17） 3
-      - 魔戒.net_中国_奔驰ＡＭＧ_18
-      - v2ray_1
-      - CYL-科技（2022_03_17）_106
-      - shonlinesandcu02.proconcn.xyz:561
-      - 魔戒.net-222
-      - 美國-费利蒙
-      - ion_vnklwwv_com_vmess_ws_2
-      - 美國-费利蒙 2
-      - 这个世界不要俺了_指莹为梅_🇺🇸_US_美国
-      - US美国(Youtube技术分享室)_35
-      - 美國-费利蒙 4
-      - US美国(Youtube技术分享室)_25
-      - _香港_奔驰ＡＭＧ_7
+      - CN_中国_1
+      - 美国【YouTube由零開始】
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 港WTT3 2
-      - 港WTT3
-      - _香港_奔驰ＡＭＧ_34
-      - _香港_奔驰ＡＭＧ_10
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
-      - _香港_奔驰ＡＭＧ_2
       - ♥️♥️YouTube梦歌♥️♥️_256
+      - CN_中国_9
+      - 台湾【YouTube由零開始】_11
+      - 新加坡【YouTube由零開始】_7
+      - 新加坡【YouTube由零開始】_6
+      - 菲律宾【YouTube由零開始】_18
+      - 台湾【YouTube由零開始】_4
+      - CN_中国_12
+      - CN_中国_5
+      - 韩国【YouTube由零開始】_1
+      - 美国【YouTube由零開始】_3
+      - CN_中国_13
+      - 泰[x0_75_NF_V2Ray]at480Mbps_17
+      - 中国_TG@nodesharing_76
+      - 新AWS1[x0_75_NF*_V2Ray]at1Gbps_88
+      - 日本【YouTube由零開始】_5
+      - CN_中国_4
       - CYL-科技（2022.03.17）
-      - ip_150_230_249_169
-      - 魔戒.net_中国_奔驰ＡＭＧ_40
+      - 台湾【YouTube由零開始】_2
+      - S-115+_+香港_10
+      - S-114+_+香港_9
+      - S-113+_+香港_8
+      - R-133_香港_16
+      - R-232_新加坡_26
+      - 中国_TG@nodesharing_48
+      - S-212+_+新加坡_21
+      - S-112+_+香港_7
+      - R-131_香港_14
       - CYL-科技（2022.03.17） 2
-      - CYL-科技（2022_03_17）_82
-      - CYL-科技（2022.03.17） 3
-      - 魔戒.net_中国_奔驰ＡＭＧ_18
-      - v2ray_1
-      - CYL-科技（2022_03_17）_106
-      - shonlinesandcu02.proconcn.xyz:561
-      - 魔戒.net-222
-      - 美國-费利蒙
-      - ion_vnklwwv_com_vmess_ws_2
-      - 美國-费利蒙 2
-      - 这个世界不要俺了_指莹为梅_🇺🇸_US_美国
-      - US美国(Youtube技术分享室)_35
-      - 美國-费利蒙 4
-      - US美国(Youtube技术分享室)_25
-      - _香港_奔驰ＡＭＧ_7
+      - CN_中国_1
+      - 美国【YouTube由零開始】
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 港WTT3 2
-      - 港WTT3
-      - _香港_奔驰ＡＭＧ_34
-      - _香港_奔驰ＡＭＧ_10
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
-      - _香港_奔驰ＡＭＧ_2
       - ♥️♥️YouTube梦歌♥️♥️_256
+      - CN_中国_9
+      - 台湾【YouTube由零開始】_11
+      - 新加坡【YouTube由零開始】_7
+      - 新加坡【YouTube由零開始】_6
+      - 菲律宾【YouTube由零開始】_18
+      - 台湾【YouTube由零開始】_4
+      - CN_中国_12
+      - CN_中国_5
+      - 韩国【YouTube由零開始】_1
+      - 美国【YouTube由零開始】_3
+      - CN_中国_13
+      - 泰[x0_75_NF_V2Ray]at480Mbps_17
+      - 中国_TG@nodesharing_76
+      - 新AWS1[x0_75_NF*_V2Ray]at1Gbps_88
+      - 日本【YouTube由零開始】_5
+      - CN_中国_4
       - CYL-科技（2022.03.17）
-      - ip_150_230_249_169
-      - 魔戒.net_中国_奔驰ＡＭＧ_40
+      - 台湾【YouTube由零開始】_2
+      - S-115+_+香港_10
+      - S-114+_+香港_9
+      - S-113+_+香港_8
+      - R-133_香港_16
+      - R-232_新加坡_26
+      - 中国_TG@nodesharing_48
+      - S-212+_+新加坡_21
+      - S-112+_+香港_7
+      - R-131_香港_14
       - CYL-科技（2022.03.17） 2
-      - CYL-科技（2022_03_17）_82
-      - CYL-科技（2022.03.17） 3
-      - 魔戒.net_中国_奔驰ＡＭＧ_18
-      - v2ray_1
-      - CYL-科技（2022_03_17）_106
-      - shonlinesandcu02.proconcn.xyz:561
-      - 魔戒.net-222
-      - 美國-费利蒙
-      - ion_vnklwwv_com_vmess_ws_2
-      - 美國-费利蒙 2
-      - 这个世界不要俺了_指莹为梅_🇺🇸_US_美国
-      - US美国(Youtube技术分享室)_35
-      - 美國-费利蒙 4
-      - US美国(Youtube技术分享室)_25
-      - _香港_奔驰ＡＭＧ_7
+      - CN_中国_1
+      - 美国【YouTube由零開始】
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -290,32 +333,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 港WTT3 2
-      - 港WTT3
-      - _香港_奔驰ＡＭＧ_34
-      - _香港_奔驰ＡＭＧ_10
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
-      - _香港_奔驰ＡＭＧ_2
       - ♥️♥️YouTube梦歌♥️♥️_256
+      - CN_中国_9
+      - 台湾【YouTube由零開始】_11
+      - 新加坡【YouTube由零開始】_7
+      - 新加坡【YouTube由零開始】_6
+      - 菲律宾【YouTube由零開始】_18
+      - 台湾【YouTube由零開始】_4
+      - CN_中国_12
+      - CN_中国_5
+      - 韩国【YouTube由零開始】_1
+      - 美国【YouTube由零開始】_3
+      - CN_中国_13
+      - 泰[x0_75_NF_V2Ray]at480Mbps_17
+      - 中国_TG@nodesharing_76
+      - 新AWS1[x0_75_NF*_V2Ray]at1Gbps_88
+      - 日本【YouTube由零開始】_5
+      - CN_中国_4
       - CYL-科技（2022.03.17）
-      - ip_150_230_249_169
-      - 魔戒.net_中国_奔驰ＡＭＧ_40
+      - 台湾【YouTube由零開始】_2
+      - S-115+_+香港_10
+      - S-114+_+香港_9
+      - S-113+_+香港_8
+      - R-133_香港_16
+      - R-232_新加坡_26
+      - 中国_TG@nodesharing_48
+      - S-212+_+新加坡_21
+      - S-112+_+香港_7
+      - R-131_香港_14
       - CYL-科技（2022.03.17） 2
-      - CYL-科技（2022_03_17）_82
-      - CYL-科技（2022.03.17） 3
-      - 魔戒.net_中国_奔驰ＡＭＧ_18
-      - v2ray_1
-      - CYL-科技（2022_03_17）_106
-      - shonlinesandcu02.proconcn.xyz:561
-      - 魔戒.net-222
-      - 美國-费利蒙
-      - ion_vnklwwv_com_vmess_ws_2
-      - 美國-费利蒙 2
-      - 这个世界不要俺了_指莹为梅_🇺🇸_US_美国
-      - US美国(Youtube技术分享室)_35
-      - 美國-费利蒙 4
-      - US美国(Youtube技术分享室)_25
-      - _香港_奔驰ＡＭＧ_7
+      - CN_中国_1
+      - 美国【YouTube由零開始】
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
