@@ -5,187 +5,175 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ^🇸🇬新加坡SG2524*hi-moon_pw_22, server: kj.aitutu.xyz, port: 57420, type: vmess, uuid: 5671df0d-273e-4131-ffce-b9c736a2377f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: shonlinesandcu03.proconcn.xyz:561, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 12, server: gzyd.a.v2ray.club, port: 47141, type: vmess, uuid: 4b69ac77-a83d-4ae0-9999-3dbfd66baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /use, ws-headers: {Host: gzyd.a.v2ray.club}, udp: true}
-  - {name: 魔戒.net_中国_奔驰ＡＭＧ_40, server: az.hk01.paopaocloud.cyou, port: 10011, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%22paopao.v2.hk07.paopaocloud.cyou%22%7D"}, udp: true}
-  - {name: 台湾(绿头外网集团)(Public) 3, server: in04.dns2333.xyz, port: 64078, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: 台湾(绿头外网集团)(Public), server: in02.dns2333.xyz, port: 64088, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
+  - {name: 魔戒.net2, server: cn05.mynode.me, port: 8121, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 魔戒.net6, server: cn02.mynode.me, port: 8110, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 魔戒.net9, server: cn03.mynode.me, port: 8112, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 魔戒.net4, server: cn03.mynode.me, port: 8114, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 魔戒.net8, server: cn02.mynode.me, port: 8108, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 魔戒.net5, server: cn05.mynode.me, port: 8124, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 魔戒.net7, server: cn05.mynode.me, port: 8123, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 魔戒.net3, server: cn02.mynode.me, port: 8107, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 魔戒.net1, server: cn05.mynode.me, port: 8125, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
   - {name: Relay_🇨🇳CN-🇹🇼TW_383, server: 120.232.192.119, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳 CN-🇹🇼TW_363, server: 183.232.163.134, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: 台湾(绿头外网集团)(Public) 2, server: in03.dns2333.xyz, port: 64088, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_381, server: 120.232.192.115, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
+  - {name: 台湾(绿头外网集团)(Public) 3, server: in04.dns2333.xyz, port: 64078, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_378, server: 120.232.192.119, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳 CN-🇹🇼TW_362, server: 120.232.192.115, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: CN_29 TG@peekfun, server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 台湾(绿头外网集团)(Public), server: in02.dns2333.xyz, port: 64088, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
   - {name: 香港3-三网优化-强加密, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hk567.fans8.xyz}, udp: true}
   - {name: 香港5-三网优化, server: 0320hk1646.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nl, ws-headers: {Host: 0320hk1646.fans8.xyz}, udp: true}
+  - {name: 【426节点池】SG_2066, server: 139.162.33.133, port: 80, type: vmess, uuid: c6191a10-baf5-3391-aa2e-983826d50d0c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 139.162.33.133}, udp: true}
+  - {name: Relay_🏁ZZ-🇹🇼TW_4017, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
   - {name: 香港8-三网优化-强加密, server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hk857.fans8.xyz}, udp: true}
+  - {name: US_2109, server: 150.230.252.195, port: 29363, type: vmess, uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳 CN-🇹🇼TW_576, server: 112.15.9.129, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
   - {name: ZZ_512, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
-  - {name: 香港1-三网优化-强加密, server: 0320hkhh.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hkhh.fans8.xyz}, udp: true}
-  - {name: (Youtube频道：俊佳科技)_🇺🇸_美国_34, server: mianf1.yeooo.xyz, port: 48530, type: trojan, password: f34e2f70-bb37-32ef-9b94-65e53b7ad53f, sni: mianf1.yeooo.xyz, skip-cert-verify: true, udp: true}
-  - {name: (Youtube频道：俊佳科技)_🇺🇸_美国_35, server: mianf2.yeooo.xyz, port: 63924, type: trojan, password: f34e2f70-bb37-32ef-9b94-65e53b7ad53f, sni: mianf2.yeooo.xyz, skip-cert-verify: true, udp: true}
-  - {name: 越南胡志明-三网优化, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nmsl, ws-headers: {Host: 0319hzm01.fans8.xyz}, udp: true}
+  - {name: JP_873, server: 168.138.36.193, port: 32329, type: vmess, uuid: ddf03d93-d6e5-46f8-8176-80536e52e50e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 机场👉魔戒.net-🇧🇳, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
-  - {name: _香港_奔驰ＡＭＧ_7, server: gz.yd01.paopaocloud.cyou, port: 10006, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%22paopao.v2.tw01.paopaocloud.cyou%22%7D"}, udp: true}
-  - {name: 韩国(绿头外网集团)(Public) 7, server: 150.230.252.195, port: 29363, type: vmess, uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_381, server: 120.232.192.115, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
-  - {name: ip_150_230_249_169, server: 150.230.249.169, port: 8888, type: vmess, uuid: f836d00e-73e0-4eb5-a0ac-18a8e9ee61ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net_香港_奔驰ＡＭＧ_9, server: gz.yd01.paopaocloud.cyou, port: 10015, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%22paopao.v2.jp02.paopaocloud.cyou%22%7D"}, udp: true}
+  - {name: 魔戒.net香港_R_446, server: ieplszhk-sz.qqgg.work, port: 50804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: ^🇸🇬新加坡SG2524*hi-moon_pw_22, server: kj.aitutu.xyz, port: 57420, type: vmess, uuid: 5671df0d-273e-4131-ffce-b9c736a2377f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: JP_697, server: 168.138.36.193, port: 32329, type: vmess, uuid: ddf03d93-d6e5-46f8-8176-80536e52e50e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港1-三网优化-强加密, server: 0320hkhh.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hkhh.fans8.xyz}, udp: true}
+  - {name: Relay_🇦🇺AU-🇦🇺AU_96, server: wolfsoul.cn, port: 443, type: trojan, password: wolfsoul, sni: wolfsoul.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_62 TG@peekfun, server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
   - {name: 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan, server: jgwdj1.gaox.ml, port: 443, type: trojan, password: e8553fc5-f3a0-409c-ac06-1cd93b026cf4, sni: jgwdj1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_378, server: 120.232.192.119, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: true, udp: true}
-  - {name: 台湾(绿头外网集团)(Public) 2, server: in03.dns2333.xyz, port: 64088, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 11, server: sp1.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloman, ws-headers: {Host: t.me/p2psharing}, udp: true}
-  - {name: 魔戒.net_香港_奔驰ＡＭＧ_6, server: gz.yd01.paopaocloud.cyou, port: 10002, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22paopao.v2.hk04.paopaocloud.cyou%22%7D"}, udp: true}
-  - {name: ion_vnklwwv_com_vmess_ws_2, server: ion.vnklwwv.com, port: 443, type: vmess, uuid: 36583320-4c2e-4671-b08b-c358fce74316, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/vazbvws?ed=2048", ws-headers: {Host: ion.vnklwwv.com}, udp: true}
-  - {name: 魔戒.net杭锅, server: 141.164.39.146, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: NL_833, server: 85.208.108.234, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 韩国(绿头外网集团)(Public) 8, server: 146.56.99.245, port: 25135, type: vmess, uuid: 5893f7e5-9695-45af-f65e-bd2958ba93fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2ray_1, server: www.yiandxu.buzz, port: 56615, type: vmess, uuid: 32a83cd5-ca6e-4aa4-d53d-790b4a2c6a71, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dfg45y, ws-headers: {Host: www.yiandxu.buzz}, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 15, server: 40.72.186.93, port: 63014, type: vmess, uuid: 1f32c777-6891-30c4-92c0-388a75cd9793, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: mugua-us01.covid19.rip}, udp: true}
-  - {name: (Youtube频道：俊佳科技)_🇺🇸_美国_30, server: guangyi.suyun.me, port: 26332, type: trojan, password: f34e2f70-bb37-32ef-9b94-65e53b7ad53f, sni: guangyi.suyun.me, skip-cert-verify: true, udp: true}
-  - {name: 香港05, server: guangzhou-cm2.kexueddns.club, port: 24067, type: trojan, password: 55418292-165b-4bcc-99d7-a8d8471dbeff, sni: guangzhou-cm2.kexueddns.club, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3001, server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: trojan-CA_3, server: ca.purel.in, port: 4433, type: trojan, password: !<str> 850429, sni: ca.purel.in, skip-cert-verify: true, udp: true}
-  - {name: Relay__18.99Mb, server: gz1.52168.xyz, port: 1116, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: (Youtube频道：俊佳科技)_🇺🇸_美国_6, server: zhuanfa1.suyun.me, port: 52990, type: trojan, password: f34e2f70-bb37-32ef-9b94-65e53b7ad53f, sni: zhuanfa1.suyun.me, skip-cert-verify: true, udp: true}
-  - {name: (Youtube频道：俊佳科技)_🇺🇸_美国_12, server: zhuanfa1.suyun.me, port: 48701, type: trojan, password: f34e2f70-bb37-32ef-9b94-65e53b7ad53f, sni: zhuanfa1.suyun.me, skip-cert-verify: true, udp: true}
-  - {name: (Youtube频道：俊佳科技)_🇺🇸_美国_15, server: zhuanfa1.suyun.me, port: 18632, type: trojan, password: f34e2f70-bb37-32ef-9b94-65e53b7ad53f, sni: zhuanfa1.suyun.me, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 28, server: 168.138.36.193, port: 32329, type: vmess, uuid: ddf03d93-d6e5-46f8-8176-80536e52e50e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 越南胡志明-三网优化, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nmsl, ws-headers: {Host: 0319hzm01.fans8.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
       - shonlinesandcu03.proconcn.xyz:561
-      - 新加坡(绿头外网集团)(Public) 12
-      - 魔戒.net_中国_奔驰ＡＭＧ_40
-      - 台湾(绿头外网集团)(Public) 3
-      - 台湾(绿头外网集团)(Public)
+      - 魔戒.net2
+      - 魔戒.net6
+      - 魔戒.net9
+      - 魔戒.net4
+      - 魔戒.net8
+      - 魔戒.net5
+      - 魔戒.net7
+      - 魔戒.net3
+      - 魔戒.net1
       - Relay_🇨🇳CN-🇹🇼TW_383
+      - Relay_🇨🇳 CN-🇹🇼TW_363
+      - 台湾(绿头外网集团)(Public) 2
+      - Relay_🇨🇳CN-🇹🇼TW_381
+      - 台湾(绿头外网集团)(Public) 3
+      - Relay_🇨🇳CN-🇹🇼TW_378
+      - Relay_🇨🇳 CN-🇹🇼TW_362
+      - CN_29 TG@peekfun
+      - 台湾(绿头外网集团)(Public)
       - 香港3-三网优化-强加密
       - 香港5-三网优化
+      - 【426节点池】SG_2066
+      - Relay_🏁ZZ-🇹🇼TW_4017
       - 香港8-三网优化-强加密
+      - US_2109
       - Relay_🇨🇳 CN-🇹🇼TW_576
       - ZZ_512
-      - 香港1-三网优化-强加密
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_34
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_35
-      - 越南胡志明-三网优化
+      - JP_873
       - 机场👉魔戒.net-🇧🇳
-      - _香港_奔驰ＡＭＧ_7
-      - 韩国(绿头外网集团)(Public) 7
-      - Relay_🇨🇳CN-🇹🇼TW_381
-      - ip_150_230_249_169
-      - 魔戒.net_香港_奔驰ＡＭＧ_9
+      - 魔戒.net香港_R_446
+      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
+      - JP_697
+      - 香港1-三网优化-强加密
+      - Relay_🇦🇺AU-🇦🇺AU_96
+      - CN_62 TG@peekfun
       - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - Relay_🇨🇳CN-🇹🇼TW_378
-      - 台湾(绿头外网集团)(Public) 2
-      - 新加坡(绿头外网集团)(Public) 11
-      - 魔戒.net_香港_奔驰ＡＭＧ_6
-      - ion_vnklwwv_com_vmess_ws_2
-      - 魔戒.net杭锅
-      - NL_833
-      - 韩国(绿头外网集团)(Public) 8
-      - v2ray_1
-      - 美国(绿头外网集团)(Public) 15
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_30
-      - 香港05
-      - Relay_🇺🇸US-🇺🇸US_3001
-      - trojan-CA_3
-      - Relay__18.99Mb
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_6
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_12
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_15
+      - 日本(绿头外网集团)(Public) 28
+      - 越南胡志明-三网优化
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
       - shonlinesandcu03.proconcn.xyz:561
-      - 新加坡(绿头外网集团)(Public) 12
-      - 魔戒.net_中国_奔驰ＡＭＧ_40
-      - 台湾(绿头外网集团)(Public) 3
-      - 台湾(绿头外网集团)(Public)
+      - 魔戒.net2
+      - 魔戒.net6
+      - 魔戒.net9
+      - 魔戒.net4
+      - 魔戒.net8
+      - 魔戒.net5
+      - 魔戒.net7
+      - 魔戒.net3
+      - 魔戒.net1
       - Relay_🇨🇳CN-🇹🇼TW_383
+      - Relay_🇨🇳 CN-🇹🇼TW_363
+      - 台湾(绿头外网集团)(Public) 2
+      - Relay_🇨🇳CN-🇹🇼TW_381
+      - 台湾(绿头外网集团)(Public) 3
+      - Relay_🇨🇳CN-🇹🇼TW_378
+      - Relay_🇨🇳 CN-🇹🇼TW_362
+      - CN_29 TG@peekfun
+      - 台湾(绿头外网集团)(Public)
       - 香港3-三网优化-强加密
       - 香港5-三网优化
+      - 【426节点池】SG_2066
+      - Relay_🏁ZZ-🇹🇼TW_4017
       - 香港8-三网优化-强加密
+      - US_2109
       - Relay_🇨🇳 CN-🇹🇼TW_576
       - ZZ_512
-      - 香港1-三网优化-强加密
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_34
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_35
-      - 越南胡志明-三网优化
+      - JP_873
       - 机场👉魔戒.net-🇧🇳
-      - _香港_奔驰ＡＭＧ_7
-      - 韩国(绿头外网集团)(Public) 7
-      - Relay_🇨🇳CN-🇹🇼TW_381
-      - ip_150_230_249_169
-      - 魔戒.net_香港_奔驰ＡＭＧ_9
+      - 魔戒.net香港_R_446
+      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
+      - JP_697
+      - 香港1-三网优化-强加密
+      - Relay_🇦🇺AU-🇦🇺AU_96
+      - CN_62 TG@peekfun
       - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - Relay_🇨🇳CN-🇹🇼TW_378
-      - 台湾(绿头外网集团)(Public) 2
-      - 新加坡(绿头外网集团)(Public) 11
-      - 魔戒.net_香港_奔驰ＡＭＧ_6
-      - ion_vnklwwv_com_vmess_ws_2
-      - 魔戒.net杭锅
-      - NL_833
-      - 韩国(绿头外网集团)(Public) 8
-      - v2ray_1
-      - 美国(绿头外网集团)(Public) 15
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_30
-      - 香港05
-      - Relay_🇺🇸US-🇺🇸US_3001
-      - trojan-CA_3
-      - Relay__18.99Mb
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_6
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_12
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_15
+      - 日本(绿头外网集团)(Public) 28
+      - 越南胡志明-三网优化
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
       - shonlinesandcu03.proconcn.xyz:561
-      - 新加坡(绿头外网集团)(Public) 12
-      - 魔戒.net_中国_奔驰ＡＭＧ_40
-      - 台湾(绿头外网集团)(Public) 3
-      - 台湾(绿头外网集团)(Public)
+      - 魔戒.net2
+      - 魔戒.net6
+      - 魔戒.net9
+      - 魔戒.net4
+      - 魔戒.net8
+      - 魔戒.net5
+      - 魔戒.net7
+      - 魔戒.net3
+      - 魔戒.net1
       - Relay_🇨🇳CN-🇹🇼TW_383
+      - Relay_🇨🇳 CN-🇹🇼TW_363
+      - 台湾(绿头外网集团)(Public) 2
+      - Relay_🇨🇳CN-🇹🇼TW_381
+      - 台湾(绿头外网集团)(Public) 3
+      - Relay_🇨🇳CN-🇹🇼TW_378
+      - Relay_🇨🇳 CN-🇹🇼TW_362
+      - CN_29 TG@peekfun
+      - 台湾(绿头外网集团)(Public)
       - 香港3-三网优化-强加密
       - 香港5-三网优化
+      - 【426节点池】SG_2066
+      - Relay_🏁ZZ-🇹🇼TW_4017
       - 香港8-三网优化-强加密
+      - US_2109
       - Relay_🇨🇳 CN-🇹🇼TW_576
       - ZZ_512
-      - 香港1-三网优化-强加密
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_34
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_35
-      - 越南胡志明-三网优化
+      - JP_873
       - 机场👉魔戒.net-🇧🇳
-      - _香港_奔驰ＡＭＧ_7
-      - 韩国(绿头外网集团)(Public) 7
-      - Relay_🇨🇳CN-🇹🇼TW_381
-      - ip_150_230_249_169
-      - 魔戒.net_香港_奔驰ＡＭＧ_9
+      - 魔戒.net香港_R_446
+      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
+      - JP_697
+      - 香港1-三网优化-强加密
+      - Relay_🇦🇺AU-🇦🇺AU_96
+      - CN_62 TG@peekfun
       - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - Relay_🇨🇳CN-🇹🇼TW_378
-      - 台湾(绿头外网集团)(Public) 2
-      - 新加坡(绿头外网集团)(Public) 11
-      - 魔戒.net_香港_奔驰ＡＭＧ_6
-      - ion_vnklwwv_com_vmess_ws_2
-      - 魔戒.net杭锅
-      - NL_833
-      - 韩国(绿头外网集团)(Public) 8
-      - v2ray_1
-      - 美国(绿头外网集团)(Public) 15
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_30
-      - 香港05
-      - Relay_🇺🇸US-🇺🇸US_3001
-      - trojan-CA_3
-      - Relay__18.99Mb
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_6
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_12
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_15
+      - 日本(绿头外网集团)(Public) 28
+      - 越南胡志明-三网优化
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -204,202 +192,187 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
       - shonlinesandcu03.proconcn.xyz:561
-      - 新加坡(绿头外网集团)(Public) 12
-      - 魔戒.net_中国_奔驰ＡＭＧ_40
-      - 台湾(绿头外网集团)(Public) 3
-      - 台湾(绿头外网集团)(Public)
+      - 魔戒.net2
+      - 魔戒.net6
+      - 魔戒.net9
+      - 魔戒.net4
+      - 魔戒.net8
+      - 魔戒.net5
+      - 魔戒.net7
+      - 魔戒.net3
+      - 魔戒.net1
       - Relay_🇨🇳CN-🇹🇼TW_383
+      - Relay_🇨🇳 CN-🇹🇼TW_363
+      - 台湾(绿头外网集团)(Public) 2
+      - Relay_🇨🇳CN-🇹🇼TW_381
+      - 台湾(绿头外网集团)(Public) 3
+      - Relay_🇨🇳CN-🇹🇼TW_378
+      - Relay_🇨🇳 CN-🇹🇼TW_362
+      - CN_29 TG@peekfun
+      - 台湾(绿头外网集团)(Public)
       - 香港3-三网优化-强加密
       - 香港5-三网优化
+      - 【426节点池】SG_2066
+      - Relay_🏁ZZ-🇹🇼TW_4017
       - 香港8-三网优化-强加密
+      - US_2109
       - Relay_🇨🇳 CN-🇹🇼TW_576
       - ZZ_512
-      - 香港1-三网优化-强加密
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_34
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_35
-      - 越南胡志明-三网优化
+      - JP_873
       - 机场👉魔戒.net-🇧🇳
-      - _香港_奔驰ＡＭＧ_7
-      - 韩国(绿头外网集团)(Public) 7
-      - Relay_🇨🇳CN-🇹🇼TW_381
-      - ip_150_230_249_169
-      - 魔戒.net_香港_奔驰ＡＭＧ_9
+      - 魔戒.net香港_R_446
+      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
+      - JP_697
+      - 香港1-三网优化-强加密
+      - Relay_🇦🇺AU-🇦🇺AU_96
+      - CN_62 TG@peekfun
       - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - Relay_🇨🇳CN-🇹🇼TW_378
-      - 台湾(绿头外网集团)(Public) 2
-      - 新加坡(绿头外网集团)(Public) 11
-      - 魔戒.net_香港_奔驰ＡＭＧ_6
-      - ion_vnklwwv_com_vmess_ws_2
-      - 魔戒.net杭锅
-      - NL_833
-      - 韩国(绿头外网集团)(Public) 8
-      - v2ray_1
-      - 美国(绿头外网集团)(Public) 15
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_30
-      - 香港05
-      - Relay_🇺🇸US-🇺🇸US_3001
-      - trojan-CA_3
-      - Relay__18.99Mb
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_6
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_12
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_15
+      - 日本(绿头外网集团)(Public) 28
+      - 越南胡志明-三网优化
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 台湾(绿头外网集团)(Public) 2
       - 台湾(绿头外网集团)(Public) 3
       - 台湾(绿头外网集团)(Public)
       - 香港3-三网优化-强加密
       - 香港5-三网优化
       - 香港8-三网优化-强加密
+      - 魔戒.net香港_R_446
       - 香港1-三网优化-强加密
-      - _香港_奔驰ＡＭＧ_7
-      - 魔戒.net_香港_奔驰ＡＭＧ_9
-      - 台湾(绿头外网集团)(Public) 2
-      - 魔戒.net_香港_奔驰ＡＭＧ_6
-      - 香港05
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
       - shonlinesandcu03.proconcn.xyz:561
-      - 新加坡(绿头外网集团)(Public) 12
-      - 魔戒.net_中国_奔驰ＡＭＧ_40
-      - 台湾(绿头外网集团)(Public) 3
-      - 台湾(绿头外网集团)(Public)
+      - 魔戒.net2
+      - 魔戒.net6
+      - 魔戒.net9
+      - 魔戒.net4
+      - 魔戒.net8
+      - 魔戒.net5
+      - 魔戒.net7
+      - 魔戒.net3
+      - 魔戒.net1
       - Relay_🇨🇳CN-🇹🇼TW_383
+      - Relay_🇨🇳 CN-🇹🇼TW_363
+      - 台湾(绿头外网集团)(Public) 2
+      - Relay_🇨🇳CN-🇹🇼TW_381
+      - 台湾(绿头外网集团)(Public) 3
+      - Relay_🇨🇳CN-🇹🇼TW_378
+      - Relay_🇨🇳 CN-🇹🇼TW_362
+      - CN_29 TG@peekfun
+      - 台湾(绿头外网集团)(Public)
       - 香港3-三网优化-强加密
       - 香港5-三网优化
+      - 【426节点池】SG_2066
+      - Relay_🏁ZZ-🇹🇼TW_4017
       - 香港8-三网优化-强加密
+      - US_2109
       - Relay_🇨🇳 CN-🇹🇼TW_576
       - ZZ_512
-      - 香港1-三网优化-强加密
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_34
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_35
-      - 越南胡志明-三网优化
+      - JP_873
       - 机场👉魔戒.net-🇧🇳
-      - _香港_奔驰ＡＭＧ_7
-      - 韩国(绿头外网集团)(Public) 7
-      - Relay_🇨🇳CN-🇹🇼TW_381
-      - ip_150_230_249_169
-      - 魔戒.net_香港_奔驰ＡＭＧ_9
+      - 魔戒.net香港_R_446
+      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
+      - JP_697
+      - 香港1-三网优化-强加密
+      - Relay_🇦🇺AU-🇦🇺AU_96
+      - CN_62 TG@peekfun
       - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - Relay_🇨🇳CN-🇹🇼TW_378
-      - 台湾(绿头外网集团)(Public) 2
-      - 新加坡(绿头外网集团)(Public) 11
-      - 魔戒.net_香港_奔驰ＡＭＧ_6
-      - ion_vnklwwv_com_vmess_ws_2
-      - 魔戒.net杭锅
-      - NL_833
-      - 韩国(绿头外网集团)(Public) 8
-      - v2ray_1
-      - 美国(绿头外网集团)(Public) 15
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_30
-      - 香港05
-      - Relay_🇺🇸US-🇺🇸US_3001
-      - trojan-CA_3
-      - Relay__18.99Mb
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_6
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_12
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_15
+      - 日本(绿头外网集团)(Public) 28
+      - 越南胡志明-三网优化
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
       - shonlinesandcu03.proconcn.xyz:561
-      - 新加坡(绿头外网集团)(Public) 12
-      - 魔戒.net_中国_奔驰ＡＭＧ_40
-      - 台湾(绿头外网集团)(Public) 3
-      - 台湾(绿头外网集团)(Public)
+      - 魔戒.net2
+      - 魔戒.net6
+      - 魔戒.net9
+      - 魔戒.net4
+      - 魔戒.net8
+      - 魔戒.net5
+      - 魔戒.net7
+      - 魔戒.net3
+      - 魔戒.net1
       - Relay_🇨🇳CN-🇹🇼TW_383
+      - Relay_🇨🇳 CN-🇹🇼TW_363
+      - 台湾(绿头外网集团)(Public) 2
+      - Relay_🇨🇳CN-🇹🇼TW_381
+      - 台湾(绿头外网集团)(Public) 3
+      - Relay_🇨🇳CN-🇹🇼TW_378
+      - Relay_🇨🇳 CN-🇹🇼TW_362
+      - CN_29 TG@peekfun
+      - 台湾(绿头外网集团)(Public)
       - 香港3-三网优化-强加密
       - 香港5-三网优化
+      - 【426节点池】SG_2066
+      - Relay_🏁ZZ-🇹🇼TW_4017
       - 香港8-三网优化-强加密
+      - US_2109
       - Relay_🇨🇳 CN-🇹🇼TW_576
       - ZZ_512
-      - 香港1-三网优化-强加密
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_34
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_35
-      - 越南胡志明-三网优化
+      - JP_873
       - 机场👉魔戒.net-🇧🇳
-      - _香港_奔驰ＡＭＧ_7
-      - 韩国(绿头外网集团)(Public) 7
-      - Relay_🇨🇳CN-🇹🇼TW_381
-      - ip_150_230_249_169
-      - 魔戒.net_香港_奔驰ＡＭＧ_9
+      - 魔戒.net香港_R_446
+      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
+      - JP_697
+      - 香港1-三网优化-强加密
+      - Relay_🇦🇺AU-🇦🇺AU_96
+      - CN_62 TG@peekfun
       - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - Relay_🇨🇳CN-🇹🇼TW_378
-      - 台湾(绿头外网集团)(Public) 2
-      - 新加坡(绿头外网集团)(Public) 11
-      - 魔戒.net_香港_奔驰ＡＭＧ_6
-      - ion_vnklwwv_com_vmess_ws_2
-      - 魔戒.net杭锅
-      - NL_833
-      - 韩国(绿头外网集团)(Public) 8
-      - v2ray_1
-      - 美国(绿头外网集团)(Public) 15
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_30
-      - 香港05
-      - Relay_🇺🇸US-🇺🇸US_3001
-      - trojan-CA_3
-      - Relay__18.99Mb
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_6
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_12
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_15
+      - 日本(绿头外网集团)(Public) 28
+      - 越南胡志明-三网优化
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
       - shonlinesandcu03.proconcn.xyz:561
-      - 新加坡(绿头外网集团)(Public) 12
-      - 魔戒.net_中国_奔驰ＡＭＧ_40
-      - 台湾(绿头外网集团)(Public) 3
-      - 台湾(绿头外网集团)(Public)
+      - 魔戒.net2
+      - 魔戒.net6
+      - 魔戒.net9
+      - 魔戒.net4
+      - 魔戒.net8
+      - 魔戒.net5
+      - 魔戒.net7
+      - 魔戒.net3
+      - 魔戒.net1
       - Relay_🇨🇳CN-🇹🇼TW_383
+      - Relay_🇨🇳 CN-🇹🇼TW_363
+      - 台湾(绿头外网集团)(Public) 2
+      - Relay_🇨🇳CN-🇹🇼TW_381
+      - 台湾(绿头外网集团)(Public) 3
+      - Relay_🇨🇳CN-🇹🇼TW_378
+      - Relay_🇨🇳 CN-🇹🇼TW_362
+      - CN_29 TG@peekfun
+      - 台湾(绿头外网集团)(Public)
       - 香港3-三网优化-强加密
       - 香港5-三网优化
+      - 【426节点池】SG_2066
+      - Relay_🏁ZZ-🇹🇼TW_4017
       - 香港8-三网优化-强加密
+      - US_2109
       - Relay_🇨🇳 CN-🇹🇼TW_576
       - ZZ_512
-      - 香港1-三网优化-强加密
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_34
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_35
-      - 越南胡志明-三网优化
+      - JP_873
       - 机场👉魔戒.net-🇧🇳
-      - _香港_奔驰ＡＭＧ_7
-      - 韩国(绿头外网集团)(Public) 7
-      - Relay_🇨🇳CN-🇹🇼TW_381
-      - ip_150_230_249_169
-      - 魔戒.net_香港_奔驰ＡＭＧ_9
+      - 魔戒.net香港_R_446
+      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
+      - JP_697
+      - 香港1-三网优化-强加密
+      - Relay_🇦🇺AU-🇦🇺AU_96
+      - CN_62 TG@peekfun
       - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - Relay_🇨🇳CN-🇹🇼TW_378
-      - 台湾(绿头外网集团)(Public) 2
-      - 新加坡(绿头外网集团)(Public) 11
-      - 魔戒.net_香港_奔驰ＡＭＧ_6
-      - ion_vnklwwv_com_vmess_ws_2
-      - 魔戒.net杭锅
-      - NL_833
-      - 韩国(绿头外网集团)(Public) 8
-      - v2ray_1
-      - 美国(绿头外网集团)(Public) 15
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_30
-      - 香港05
-      - Relay_🇺🇸US-🇺🇸US_3001
-      - trojan-CA_3
-      - Relay__18.99Mb
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_6
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_12
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_15
+      - 日本(绿头外网集团)(Public) 28
+      - 越南胡志明-三网优化
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -415,47 +388,44 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
       - shonlinesandcu03.proconcn.xyz:561
-      - 新加坡(绿头外网集团)(Public) 12
-      - 魔戒.net_中国_奔驰ＡＭＧ_40
-      - 台湾(绿头外网集团)(Public) 3
-      - 台湾(绿头外网集团)(Public)
+      - 魔戒.net2
+      - 魔戒.net6
+      - 魔戒.net9
+      - 魔戒.net4
+      - 魔戒.net8
+      - 魔戒.net5
+      - 魔戒.net7
+      - 魔戒.net3
+      - 魔戒.net1
       - Relay_🇨🇳CN-🇹🇼TW_383
+      - Relay_🇨🇳 CN-🇹🇼TW_363
+      - 台湾(绿头外网集团)(Public) 2
+      - Relay_🇨🇳CN-🇹🇼TW_381
+      - 台湾(绿头外网集团)(Public) 3
+      - Relay_🇨🇳CN-🇹🇼TW_378
+      - Relay_🇨🇳 CN-🇹🇼TW_362
+      - CN_29 TG@peekfun
+      - 台湾(绿头外网集团)(Public)
       - 香港3-三网优化-强加密
       - 香港5-三网优化
+      - 【426节点池】SG_2066
+      - Relay_🏁ZZ-🇹🇼TW_4017
       - 香港8-三网优化-强加密
+      - US_2109
       - Relay_🇨🇳 CN-🇹🇼TW_576
       - ZZ_512
-      - 香港1-三网优化-强加密
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_34
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_35
-      - 越南胡志明-三网优化
+      - JP_873
       - 机场👉魔戒.net-🇧🇳
-      - _香港_奔驰ＡＭＧ_7
-      - 韩国(绿头外网集团)(Public) 7
-      - Relay_🇨🇳CN-🇹🇼TW_381
-      - ip_150_230_249_169
-      - 魔戒.net_香港_奔驰ＡＭＧ_9
+      - 魔戒.net香港_R_446
+      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
+      - JP_697
+      - 香港1-三网优化-强加密
+      - Relay_🇦🇺AU-🇦🇺AU_96
+      - CN_62 TG@peekfun
       - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - Relay_🇨🇳CN-🇹🇼TW_378
-      - 台湾(绿头外网集团)(Public) 2
-      - 新加坡(绿头外网集团)(Public) 11
-      - 魔戒.net_香港_奔驰ＡＭＧ_6
-      - ion_vnklwwv_com_vmess_ws_2
-      - 魔戒.net杭锅
-      - NL_833
-      - 韩国(绿头外网集团)(Public) 8
-      - v2ray_1
-      - 美国(绿头外网集团)(Public) 15
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_30
-      - 香港05
-      - Relay_🇺🇸US-🇺🇸US_3001
-      - trojan-CA_3
-      - Relay__18.99Mb
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_6
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_12
-      - (Youtube频道：俊佳科技)_🇺🇸_美国_15
+      - 日本(绿头外网集团)(Public) 28
+      - 越南胡志明-三网优化
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
