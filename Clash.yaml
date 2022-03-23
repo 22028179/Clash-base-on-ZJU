@@ -5,175 +5,151 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: Relay_🇯🇵JP-🇯🇵JP_21, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 6, server: 116.162.14.190, port: 10010, type: vmess, uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 3, server: 116.162.14.190, port: 10015, type: vmess, uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 11, server: tj-hk02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk02.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_1497, server: 20.239.70.224, port: 5142, type: vmess, uuid: 6c4033de-48f6-4946-996d-840debf60044, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 10, server: tj-hk06.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk06.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_ | 2.45Mb, server: gz2.52168.xyz, port: 2107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: US_100, server: 20.239.70.224, port: 5142, type: vmess, uuid: 6c4033de-48f6-4946-996d-840debf60044, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾(绿头外网集团)(Public) 5, server: yd.soolos.com, port: 58827, type: trojan, password: 7e257628-a693-3f58-9396-e60279346a33, sni: yd.soolos.com, skip-cert-verify: true, udp: true}
+  - {name: HK_油管 TG 8度科技, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hk567.fans8.xyz}, udp: true}
+  - {name: CYL-科技（2022.03.20）, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: CN_296, server: gz1.52168.xyz, port: 1113, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: 台湾(绿头外网集团)(Public) 3, server: 116.162.14.190, port: 10006, type: vmess, uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: CN_油管 TG 8度科技, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /in, ws-headers: {Host: www.189.cn}, udp: true}
+  - {name: CN_15, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /in, ws-headers: {Host: "%7B%22Host\":%22www.189.cn%22%7D"}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 7, server: 20.205.109.227, port: 10037, type: vmess, uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: CN_油管TG8度科技_12, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /in, ws-headers: {Host: cu2.worldmuseum.buzz}, udp: true}
+  - {name: _香港_FMYC-220322_4, server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hk857.fans8.xyz}, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public), server: sg1.alinkrelay.com, port: 44605, type: trojan, password: 9816c0a0-95c3-44bc-b96a-65be94017518, sni: sg1.alinkrelay.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_402, server: gzbgp.netgo.top, port: 21181, type: vmess, uuid: 98614294-7216-3ba0-af91-a1893d1ea5bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gzbgp.netgo.top}, udp: true}
+  - {name: Relay_🇯🇵JP-🇯🇵JP_1049, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
   - {name: US_莆田&吉风传, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
   - {name: ip_150_230_249_169, server: 150.230.249.169, port: 8888, type: vmess, uuid: f836d00e-73e0-4eb5-a0ac-18a8e9ee61ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_07 | 4.77Mb, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nmsl, ws-headers: {Host: 0319hzm01.fans8.xyz}, udp: true}
-  - {name: _VN_越南, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nmsl, ws-headers: {Host: 0319hzm01.fans8.xyz}, udp: true}
+  - {name: 马来西亚(绿头外网集团)(Public), server: 103.75.116.179, port: 443, type: vmess, uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 台湾(绿头外网集团)(Public) 2, server: 20.205.109.227, port: 10006, type: vmess, uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: CYL-科技（2022_03_20）+40_23, server: ycy.gzhpxb.com, port: 49101, type: ss, cipher: aes-128-gcm, password: yangchaoyue, udp: true}
+  - {name: 韩国(绿头外网集团)(Public) 2, server: 116.162.14.190, port: 10016, type: vmess, uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: CN_30 TG@peekfun, server: 117.28.243.165, port: 8050, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: "", server: c31s3.jamjams.net, port: 22852, type: vmess, uuid: bd87ed3d-3bab-478f-8c6f-c1c01c798de6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JMS-420115atc79s2_jamjams_net:60883_2, server: 104.128.88.199, port: 60883, type: ss, cipher: aes-256-gcm, password: 7d9rEjGsVmY9Uy6m, udp: true}
   - {name: ion_vnklwwv_com_vmess_ws_2, server: ion.vnklwwv.com, port: 443, type: vmess, uuid: 36583320-4c2e-4671-b08b-c358fce74316, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/vazbvws?ed=2048", ws-headers: {Host: ion.vnklwwv.com}, udp: true}
-  - {name: CYL-科技（2022.03.20）, server: 20.239.51.22, port: 15078, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: US_2352, server: 89.208.248.114, port: 443, type: vmess, uuid: ef1af6e9-2029-4d16-9fc5-c23ff022f143, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 89.208.248.114}, udp: true}
-  - {name: US_0443atWangCai_1, server: 38.75.137.66, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_0443atWangCai_1 2, server: 38.75.137.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_7001atWangCai_1, server: 38.75.137.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_5500atWangCai_1, server: 38.75.137.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 35803_1, server: aa.houdinix.space, port: 35803, type: vmess, uuid: 0631fd14-e268-4bb0-f447-f319f5ba0833, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wis, ws-headers: {Host: aa.houdinix.space}, udp: true}
-  - {name: US_6379atWangCai_1, server: 38.75.137.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_8881atWangCai_1, server: 38.75.137.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_5001atWangCai_1, server: 38.75.137.66, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_7002atWangCai_1, server: 38.75.137.66, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_8118atWangCai_1, server: 38.75.137.66, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_5601atWangCai_1, server: 38.75.137.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: YouTubeat阿阳AYANG_18, server: linodemx0303.moonfree.top, port: 443, type: vmess, uuid: 1ab594a2-cee0-4876-89b9-1b9b4053a6c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: linodemx0303.moonfree.top}, udp: true}
-  - {name: US_9102atWangCai_1, server: 38.75.137.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2090, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: US_6697atWangCai_1, server: 38.75.137.66, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_6679atWangCai_1, server: 38.75.137.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: " 2", server: aa.houdinix.space, port: 23943, type: vmess, uuid: 3e6aaeff-e3d4-4b1f-a215-816f0e4a6889, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wis, ws-headers: {Host: aa.houdinix.space}, udp: true}
-  - {name: US_8888atWangCai_1, server: 38.75.137.66, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: F有志之士H_90, server: 62.216.91.229, port: 9092, type: ss, cipher: aes-256-cfb, password: TyNkGmp9hs6eGpDK, udp: true}
-  - {name: US_6697atWangCai_1 2, server: 38.75.137.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_8009atWangCai_1, server: 38.75.137.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_8882atWangCai_1, server: 38.75.137.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: " 3", server: 149.248.34.24, port: 35803, type: vmess, uuid: 0631fd14-e268-4bb0-f447-f319f5ba0833, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wis, ws-headers: {Host: 149.248.34.24}, udp: true}
-  - {name: US_8119atWangCai_1, server: 38.75.137.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_9101atWangCai_1, server: 38.75.137.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_8881atWangCai_1 2, server: 38.75.137.66, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_8118atWangCai_1 2, server: 38.75.137.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_8008atWangCai_1, server: 38.75.137.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: trojan-CA_3, server: ca.purel.in, port: 4433, type: trojan, password: !<str> 850429, sni: ca.purel.in, skip-cert-verify: true, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 31, server: 20.205.109.227, port: 10017, type: vmess, uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 英国(绿头外网集团)(Public), server: 144.24.76.223, port: 44600, type: trojan, password: 9816c0a0-95c3-44bc-b96a-65be94017518, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Relay_🇯🇵JP-🇯🇵JP_21
+      - 香港(绿头外网集团)(Public) 6
+      - 日本(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 11
+      - US_1497
+      - 香港(绿头外网集团)(Public) 10
+      - Relay_ | 2.45Mb
+      - US_100
+      - 台湾(绿头外网集团)(Public) 5
+      - HK_油管 TG 8度科技
+      - CYL-科技（2022.03.20）
+      - CN_296
+      - 台湾(绿头外网集团)(Public) 3
+      - CN_油管 TG 8度科技
+      - CN_15
+      - 香港(绿头外网集团)(Public) 7
+      - CN_油管TG8度科技_12
+      - _香港_FMYC-220322_4
+      - 新加坡(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇯🇵JP_402
+      - Relay_🇯🇵JP-🇯🇵JP_1049
       - US_莆田&吉风传
       - ip_150_230_249_169
-      - Relay_🇨🇦CA-🇨🇦CA_07 | 4.77Mb
-      - _VN_越南
+      - 马来西亚(绿头外网集团)(Public)
+      - 台湾(绿头外网集团)(Public) 2
+      - CYL-科技（2022_03_20）+40_23
+      - 韩国(绿头外网集团)(Public) 2
+      - CN_30 TG@peekfun
       - ""
-      - JMS-420115atc79s2_jamjams_net:60883_2
       - ion_vnklwwv_com_vmess_ws_2
-      - CYL-科技（2022.03.20）
-      - US_2352
-      - US_0443atWangCai_1
-      - US_0443atWangCai_1 2
-      - US_7001atWangCai_1
-      - US_5500atWangCai_1
-      - 35803_1
-      - US_6379atWangCai_1
-      - US_8881atWangCai_1
-      - US_5001atWangCai_1
-      - US_7002atWangCai_1
-      - US_8118atWangCai_1
-      - US_5601atWangCai_1
-      - YouTubeat阿阳AYANG_18
-      - US_9102atWangCai_1
-      - Relay_🇺🇸US-🇺🇸US_2090
-      - US_6697atWangCai_1
-      - US_6679atWangCai_1
-      - " 2"
-      - US_8888atWangCai_1
-      - F有志之士H_90
-      - US_6697atWangCai_1 2
-      - US_8009atWangCai_1
-      - US_8882atWangCai_1
-      - " 3"
-      - US_8119atWangCai_1
-      - US_9101atWangCai_1
-      - US_8881atWangCai_1 2
-      - US_8118atWangCai_1 2
-      - US_8008atWangCai_1
-      - trojan-CA_3
+      - 美国(绿头外网集团)(Public) 31
+      - 英国(绿头外网集团)(Public)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - Relay_🇯🇵JP-🇯🇵JP_21
+      - 香港(绿头外网集团)(Public) 6
+      - 日本(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 11
+      - US_1497
+      - 香港(绿头外网集团)(Public) 10
+      - Relay_ | 2.45Mb
+      - US_100
+      - 台湾(绿头外网集团)(Public) 5
+      - HK_油管 TG 8度科技
+      - CYL-科技（2022.03.20）
+      - CN_296
+      - 台湾(绿头外网集团)(Public) 3
+      - CN_油管 TG 8度科技
+      - CN_15
+      - 香港(绿头外网集团)(Public) 7
+      - CN_油管TG8度科技_12
+      - _香港_FMYC-220322_4
+      - 新加坡(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇯🇵JP_402
+      - Relay_🇯🇵JP-🇯🇵JP_1049
       - US_莆田&吉风传
       - ip_150_230_249_169
-      - Relay_🇨🇦CA-🇨🇦CA_07 | 4.77Mb
-      - _VN_越南
+      - 马来西亚(绿头外网集团)(Public)
+      - 台湾(绿头外网集团)(Public) 2
+      - CYL-科技（2022_03_20）+40_23
+      - 韩国(绿头外网集团)(Public) 2
+      - CN_30 TG@peekfun
       - ""
-      - JMS-420115atc79s2_jamjams_net:60883_2
       - ion_vnklwwv_com_vmess_ws_2
-      - CYL-科技（2022.03.20）
-      - US_2352
-      - US_0443atWangCai_1
-      - US_0443atWangCai_1 2
-      - US_7001atWangCai_1
-      - US_5500atWangCai_1
-      - 35803_1
-      - US_6379atWangCai_1
-      - US_8881atWangCai_1
-      - US_5001atWangCai_1
-      - US_7002atWangCai_1
-      - US_8118atWangCai_1
-      - US_5601atWangCai_1
-      - YouTubeat阿阳AYANG_18
-      - US_9102atWangCai_1
-      - Relay_🇺🇸US-🇺🇸US_2090
-      - US_6697atWangCai_1
-      - US_6679atWangCai_1
-      - " 2"
-      - US_8888atWangCai_1
-      - F有志之士H_90
-      - US_6697atWangCai_1 2
-      - US_8009atWangCai_1
-      - US_8882atWangCai_1
-      - " 3"
-      - US_8119atWangCai_1
-      - US_9101atWangCai_1
-      - US_8881atWangCai_1 2
-      - US_8118atWangCai_1 2
-      - US_8008atWangCai_1
-      - trojan-CA_3
+      - 美国(绿头外网集团)(Public) 31
+      - 英国(绿头外网集团)(Public)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Relay_🇯🇵JP-🇯🇵JP_21
+      - 香港(绿头外网集团)(Public) 6
+      - 日本(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 11
+      - US_1497
+      - 香港(绿头外网集团)(Public) 10
+      - Relay_ | 2.45Mb
+      - US_100
+      - 台湾(绿头外网集团)(Public) 5
+      - HK_油管 TG 8度科技
+      - CYL-科技（2022.03.20）
+      - CN_296
+      - 台湾(绿头外网集团)(Public) 3
+      - CN_油管 TG 8度科技
+      - CN_15
+      - 香港(绿头外网集团)(Public) 7
+      - CN_油管TG8度科技_12
+      - _香港_FMYC-220322_4
+      - 新加坡(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇯🇵JP_402
+      - Relay_🇯🇵JP-🇯🇵JP_1049
       - US_莆田&吉风传
       - ip_150_230_249_169
-      - Relay_🇨🇦CA-🇨🇦CA_07 | 4.77Mb
-      - _VN_越南
+      - 马来西亚(绿头外网集团)(Public)
+      - 台湾(绿头外网集团)(Public) 2
+      - CYL-科技（2022_03_20）+40_23
+      - 韩国(绿头外网集团)(Public) 2
+      - CN_30 TG@peekfun
       - ""
-      - JMS-420115atc79s2_jamjams_net:60883_2
       - ion_vnklwwv_com_vmess_ws_2
-      - CYL-科技（2022.03.20）
-      - US_2352
-      - US_0443atWangCai_1
-      - US_0443atWangCai_1 2
-      - US_7001atWangCai_1
-      - US_5500atWangCai_1
-      - 35803_1
-      - US_6379atWangCai_1
-      - US_8881atWangCai_1
-      - US_5001atWangCai_1
-      - US_7002atWangCai_1
-      - US_8118atWangCai_1
-      - US_5601atWangCai_1
-      - YouTubeat阿阳AYANG_18
-      - US_9102atWangCai_1
-      - Relay_🇺🇸US-🇺🇸US_2090
-      - US_6697atWangCai_1
-      - US_6679atWangCai_1
-      - " 2"
-      - US_8888atWangCai_1
-      - F有志之士H_90
-      - US_6697atWangCai_1 2
-      - US_8009atWangCai_1
-      - US_8882atWangCai_1
-      - " 3"
-      - US_8119atWangCai_1
-      - US_9101atWangCai_1
-      - US_8881atWangCai_1 2
-      - US_8118atWangCai_1 2
-      - US_8008atWangCai_1
-      - trojan-CA_3
+      - 美国(绿头外网集团)(Public) 31
+      - 英国(绿头外网集团)(Public)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -192,179 +168,163 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Relay_🇯🇵JP-🇯🇵JP_21
+      - 香港(绿头外网集团)(Public) 6
+      - 日本(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 11
+      - US_1497
+      - 香港(绿头外网集团)(Public) 10
+      - Relay_ | 2.45Mb
+      - US_100
+      - 台湾(绿头外网集团)(Public) 5
+      - HK_油管 TG 8度科技
+      - CYL-科技（2022.03.20）
+      - CN_296
+      - 台湾(绿头外网集团)(Public) 3
+      - CN_油管 TG 8度科技
+      - CN_15
+      - 香港(绿头外网集团)(Public) 7
+      - CN_油管TG8度科技_12
+      - _香港_FMYC-220322_4
+      - 新加坡(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇯🇵JP_402
+      - Relay_🇯🇵JP-🇯🇵JP_1049
       - US_莆田&吉风传
       - ip_150_230_249_169
-      - Relay_🇨🇦CA-🇨🇦CA_07 | 4.77Mb
-      - _VN_越南
+      - 马来西亚(绿头外网集团)(Public)
+      - 台湾(绿头外网集团)(Public) 2
+      - CYL-科技（2022_03_20）+40_23
+      - 韩国(绿头外网集团)(Public) 2
+      - CN_30 TG@peekfun
       - ""
-      - JMS-420115atc79s2_jamjams_net:60883_2
       - ion_vnklwwv_com_vmess_ws_2
-      - CYL-科技（2022.03.20）
-      - US_2352
-      - US_0443atWangCai_1
-      - US_0443atWangCai_1 2
-      - US_7001atWangCai_1
-      - US_5500atWangCai_1
-      - 35803_1
-      - US_6379atWangCai_1
-      - US_8881atWangCai_1
-      - US_5001atWangCai_1
-      - US_7002atWangCai_1
-      - US_8118atWangCai_1
-      - US_5601atWangCai_1
-      - YouTubeat阿阳AYANG_18
-      - US_9102atWangCai_1
-      - Relay_🇺🇸US-🇺🇸US_2090
-      - US_6697atWangCai_1
-      - US_6679atWangCai_1
-      - " 2"
-      - US_8888atWangCai_1
-      - F有志之士H_90
-      - US_6697atWangCai_1 2
-      - US_8009atWangCai_1
-      - US_8882atWangCai_1
-      - " 3"
-      - US_8119atWangCai_1
-      - US_9101atWangCai_1
-      - US_8881atWangCai_1 2
-      - US_8118atWangCai_1 2
-      - US_8008atWangCai_1
-      - trojan-CA_3
+      - 美国(绿头外网集团)(Public) 31
+      - 英国(绿头外网集团)(Public)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港(绿头外网集团)(Public) 6
+      - 香港(绿头外网集团)(Public) 11
+      - 香港(绿头外网集团)(Public) 10
+      - 台湾(绿头外网集团)(Public) 5
+      - 台湾(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 7
+      - _香港_FMYC-220322_4
+      - 台湾(绿头外网集团)(Public) 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Relay_🇯🇵JP-🇯🇵JP_21
+      - 香港(绿头外网集团)(Public) 6
+      - 日本(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 11
+      - US_1497
+      - 香港(绿头外网集团)(Public) 10
+      - Relay_ | 2.45Mb
+      - US_100
+      - 台湾(绿头外网集团)(Public) 5
+      - HK_油管 TG 8度科技
+      - CYL-科技（2022.03.20）
+      - CN_296
+      - 台湾(绿头外网集团)(Public) 3
+      - CN_油管 TG 8度科技
+      - CN_15
+      - 香港(绿头外网集团)(Public) 7
+      - CN_油管TG8度科技_12
+      - _香港_FMYC-220322_4
+      - 新加坡(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇯🇵JP_402
+      - Relay_🇯🇵JP-🇯🇵JP_1049
       - US_莆田&吉风传
       - ip_150_230_249_169
-      - Relay_🇨🇦CA-🇨🇦CA_07 | 4.77Mb
-      - _VN_越南
+      - 马来西亚(绿头外网集团)(Public)
+      - 台湾(绿头外网集团)(Public) 2
+      - CYL-科技（2022_03_20）+40_23
+      - 韩国(绿头外网集团)(Public) 2
+      - CN_30 TG@peekfun
       - ""
-      - JMS-420115atc79s2_jamjams_net:60883_2
       - ion_vnklwwv_com_vmess_ws_2
-      - CYL-科技（2022.03.20）
-      - US_2352
-      - US_0443atWangCai_1
-      - US_0443atWangCai_1 2
-      - US_7001atWangCai_1
-      - US_5500atWangCai_1
-      - 35803_1
-      - US_6379atWangCai_1
-      - US_8881atWangCai_1
-      - US_5001atWangCai_1
-      - US_7002atWangCai_1
-      - US_8118atWangCai_1
-      - US_5601atWangCai_1
-      - YouTubeat阿阳AYANG_18
-      - US_9102atWangCai_1
-      - Relay_🇺🇸US-🇺🇸US_2090
-      - US_6697atWangCai_1
-      - US_6679atWangCai_1
-      - " 2"
-      - US_8888atWangCai_1
-      - F有志之士H_90
-      - US_6697atWangCai_1 2
-      - US_8009atWangCai_1
-      - US_8882atWangCai_1
-      - " 3"
-      - US_8119atWangCai_1
-      - US_9101atWangCai_1
-      - US_8881atWangCai_1 2
-      - US_8118atWangCai_1 2
-      - US_8008atWangCai_1
-      - trojan-CA_3
+      - 美国(绿头外网集团)(Public) 31
+      - 英国(绿头外网集团)(Public)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - Relay_🇯🇵JP-🇯🇵JP_21
+      - 香港(绿头外网集团)(Public) 6
+      - 日本(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 11
+      - US_1497
+      - 香港(绿头外网集团)(Public) 10
+      - Relay_ | 2.45Mb
+      - US_100
+      - 台湾(绿头外网集团)(Public) 5
+      - HK_油管 TG 8度科技
+      - CYL-科技（2022.03.20）
+      - CN_296
+      - 台湾(绿头外网集团)(Public) 3
+      - CN_油管 TG 8度科技
+      - CN_15
+      - 香港(绿头外网集团)(Public) 7
+      - CN_油管TG8度科技_12
+      - _香港_FMYC-220322_4
+      - 新加坡(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇯🇵JP_402
+      - Relay_🇯🇵JP-🇯🇵JP_1049
       - US_莆田&吉风传
       - ip_150_230_249_169
-      - Relay_🇨🇦CA-🇨🇦CA_07 | 4.77Mb
-      - _VN_越南
+      - 马来西亚(绿头外网集团)(Public)
+      - 台湾(绿头外网集团)(Public) 2
+      - CYL-科技（2022_03_20）+40_23
+      - 韩国(绿头外网集团)(Public) 2
+      - CN_30 TG@peekfun
       - ""
-      - JMS-420115atc79s2_jamjams_net:60883_2
       - ion_vnklwwv_com_vmess_ws_2
-      - CYL-科技（2022.03.20）
-      - US_2352
-      - US_0443atWangCai_1
-      - US_0443atWangCai_1 2
-      - US_7001atWangCai_1
-      - US_5500atWangCai_1
-      - 35803_1
-      - US_6379atWangCai_1
-      - US_8881atWangCai_1
-      - US_5001atWangCai_1
-      - US_7002atWangCai_1
-      - US_8118atWangCai_1
-      - US_5601atWangCai_1
-      - YouTubeat阿阳AYANG_18
-      - US_9102atWangCai_1
-      - Relay_🇺🇸US-🇺🇸US_2090
-      - US_6697atWangCai_1
-      - US_6679atWangCai_1
-      - " 2"
-      - US_8888atWangCai_1
-      - F有志之士H_90
-      - US_6697atWangCai_1 2
-      - US_8009atWangCai_1
-      - US_8882atWangCai_1
-      - " 3"
-      - US_8119atWangCai_1
-      - US_9101atWangCai_1
-      - US_8881atWangCai_1 2
-      - US_8118atWangCai_1 2
-      - US_8008atWangCai_1
-      - trojan-CA_3
+      - 美国(绿头外网集团)(Public) 31
+      - 英国(绿头外网集团)(Public)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Relay_🇯🇵JP-🇯🇵JP_21
+      - 香港(绿头外网集团)(Public) 6
+      - 日本(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 11
+      - US_1497
+      - 香港(绿头外网集团)(Public) 10
+      - Relay_ | 2.45Mb
+      - US_100
+      - 台湾(绿头外网集团)(Public) 5
+      - HK_油管 TG 8度科技
+      - CYL-科技（2022.03.20）
+      - CN_296
+      - 台湾(绿头外网集团)(Public) 3
+      - CN_油管 TG 8度科技
+      - CN_15
+      - 香港(绿头外网集团)(Public) 7
+      - CN_油管TG8度科技_12
+      - _香港_FMYC-220322_4
+      - 新加坡(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇯🇵JP_402
+      - Relay_🇯🇵JP-🇯🇵JP_1049
       - US_莆田&吉风传
       - ip_150_230_249_169
-      - Relay_🇨🇦CA-🇨🇦CA_07 | 4.77Mb
-      - _VN_越南
+      - 马来西亚(绿头外网集团)(Public)
+      - 台湾(绿头外网集团)(Public) 2
+      - CYL-科技（2022_03_20）+40_23
+      - 韩国(绿头外网集团)(Public) 2
+      - CN_30 TG@peekfun
       - ""
-      - JMS-420115atc79s2_jamjams_net:60883_2
       - ion_vnklwwv_com_vmess_ws_2
-      - CYL-科技（2022.03.20）
-      - US_2352
-      - US_0443atWangCai_1
-      - US_0443atWangCai_1 2
-      - US_7001atWangCai_1
-      - US_5500atWangCai_1
-      - 35803_1
-      - US_6379atWangCai_1
-      - US_8881atWangCai_1
-      - US_5001atWangCai_1
-      - US_7002atWangCai_1
-      - US_8118atWangCai_1
-      - US_5601atWangCai_1
-      - YouTubeat阿阳AYANG_18
-      - US_9102atWangCai_1
-      - Relay_🇺🇸US-🇺🇸US_2090
-      - US_6697atWangCai_1
-      - US_6679atWangCai_1
-      - " 2"
-      - US_8888atWangCai_1
-      - F有志之士H_90
-      - US_6697atWangCai_1 2
-      - US_8009atWangCai_1
-      - US_8882atWangCai_1
-      - " 3"
-      - US_8119atWangCai_1
-      - US_9101atWangCai_1
-      - US_8881atWangCai_1 2
-      - US_8118atWangCai_1 2
-      - US_8008atWangCai_1
-      - trojan-CA_3
+      - 美国(绿头外网集团)(Public) 31
+      - 英国(绿头外网集团)(Public)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -380,44 +340,38 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Relay_🇯🇵JP-🇯🇵JP_21
+      - 香港(绿头外网集团)(Public) 6
+      - 日本(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 11
+      - US_1497
+      - 香港(绿头外网集团)(Public) 10
+      - Relay_ | 2.45Mb
+      - US_100
+      - 台湾(绿头外网集团)(Public) 5
+      - HK_油管 TG 8度科技
+      - CYL-科技（2022.03.20）
+      - CN_296
+      - 台湾(绿头外网集团)(Public) 3
+      - CN_油管 TG 8度科技
+      - CN_15
+      - 香港(绿头外网集团)(Public) 7
+      - CN_油管TG8度科技_12
+      - _香港_FMYC-220322_4
+      - 新加坡(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇯🇵JP_402
+      - Relay_🇯🇵JP-🇯🇵JP_1049
       - US_莆田&吉风传
       - ip_150_230_249_169
-      - Relay_🇨🇦CA-🇨🇦CA_07 | 4.77Mb
-      - _VN_越南
+      - 马来西亚(绿头外网集团)(Public)
+      - 台湾(绿头外网集团)(Public) 2
+      - CYL-科技（2022_03_20）+40_23
+      - 韩国(绿头外网集团)(Public) 2
+      - CN_30 TG@peekfun
       - ""
-      - JMS-420115atc79s2_jamjams_net:60883_2
       - ion_vnklwwv_com_vmess_ws_2
-      - CYL-科技（2022.03.20）
-      - US_2352
-      - US_0443atWangCai_1
-      - US_0443atWangCai_1 2
-      - US_7001atWangCai_1
-      - US_5500atWangCai_1
-      - 35803_1
-      - US_6379atWangCai_1
-      - US_8881atWangCai_1
-      - US_5001atWangCai_1
-      - US_7002atWangCai_1
-      - US_8118atWangCai_1
-      - US_5601atWangCai_1
-      - YouTubeat阿阳AYANG_18
-      - US_9102atWangCai_1
-      - Relay_🇺🇸US-🇺🇸US_2090
-      - US_6697atWangCai_1
-      - US_6679atWangCai_1
-      - " 2"
-      - US_8888atWangCai_1
-      - F有志之士H_90
-      - US_6697atWangCai_1 2
-      - US_8009atWangCai_1
-      - US_8882atWangCai_1
-      - " 3"
-      - US_8119atWangCai_1
-      - US_9101atWangCai_1
-      - US_8881atWangCai_1 2
-      - US_8118atWangCai_1 2
-      - US_8008atWangCai_1
-      - trojan-CA_3
+      - 美国(绿头外网集团)(Public) 31
+      - 英国(绿头外网集团)(Public)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
