@@ -5,159 +5,175 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_油管 TG 8度科技 14, server: gkdcm.gkdcn.top, port: 21806, type: ss, cipher: chacha20-ietf-poly1305, password: 82b60549-103b-31f0-b6fb-a303177522ae, udp: true}
-  - {name: JP_135 @WangCai_1, server: 135.wowogg.cyou, port: 52335, type: vmess, uuid: 7b0e18c2-7c79-370b-833d-5b2191ea112a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: shonlinesandcu03.proconcn.xyz:561, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: JP_120 @WangCai_1, server: 120.wowogg.cyou, port: 52220, type: vmess, uuid: 7b0e18c2-7c79-370b-833d-5b2191ea112a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_油管 TG 8度科技 11, server: gkdcm.gkdcn.top, port: 21809, type: ss, cipher: chacha20-ietf-poly1305, password: 82b60549-103b-31f0-b6fb-a303177522ae, udp: true}
-  - {name: JP_119 @WangCai_1, server: 119.wowogg.cyou, port: 52219, type: vmess, uuid: 7b0e18c2-7c79-370b-833d-5b2191ea112a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_133 @WangCai_1, server: 133.wowogg.cyou, port: 52333, type: vmess, uuid: 7b0e18c2-7c79-370b-833d-5b2191ea112a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_117 @WangCai_1, server: 117.wowogg.cyou, port: 52217, type: vmess, uuid: 7b0e18c2-7c79-370b-833d-5b2191ea112a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_134 @WangCai_1, server: 134.wowogg.cyou, port: 52334, type: vmess, uuid: 7b0e18c2-7c79-370b-833d-5b2191ea112a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_122 @WangCai_1, server: 122.wowogg.cyou, port: 52222, type: vmess, uuid: 7b0e18c2-7c79-370b-833d-5b2191ea112a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_115 @WangCai_1, server: 115.wowogg.cyou, port: 52215, type: vmess, uuid: 7b0e18c2-7c79-370b-833d-5b2191ea112a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港8-三网优化-强加密, server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hk857.fans8.xyz}, udp: true}
-  - {name: SG_112 @WangCai_1, server: 112.wowogg.cyou, port: 52212, type: vmess, uuid: 7b0e18c2-7c79-370b-833d-5b2191ea112a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_118 @WangCai_1, server: 118.wowogg.cyou, port: 52218, type: vmess, uuid: 7b0e18c2-7c79-370b-833d-5b2191ea112a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港3-三网优化-强加密, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hk567.fans8.xyz}, udp: true}
-  - {name: JP_114 @WangCai_1, server: 114.wowogg.cyou, port: 52214, type: vmess, uuid: 7b0e18c2-7c79-370b-833d-5b2191ea112a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾(绿头外网集团)(Public) 3, server: in04.dns2333.xyz, port: 64078, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: 香港5-三网优化, server: 0320hk1646.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nl, ws-headers: {Host: 0320hk1646.fans8.xyz}, udp: true}
-  - {name: 台湾(绿头外网集团)(Public) 2, server: in03.dns2333.xyz, port: 64088, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
-  - {name: ^🇸🇬新加坡SG2524*hi-moon_pw_22, server: kj.aitutu.xyz, port: 57420, type: vmess, uuid: 5671df0d-273e-4131-ffce-b9c736a2377f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 香港1-三网优化-强加密, server: 0320hkhh.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hkhh.fans8.xyz}, udp: true}
-  - {name: JP_124 @WangCai_1, server: 124.wowogg.cyou, port: 52224, type: vmess, uuid: 7b0e18c2-7c79-370b-833d-5b2191ea112a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_123 @WangCai_1, server: 123.wowogg.cyou, port: 52223, type: vmess, uuid: 7b0e18c2-7c79-370b-833d-5b2191ea112a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_油管 TG 8度科技 26, server: gkdcm.gkdcn.top, port: 21822, type: ss, cipher: chacha20-ietf-poly1305, password: 82b60549-103b-31f0-b6fb-a303177522ae, udp: true}
+  - {name: US_莆田&吉风传, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
   - {name: ip_150_230_249_169, server: 150.230.249.169, port: 8888, type: vmess, uuid: f836d00e-73e0-4eb5-a0ac-18a8e9ee61ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_15014 @WangCai_1, server: 14.v2-ray.cyou, port: 15014, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}, udp: true}
-  - {name: CN_油管 TG 8度科技 28, server: gkdcu.gkdcn.top, port: 21821, type: ss, cipher: chacha20-ietf-poly1305, password: 82b60549-103b-31f0-b6fb-a303177522ae, udp: true}
-  - {name: NL_907, server: 85.208.108.234, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_07 | 4.77Mb, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nmsl, ws-headers: {Host: 0319hzm01.fans8.xyz}, udp: true}
+  - {name: _VN_越南, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nmsl, ws-headers: {Host: 0319hzm01.fans8.xyz}, udp: true}
+  - {name: "", server: c31s3.jamjams.net, port: 22852, type: vmess, uuid: bd87ed3d-3bab-478f-8c6f-c1c01c798de6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JMS-420115atc79s2_jamjams_net:60883_2, server: 104.128.88.199, port: 60883, type: ss, cipher: aes-256-gcm, password: 7d9rEjGsVmY9Uy6m, udp: true}
   - {name: ion_vnklwwv_com_vmess_ws_2, server: ion.vnklwwv.com, port: 443, type: vmess, uuid: 36583320-4c2e-4671-b08b-c358fce74316, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/vazbvws?ed=2048", ws-headers: {Host: ion.vnklwwv.com}, udp: true}
-  - {name: SG_15023 @WangCai_1, server: 23.v2-ray.cyou, port: 15023, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}, udp: true}
-  - {name: CN_油管 TG 8度科技 29, server: 120.233.147.118, port: 58938, type: vmess, uuid: f6fee97f-1c14-326b-b57f-41af5449d3a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: uae.oracleusa.ml}, udp: true}
-  - {name: CN_油管 TG 8度科技 27, server: 120.233.147.118, port: 58938, type: vmess, uuid: 106f379f-d331-399c-ba4d-2f352b70bfcf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: uae.oracleusa.ml}, udp: true}
-  - {name: 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan, server: jgwdj1.gaox.ml, port: 443, type: trojan, password: e8553fc5-f3a0-409c-ac06-1cd93b026cf4, sni: jgwdj1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: NL_833, server: 85.208.108.234, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CYL-科技（2022.03.20）, server: 20.239.51.22, port: 15078, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: US_2352, server: 89.208.248.114, port: 443, type: vmess, uuid: ef1af6e9-2029-4d16-9fc5-c23ff022f143, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 89.208.248.114}, udp: true}
+  - {name: US_0443atWangCai_1, server: 38.75.137.66, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_0443atWangCai_1 2, server: 38.75.137.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_7001atWangCai_1, server: 38.75.137.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_5500atWangCai_1, server: 38.75.137.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 35803_1, server: aa.houdinix.space, port: 35803, type: vmess, uuid: 0631fd14-e268-4bb0-f447-f319f5ba0833, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wis, ws-headers: {Host: aa.houdinix.space}, udp: true}
+  - {name: US_6379atWangCai_1, server: 38.75.137.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_8881atWangCai_1, server: 38.75.137.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_5001atWangCai_1, server: 38.75.137.66, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_7002atWangCai_1, server: 38.75.137.66, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_8118atWangCai_1, server: 38.75.137.66, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_5601atWangCai_1, server: 38.75.137.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: YouTubeat阿阳AYANG_18, server: linodemx0303.moonfree.top, port: 443, type: vmess, uuid: 1ab594a2-cee0-4876-89b9-1b9b4053a6c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: linodemx0303.moonfree.top}, udp: true}
+  - {name: US_9102atWangCai_1, server: 38.75.137.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2090, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: US_6697atWangCai_1, server: 38.75.137.66, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_6679atWangCai_1, server: 38.75.137.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: " 2", server: aa.houdinix.space, port: 23943, type: vmess, uuid: 3e6aaeff-e3d4-4b1f-a215-816f0e4a6889, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wis, ws-headers: {Host: aa.houdinix.space}, udp: true}
+  - {name: US_8888atWangCai_1, server: 38.75.137.66, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: F有志之士H_90, server: 62.216.91.229, port: 9092, type: ss, cipher: aes-256-cfb, password: TyNkGmp9hs6eGpDK, udp: true}
+  - {name: US_6697atWangCai_1 2, server: 38.75.137.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_8009atWangCai_1, server: 38.75.137.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_8882atWangCai_1, server: 38.75.137.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: " 3", server: 149.248.34.24, port: 35803, type: vmess, uuid: 0631fd14-e268-4bb0-f447-f319f5ba0833, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wis, ws-headers: {Host: 149.248.34.24}, udp: true}
+  - {name: US_8119atWangCai_1, server: 38.75.137.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_9101atWangCai_1, server: 38.75.137.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_8881atWangCai_1 2, server: 38.75.137.66, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_8118atWangCai_1 2, server: 38.75.137.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_8008atWangCai_1, server: 38.75.137.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: trojan-CA_3, server: ca.purel.in, port: 4433, type: trojan, password: !<str> 850429, sni: ca.purel.in, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_油管 TG 8度科技 14
-      - JP_135 @WangCai_1
-      - shonlinesandcu03.proconcn.xyz:561
-      - JP_120 @WangCai_1
-      - CN_油管 TG 8度科技 11
-      - JP_119 @WangCai_1
-      - JP_133 @WangCai_1
-      - JP_117 @WangCai_1
-      - JP_134 @WangCai_1
-      - JP_122 @WangCai_1
-      - JP_115 @WangCai_1
-      - 香港8-三网优化-强加密
-      - SG_112 @WangCai_1
-      - JP_118 @WangCai_1
-      - 香港3-三网优化-强加密
-      - JP_114 @WangCai_1
-      - 台湾(绿头外网集团)(Public) 3
-      - 香港5-三网优化
-      - 台湾(绿头外网集团)(Public) 2
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
-      - 香港1-三网优化-强加密
-      - JP_124 @WangCai_1
-      - JP_123 @WangCai_1
-      - CN_油管 TG 8度科技 26
+      - US_莆田&吉风传
       - ip_150_230_249_169
-      - US_15014 @WangCai_1
-      - CN_油管 TG 8度科技 28
-      - NL_907
+      - Relay_🇨🇦CA-🇨🇦CA_07 | 4.77Mb
+      - _VN_越南
+      - ""
+      - JMS-420115atc79s2_jamjams_net:60883_2
       - ion_vnklwwv_com_vmess_ws_2
-      - SG_15023 @WangCai_1
-      - CN_油管 TG 8度科技 29
-      - CN_油管 TG 8度科技 27
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - NL_833
+      - CYL-科技（2022.03.20）
+      - US_2352
+      - US_0443atWangCai_1
+      - US_0443atWangCai_1 2
+      - US_7001atWangCai_1
+      - US_5500atWangCai_1
+      - 35803_1
+      - US_6379atWangCai_1
+      - US_8881atWangCai_1
+      - US_5001atWangCai_1
+      - US_7002atWangCai_1
+      - US_8118atWangCai_1
+      - US_5601atWangCai_1
+      - YouTubeat阿阳AYANG_18
+      - US_9102atWangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2090
+      - US_6697atWangCai_1
+      - US_6679atWangCai_1
+      - " 2"
+      - US_8888atWangCai_1
+      - F有志之士H_90
+      - US_6697atWangCai_1 2
+      - US_8009atWangCai_1
+      - US_8882atWangCai_1
+      - " 3"
+      - US_8119atWangCai_1
+      - US_9101atWangCai_1
+      - US_8881atWangCai_1 2
+      - US_8118atWangCai_1 2
+      - US_8008atWangCai_1
+      - trojan-CA_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_油管 TG 8度科技 14
-      - JP_135 @WangCai_1
-      - shonlinesandcu03.proconcn.xyz:561
-      - JP_120 @WangCai_1
-      - CN_油管 TG 8度科技 11
-      - JP_119 @WangCai_1
-      - JP_133 @WangCai_1
-      - JP_117 @WangCai_1
-      - JP_134 @WangCai_1
-      - JP_122 @WangCai_1
-      - JP_115 @WangCai_1
-      - 香港8-三网优化-强加密
-      - SG_112 @WangCai_1
-      - JP_118 @WangCai_1
-      - 香港3-三网优化-强加密
-      - JP_114 @WangCai_1
-      - 台湾(绿头外网集团)(Public) 3
-      - 香港5-三网优化
-      - 台湾(绿头外网集团)(Public) 2
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
-      - 香港1-三网优化-强加密
-      - JP_124 @WangCai_1
-      - JP_123 @WangCai_1
-      - CN_油管 TG 8度科技 26
+      - US_莆田&吉风传
       - ip_150_230_249_169
-      - US_15014 @WangCai_1
-      - CN_油管 TG 8度科技 28
-      - NL_907
+      - Relay_🇨🇦CA-🇨🇦CA_07 | 4.77Mb
+      - _VN_越南
+      - ""
+      - JMS-420115atc79s2_jamjams_net:60883_2
       - ion_vnklwwv_com_vmess_ws_2
-      - SG_15023 @WangCai_1
-      - CN_油管 TG 8度科技 29
-      - CN_油管 TG 8度科技 27
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - NL_833
+      - CYL-科技（2022.03.20）
+      - US_2352
+      - US_0443atWangCai_1
+      - US_0443atWangCai_1 2
+      - US_7001atWangCai_1
+      - US_5500atWangCai_1
+      - 35803_1
+      - US_6379atWangCai_1
+      - US_8881atWangCai_1
+      - US_5001atWangCai_1
+      - US_7002atWangCai_1
+      - US_8118atWangCai_1
+      - US_5601atWangCai_1
+      - YouTubeat阿阳AYANG_18
+      - US_9102atWangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2090
+      - US_6697atWangCai_1
+      - US_6679atWangCai_1
+      - " 2"
+      - US_8888atWangCai_1
+      - F有志之士H_90
+      - US_6697atWangCai_1 2
+      - US_8009atWangCai_1
+      - US_8882atWangCai_1
+      - " 3"
+      - US_8119atWangCai_1
+      - US_9101atWangCai_1
+      - US_8881atWangCai_1 2
+      - US_8118atWangCai_1 2
+      - US_8008atWangCai_1
+      - trojan-CA_3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_油管 TG 8度科技 14
-      - JP_135 @WangCai_1
-      - shonlinesandcu03.proconcn.xyz:561
-      - JP_120 @WangCai_1
-      - CN_油管 TG 8度科技 11
-      - JP_119 @WangCai_1
-      - JP_133 @WangCai_1
-      - JP_117 @WangCai_1
-      - JP_134 @WangCai_1
-      - JP_122 @WangCai_1
-      - JP_115 @WangCai_1
-      - 香港8-三网优化-强加密
-      - SG_112 @WangCai_1
-      - JP_118 @WangCai_1
-      - 香港3-三网优化-强加密
-      - JP_114 @WangCai_1
-      - 台湾(绿头外网集团)(Public) 3
-      - 香港5-三网优化
-      - 台湾(绿头外网集团)(Public) 2
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
-      - 香港1-三网优化-强加密
-      - JP_124 @WangCai_1
-      - JP_123 @WangCai_1
-      - CN_油管 TG 8度科技 26
+      - US_莆田&吉风传
       - ip_150_230_249_169
-      - US_15014 @WangCai_1
-      - CN_油管 TG 8度科技 28
-      - NL_907
+      - Relay_🇨🇦CA-🇨🇦CA_07 | 4.77Mb
+      - _VN_越南
+      - ""
+      - JMS-420115atc79s2_jamjams_net:60883_2
       - ion_vnklwwv_com_vmess_ws_2
-      - SG_15023 @WangCai_1
-      - CN_油管 TG 8度科技 29
-      - CN_油管 TG 8度科技 27
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - NL_833
+      - CYL-科技（2022.03.20）
+      - US_2352
+      - US_0443atWangCai_1
+      - US_0443atWangCai_1 2
+      - US_7001atWangCai_1
+      - US_5500atWangCai_1
+      - 35803_1
+      - US_6379atWangCai_1
+      - US_8881atWangCai_1
+      - US_5001atWangCai_1
+      - US_7002atWangCai_1
+      - US_8118atWangCai_1
+      - US_5601atWangCai_1
+      - YouTubeat阿阳AYANG_18
+      - US_9102atWangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2090
+      - US_6697atWangCai_1
+      - US_6679atWangCai_1
+      - " 2"
+      - US_8888atWangCai_1
+      - F有志之士H_90
+      - US_6697atWangCai_1 2
+      - US_8009atWangCai_1
+      - US_8882atWangCai_1
+      - " 3"
+      - US_8119atWangCai_1
+      - US_9101atWangCai_1
+      - US_8881atWangCai_1 2
+      - US_8118atWangCai_1 2
+      - US_8008atWangCai_1
+      - trojan-CA_3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -176,169 +192,179 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_油管 TG 8度科技 14
-      - JP_135 @WangCai_1
-      - shonlinesandcu03.proconcn.xyz:561
-      - JP_120 @WangCai_1
-      - CN_油管 TG 8度科技 11
-      - JP_119 @WangCai_1
-      - JP_133 @WangCai_1
-      - JP_117 @WangCai_1
-      - JP_134 @WangCai_1
-      - JP_122 @WangCai_1
-      - JP_115 @WangCai_1
-      - 香港8-三网优化-强加密
-      - SG_112 @WangCai_1
-      - JP_118 @WangCai_1
-      - 香港3-三网优化-强加密
-      - JP_114 @WangCai_1
-      - 台湾(绿头外网集团)(Public) 3
-      - 香港5-三网优化
-      - 台湾(绿头外网集团)(Public) 2
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
-      - 香港1-三网优化-强加密
-      - JP_124 @WangCai_1
-      - JP_123 @WangCai_1
-      - CN_油管 TG 8度科技 26
+      - US_莆田&吉风传
       - ip_150_230_249_169
-      - US_15014 @WangCai_1
-      - CN_油管 TG 8度科技 28
-      - NL_907
+      - Relay_🇨🇦CA-🇨🇦CA_07 | 4.77Mb
+      - _VN_越南
+      - ""
+      - JMS-420115atc79s2_jamjams_net:60883_2
       - ion_vnklwwv_com_vmess_ws_2
-      - SG_15023 @WangCai_1
-      - CN_油管 TG 8度科技 29
-      - CN_油管 TG 8度科技 27
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - NL_833
+      - CYL-科技（2022.03.20）
+      - US_2352
+      - US_0443atWangCai_1
+      - US_0443atWangCai_1 2
+      - US_7001atWangCai_1
+      - US_5500atWangCai_1
+      - 35803_1
+      - US_6379atWangCai_1
+      - US_8881atWangCai_1
+      - US_5001atWangCai_1
+      - US_7002atWangCai_1
+      - US_8118atWangCai_1
+      - US_5601atWangCai_1
+      - YouTubeat阿阳AYANG_18
+      - US_9102atWangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2090
+      - US_6697atWangCai_1
+      - US_6679atWangCai_1
+      - " 2"
+      - US_8888atWangCai_1
+      - F有志之士H_90
+      - US_6697atWangCai_1 2
+      - US_8009atWangCai_1
+      - US_8882atWangCai_1
+      - " 3"
+      - US_8119atWangCai_1
+      - US_9101atWangCai_1
+      - US_8881atWangCai_1 2
+      - US_8118atWangCai_1 2
+      - US_8008atWangCai_1
+      - trojan-CA_3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港8-三网优化-强加密
-      - 香港3-三网优化-强加密
-      - 台湾(绿头外网集团)(Public) 3
-      - 香港5-三网优化
-      - 台湾(绿头外网集团)(Public) 2
-      - 香港1-三网优化-强加密
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_油管 TG 8度科技 14
-      - JP_135 @WangCai_1
-      - shonlinesandcu03.proconcn.xyz:561
-      - JP_120 @WangCai_1
-      - CN_油管 TG 8度科技 11
-      - JP_119 @WangCai_1
-      - JP_133 @WangCai_1
-      - JP_117 @WangCai_1
-      - JP_134 @WangCai_1
-      - JP_122 @WangCai_1
-      - JP_115 @WangCai_1
-      - 香港8-三网优化-强加密
-      - SG_112 @WangCai_1
-      - JP_118 @WangCai_1
-      - 香港3-三网优化-强加密
-      - JP_114 @WangCai_1
-      - 台湾(绿头外网集团)(Public) 3
-      - 香港5-三网优化
-      - 台湾(绿头外网集团)(Public) 2
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
-      - 香港1-三网优化-强加密
-      - JP_124 @WangCai_1
-      - JP_123 @WangCai_1
-      - CN_油管 TG 8度科技 26
+      - US_莆田&吉风传
       - ip_150_230_249_169
-      - US_15014 @WangCai_1
-      - CN_油管 TG 8度科技 28
-      - NL_907
+      - Relay_🇨🇦CA-🇨🇦CA_07 | 4.77Mb
+      - _VN_越南
+      - ""
+      - JMS-420115atc79s2_jamjams_net:60883_2
       - ion_vnklwwv_com_vmess_ws_2
-      - SG_15023 @WangCai_1
-      - CN_油管 TG 8度科技 29
-      - CN_油管 TG 8度科技 27
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - NL_833
+      - CYL-科技（2022.03.20）
+      - US_2352
+      - US_0443atWangCai_1
+      - US_0443atWangCai_1 2
+      - US_7001atWangCai_1
+      - US_5500atWangCai_1
+      - 35803_1
+      - US_6379atWangCai_1
+      - US_8881atWangCai_1
+      - US_5001atWangCai_1
+      - US_7002atWangCai_1
+      - US_8118atWangCai_1
+      - US_5601atWangCai_1
+      - YouTubeat阿阳AYANG_18
+      - US_9102atWangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2090
+      - US_6697atWangCai_1
+      - US_6679atWangCai_1
+      - " 2"
+      - US_8888atWangCai_1
+      - F有志之士H_90
+      - US_6697atWangCai_1 2
+      - US_8009atWangCai_1
+      - US_8882atWangCai_1
+      - " 3"
+      - US_8119atWangCai_1
+      - US_9101atWangCai_1
+      - US_8881atWangCai_1 2
+      - US_8118atWangCai_1 2
+      - US_8008atWangCai_1
+      - trojan-CA_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN_油管 TG 8度科技 14
-      - JP_135 @WangCai_1
-      - shonlinesandcu03.proconcn.xyz:561
-      - JP_120 @WangCai_1
-      - CN_油管 TG 8度科技 11
-      - JP_119 @WangCai_1
-      - JP_133 @WangCai_1
-      - JP_117 @WangCai_1
-      - JP_134 @WangCai_1
-      - JP_122 @WangCai_1
-      - JP_115 @WangCai_1
-      - 香港8-三网优化-强加密
-      - SG_112 @WangCai_1
-      - JP_118 @WangCai_1
-      - 香港3-三网优化-强加密
-      - JP_114 @WangCai_1
-      - 台湾(绿头外网集团)(Public) 3
-      - 香港5-三网优化
-      - 台湾(绿头外网集团)(Public) 2
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
-      - 香港1-三网优化-强加密
-      - JP_124 @WangCai_1
-      - JP_123 @WangCai_1
-      - CN_油管 TG 8度科技 26
+      - US_莆田&吉风传
       - ip_150_230_249_169
-      - US_15014 @WangCai_1
-      - CN_油管 TG 8度科技 28
-      - NL_907
+      - Relay_🇨🇦CA-🇨🇦CA_07 | 4.77Mb
+      - _VN_越南
+      - ""
+      - JMS-420115atc79s2_jamjams_net:60883_2
       - ion_vnklwwv_com_vmess_ws_2
-      - SG_15023 @WangCai_1
-      - CN_油管 TG 8度科技 29
-      - CN_油管 TG 8度科技 27
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - NL_833
+      - CYL-科技（2022.03.20）
+      - US_2352
+      - US_0443atWangCai_1
+      - US_0443atWangCai_1 2
+      - US_7001atWangCai_1
+      - US_5500atWangCai_1
+      - 35803_1
+      - US_6379atWangCai_1
+      - US_8881atWangCai_1
+      - US_5001atWangCai_1
+      - US_7002atWangCai_1
+      - US_8118atWangCai_1
+      - US_5601atWangCai_1
+      - YouTubeat阿阳AYANG_18
+      - US_9102atWangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2090
+      - US_6697atWangCai_1
+      - US_6679atWangCai_1
+      - " 2"
+      - US_8888atWangCai_1
+      - F有志之士H_90
+      - US_6697atWangCai_1 2
+      - US_8009atWangCai_1
+      - US_8882atWangCai_1
+      - " 3"
+      - US_8119atWangCai_1
+      - US_9101atWangCai_1
+      - US_8881atWangCai_1 2
+      - US_8118atWangCai_1 2
+      - US_8008atWangCai_1
+      - trojan-CA_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_油管 TG 8度科技 14
-      - JP_135 @WangCai_1
-      - shonlinesandcu03.proconcn.xyz:561
-      - JP_120 @WangCai_1
-      - CN_油管 TG 8度科技 11
-      - JP_119 @WangCai_1
-      - JP_133 @WangCai_1
-      - JP_117 @WangCai_1
-      - JP_134 @WangCai_1
-      - JP_122 @WangCai_1
-      - JP_115 @WangCai_1
-      - 香港8-三网优化-强加密
-      - SG_112 @WangCai_1
-      - JP_118 @WangCai_1
-      - 香港3-三网优化-强加密
-      - JP_114 @WangCai_1
-      - 台湾(绿头外网集团)(Public) 3
-      - 香港5-三网优化
-      - 台湾(绿头外网集团)(Public) 2
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
-      - 香港1-三网优化-强加密
-      - JP_124 @WangCai_1
-      - JP_123 @WangCai_1
-      - CN_油管 TG 8度科技 26
+      - US_莆田&吉风传
       - ip_150_230_249_169
-      - US_15014 @WangCai_1
-      - CN_油管 TG 8度科技 28
-      - NL_907
+      - Relay_🇨🇦CA-🇨🇦CA_07 | 4.77Mb
+      - _VN_越南
+      - ""
+      - JMS-420115atc79s2_jamjams_net:60883_2
       - ion_vnklwwv_com_vmess_ws_2
-      - SG_15023 @WangCai_1
-      - CN_油管 TG 8度科技 29
-      - CN_油管 TG 8度科技 27
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - NL_833
+      - CYL-科技（2022.03.20）
+      - US_2352
+      - US_0443atWangCai_1
+      - US_0443atWangCai_1 2
+      - US_7001atWangCai_1
+      - US_5500atWangCai_1
+      - 35803_1
+      - US_6379atWangCai_1
+      - US_8881atWangCai_1
+      - US_5001atWangCai_1
+      - US_7002atWangCai_1
+      - US_8118atWangCai_1
+      - US_5601atWangCai_1
+      - YouTubeat阿阳AYANG_18
+      - US_9102atWangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2090
+      - US_6697atWangCai_1
+      - US_6679atWangCai_1
+      - " 2"
+      - US_8888atWangCai_1
+      - F有志之士H_90
+      - US_6697atWangCai_1 2
+      - US_8009atWangCai_1
+      - US_8882atWangCai_1
+      - " 3"
+      - US_8119atWangCai_1
+      - US_9101atWangCai_1
+      - US_8881atWangCai_1 2
+      - US_8118atWangCai_1 2
+      - US_8008atWangCai_1
+      - trojan-CA_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -354,40 +380,44 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_油管 TG 8度科技 14
-      - JP_135 @WangCai_1
-      - shonlinesandcu03.proconcn.xyz:561
-      - JP_120 @WangCai_1
-      - CN_油管 TG 8度科技 11
-      - JP_119 @WangCai_1
-      - JP_133 @WangCai_1
-      - JP_117 @WangCai_1
-      - JP_134 @WangCai_1
-      - JP_122 @WangCai_1
-      - JP_115 @WangCai_1
-      - 香港8-三网优化-强加密
-      - SG_112 @WangCai_1
-      - JP_118 @WangCai_1
-      - 香港3-三网优化-强加密
-      - JP_114 @WangCai_1
-      - 台湾(绿头外网集团)(Public) 3
-      - 香港5-三网优化
-      - 台湾(绿头外网集团)(Public) 2
-      - ^🇸🇬新加坡SG2524*hi-moon_pw_22
-      - 香港1-三网优化-强加密
-      - JP_124 @WangCai_1
-      - JP_123 @WangCai_1
-      - CN_油管 TG 8度科技 26
+      - US_莆田&吉风传
       - ip_150_230_249_169
-      - US_15014 @WangCai_1
-      - CN_油管 TG 8度科技 28
-      - NL_907
+      - Relay_🇨🇦CA-🇨🇦CA_07 | 4.77Mb
+      - _VN_越南
+      - ""
+      - JMS-420115atc79s2_jamjams_net:60883_2
       - ion_vnklwwv_com_vmess_ws_2
-      - SG_15023 @WangCai_1
-      - CN_油管 TG 8度科技 29
-      - CN_油管 TG 8度科技 27
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - NL_833
+      - CYL-科技（2022.03.20）
+      - US_2352
+      - US_0443atWangCai_1
+      - US_0443atWangCai_1 2
+      - US_7001atWangCai_1
+      - US_5500atWangCai_1
+      - 35803_1
+      - US_6379atWangCai_1
+      - US_8881atWangCai_1
+      - US_5001atWangCai_1
+      - US_7002atWangCai_1
+      - US_8118atWangCai_1
+      - US_5601atWangCai_1
+      - YouTubeat阿阳AYANG_18
+      - US_9102atWangCai_1
+      - Relay_🇺🇸US-🇺🇸US_2090
+      - US_6697atWangCai_1
+      - US_6679atWangCai_1
+      - " 2"
+      - US_8888atWangCai_1
+      - F有志之士H_90
+      - US_6697atWangCai_1 2
+      - US_8009atWangCai_1
+      - US_8882atWangCai_1
+      - " 3"
+      - US_8119atWangCai_1
+      - US_9101atWangCai_1
+      - US_8881atWangCai_1 2
+      - US_8118atWangCai_1 2
+      - US_8008atWangCai_1
+      - trojan-CA_3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
