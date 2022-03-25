@@ -5,155 +5,167 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港(绿头外网集团)(Public) 19, server: fc.st.wokuaitule.xyz, port: 40015, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: HK_油管 TG 8度科技 2, server: tj-hk04.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk04.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 31, server: fc.shbgp.wokuaitule.xyz, port: 17774, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 28, server: fc.gzbgp.wokuaitule.xyz, port: 10030, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
   - {name: 香港(绿头外网集团)(Public) 37, server: tj-hk01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk01.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾(绿头外网集团)(Public) 9, server: f2s.wokuaitule.xyz, port: 21168, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 25, server: fc.bjbgp.wokuaitule.xyz, port: 11034, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
   - {name: CN_油管 TG 8度科技, server: fc.jm.wokuaitule.xyz, port: 40012, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 21, server: fc.gzbgp.wokuaitule.xyz, port: 10029, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: vip2丨港HKBN 2--TG@p2psharing, server: fc.bjbgp.wokuaitule.xyz, port: 11031, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 36, server: tj-hk03.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk03.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 29, server: f2s.wokuaitule.xyz, port: 20078, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 22, server: f2s.wokuaitule.xyz, port: 17723, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: 台湾(绿头外网集团)(Public) 8, server: pmah.wokuaitule.xyz, port: 47772, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: HKG CM.A/08 x0.3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3021, server: dycxh.ml, port: 2852, type: vmess, uuid: c0bec3a5-bec4-4bc4-fa59-d75a6feba405, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_207, server: 20.205.42.94, port: 48720, type: vmess, uuid: c9e6bb13-1fb2-4d72-9bf3-6086bf8e3144, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 【426节点池】CN_433, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
   - {name: 新加坡(绿头外网集团)(Public) 18, server: fc.gzbgp.wokuaitule.xyz, port: 10010, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 30, server: fc.shbgp.wokuaitule.xyz, port: 19975, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: CN_372, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
+  - {name: HKG CM.A/03 x0.3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
   - {name: JP_52, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
-  - {name: JP_806 |18.91Mb, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 426未名站_2011, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
+  - {name: US_205, server: dycxh.ml, port: 2852, type: vmess, uuid: c0bec3a5-bec4-4bc4-fa59-d75a6feba405, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[标准]香港 02", server: aead-hkt-jd.dnsfree.top, port: 10415, type: trojan, password: fe477131-2df1-4948-9de2-9d5640660141, sni: aead-hkt-jd.dnsfree.top, skip-cert-verify: true, udp: true}
+  - {name: CN_362, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
   - {name: Relay_🇯🇵JP-🇯🇵JP_1122, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
-  - {name: US_3082, server: 152.70.254.166, port: 8888, type: vmess, uuid: 27e73ad0-a440-47b6-a95a-21eec69f0df1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_623, server: gz1.52168.xyz, port: 1114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: 香港_R_446, server: ieplszhk-sz.qqgg.work, port: 50804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: ZZ_3557 |51.33Mb, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "[03-24]|oslook|美国(US)USA/Santa+Clara_51", server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_3558 |60.46Mb, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ZZ_2596, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "[03-24]|oslook|美国(US)USA/Santa+Clara_47", server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 4, server: 38.75.137.66, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_176, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_225, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2210 |35.52Mb, server: dycxh.ml, port: 2852, type: vmess, uuid: c0bec3a5-bec4-4bc4-fa59-d75a6feba405, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP_631, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_663, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
+  - {name: CN_408, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
+  - {name: CN_366, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11004, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 31, server: 20.205.42.94, port: 48720, type: vmess, uuid: c9e6bb13-1fb2-4d72-9bf3-6086bf8e3144, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 【426节点池】AU_96, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US_2212 |36.00Mb, server: 20.205.42.94, port: 48720, type: vmess, uuid: c9e6bb13-1fb2-4d72-9bf3-6086bf8e3144, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇬🇧GB_689, server: fc.bjbgp.wokuaitule.xyz, port: 17713, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 28, server: fc.gzbgp.wokuaitule.xyz, port: 10030, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: CN_89, server: sg.youzi.win, port: 27773, type: vmess, uuid: 8dd63ea6-4032-411c-8d69-aaf34eea172e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: sg.youzi.win}, udp: true}
+  - {name: CN_397, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
+  - {name: CN_375, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 21, server: fc.gzbgp.wokuaitule.xyz, port: 10029, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
   - {name: "", server: 149.248.34.24, port: 35803, type: vmess, uuid: 0631fd14-e268-4bb0-f447-f319f5ba0833, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wis, ws-headers: {Host: 149.248.34.24}, udp: true}
-  - {name: ZZ_94 TG@peekfun, server: 134.195.196.184, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CN_72, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 30, server: fc.shbgp.wokuaitule.xyz, port: 19975, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 0.59|Super 新加坡01   MIEPL  倍率2, server: oexu8yee.nodeinfo.icu, port: 1125, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 9, server: fc.jm.wokuaitule.xyz, port: 40011, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: fc.jm.wokuaitule.xyz}, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 4, server: 38.75.137.66, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CN_376, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
+  - {name: 【426节点池】CN_436, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(绿头外网集团)(Public) 19
-      - HK_油管 TG 8度科技 2
-      - 香港(绿头外网集团)(Public) 31
-      - 香港(绿头外网集团)(Public) 28
       - 香港(绿头外网集团)(Public) 37
-      - 台湾(绿头外网集团)(Public) 9
-      - 香港(绿头外网集团)(Public) 25
       - CN_油管 TG 8度科技
-      - 香港(绿头外网集团)(Public) 21
-      - vip2丨港HKBN 2--TG@p2psharing
-      - 香港(绿头外网集团)(Public) 36
-      - 香港(绿头外网集团)(Public) 29
-      - 香港(绿头外网集团)(Public) 22
-      - 台湾(绿头外网集团)(Public) 8
+      - HKG CM.A/08 x0.3
+      - Relay_🇺🇸US-🇺🇸US_3021
+      - US_207
+      - 【426节点池】CN_433
       - 新加坡(绿头外网集团)(Public) 18
-      - 香港(绿头外网集团)(Public) 30
+      - CN_372
+      - HKG CM.A/03 x0.3
       - JP_52
-      - JP_806 |18.91Mb
-      - 426未名站_2011
+      - US_205
+      - "[标准]香港 02"
+      - CN_362
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - US_3082
-      - Relay_🇨🇳CN-🇭🇰HK_623
-      - 香港_R_446
-      - ZZ_3557 |51.33Mb
-      - "[03-24]|oslook|美国(US)USA/Santa+Clara_51"
-      - ZZ_3558 |60.46Mb
-      - ZZ_2596
-      - "[03-24]|oslook|美国(US)USA/Santa+Clara_47"
-      - 美国(绿头外网集团)(Public) 4
-      - ZZ_176
-      - ZZ_225
+      - Relay_🇺🇸US-🇺🇸US_2210 |35.52Mb
+      - JP_631
+      - Relay_🇨🇳 CN-🇭🇰HK_663
+      - CN_408
+      - CN_366
+      - 香港(绿头外网集团)(Public) 31
+      - 【426节点池】AU_96
+      - US_2212 |36.00Mb
+      - Relay_🇨🇳CN-🇬🇧GB_689
+      - 香港(绿头外网集团)(Public) 28
+      - CN_89
+      - CN_397
+      - CN_375
+      - 香港(绿头外网集团)(Public) 21
       - ""
-      - ZZ_94 TG@peekfun
+      - CN_72
+      - 香港(绿头外网集团)(Public) 30
+      - 0.59|Super 新加坡01   MIEPL  倍率2
+      - 新加坡(绿头外网集团)(Public) 9
+      - 美国(绿头外网集团)(Public) 4
+      - CN_376
+      - 【426节点池】CN_436
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港(绿头外网集团)(Public) 19
-      - HK_油管 TG 8度科技 2
-      - 香港(绿头外网集团)(Public) 31
-      - 香港(绿头外网集团)(Public) 28
       - 香港(绿头外网集团)(Public) 37
-      - 台湾(绿头外网集团)(Public) 9
-      - 香港(绿头外网集团)(Public) 25
       - CN_油管 TG 8度科技
-      - 香港(绿头外网集团)(Public) 21
-      - vip2丨港HKBN 2--TG@p2psharing
-      - 香港(绿头外网集团)(Public) 36
-      - 香港(绿头外网集团)(Public) 29
-      - 香港(绿头外网集团)(Public) 22
-      - 台湾(绿头外网集团)(Public) 8
+      - HKG CM.A/08 x0.3
+      - Relay_🇺🇸US-🇺🇸US_3021
+      - US_207
+      - 【426节点池】CN_433
       - 新加坡(绿头外网集团)(Public) 18
-      - 香港(绿头外网集团)(Public) 30
+      - CN_372
+      - HKG CM.A/03 x0.3
       - JP_52
-      - JP_806 |18.91Mb
-      - 426未名站_2011
+      - US_205
+      - "[标准]香港 02"
+      - CN_362
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - US_3082
-      - Relay_🇨🇳CN-🇭🇰HK_623
-      - 香港_R_446
-      - ZZ_3557 |51.33Mb
-      - "[03-24]|oslook|美国(US)USA/Santa+Clara_51"
-      - ZZ_3558 |60.46Mb
-      - ZZ_2596
-      - "[03-24]|oslook|美国(US)USA/Santa+Clara_47"
-      - 美国(绿头外网集团)(Public) 4
-      - ZZ_176
-      - ZZ_225
+      - Relay_🇺🇸US-🇺🇸US_2210 |35.52Mb
+      - JP_631
+      - Relay_🇨🇳 CN-🇭🇰HK_663
+      - CN_408
+      - CN_366
+      - 香港(绿头外网集团)(Public) 31
+      - 【426节点池】AU_96
+      - US_2212 |36.00Mb
+      - Relay_🇨🇳CN-🇬🇧GB_689
+      - 香港(绿头外网集团)(Public) 28
+      - CN_89
+      - CN_397
+      - CN_375
+      - 香港(绿头外网集团)(Public) 21
       - ""
-      - ZZ_94 TG@peekfun
+      - CN_72
+      - 香港(绿头外网集团)(Public) 30
+      - 0.59|Super 新加坡01   MIEPL  倍率2
+      - 新加坡(绿头外网集团)(Public) 9
+      - 美国(绿头外网集团)(Public) 4
+      - CN_376
+      - 【426节点池】CN_436
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(绿头外网集团)(Public) 19
-      - HK_油管 TG 8度科技 2
-      - 香港(绿头外网集团)(Public) 31
-      - 香港(绿头外网集团)(Public) 28
       - 香港(绿头外网集团)(Public) 37
-      - 台湾(绿头外网集团)(Public) 9
-      - 香港(绿头外网集团)(Public) 25
       - CN_油管 TG 8度科技
-      - 香港(绿头外网集团)(Public) 21
-      - vip2丨港HKBN 2--TG@p2psharing
-      - 香港(绿头外网集团)(Public) 36
-      - 香港(绿头外网集团)(Public) 29
-      - 香港(绿头外网集团)(Public) 22
-      - 台湾(绿头外网集团)(Public) 8
+      - HKG CM.A/08 x0.3
+      - Relay_🇺🇸US-🇺🇸US_3021
+      - US_207
+      - 【426节点池】CN_433
       - 新加坡(绿头外网集团)(Public) 18
-      - 香港(绿头外网集团)(Public) 30
+      - CN_372
+      - HKG CM.A/03 x0.3
       - JP_52
-      - JP_806 |18.91Mb
-      - 426未名站_2011
+      - US_205
+      - "[标准]香港 02"
+      - CN_362
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - US_3082
-      - Relay_🇨🇳CN-🇭🇰HK_623
-      - 香港_R_446
-      - ZZ_3557 |51.33Mb
-      - "[03-24]|oslook|美国(US)USA/Santa+Clara_51"
-      - ZZ_3558 |60.46Mb
-      - ZZ_2596
-      - "[03-24]|oslook|美国(US)USA/Santa+Clara_47"
-      - 美国(绿头外网集团)(Public) 4
-      - ZZ_176
-      - ZZ_225
+      - Relay_🇺🇸US-🇺🇸US_2210 |35.52Mb
+      - JP_631
+      - Relay_🇨🇳 CN-🇭🇰HK_663
+      - CN_408
+      - CN_366
+      - 香港(绿头外网集团)(Public) 31
+      - 【426节点池】AU_96
+      - US_2212 |36.00Mb
+      - Relay_🇨🇳CN-🇬🇧GB_689
+      - 香港(绿头外网集团)(Public) 28
+      - CN_89
+      - CN_397
+      - CN_375
+      - 香港(绿头外网集团)(Public) 21
       - ""
-      - ZZ_94 TG@peekfun
+      - CN_72
+      - 香港(绿头外网集团)(Public) 30
+      - 0.59|Super 新加坡01   MIEPL  倍率2
+      - 新加坡(绿头外网集团)(Public) 9
+      - 美国(绿头外网集团)(Public) 4
+      - CN_376
+      - 【426节点池】CN_436
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -172,173 +184,177 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(绿头外网集团)(Public) 19
-      - HK_油管 TG 8度科技 2
-      - 香港(绿头外网集团)(Public) 31
-      - 香港(绿头外网集团)(Public) 28
       - 香港(绿头外网集团)(Public) 37
-      - 台湾(绿头外网集团)(Public) 9
-      - 香港(绿头外网集团)(Public) 25
       - CN_油管 TG 8度科技
-      - 香港(绿头外网集团)(Public) 21
-      - vip2丨港HKBN 2--TG@p2psharing
-      - 香港(绿头外网集团)(Public) 36
-      - 香港(绿头外网集团)(Public) 29
-      - 香港(绿头外网集团)(Public) 22
-      - 台湾(绿头外网集团)(Public) 8
+      - HKG CM.A/08 x0.3
+      - Relay_🇺🇸US-🇺🇸US_3021
+      - US_207
+      - 【426节点池】CN_433
       - 新加坡(绿头外网集团)(Public) 18
-      - 香港(绿头外网集团)(Public) 30
+      - CN_372
+      - HKG CM.A/03 x0.3
       - JP_52
-      - JP_806 |18.91Mb
-      - 426未名站_2011
+      - US_205
+      - "[标准]香港 02"
+      - CN_362
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - US_3082
-      - Relay_🇨🇳CN-🇭🇰HK_623
-      - 香港_R_446
-      - ZZ_3557 |51.33Mb
-      - "[03-24]|oslook|美国(US)USA/Santa+Clara_51"
-      - ZZ_3558 |60.46Mb
-      - ZZ_2596
-      - "[03-24]|oslook|美国(US)USA/Santa+Clara_47"
-      - 美国(绿头外网集团)(Public) 4
-      - ZZ_176
-      - ZZ_225
+      - Relay_🇺🇸US-🇺🇸US_2210 |35.52Mb
+      - JP_631
+      - Relay_🇨🇳 CN-🇭🇰HK_663
+      - CN_408
+      - CN_366
+      - 香港(绿头外网集团)(Public) 31
+      - 【426节点池】AU_96
+      - US_2212 |36.00Mb
+      - Relay_🇨🇳CN-🇬🇧GB_689
+      - 香港(绿头外网集团)(Public) 28
+      - CN_89
+      - CN_397
+      - CN_375
+      - 香港(绿头外网集团)(Public) 21
       - ""
-      - ZZ_94 TG@peekfun
+      - CN_72
+      - 香港(绿头外网集团)(Public) 30
+      - 0.59|Super 新加坡01   MIEPL  倍率2
+      - 新加坡(绿头外网集团)(Public) 9
+      - 美国(绿头外网集团)(Public) 4
+      - CN_376
+      - 【426节点池】CN_436
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港(绿头外网集团)(Public) 19
+      - 香港(绿头外网集团)(Public) 37
+      - "[标准]香港 02"
       - 香港(绿头外网集团)(Public) 31
       - 香港(绿头外网集团)(Public) 28
-      - 香港(绿头外网集团)(Public) 37
-      - 台湾(绿头外网集团)(Public) 9
-      - 香港(绿头外网集团)(Public) 25
       - 香港(绿头外网集团)(Public) 21
-      - vip2丨港HKBN 2--TG@p2psharing
-      - 香港(绿头外网集团)(Public) 36
-      - 香港(绿头外网集团)(Public) 29
-      - 香港(绿头外网集团)(Public) 22
-      - 台湾(绿头外网集团)(Public) 8
       - 香港(绿头外网集团)(Public) 30
-      - 香港_R_446
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港(绿头外网集团)(Public) 19
-      - HK_油管 TG 8度科技 2
-      - 香港(绿头外网集团)(Public) 31
-      - 香港(绿头外网集团)(Public) 28
       - 香港(绿头外网集团)(Public) 37
-      - 台湾(绿头外网集团)(Public) 9
-      - 香港(绿头外网集团)(Public) 25
       - CN_油管 TG 8度科技
-      - 香港(绿头外网集团)(Public) 21
-      - vip2丨港HKBN 2--TG@p2psharing
-      - 香港(绿头外网集团)(Public) 36
-      - 香港(绿头外网集团)(Public) 29
-      - 香港(绿头外网集团)(Public) 22
-      - 台湾(绿头外网集团)(Public) 8
+      - HKG CM.A/08 x0.3
+      - Relay_🇺🇸US-🇺🇸US_3021
+      - US_207
+      - 【426节点池】CN_433
       - 新加坡(绿头外网集团)(Public) 18
-      - 香港(绿头外网集团)(Public) 30
+      - CN_372
+      - HKG CM.A/03 x0.3
       - JP_52
-      - JP_806 |18.91Mb
-      - 426未名站_2011
+      - US_205
+      - "[标准]香港 02"
+      - CN_362
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - US_3082
-      - Relay_🇨🇳CN-🇭🇰HK_623
-      - 香港_R_446
-      - ZZ_3557 |51.33Mb
-      - "[03-24]|oslook|美国(US)USA/Santa+Clara_51"
-      - ZZ_3558 |60.46Mb
-      - ZZ_2596
-      - "[03-24]|oslook|美国(US)USA/Santa+Clara_47"
-      - 美国(绿头外网集团)(Public) 4
-      - ZZ_176
-      - ZZ_225
+      - Relay_🇺🇸US-🇺🇸US_2210 |35.52Mb
+      - JP_631
+      - Relay_🇨🇳 CN-🇭🇰HK_663
+      - CN_408
+      - CN_366
+      - 香港(绿头外网集团)(Public) 31
+      - 【426节点池】AU_96
+      - US_2212 |36.00Mb
+      - Relay_🇨🇳CN-🇬🇧GB_689
+      - 香港(绿头外网集团)(Public) 28
+      - CN_89
+      - CN_397
+      - CN_375
+      - 香港(绿头外网集团)(Public) 21
       - ""
-      - ZZ_94 TG@peekfun
+      - CN_72
+      - 香港(绿头外网集团)(Public) 30
+      - 0.59|Super 新加坡01   MIEPL  倍率2
+      - 新加坡(绿头外网集团)(Public) 9
+      - 美国(绿头外网集团)(Public) 4
+      - CN_376
+      - 【426节点池】CN_436
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港(绿头外网集团)(Public) 19
-      - HK_油管 TG 8度科技 2
-      - 香港(绿头外网集团)(Public) 31
-      - 香港(绿头外网集团)(Public) 28
       - 香港(绿头外网集团)(Public) 37
-      - 台湾(绿头外网集团)(Public) 9
-      - 香港(绿头外网集团)(Public) 25
       - CN_油管 TG 8度科技
-      - 香港(绿头外网集团)(Public) 21
-      - vip2丨港HKBN 2--TG@p2psharing
-      - 香港(绿头外网集团)(Public) 36
-      - 香港(绿头外网集团)(Public) 29
-      - 香港(绿头外网集团)(Public) 22
-      - 台湾(绿头外网集团)(Public) 8
+      - HKG CM.A/08 x0.3
+      - Relay_🇺🇸US-🇺🇸US_3021
+      - US_207
+      - 【426节点池】CN_433
       - 新加坡(绿头外网集团)(Public) 18
-      - 香港(绿头外网集团)(Public) 30
+      - CN_372
+      - HKG CM.A/03 x0.3
       - JP_52
-      - JP_806 |18.91Mb
-      - 426未名站_2011
+      - US_205
+      - "[标准]香港 02"
+      - CN_362
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - US_3082
-      - Relay_🇨🇳CN-🇭🇰HK_623
-      - 香港_R_446
-      - ZZ_3557 |51.33Mb
-      - "[03-24]|oslook|美国(US)USA/Santa+Clara_51"
-      - ZZ_3558 |60.46Mb
-      - ZZ_2596
-      - "[03-24]|oslook|美国(US)USA/Santa+Clara_47"
-      - 美国(绿头外网集团)(Public) 4
-      - ZZ_176
-      - ZZ_225
+      - Relay_🇺🇸US-🇺🇸US_2210 |35.52Mb
+      - JP_631
+      - Relay_🇨🇳 CN-🇭🇰HK_663
+      - CN_408
+      - CN_366
+      - 香港(绿头外网集团)(Public) 31
+      - 【426节点池】AU_96
+      - US_2212 |36.00Mb
+      - Relay_🇨🇳CN-🇬🇧GB_689
+      - 香港(绿头外网集团)(Public) 28
+      - CN_89
+      - CN_397
+      - CN_375
+      - 香港(绿头外网集团)(Public) 21
       - ""
-      - ZZ_94 TG@peekfun
+      - CN_72
+      - 香港(绿头外网集团)(Public) 30
+      - 0.59|Super 新加坡01   MIEPL  倍率2
+      - 新加坡(绿头外网集团)(Public) 9
+      - 美国(绿头外网集团)(Public) 4
+      - CN_376
+      - 【426节点池】CN_436
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港(绿头外网集团)(Public) 19
-      - HK_油管 TG 8度科技 2
-      - 香港(绿头外网集团)(Public) 31
-      - 香港(绿头外网集团)(Public) 28
       - 香港(绿头外网集团)(Public) 37
-      - 台湾(绿头外网集团)(Public) 9
-      - 香港(绿头外网集团)(Public) 25
       - CN_油管 TG 8度科技
-      - 香港(绿头外网集团)(Public) 21
-      - vip2丨港HKBN 2--TG@p2psharing
-      - 香港(绿头外网集团)(Public) 36
-      - 香港(绿头外网集团)(Public) 29
-      - 香港(绿头外网集团)(Public) 22
-      - 台湾(绿头外网集团)(Public) 8
+      - HKG CM.A/08 x0.3
+      - Relay_🇺🇸US-🇺🇸US_3021
+      - US_207
+      - 【426节点池】CN_433
       - 新加坡(绿头外网集团)(Public) 18
-      - 香港(绿头外网集团)(Public) 30
+      - CN_372
+      - HKG CM.A/03 x0.3
       - JP_52
-      - JP_806 |18.91Mb
-      - 426未名站_2011
+      - US_205
+      - "[标准]香港 02"
+      - CN_362
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - US_3082
-      - Relay_🇨🇳CN-🇭🇰HK_623
-      - 香港_R_446
-      - ZZ_3557 |51.33Mb
-      - "[03-24]|oslook|美国(US)USA/Santa+Clara_51"
-      - ZZ_3558 |60.46Mb
-      - ZZ_2596
-      - "[03-24]|oslook|美国(US)USA/Santa+Clara_47"
-      - 美国(绿头外网集团)(Public) 4
-      - ZZ_176
-      - ZZ_225
+      - Relay_🇺🇸US-🇺🇸US_2210 |35.52Mb
+      - JP_631
+      - Relay_🇨🇳 CN-🇭🇰HK_663
+      - CN_408
+      - CN_366
+      - 香港(绿头外网集团)(Public) 31
+      - 【426节点池】AU_96
+      - US_2212 |36.00Mb
+      - Relay_🇨🇳CN-🇬🇧GB_689
+      - 香港(绿头外网集团)(Public) 28
+      - CN_89
+      - CN_397
+      - CN_375
+      - 香港(绿头外网集团)(Public) 21
       - ""
-      - ZZ_94 TG@peekfun
+      - CN_72
+      - 香港(绿头外网集团)(Public) 30
+      - 0.59|Super 新加坡01   MIEPL  倍率2
+      - 新加坡(绿头外网集团)(Public) 9
+      - 美国(绿头外网集团)(Public) 4
+      - CN_376
+      - 【426节点池】CN_436
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -354,39 +370,42 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港(绿头外网集团)(Public) 19
-      - HK_油管 TG 8度科技 2
-      - 香港(绿头外网集团)(Public) 31
-      - 香港(绿头外网集团)(Public) 28
       - 香港(绿头外网集团)(Public) 37
-      - 台湾(绿头外网集团)(Public) 9
-      - 香港(绿头外网集团)(Public) 25
       - CN_油管 TG 8度科技
-      - 香港(绿头外网集团)(Public) 21
-      - vip2丨港HKBN 2--TG@p2psharing
-      - 香港(绿头外网集团)(Public) 36
-      - 香港(绿头外网集团)(Public) 29
-      - 香港(绿头外网集团)(Public) 22
-      - 台湾(绿头外网集团)(Public) 8
+      - HKG CM.A/08 x0.3
+      - Relay_🇺🇸US-🇺🇸US_3021
+      - US_207
+      - 【426节点池】CN_433
       - 新加坡(绿头外网集团)(Public) 18
-      - 香港(绿头外网集团)(Public) 30
+      - CN_372
+      - HKG CM.A/03 x0.3
       - JP_52
-      - JP_806 |18.91Mb
-      - 426未名站_2011
+      - US_205
+      - "[标准]香港 02"
+      - CN_362
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - US_3082
-      - Relay_🇨🇳CN-🇭🇰HK_623
-      - 香港_R_446
-      - ZZ_3557 |51.33Mb
-      - "[03-24]|oslook|美国(US)USA/Santa+Clara_51"
-      - ZZ_3558 |60.46Mb
-      - ZZ_2596
-      - "[03-24]|oslook|美国(US)USA/Santa+Clara_47"
-      - 美国(绿头外网集团)(Public) 4
-      - ZZ_176
-      - ZZ_225
+      - Relay_🇺🇸US-🇺🇸US_2210 |35.52Mb
+      - JP_631
+      - Relay_🇨🇳 CN-🇭🇰HK_663
+      - CN_408
+      - CN_366
+      - 香港(绿头外网集团)(Public) 31
+      - 【426节点池】AU_96
+      - US_2212 |36.00Mb
+      - Relay_🇨🇳CN-🇬🇧GB_689
+      - 香港(绿头外网集团)(Public) 28
+      - CN_89
+      - CN_397
+      - CN_375
+      - 香港(绿头外网集团)(Public) 21
       - ""
-      - ZZ_94 TG@peekfun
+      - CN_72
+      - 香港(绿头外网集团)(Public) 30
+      - 0.59|Super 新加坡01   MIEPL  倍率2
+      - 新加坡(绿头外网集团)(Public) 9
+      - 美国(绿头外网集团)(Public) 4
+      - CN_376
+      - 【426节点池】CN_436
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
