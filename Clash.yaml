@@ -5,155 +5,143 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ^🇭🇰香港HK 1139 *hi-moon.pw, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_395, server: shonlinesandcu03.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: ^🇭🇰香港HK1158*hi-moon_pw_124, server: cusouthcmhk.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
   - {name: Relay_🇯🇵JP-🇯🇵JP_1122, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
-  - {name: tizi_🇸🇬_SG_新加坡_1, server: v2.emovpn.xyz, port: 1251, type: vmess, uuid: e73dbd7e-273f-4af4-b8d3-a81318772e65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v2.emovpn.xyz}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 19, server: fc.st.wokuaitule.xyz, port: 40015, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 台湾(绿头外网集团)(Public) 8, server: pmah.wokuaitule.xyz, port: 47772, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 31, server: fc.shbgp.wokuaitule.xyz, port: 17774, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: HK_油管 TG 8度科技 3, server: tj-hk08.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk08.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 35, server: tj-hk05.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk05.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK_油管 TG 8度科技 2, server: tj-hk04.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk04.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 17, server: fc.jm.wokuaitule.xyz, port: 40017, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 22, server: f2s.wokuaitule.xyz, port: 17723, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 28, server: fc.gzbgp.wokuaitule.xyz, port: 10030, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 21, server: fc.gzbgp.wokuaitule.xyz, port: 10029, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 426未名站_2011, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 29, server: f2s.wokuaitule.xyz, port: 20078, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 台湾(绿头外网集团)(Public) 9, server: f2s.wokuaitule.xyz, port: 21168, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 台湾(绿头外网集团)(Public) 13, server: tw-dynamic-alpha.gleeze.com, port: 48888, type: vmess, uuid: c9487119-4647-3c48-ae20-86d41d715f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: tw-dynamic-alpha.gleeze.com}, udp: true}
   - {name: JP_52, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
-  - {name: gz2.52168.xyz:2106, server: gz2.52168.xyz, port: 2106, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: tizi_🇯🇵_JP_日本_4, server: v19.emovpn.xyz, port: 1253, type: vmess, uuid: e73dbd7e-273f-4af4-b8d3-a81318772e65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v19.emovpn.xyz}, udp: true}
-  - {name: tizi_🇸🇬_SG_新加坡_1 2, server: v2.emovpn.xyz, port: 1251, type: vmess, uuid: e73dbd7e-273f-4af4-b8d3-a81318772e65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: tizi_🇯🇵_JP_日本_4 2, server: v19.emovpn.xyz, port: 1253, type: vmess, uuid: e73dbd7e-273f-4af4-b8d3-a81318772e65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
+  - {name: 426未名站_2012, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 11, server: fc.bjbgp.wokuaitule.xyz, port: 17713, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 30, server: fc.shbgp.wokuaitule.xyz, port: 19975, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: Relay_🇨🇳CN-🇨🇦CA_1113, server: gz1.52168.xyz, port: 1111, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: "[03-24]|oslook|美国(US)USA/Santa+Clara_51", server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ZZ_2596, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ZZ_225, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_1281, server: gz1.52168.xyz, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
+  - {name: ZZ_246, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 4, server: 38.75.137.66, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: "", server: 149.248.34.24, port: 35803, type: vmess, uuid: 0631fd14-e268-4bb0-f447-f319f5ba0833, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wis, ws-headers: {Host: 149.248.34.24}, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 9, server: 38.75.137.66, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_2565, server: 38.75.137.66, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_2147 |58.15Mb, server: 23.224.102.167, port: 19622, type: vmess, uuid: c158fe97-1a36-4919-c494-62744344a187, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 23.224.102.167}, udp: true}
-  - {name: ZZ_2562, server: 134.195.196.51, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_405, server: cusouthcmhk.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: 美国(yudou66.com 玉豆分享), server: 23.v2-ray.cyou, port: 15023, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}, udp: true}
-  - {name: بلژیک🇧🇪_12, server: 192.71.249.146, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: ZZ_2686, server: 134.195.196.51, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_3355, server: 134.195.196.51, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ZZ_2130, server: 134.195.196.51, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_1240, server: 167.88.63.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US美国(yudou66_com+玉豆分享)_40, server: 38.75.137.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ZZ_2559, server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US美国(yudou66_com+玉豆分享)_15, server: 38.75.137.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: فرانسه‌🇨🇵_20, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: US_油管+TG+8度科技_18, server: 38.75.137.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: اسپانیا🇪🇦_25, server: 212.102.48.249, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _VN_越南, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nmsl, ws-headers: {Host: 0319hzm01.fans8.xyz}, udp: true}
-  - {name: سوئیس🇨🇭_9, server: 179.43.157.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: US_2472, server: 167.88.63.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: جمهوریچک🇨🇿_29, server: 185.87.148.171, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: US_1807, server: 167.88.63.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 6, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 39, server: ycy.gzhpxb.com, port: 49101, type: ss, cipher: aes-128-gcm, password: yangchaoyue, udp: true}
+  - {name: "[03-24]|oslook|美国(US)USA/Santa+Clara_47", server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ^🇭🇰香港HK 1139 *hi-moon.pw
-      - Relay_🇨🇳CN-🇭🇰HK_395
-      - ^🇭🇰香港HK1158*hi-moon_pw_124
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - tizi_🇸🇬_SG_新加坡_1
+      - 香港(绿头外网集团)(Public) 19
+      - 台湾(绿头外网集团)(Public) 8
+      - 香港(绿头外网集团)(Public) 31
+      - HK_油管 TG 8度科技 3
+      - 香港(绿头外网集团)(Public) 35
+      - HK_油管 TG 8度科技 2
+      - 香港(绿头外网集团)(Public) 17
+      - 香港(绿头外网集团)(Public) 22
+      - 香港(绿头外网集团)(Public) 28
+      - 香港(绿头外网集团)(Public) 21
+      - 426未名站_2011
+      - 香港(绿头外网集团)(Public) 29
+      - 台湾(绿头外网集团)(Public) 9
+      - 台湾(绿头外网集团)(Public) 13
       - JP_52
-      - gz2.52168.xyz:2106
-      - tizi_🇯🇵_JP_日本_4
-      - tizi_🇸🇬_SG_新加坡_1 2
-      - tizi_🇯🇵_JP_日本_4 2
+      - 426未名站_2012
+      - 美国(绿头外网集团)(Public) 11
+      - 香港(绿头外网集团)(Public) 30
+      - Relay_🇨🇳CN-🇨🇦CA_1113
+      - "[03-24]|oslook|美国(US)USA/Santa+Clara_51"
+      - ZZ_2596
+      - ZZ_225
+      - Relay_🇨🇳CN-🇺🇸US_1281
+      - ZZ_246
+      - 美国(绿头外网集团)(Public) 4
       - ""
-      - 美国(绿头外网集团)(Public) 9
-      - US_2565
-      - US_2147 |58.15Mb
-      - ZZ_2562
-      - Relay_🇨🇳CN-🇭🇰HK_405
-      - 美国(yudou66.com 玉豆分享)
-      - بلژیک🇧🇪_12
-      - ZZ_2686
-      - ZZ_3355
-      - ZZ_2130
-      - US_1240
-      - US美国(yudou66_com+玉豆分享)_40
-      - ZZ_2559
-      - US美国(yudou66_com+玉豆分享)_15
-      - فرانسه‌🇨🇵_20
-      - US_油管+TG+8度科技_18
-      - اسپانیا🇪🇦_25
-      - _VN_越南
-      - سوئیس🇨🇭_9
-      - US_2472
-      - جمهوریچک🇨🇿_29
-      - US_1807
+      - 美国(绿头外网集团)(Public) 6
+      - 美国(绿头外网集团)(Public) 39
+      - "[03-24]|oslook|美国(US)USA/Santa+Clara_47"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - ^🇭🇰香港HK 1139 *hi-moon.pw
-      - Relay_🇨🇳CN-🇭🇰HK_395
-      - ^🇭🇰香港HK1158*hi-moon_pw_124
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - tizi_🇸🇬_SG_新加坡_1
+      - 香港(绿头外网集团)(Public) 19
+      - 台湾(绿头外网集团)(Public) 8
+      - 香港(绿头外网集团)(Public) 31
+      - HK_油管 TG 8度科技 3
+      - 香港(绿头外网集团)(Public) 35
+      - HK_油管 TG 8度科技 2
+      - 香港(绿头外网集团)(Public) 17
+      - 香港(绿头外网集团)(Public) 22
+      - 香港(绿头外网集团)(Public) 28
+      - 香港(绿头外网集团)(Public) 21
+      - 426未名站_2011
+      - 香港(绿头外网集团)(Public) 29
+      - 台湾(绿头外网集团)(Public) 9
+      - 台湾(绿头外网集团)(Public) 13
       - JP_52
-      - gz2.52168.xyz:2106
-      - tizi_🇯🇵_JP_日本_4
-      - tizi_🇸🇬_SG_新加坡_1 2
-      - tizi_🇯🇵_JP_日本_4 2
+      - 426未名站_2012
+      - 美国(绿头外网集团)(Public) 11
+      - 香港(绿头外网集团)(Public) 30
+      - Relay_🇨🇳CN-🇨🇦CA_1113
+      - "[03-24]|oslook|美国(US)USA/Santa+Clara_51"
+      - ZZ_2596
+      - ZZ_225
+      - Relay_🇨🇳CN-🇺🇸US_1281
+      - ZZ_246
+      - 美国(绿头外网集团)(Public) 4
       - ""
-      - 美国(绿头外网集团)(Public) 9
-      - US_2565
-      - US_2147 |58.15Mb
-      - ZZ_2562
-      - Relay_🇨🇳CN-🇭🇰HK_405
-      - 美国(yudou66.com 玉豆分享)
-      - بلژیک🇧🇪_12
-      - ZZ_2686
-      - ZZ_3355
-      - ZZ_2130
-      - US_1240
-      - US美国(yudou66_com+玉豆分享)_40
-      - ZZ_2559
-      - US美国(yudou66_com+玉豆分享)_15
-      - فرانسه‌🇨🇵_20
-      - US_油管+TG+8度科技_18
-      - اسپانیا🇪🇦_25
-      - _VN_越南
-      - سوئیس🇨🇭_9
-      - US_2472
-      - جمهوریچک🇨🇿_29
-      - US_1807
+      - 美国(绿头外网集团)(Public) 6
+      - 美国(绿头外网集团)(Public) 39
+      - "[03-24]|oslook|美国(US)USA/Santa+Clara_47"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ^🇭🇰香港HK 1139 *hi-moon.pw
-      - Relay_🇨🇳CN-🇭🇰HK_395
-      - ^🇭🇰香港HK1158*hi-moon_pw_124
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - tizi_🇸🇬_SG_新加坡_1
+      - 香港(绿头外网集团)(Public) 19
+      - 台湾(绿头外网集团)(Public) 8
+      - 香港(绿头外网集团)(Public) 31
+      - HK_油管 TG 8度科技 3
+      - 香港(绿头外网集团)(Public) 35
+      - HK_油管 TG 8度科技 2
+      - 香港(绿头外网集团)(Public) 17
+      - 香港(绿头外网集团)(Public) 22
+      - 香港(绿头外网集团)(Public) 28
+      - 香港(绿头外网集团)(Public) 21
+      - 426未名站_2011
+      - 香港(绿头外网集团)(Public) 29
+      - 台湾(绿头外网集团)(Public) 9
+      - 台湾(绿头外网集团)(Public) 13
       - JP_52
-      - gz2.52168.xyz:2106
-      - tizi_🇯🇵_JP_日本_4
-      - tizi_🇸🇬_SG_新加坡_1 2
-      - tizi_🇯🇵_JP_日本_4 2
+      - 426未名站_2012
+      - 美国(绿头外网集团)(Public) 11
+      - 香港(绿头外网集团)(Public) 30
+      - Relay_🇨🇳CN-🇨🇦CA_1113
+      - "[03-24]|oslook|美国(US)USA/Santa+Clara_51"
+      - ZZ_2596
+      - ZZ_225
+      - Relay_🇨🇳CN-🇺🇸US_1281
+      - ZZ_246
+      - 美国(绿头外网集团)(Public) 4
       - ""
-      - 美国(绿头外网集团)(Public) 9
-      - US_2565
-      - US_2147 |58.15Mb
-      - ZZ_2562
-      - Relay_🇨🇳CN-🇭🇰HK_405
-      - 美国(yudou66.com 玉豆分享)
-      - بلژیک🇧🇪_12
-      - ZZ_2686
-      - ZZ_3355
-      - ZZ_2130
-      - US_1240
-      - US美国(yudou66_com+玉豆分享)_40
-      - ZZ_2559
-      - US美国(yudou66_com+玉豆分享)_15
-      - فرانسه‌🇨🇵_20
-      - US_油管+TG+8度科技_18
-      - اسپانیا🇪🇦_25
-      - _VN_越南
-      - سوئیس🇨🇭_9
-      - US_2472
-      - جمهوریچک🇨🇿_29
-      - US_1807
+      - 美国(绿头外网集团)(Public) 6
+      - 美国(绿头外网集团)(Public) 39
+      - "[03-24]|oslook|美国(US)USA/Santa+Clara_47"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -172,161 +160,159 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ^🇭🇰香港HK 1139 *hi-moon.pw
-      - Relay_🇨🇳CN-🇭🇰HK_395
-      - ^🇭🇰香港HK1158*hi-moon_pw_124
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - tizi_🇸🇬_SG_新加坡_1
+      - 香港(绿头外网集团)(Public) 19
+      - 台湾(绿头外网集团)(Public) 8
+      - 香港(绿头外网集团)(Public) 31
+      - HK_油管 TG 8度科技 3
+      - 香港(绿头外网集团)(Public) 35
+      - HK_油管 TG 8度科技 2
+      - 香港(绿头外网集团)(Public) 17
+      - 香港(绿头外网集团)(Public) 22
+      - 香港(绿头外网集团)(Public) 28
+      - 香港(绿头外网集团)(Public) 21
+      - 426未名站_2011
+      - 香港(绿头外网集团)(Public) 29
+      - 台湾(绿头外网集团)(Public) 9
+      - 台湾(绿头外网集团)(Public) 13
       - JP_52
-      - gz2.52168.xyz:2106
-      - tizi_🇯🇵_JP_日本_4
-      - tizi_🇸🇬_SG_新加坡_1 2
-      - tizi_🇯🇵_JP_日本_4 2
+      - 426未名站_2012
+      - 美国(绿头外网集团)(Public) 11
+      - 香港(绿头外网集团)(Public) 30
+      - Relay_🇨🇳CN-🇨🇦CA_1113
+      - "[03-24]|oslook|美国(US)USA/Santa+Clara_51"
+      - ZZ_2596
+      - ZZ_225
+      - Relay_🇨🇳CN-🇺🇸US_1281
+      - ZZ_246
+      - 美国(绿头外网集团)(Public) 4
       - ""
-      - 美国(绿头外网集团)(Public) 9
-      - US_2565
-      - US_2147 |58.15Mb
-      - ZZ_2562
-      - Relay_🇨🇳CN-🇭🇰HK_405
-      - 美国(yudou66.com 玉豆分享)
-      - بلژیک🇧🇪_12
-      - ZZ_2686
-      - ZZ_3355
-      - ZZ_2130
-      - US_1240
-      - US美国(yudou66_com+玉豆分享)_40
-      - ZZ_2559
-      - US美国(yudou66_com+玉豆分享)_15
-      - فرانسه‌🇨🇵_20
-      - US_油管+TG+8度科技_18
-      - اسپانیا🇪🇦_25
-      - _VN_越南
-      - سوئیس🇨🇭_9
-      - US_2472
-      - جمهوریچک🇨🇿_29
-      - US_1807
+      - 美国(绿头外网集团)(Public) 6
+      - 美国(绿头外网集团)(Public) 39
+      - "[03-24]|oslook|美国(US)USA/Santa+Clara_47"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - ^🇭🇰香港HK 1139 *hi-moon.pw
-      - ^🇭🇰香港HK1158*hi-moon_pw_124
+      - 香港(绿头外网集团)(Public) 19
+      - 台湾(绿头外网集团)(Public) 8
+      - 香港(绿头外网集团)(Public) 31
+      - 香港(绿头外网集团)(Public) 35
+      - 香港(绿头外网集团)(Public) 17
+      - 香港(绿头外网集团)(Public) 22
+      - 香港(绿头外网集团)(Public) 28
+      - 香港(绿头外网集团)(Public) 21
+      - 香港(绿头外网集团)(Public) 29
+      - 台湾(绿头外网集团)(Public) 9
+      - 台湾(绿头外网集团)(Public) 13
+      - 香港(绿头外网集团)(Public) 30
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - ^🇭🇰香港HK 1139 *hi-moon.pw
-      - Relay_🇨🇳CN-🇭🇰HK_395
-      - ^🇭🇰香港HK1158*hi-moon_pw_124
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - tizi_🇸🇬_SG_新加坡_1
+      - 香港(绿头外网集团)(Public) 19
+      - 台湾(绿头外网集团)(Public) 8
+      - 香港(绿头外网集团)(Public) 31
+      - HK_油管 TG 8度科技 3
+      - 香港(绿头外网集团)(Public) 35
+      - HK_油管 TG 8度科技 2
+      - 香港(绿头外网集团)(Public) 17
+      - 香港(绿头外网集团)(Public) 22
+      - 香港(绿头外网集团)(Public) 28
+      - 香港(绿头外网集团)(Public) 21
+      - 426未名站_2011
+      - 香港(绿头外网集团)(Public) 29
+      - 台湾(绿头外网集团)(Public) 9
+      - 台湾(绿头外网集团)(Public) 13
       - JP_52
-      - gz2.52168.xyz:2106
-      - tizi_🇯🇵_JP_日本_4
-      - tizi_🇸🇬_SG_新加坡_1 2
-      - tizi_🇯🇵_JP_日本_4 2
+      - 426未名站_2012
+      - 美国(绿头外网集团)(Public) 11
+      - 香港(绿头外网集团)(Public) 30
+      - Relay_🇨🇳CN-🇨🇦CA_1113
+      - "[03-24]|oslook|美国(US)USA/Santa+Clara_51"
+      - ZZ_2596
+      - ZZ_225
+      - Relay_🇨🇳CN-🇺🇸US_1281
+      - ZZ_246
+      - 美国(绿头外网集团)(Public) 4
       - ""
-      - 美国(绿头外网集团)(Public) 9
-      - US_2565
-      - US_2147 |58.15Mb
-      - ZZ_2562
-      - Relay_🇨🇳CN-🇭🇰HK_405
-      - 美国(yudou66.com 玉豆分享)
-      - بلژیک🇧🇪_12
-      - ZZ_2686
-      - ZZ_3355
-      - ZZ_2130
-      - US_1240
-      - US美国(yudou66_com+玉豆分享)_40
-      - ZZ_2559
-      - US美国(yudou66_com+玉豆分享)_15
-      - فرانسه‌🇨🇵_20
-      - US_油管+TG+8度科技_18
-      - اسپانیا🇪🇦_25
-      - _VN_越南
-      - سوئیس🇨🇭_9
-      - US_2472
-      - جمهوریچک🇨🇿_29
-      - US_1807
+      - 美国(绿头外网集团)(Public) 6
+      - 美国(绿头外网集团)(Public) 39
+      - "[03-24]|oslook|美国(US)USA/Santa+Clara_47"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - ^🇭🇰香港HK 1139 *hi-moon.pw
-      - Relay_🇨🇳CN-🇭🇰HK_395
-      - ^🇭🇰香港HK1158*hi-moon_pw_124
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - tizi_🇸🇬_SG_新加坡_1
+      - 香港(绿头外网集团)(Public) 19
+      - 台湾(绿头外网集团)(Public) 8
+      - 香港(绿头外网集团)(Public) 31
+      - HK_油管 TG 8度科技 3
+      - 香港(绿头外网集团)(Public) 35
+      - HK_油管 TG 8度科技 2
+      - 香港(绿头外网集团)(Public) 17
+      - 香港(绿头外网集团)(Public) 22
+      - 香港(绿头外网集团)(Public) 28
+      - 香港(绿头外网集团)(Public) 21
+      - 426未名站_2011
+      - 香港(绿头外网集团)(Public) 29
+      - 台湾(绿头外网集团)(Public) 9
+      - 台湾(绿头外网集团)(Public) 13
       - JP_52
-      - gz2.52168.xyz:2106
-      - tizi_🇯🇵_JP_日本_4
-      - tizi_🇸🇬_SG_新加坡_1 2
-      - tizi_🇯🇵_JP_日本_4 2
+      - 426未名站_2012
+      - 美国(绿头外网集团)(Public) 11
+      - 香港(绿头外网集团)(Public) 30
+      - Relay_🇨🇳CN-🇨🇦CA_1113
+      - "[03-24]|oslook|美国(US)USA/Santa+Clara_51"
+      - ZZ_2596
+      - ZZ_225
+      - Relay_🇨🇳CN-🇺🇸US_1281
+      - ZZ_246
+      - 美国(绿头外网集团)(Public) 4
       - ""
-      - 美国(绿头外网集团)(Public) 9
-      - US_2565
-      - US_2147 |58.15Mb
-      - ZZ_2562
-      - Relay_🇨🇳CN-🇭🇰HK_405
-      - 美国(yudou66.com 玉豆分享)
-      - بلژیک🇧🇪_12
-      - ZZ_2686
-      - ZZ_3355
-      - ZZ_2130
-      - US_1240
-      - US美国(yudou66_com+玉豆分享)_40
-      - ZZ_2559
-      - US美国(yudou66_com+玉豆分享)_15
-      - فرانسه‌🇨🇵_20
-      - US_油管+TG+8度科技_18
-      - اسپانیا🇪🇦_25
-      - _VN_越南
-      - سوئیس🇨🇭_9
-      - US_2472
-      - جمهوریچک🇨🇿_29
-      - US_1807
+      - 美国(绿头外网集团)(Public) 6
+      - 美国(绿头外网集团)(Public) 39
+      - "[03-24]|oslook|美国(US)USA/Santa+Clara_47"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ^🇭🇰香港HK 1139 *hi-moon.pw
-      - Relay_🇨🇳CN-🇭🇰HK_395
-      - ^🇭🇰香港HK1158*hi-moon_pw_124
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - tizi_🇸🇬_SG_新加坡_1
+      - 香港(绿头外网集团)(Public) 19
+      - 台湾(绿头外网集团)(Public) 8
+      - 香港(绿头外网集团)(Public) 31
+      - HK_油管 TG 8度科技 3
+      - 香港(绿头外网集团)(Public) 35
+      - HK_油管 TG 8度科技 2
+      - 香港(绿头外网集团)(Public) 17
+      - 香港(绿头外网集团)(Public) 22
+      - 香港(绿头外网集团)(Public) 28
+      - 香港(绿头外网集团)(Public) 21
+      - 426未名站_2011
+      - 香港(绿头外网集团)(Public) 29
+      - 台湾(绿头外网集团)(Public) 9
+      - 台湾(绿头外网集团)(Public) 13
       - JP_52
-      - gz2.52168.xyz:2106
-      - tizi_🇯🇵_JP_日本_4
-      - tizi_🇸🇬_SG_新加坡_1 2
-      - tizi_🇯🇵_JP_日本_4 2
+      - 426未名站_2012
+      - 美国(绿头外网集团)(Public) 11
+      - 香港(绿头外网集团)(Public) 30
+      - Relay_🇨🇳CN-🇨🇦CA_1113
+      - "[03-24]|oslook|美国(US)USA/Santa+Clara_51"
+      - ZZ_2596
+      - ZZ_225
+      - Relay_🇨🇳CN-🇺🇸US_1281
+      - ZZ_246
+      - 美国(绿头外网集团)(Public) 4
       - ""
-      - 美国(绿头外网集团)(Public) 9
-      - US_2565
-      - US_2147 |58.15Mb
-      - ZZ_2562
-      - Relay_🇨🇳CN-🇭🇰HK_405
-      - 美国(yudou66.com 玉豆分享)
-      - بلژیک🇧🇪_12
-      - ZZ_2686
-      - ZZ_3355
-      - ZZ_2130
-      - US_1240
-      - US美国(yudou66_com+玉豆分享)_40
-      - ZZ_2559
-      - US美国(yudou66_com+玉豆分享)_15
-      - فرانسه‌🇨🇵_20
-      - US_油管+TG+8度科技_18
-      - اسپانیا🇪🇦_25
-      - _VN_越南
-      - سوئیس🇨🇭_9
-      - US_2472
-      - جمهوریچک🇨🇿_29
-      - US_1807
+      - 美国(绿头外网集团)(Public) 6
+      - 美国(绿头外网集团)(Public) 39
+      - "[03-24]|oslook|美国(US)USA/Santa+Clara_47"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -342,39 +328,36 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ^🇭🇰香港HK 1139 *hi-moon.pw
-      - Relay_🇨🇳CN-🇭🇰HK_395
-      - ^🇭🇰香港HK1158*hi-moon_pw_124
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - tizi_🇸🇬_SG_新加坡_1
+      - 香港(绿头外网集团)(Public) 19
+      - 台湾(绿头外网集团)(Public) 8
+      - 香港(绿头外网集团)(Public) 31
+      - HK_油管 TG 8度科技 3
+      - 香港(绿头外网集团)(Public) 35
+      - HK_油管 TG 8度科技 2
+      - 香港(绿头外网集团)(Public) 17
+      - 香港(绿头外网集团)(Public) 22
+      - 香港(绿头外网集团)(Public) 28
+      - 香港(绿头外网集团)(Public) 21
+      - 426未名站_2011
+      - 香港(绿头外网集团)(Public) 29
+      - 台湾(绿头外网集团)(Public) 9
+      - 台湾(绿头外网集团)(Public) 13
       - JP_52
-      - gz2.52168.xyz:2106
-      - tizi_🇯🇵_JP_日本_4
-      - tizi_🇸🇬_SG_新加坡_1 2
-      - tizi_🇯🇵_JP_日本_4 2
+      - 426未名站_2012
+      - 美国(绿头外网集团)(Public) 11
+      - 香港(绿头外网集团)(Public) 30
+      - Relay_🇨🇳CN-🇨🇦CA_1113
+      - "[03-24]|oslook|美国(US)USA/Santa+Clara_51"
+      - ZZ_2596
+      - ZZ_225
+      - Relay_🇨🇳CN-🇺🇸US_1281
+      - ZZ_246
+      - 美国(绿头外网集团)(Public) 4
       - ""
-      - 美国(绿头外网集团)(Public) 9
-      - US_2565
-      - US_2147 |58.15Mb
-      - ZZ_2562
-      - Relay_🇨🇳CN-🇭🇰HK_405
-      - 美国(yudou66.com 玉豆分享)
-      - بلژیک🇧🇪_12
-      - ZZ_2686
-      - ZZ_3355
-      - ZZ_2130
-      - US_1240
-      - US美国(yudou66_com+玉豆分享)_40
-      - ZZ_2559
-      - US美国(yudou66_com+玉豆分享)_15
-      - فرانسه‌🇨🇵_20
-      - US_油管+TG+8度科技_18
-      - اسپانیا🇪🇦_25
-      - _VN_越南
-      - سوئیس🇨🇭_9
-      - US_2472
-      - جمهوریچک🇨🇿_29
-      - US_1807
+      - 美国(绿头外网集团)(Public) 6
+      - 美国(绿头外网集团)(Public) 39
+      - "[03-24]|oslook|美国(US)USA/Santa+Clara_47"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
