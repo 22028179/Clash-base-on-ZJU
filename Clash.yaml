@@ -5,167 +5,147 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港(绿头外网集团)(Public) 37, server: tj-hk01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk01.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN_油管 TG 8度科技, server: fc.jm.wokuaitule.xyz, port: 40012, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: HKG CM.A/08 x0.3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3021, server: dycxh.ml, port: 2852, type: vmess, uuid: c0bec3a5-bec4-4bc4-fa59-d75a6feba405, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_207, server: 20.205.42.94, port: 48720, type: vmess, uuid: c9e6bb13-1fb2-4d72-9bf3-6086bf8e3144, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 【426节点池】CN_433, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 18, server: fc.gzbgp.wokuaitule.xyz, port: 10010, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: CN_372, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
-  - {name: HKG CM.A/03 x0.3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
+  - {name: _664 |36.98Mb, server: speedtest-iepl.xtsmart.link, port: 20010, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 59e3b5f250.microsoft.com}, udp: true}
+  - {name: 3.06|Super 台湾04   IEPL  倍率21, server: piizoh3x.nodeinfo.icu, port: 1131, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 19, server: 52.131.222.178, port: 31417, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 香港杨枝甘露 03, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq12xdq7a.com, port: 10003, type: ss, cipher: aes-256-gcm, password: 48f11ef1-ddb9-4653-90fc-9ab7bcfeb11e, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 19 2, server: 52.131.222.178, port: 31417, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}, udp: true}
+  - {name: 香港  | 80端口免流, server: azhkml.dling.tk, port: 80, type: vmess, uuid: b8698cdf-d720-43fd-9598-29e68a68fcec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /linggg, ws-headers: {Host: azhkml.dling.tk}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 15, server: tj-hk01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk01.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public), server: tj-hk03.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk03.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 油管 TG 8度科技 7, server: 52.131.222.178, port: 31416, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}, udp: true}
+  - {name: 香港 | 02, server: az2.dling.tk, port: 52121, type: ss, cipher: chacha20-ietf-poly1305, password: 36360e04-ca19-4e3a-9989-0ed4fae668a2, udp: true}
+  - {name: 油管 TG 8度科技 5, server: 52.131.222.178, port: 31416, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}, udp: true}
+  - {name: 油管 TG 8度科技 57, server: 52.131.222.178, port: 31313, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}, udp: true}
+  - {name: 油管 TG 8度科技 30, server: 52.131.222.178, port: 31125, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}, udp: true}
+  - {name: 香港 流媒体 02, server: gzbgp.humanzoo.us, port: 48666, type: vmess, uuid: 2b45acd0-8f20-4185-8948-575e71f4ffc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gzbgp.humanzoo.us}, udp: true}
+  - {name: 油管 TG 8度科技 26, server: 52.131.222.178, port: 31125, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 2, server: 52.131.222.178, port: 31126, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: ^🇰🇷韩国KR 1225 *hi-moon.pw, server: 52.131.222.178, port: 31416, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%2252.131.222.178%22%7D"}, udp: true}
+  - {name: 油管 TG 8度科技 55, server: 52.131.222.178, port: 31126, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}, udp: true}
+  - {name: ^🇯🇵日本JP 1227 *hi-moon.pw, server: 52.131.222.178, port: 31125, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%2252.131.222.178%22%7D"}, udp: true}
+  - {name: 韩国(绿头外网集团)(Public) 5, server: 52.131.222.178, port: 31416, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 日本(绿头外网集团)(Public), server: 52.131.222.178, port: 31125, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 3, server: 52.131.222.178, port: 31125, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 油管 TG 8度科技 6, server: 52.131.222.178, port: 31126, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}, udp: true}
+  - {name: free80.ml, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22lin1.free80ml.tk%22%7D"}, udp: true}
+  - {name: 油管 TG 8度科技 62, server: 183.232.56.161, port: 9121, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}, udp: true}
+  - {name: 频道linodeJP, server: 172.104.50.145, port: 58789, type: vmess, uuid: 6e4c3659-aae6-4d13-be44-edc6a7123af1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: JP_52, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
-  - {name: US_205, server: dycxh.ml, port: 2852, type: vmess, uuid: c0bec3a5-bec4-4bc4-fa59-d75a6feba405, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[标准]香港 02", server: aead-hkt-jd.dnsfree.top, port: 10415, type: trojan, password: fe477131-2df1-4948-9de2-9d5640660141, sni: aead-hkt-jd.dnsfree.top, skip-cert-verify: true, udp: true}
-  - {name: CN_362, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
+  - {name: 香港  | 80端口免流 2, server: azhkml.dling.tk, port: 80, type: vmess, uuid: 36360e04-ca19-4e3a-9989-0ed4fae668a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /linggg, ws-headers: {Host: azhkml.dling.tk}, udp: true}
   - {name: Relay_🇯🇵JP-🇯🇵JP_1122, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2210 |35.52Mb, server: dycxh.ml, port: 2852, type: vmess, uuid: c0bec3a5-bec4-4bc4-fa59-d75a6feba405, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_631, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_663, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
-  - {name: CN_408, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
-  - {name: CN_366, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11004, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 31, server: 20.205.42.94, port: 48720, type: vmess, uuid: c9e6bb13-1fb2-4d72-9bf3-6086bf8e3144, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 【426节点池】AU_96, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US_2212 |36.00Mb, server: 20.205.42.94, port: 48720, type: vmess, uuid: c9e6bb13-1fb2-4d72-9bf3-6086bf8e3144, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_689, server: fc.bjbgp.wokuaitule.xyz, port: 17713, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 28, server: fc.gzbgp.wokuaitule.xyz, port: 10030, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: CN_89, server: sg.youzi.win, port: 27773, type: vmess, uuid: 8dd63ea6-4032-411c-8d69-aaf34eea172e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: sg.youzi.win}, udp: true}
-  - {name: CN_397, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
-  - {name: CN_375, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 21, server: fc.gzbgp.wokuaitule.xyz, port: 10029, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: "", server: 149.248.34.24, port: 35803, type: vmess, uuid: 0631fd14-e268-4bb0-f447-f319f5ba0833, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wis, ws-headers: {Host: 149.248.34.24}, udp: true}
-  - {name: CN_72, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 30, server: fc.shbgp.wokuaitule.xyz, port: 19975, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: 0.59|Super 新加坡01   MIEPL  倍率2, server: oexu8yee.nodeinfo.icu, port: 1125, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 9, server: fc.jm.wokuaitule.xyz, port: 40011, type: vmess, uuid: ff4d9b23-23de-374b-8900-aa03ff957e12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: fc.jm.wokuaitule.xyz}, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 4, server: 38.75.137.66, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CN_376, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
-  - {name: 【426节点池】CN_436, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: becc710a-50f8-447d-a642-faa3edce0be2, udp: true}
+  - {name: 中国_5, server: 183.232.56.161, port: 1052, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
+  - {name: 油管 TG 8度科技 74, server: 183.232.56.161, port: 1605, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(绿头外网集团)(Public) 37
-      - CN_油管 TG 8度科技
-      - HKG CM.A/08 x0.3
-      - Relay_🇺🇸US-🇺🇸US_3021
-      - US_207
-      - 【426节点池】CN_433
-      - 新加坡(绿头外网集团)(Public) 18
-      - CN_372
-      - HKG CM.A/03 x0.3
+      - _664 |36.98Mb
+      - 3.06|Super 台湾04   IEPL  倍率21
+      - 香港(绿头外网集团)(Public) 19
+      - 香港杨枝甘露 03
+      - 香港(绿头外网集团)(Public) 19 2
+      - 香港  | 80端口免流
+      - 香港(绿头外网集团)(Public) 15
+      - 香港(绿头外网集团)(Public)
+      - 油管 TG 8度科技 7
+      - 香港 | 02
+      - 油管 TG 8度科技 5
+      - 油管 TG 8度科技 57
+      - 油管 TG 8度科技 30
+      - 香港 流媒体 02
+      - 油管 TG 8度科技 26
+      - 日本(绿头外网集团)(Public) 2
+      - ^🇰🇷韩国KR 1225 *hi-moon.pw
+      - 油管 TG 8度科技 55
+      - ^🇯🇵日本JP 1227 *hi-moon.pw
+      - 韩国(绿头外网集团)(Public) 5
+      - 日本(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public) 3
+      - 油管 TG 8度科技 6
+      - free80.ml
+      - 油管 TG 8度科技 62
+      - 频道linodeJP
       - JP_52
-      - US_205
-      - "[标准]香港 02"
-      - CN_362
+      - 香港  | 80端口免流 2
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - Relay_🇺🇸US-🇺🇸US_2210 |35.52Mb
-      - JP_631
-      - Relay_🇨🇳 CN-🇭🇰HK_663
-      - CN_408
-      - CN_366
-      - 香港(绿头外网集团)(Public) 31
-      - 【426节点池】AU_96
-      - US_2212 |36.00Mb
-      - Relay_🇨🇳CN-🇬🇧GB_689
-      - 香港(绿头外网集团)(Public) 28
-      - CN_89
-      - CN_397
-      - CN_375
-      - 香港(绿头外网集团)(Public) 21
-      - ""
-      - CN_72
-      - 香港(绿头外网集团)(Public) 30
-      - 0.59|Super 新加坡01   MIEPL  倍率2
-      - 新加坡(绿头外网集团)(Public) 9
-      - 美国(绿头外网集团)(Public) 4
-      - CN_376
-      - 【426节点池】CN_436
+      - 中国_5
+      - 油管 TG 8度科技 74
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港(绿头外网集团)(Public) 37
-      - CN_油管 TG 8度科技
-      - HKG CM.A/08 x0.3
-      - Relay_🇺🇸US-🇺🇸US_3021
-      - US_207
-      - 【426节点池】CN_433
-      - 新加坡(绿头外网集团)(Public) 18
-      - CN_372
-      - HKG CM.A/03 x0.3
+      - _664 |36.98Mb
+      - 3.06|Super 台湾04   IEPL  倍率21
+      - 香港(绿头外网集团)(Public) 19
+      - 香港杨枝甘露 03
+      - 香港(绿头外网集团)(Public) 19 2
+      - 香港  | 80端口免流
+      - 香港(绿头外网集团)(Public) 15
+      - 香港(绿头外网集团)(Public)
+      - 油管 TG 8度科技 7
+      - 香港 | 02
+      - 油管 TG 8度科技 5
+      - 油管 TG 8度科技 57
+      - 油管 TG 8度科技 30
+      - 香港 流媒体 02
+      - 油管 TG 8度科技 26
+      - 日本(绿头外网集团)(Public) 2
+      - ^🇰🇷韩国KR 1225 *hi-moon.pw
+      - 油管 TG 8度科技 55
+      - ^🇯🇵日本JP 1227 *hi-moon.pw
+      - 韩国(绿头外网集团)(Public) 5
+      - 日本(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public) 3
+      - 油管 TG 8度科技 6
+      - free80.ml
+      - 油管 TG 8度科技 62
+      - 频道linodeJP
       - JP_52
-      - US_205
-      - "[标准]香港 02"
-      - CN_362
+      - 香港  | 80端口免流 2
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - Relay_🇺🇸US-🇺🇸US_2210 |35.52Mb
-      - JP_631
-      - Relay_🇨🇳 CN-🇭🇰HK_663
-      - CN_408
-      - CN_366
-      - 香港(绿头外网集团)(Public) 31
-      - 【426节点池】AU_96
-      - US_2212 |36.00Mb
-      - Relay_🇨🇳CN-🇬🇧GB_689
-      - 香港(绿头外网集团)(Public) 28
-      - CN_89
-      - CN_397
-      - CN_375
-      - 香港(绿头外网集团)(Public) 21
-      - ""
-      - CN_72
-      - 香港(绿头外网集团)(Public) 30
-      - 0.59|Super 新加坡01   MIEPL  倍率2
-      - 新加坡(绿头外网集团)(Public) 9
-      - 美国(绿头外网集团)(Public) 4
-      - CN_376
-      - 【426节点池】CN_436
+      - 中国_5
+      - 油管 TG 8度科技 74
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(绿头外网集团)(Public) 37
-      - CN_油管 TG 8度科技
-      - HKG CM.A/08 x0.3
-      - Relay_🇺🇸US-🇺🇸US_3021
-      - US_207
-      - 【426节点池】CN_433
-      - 新加坡(绿头外网集团)(Public) 18
-      - CN_372
-      - HKG CM.A/03 x0.3
+      - _664 |36.98Mb
+      - 3.06|Super 台湾04   IEPL  倍率21
+      - 香港(绿头外网集团)(Public) 19
+      - 香港杨枝甘露 03
+      - 香港(绿头外网集团)(Public) 19 2
+      - 香港  | 80端口免流
+      - 香港(绿头外网集团)(Public) 15
+      - 香港(绿头外网集团)(Public)
+      - 油管 TG 8度科技 7
+      - 香港 | 02
+      - 油管 TG 8度科技 5
+      - 油管 TG 8度科技 57
+      - 油管 TG 8度科技 30
+      - 香港 流媒体 02
+      - 油管 TG 8度科技 26
+      - 日本(绿头外网集团)(Public) 2
+      - ^🇰🇷韩国KR 1225 *hi-moon.pw
+      - 油管 TG 8度科技 55
+      - ^🇯🇵日本JP 1227 *hi-moon.pw
+      - 韩国(绿头外网集团)(Public) 5
+      - 日本(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public) 3
+      - 油管 TG 8度科技 6
+      - free80.ml
+      - 油管 TG 8度科技 62
+      - 频道linodeJP
       - JP_52
-      - US_205
-      - "[标准]香港 02"
-      - CN_362
+      - 香港  | 80端口免流 2
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - Relay_🇺🇸US-🇺🇸US_2210 |35.52Mb
-      - JP_631
-      - Relay_🇨🇳 CN-🇭🇰HK_663
-      - CN_408
-      - CN_366
-      - 香港(绿头外网集团)(Public) 31
-      - 【426节点池】AU_96
-      - US_2212 |36.00Mb
-      - Relay_🇨🇳CN-🇬🇧GB_689
-      - 香港(绿头外网集团)(Public) 28
-      - CN_89
-      - CN_397
-      - CN_375
-      - 香港(绿头外网集团)(Public) 21
-      - ""
-      - CN_72
-      - 香港(绿头外网集团)(Public) 30
-      - 0.59|Super 新加坡01   MIEPL  倍率2
-      - 新加坡(绿头外网集团)(Public) 9
-      - 美国(绿头外网集团)(Public) 4
-      - CN_376
-      - 【426节点池】CN_436
+      - 中国_5
+      - 油管 TG 8度科技 74
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -184,177 +164,161 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(绿头外网集团)(Public) 37
-      - CN_油管 TG 8度科技
-      - HKG CM.A/08 x0.3
-      - Relay_🇺🇸US-🇺🇸US_3021
-      - US_207
-      - 【426节点池】CN_433
-      - 新加坡(绿头外网集团)(Public) 18
-      - CN_372
-      - HKG CM.A/03 x0.3
+      - _664 |36.98Mb
+      - 3.06|Super 台湾04   IEPL  倍率21
+      - 香港(绿头外网集团)(Public) 19
+      - 香港杨枝甘露 03
+      - 香港(绿头外网集团)(Public) 19 2
+      - 香港  | 80端口免流
+      - 香港(绿头外网集团)(Public) 15
+      - 香港(绿头外网集团)(Public)
+      - 油管 TG 8度科技 7
+      - 香港 | 02
+      - 油管 TG 8度科技 5
+      - 油管 TG 8度科技 57
+      - 油管 TG 8度科技 30
+      - 香港 流媒体 02
+      - 油管 TG 8度科技 26
+      - 日本(绿头外网集团)(Public) 2
+      - ^🇰🇷韩国KR 1225 *hi-moon.pw
+      - 油管 TG 8度科技 55
+      - ^🇯🇵日本JP 1227 *hi-moon.pw
+      - 韩国(绿头外网集团)(Public) 5
+      - 日本(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public) 3
+      - 油管 TG 8度科技 6
+      - free80.ml
+      - 油管 TG 8度科技 62
+      - 频道linodeJP
       - JP_52
-      - US_205
-      - "[标准]香港 02"
-      - CN_362
+      - 香港  | 80端口免流 2
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - Relay_🇺🇸US-🇺🇸US_2210 |35.52Mb
-      - JP_631
-      - Relay_🇨🇳 CN-🇭🇰HK_663
-      - CN_408
-      - CN_366
-      - 香港(绿头外网集团)(Public) 31
-      - 【426节点池】AU_96
-      - US_2212 |36.00Mb
-      - Relay_🇨🇳CN-🇬🇧GB_689
-      - 香港(绿头外网集团)(Public) 28
-      - CN_89
-      - CN_397
-      - CN_375
-      - 香港(绿头外网集团)(Public) 21
-      - ""
-      - CN_72
-      - 香港(绿头外网集团)(Public) 30
-      - 0.59|Super 新加坡01   MIEPL  倍率2
-      - 新加坡(绿头外网集团)(Public) 9
-      - 美国(绿头外网集团)(Public) 4
-      - CN_376
-      - 【426节点池】CN_436
+      - 中国_5
+      - 油管 TG 8度科技 74
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港(绿头外网集团)(Public) 37
-      - "[标准]香港 02"
-      - 香港(绿头外网集团)(Public) 31
-      - 香港(绿头外网集团)(Public) 28
-      - 香港(绿头外网集团)(Public) 21
-      - 香港(绿头外网集团)(Public) 30
+      - 3.06|Super 台湾04   IEPL  倍率21
+      - 香港(绿头外网集团)(Public) 19
+      - 香港杨枝甘露 03
+      - 香港(绿头外网集团)(Public) 19 2
+      - 香港  | 80端口免流
+      - 香港(绿头外网集团)(Public) 15
+      - 香港(绿头外网集团)(Public)
+      - 香港 | 02
+      - 香港 流媒体 02
+      - 香港  | 80端口免流 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港(绿头外网集团)(Public) 37
-      - CN_油管 TG 8度科技
-      - HKG CM.A/08 x0.3
-      - Relay_🇺🇸US-🇺🇸US_3021
-      - US_207
-      - 【426节点池】CN_433
-      - 新加坡(绿头外网集团)(Public) 18
-      - CN_372
-      - HKG CM.A/03 x0.3
+      - _664 |36.98Mb
+      - 3.06|Super 台湾04   IEPL  倍率21
+      - 香港(绿头外网集团)(Public) 19
+      - 香港杨枝甘露 03
+      - 香港(绿头外网集团)(Public) 19 2
+      - 香港  | 80端口免流
+      - 香港(绿头外网集团)(Public) 15
+      - 香港(绿头外网集团)(Public)
+      - 油管 TG 8度科技 7
+      - 香港 | 02
+      - 油管 TG 8度科技 5
+      - 油管 TG 8度科技 57
+      - 油管 TG 8度科技 30
+      - 香港 流媒体 02
+      - 油管 TG 8度科技 26
+      - 日本(绿头外网集团)(Public) 2
+      - ^🇰🇷韩国KR 1225 *hi-moon.pw
+      - 油管 TG 8度科技 55
+      - ^🇯🇵日本JP 1227 *hi-moon.pw
+      - 韩国(绿头外网集团)(Public) 5
+      - 日本(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public) 3
+      - 油管 TG 8度科技 6
+      - free80.ml
+      - 油管 TG 8度科技 62
+      - 频道linodeJP
       - JP_52
-      - US_205
-      - "[标准]香港 02"
-      - CN_362
+      - 香港  | 80端口免流 2
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - Relay_🇺🇸US-🇺🇸US_2210 |35.52Mb
-      - JP_631
-      - Relay_🇨🇳 CN-🇭🇰HK_663
-      - CN_408
-      - CN_366
-      - 香港(绿头外网集团)(Public) 31
-      - 【426节点池】AU_96
-      - US_2212 |36.00Mb
-      - Relay_🇨🇳CN-🇬🇧GB_689
-      - 香港(绿头外网集团)(Public) 28
-      - CN_89
-      - CN_397
-      - CN_375
-      - 香港(绿头外网集团)(Public) 21
-      - ""
-      - CN_72
-      - 香港(绿头外网集团)(Public) 30
-      - 0.59|Super 新加坡01   MIEPL  倍率2
-      - 新加坡(绿头外网集团)(Public) 9
-      - 美国(绿头外网集团)(Public) 4
-      - CN_376
-      - 【426节点池】CN_436
+      - 中国_5
+      - 油管 TG 8度科技 74
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港(绿头外网集团)(Public) 37
-      - CN_油管 TG 8度科技
-      - HKG CM.A/08 x0.3
-      - Relay_🇺🇸US-🇺🇸US_3021
-      - US_207
-      - 【426节点池】CN_433
-      - 新加坡(绿头外网集团)(Public) 18
-      - CN_372
-      - HKG CM.A/03 x0.3
+      - _664 |36.98Mb
+      - 3.06|Super 台湾04   IEPL  倍率21
+      - 香港(绿头外网集团)(Public) 19
+      - 香港杨枝甘露 03
+      - 香港(绿头外网集团)(Public) 19 2
+      - 香港  | 80端口免流
+      - 香港(绿头外网集团)(Public) 15
+      - 香港(绿头外网集团)(Public)
+      - 油管 TG 8度科技 7
+      - 香港 | 02
+      - 油管 TG 8度科技 5
+      - 油管 TG 8度科技 57
+      - 油管 TG 8度科技 30
+      - 香港 流媒体 02
+      - 油管 TG 8度科技 26
+      - 日本(绿头外网集团)(Public) 2
+      - ^🇰🇷韩国KR 1225 *hi-moon.pw
+      - 油管 TG 8度科技 55
+      - ^🇯🇵日本JP 1227 *hi-moon.pw
+      - 韩国(绿头外网集团)(Public) 5
+      - 日本(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public) 3
+      - 油管 TG 8度科技 6
+      - free80.ml
+      - 油管 TG 8度科技 62
+      - 频道linodeJP
       - JP_52
-      - US_205
-      - "[标准]香港 02"
-      - CN_362
+      - 香港  | 80端口免流 2
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - Relay_🇺🇸US-🇺🇸US_2210 |35.52Mb
-      - JP_631
-      - Relay_🇨🇳 CN-🇭🇰HK_663
-      - CN_408
-      - CN_366
-      - 香港(绿头外网集团)(Public) 31
-      - 【426节点池】AU_96
-      - US_2212 |36.00Mb
-      - Relay_🇨🇳CN-🇬🇧GB_689
-      - 香港(绿头外网集团)(Public) 28
-      - CN_89
-      - CN_397
-      - CN_375
-      - 香港(绿头外网集团)(Public) 21
-      - ""
-      - CN_72
-      - 香港(绿头外网集团)(Public) 30
-      - 0.59|Super 新加坡01   MIEPL  倍率2
-      - 新加坡(绿头外网集团)(Public) 9
-      - 美国(绿头外网集团)(Public) 4
-      - CN_376
-      - 【426节点池】CN_436
+      - 中国_5
+      - 油管 TG 8度科技 74
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港(绿头外网集团)(Public) 37
-      - CN_油管 TG 8度科技
-      - HKG CM.A/08 x0.3
-      - Relay_🇺🇸US-🇺🇸US_3021
-      - US_207
-      - 【426节点池】CN_433
-      - 新加坡(绿头外网集团)(Public) 18
-      - CN_372
-      - HKG CM.A/03 x0.3
+      - _664 |36.98Mb
+      - 3.06|Super 台湾04   IEPL  倍率21
+      - 香港(绿头外网集团)(Public) 19
+      - 香港杨枝甘露 03
+      - 香港(绿头外网集团)(Public) 19 2
+      - 香港  | 80端口免流
+      - 香港(绿头外网集团)(Public) 15
+      - 香港(绿头外网集团)(Public)
+      - 油管 TG 8度科技 7
+      - 香港 | 02
+      - 油管 TG 8度科技 5
+      - 油管 TG 8度科技 57
+      - 油管 TG 8度科技 30
+      - 香港 流媒体 02
+      - 油管 TG 8度科技 26
+      - 日本(绿头外网集团)(Public) 2
+      - ^🇰🇷韩国KR 1225 *hi-moon.pw
+      - 油管 TG 8度科技 55
+      - ^🇯🇵日本JP 1227 *hi-moon.pw
+      - 韩国(绿头外网集团)(Public) 5
+      - 日本(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public) 3
+      - 油管 TG 8度科技 6
+      - free80.ml
+      - 油管 TG 8度科技 62
+      - 频道linodeJP
       - JP_52
-      - US_205
-      - "[标准]香港 02"
-      - CN_362
+      - 香港  | 80端口免流 2
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - Relay_🇺🇸US-🇺🇸US_2210 |35.52Mb
-      - JP_631
-      - Relay_🇨🇳 CN-🇭🇰HK_663
-      - CN_408
-      - CN_366
-      - 香港(绿头外网集团)(Public) 31
-      - 【426节点池】AU_96
-      - US_2212 |36.00Mb
-      - Relay_🇨🇳CN-🇬🇧GB_689
-      - 香港(绿头外网集团)(Public) 28
-      - CN_89
-      - CN_397
-      - CN_375
-      - 香港(绿头外网集团)(Public) 21
-      - ""
-      - CN_72
-      - 香港(绿头外网集团)(Public) 30
-      - 0.59|Super 新加坡01   MIEPL  倍率2
-      - 新加坡(绿头外网集团)(Public) 9
-      - 美国(绿头外网集团)(Public) 4
-      - CN_376
-      - 【426节点池】CN_436
+      - 中国_5
+      - 油管 TG 8度科技 74
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -370,42 +334,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港(绿头外网集团)(Public) 37
-      - CN_油管 TG 8度科技
-      - HKG CM.A/08 x0.3
-      - Relay_🇺🇸US-🇺🇸US_3021
-      - US_207
-      - 【426节点池】CN_433
-      - 新加坡(绿头外网集团)(Public) 18
-      - CN_372
-      - HKG CM.A/03 x0.3
+      - _664 |36.98Mb
+      - 3.06|Super 台湾04   IEPL  倍率21
+      - 香港(绿头外网集团)(Public) 19
+      - 香港杨枝甘露 03
+      - 香港(绿头外网集团)(Public) 19 2
+      - 香港  | 80端口免流
+      - 香港(绿头外网集团)(Public) 15
+      - 香港(绿头外网集团)(Public)
+      - 油管 TG 8度科技 7
+      - 香港 | 02
+      - 油管 TG 8度科技 5
+      - 油管 TG 8度科技 57
+      - 油管 TG 8度科技 30
+      - 香港 流媒体 02
+      - 油管 TG 8度科技 26
+      - 日本(绿头外网集团)(Public) 2
+      - ^🇰🇷韩国KR 1225 *hi-moon.pw
+      - 油管 TG 8度科技 55
+      - ^🇯🇵日本JP 1227 *hi-moon.pw
+      - 韩国(绿头外网集团)(Public) 5
+      - 日本(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public) 3
+      - 油管 TG 8度科技 6
+      - free80.ml
+      - 油管 TG 8度科技 62
+      - 频道linodeJP
       - JP_52
-      - US_205
-      - "[标准]香港 02"
-      - CN_362
+      - 香港  | 80端口免流 2
       - Relay_🇯🇵JP-🇯🇵JP_1122
-      - Relay_🇺🇸US-🇺🇸US_2210 |35.52Mb
-      - JP_631
-      - Relay_🇨🇳 CN-🇭🇰HK_663
-      - CN_408
-      - CN_366
-      - 香港(绿头外网集团)(Public) 31
-      - 【426节点池】AU_96
-      - US_2212 |36.00Mb
-      - Relay_🇨🇳CN-🇬🇧GB_689
-      - 香港(绿头外网集团)(Public) 28
-      - CN_89
-      - CN_397
-      - CN_375
-      - 香港(绿头外网集团)(Public) 21
-      - ""
-      - CN_72
-      - 香港(绿头外网集团)(Public) 30
-      - 0.59|Super 新加坡01   MIEPL  倍率2
-      - 新加坡(绿头外网集团)(Public) 9
-      - 美国(绿头外网集团)(Public) 4
-      - CN_376
-      - 【426节点池】CN_436
+      - 中国_5
+      - 油管 TG 8度科技 74
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
