@@ -5,183 +5,147 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇳CN-🇭🇰HK_633, server: 183.232.56.176, port: 2103, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_653, server: 120.232.215.147, port: 6009, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_645, server: 120.232.215.196, port: 6015, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇨🇳CN_603, server: 120.232.215.147, port: 3726, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_409, server: 120.232.214.29, port: 2110, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_693, server: 120.232.215.251, port: 1002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_556, server: 120.232.215.251, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_903, server: 120.232.215.147, port: 6013, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_681, server: 120.232.215.196, port: 6001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_709, server: 120.232.215.196, port: 3209, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_675, server: 120.232.215.196, port: 3201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_723, server: 120.232.215.147, port: 3212, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_669, server: 120.232.215.196, port: 3204, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_888, server: 120.232.215.251, port: 1001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_439, server: 120.232.214.29, port: 1116, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇵🇭PH_754, server: 120.232.214.29, port: 1105, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_630, server: 120.232.215.196, port: 3210, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_602, server: 120.232.215.251, port: 3204, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_446, server: 120.232.214.29, port: 1113, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_643, server: 120.232.215.196, port: 2002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇨🇳CN_607, server: 120.232.215.196, port: 6006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_639, server: 120.232.215.196, port: 3203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_612, server: 120.232.215.196, port: 6002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_685, server: 120.232.215.147, port: 6015, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_829, server: 120.232.215.196, port: 6014, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_551, server: 120.232.214.29, port: 2102, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_408, server: 101.230.149.10, port: 2603, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 【426节点池】CN_656, server: 101.230.149.10, port: 2601, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_637, server: 120.232.215.196, port: 3211, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_527, server: 120.232.214.29, port: 1112, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_694, server: 120.232.215.147, port: 2111, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_554, server: 120.232.215.147, port: 6014, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_606, server: 120.232.215.251, port: 3212, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_676, server: 120.232.215.251, port: 3202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_880, server: 120.232.215.251, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_764, server: 101.230.149.9, port: 2108, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_877, server: 120.232.214.29, port: 2109, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_683, server: 101.230.149.7, port: 1114, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_575, server: 101.230.149.8, port: 2601, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 香港 加密 DMT, server: hkdmt.humanzoo.us, port: 8443, type: trojan, password: 2b45acd0-8f20-4185-8948-575e71f4ffc5, sni: hkdmt.humanzoo.us, skip-cert-verify: true, udp: true}
+  - {name: JP_52, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
+  - {name: Relay_🇯🇵JP-🇯🇵JP_1122, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
+  - {name: free80.ml, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22lin1.free80ml.tk%22%7D"}, udp: true}
+  - {name: "", server: 149.248.34.24, port: 35803, type: vmess, uuid: 0631fd14-e268-4bb0-f447-f319f5ba0833, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wis, ws-headers: {Host: 149.248.34.24}, udp: true}
+  - {name: 426未名站_1091, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_3813, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9apQabyg9le, ws-headers: {Host: 209.94.56.152}, udp: true}
+  - {name: US_162, server: s162.s2022.xyz, port: 23802, type: trojan, password: 770c9e92-f51b-3e52-b932-eba13fb56801, sni: s162.s2022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 油管 TG 8度科技 103, server: 167.88.63.108, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 18, server: 167.88.63.108, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 29, server: 167.88.63.108, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 油管 TG 8度科技 106, server: 167.88.63.108, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 21, server: 167.88.63.108, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 油管 TG 8度科技 118, server: 134.195.196.51, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 油管 TG 8度科技 121, server: 167.88.63.108, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 油管 TG 8度科技 113, server: 134.195.196.51, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ZZ_117 TG@peekfun, server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: China Shenzhen 048, server: 183.232.56.161, port: 1202, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}, udp: true}
+  - {name: ZZ_2597, server: 134.195.196.3, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ZZ_3541, server: 134.195.196.51, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 油管 TG 8度科技 114, server: 134.195.196.51, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ZZ_105 TG@peekfun, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: United States Los Angeles 002, server: 88.218.92.162, port: 12345, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
+  - {name: ZZ_144 TG@peekfun, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ZZ_2845, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ZZ_3511, server: 134.195.196.81, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Canada2(t_me/SurfShark_ALA)_213, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 3, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: فرانسه‌🇨🇵_20, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Canada1(t_me/SurfShark_ALA)_211, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: کرواسی🇭🇷_39, server: 46.183.184.64, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_633
-      - Relay_🇨🇳CN-🇭🇰HK_653
-      - Relay_🇨🇳CN-🇭🇰HK_645
-      - Relay_🇨🇳CN-🇨🇳CN_603
-      - Relay_🇨🇳CN-🇭🇰HK_409
-      - Relay_🇨🇳CN-🇸🇬SG_693
-      - Relay_🇨🇳CN-🇭🇰HK_556
-      - Relay_🇨🇳CN-🇭🇰HK_903
-      - Relay_🇨🇳CN-🇭🇰HK_681
-      - Relay_🇨🇳CN-🇸🇬SG_709
-      - Relay_🇨🇳CN-🇸🇬SG_675
-      - Relay_🇨🇳CN-🇸🇬SG_723
-      - Relay_🇨🇳CN-🇸🇬SG_669
-      - Relay_🇨🇳CN-🇯🇵JP_888
-      - Relay_🇨🇳CN-🇹🇼TW_439
-      - Relay_🇨🇳CN-🇵🇭PH_754
-      - Relay_🇨🇳CN-🇸🇬SG_630
-      - Relay_🇨🇳CN-🇸🇬SG_602
-      - Relay_🇨🇳CN-🇹🇼TW_446
-      - Relay_🇨🇳CN-🇸🇬SG_643
-      - Relay_🇨🇳CN-🇨🇳CN_607
-      - Relay_🇨🇳CN-🇸🇬SG_639
-      - Relay_🇨🇳CN-🇭🇰HK_612
-      - Relay_🇨🇳CN-🇭🇰HK_685
-      - Relay_🇨🇳CN-🇭🇰HK_829
-      - Relay_🇨🇳CN-🇭🇰HK_551
-      - Relay_🇨🇳CN-🇯🇵JP_408
-      - 【426节点池】CN_656
-      - Relay_🇨🇳CN-🇯🇵JP_637
-      - Relay_🇨🇳CN-🇹🇼TW_527
-      - Relay_🇨🇳CN-🇭🇰HK_694
-      - Relay_🇨🇳CN-🇭🇰HK_554
-      - Relay_🇨🇳CN-🇸🇬SG_606
-      - Relay_🇨🇳CN-🇸🇬SG_676
-      - Relay_🇨🇳CN-🇭🇰HK_880
-      - Relay_🇨🇳CN-🇭🇰HK_764
-      - Relay_🇨🇳CN-🇭🇰HK_877
-      - Relay_🇨🇳CN-🇹🇼TW_683
-      - Relay_🇨🇳CN-🇯🇵JP_575
+      - 香港 加密 DMT
+      - JP_52
+      - Relay_🇯🇵JP-🇯🇵JP_1122
+      - free80.ml
+      - ""
+      - 426未名站_1091
+      - US_3813
+      - US_162
+      - 油管 TG 8度科技 103
+      - 美国(绿头外网集团)(Public) 18
+      - 美国(绿头外网集团)(Public) 29
+      - 油管 TG 8度科技 106
+      - 美国(绿头外网集团)(Public) 21
+      - 油管 TG 8度科技 118
+      - 油管 TG 8度科技 121
+      - 油管 TG 8度科技 113
+      - ZZ_117 TG@peekfun
       - China Shenzhen 048
+      - ZZ_2597
+      - ZZ_3541
+      - 油管 TG 8度科技 114
+      - ZZ_105 TG@peekfun
+      - United States Los Angeles 002
+      - ZZ_144 TG@peekfun
+      - ZZ_2845
+      - ZZ_3511
+      - Canada2(t_me/SurfShark_ALA)_213
+      - 美国(绿头外网集团)(Public) 3
+      - فرانسه‌🇨🇵_20
+      - Canada1(t_me/SurfShark_ALA)_211
+      - کرواسی🇭🇷_39
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇨🇳CN-🇭🇰HK_633
-      - Relay_🇨🇳CN-🇭🇰HK_653
-      - Relay_🇨🇳CN-🇭🇰HK_645
-      - Relay_🇨🇳CN-🇨🇳CN_603
-      - Relay_🇨🇳CN-🇭🇰HK_409
-      - Relay_🇨🇳CN-🇸🇬SG_693
-      - Relay_🇨🇳CN-🇭🇰HK_556
-      - Relay_🇨🇳CN-🇭🇰HK_903
-      - Relay_🇨🇳CN-🇭🇰HK_681
-      - Relay_🇨🇳CN-🇸🇬SG_709
-      - Relay_🇨🇳CN-🇸🇬SG_675
-      - Relay_🇨🇳CN-🇸🇬SG_723
-      - Relay_🇨🇳CN-🇸🇬SG_669
-      - Relay_🇨🇳CN-🇯🇵JP_888
-      - Relay_🇨🇳CN-🇹🇼TW_439
-      - Relay_🇨🇳CN-🇵🇭PH_754
-      - Relay_🇨🇳CN-🇸🇬SG_630
-      - Relay_🇨🇳CN-🇸🇬SG_602
-      - Relay_🇨🇳CN-🇹🇼TW_446
-      - Relay_🇨🇳CN-🇸🇬SG_643
-      - Relay_🇨🇳CN-🇨🇳CN_607
-      - Relay_🇨🇳CN-🇸🇬SG_639
-      - Relay_🇨🇳CN-🇭🇰HK_612
-      - Relay_🇨🇳CN-🇭🇰HK_685
-      - Relay_🇨🇳CN-🇭🇰HK_829
-      - Relay_🇨🇳CN-🇭🇰HK_551
-      - Relay_🇨🇳CN-🇯🇵JP_408
-      - 【426节点池】CN_656
-      - Relay_🇨🇳CN-🇯🇵JP_637
-      - Relay_🇨🇳CN-🇹🇼TW_527
-      - Relay_🇨🇳CN-🇭🇰HK_694
-      - Relay_🇨🇳CN-🇭🇰HK_554
-      - Relay_🇨🇳CN-🇸🇬SG_606
-      - Relay_🇨🇳CN-🇸🇬SG_676
-      - Relay_🇨🇳CN-🇭🇰HK_880
-      - Relay_🇨🇳CN-🇭🇰HK_764
-      - Relay_🇨🇳CN-🇭🇰HK_877
-      - Relay_🇨🇳CN-🇹🇼TW_683
-      - Relay_🇨🇳CN-🇯🇵JP_575
+      - 香港 加密 DMT
+      - JP_52
+      - Relay_🇯🇵JP-🇯🇵JP_1122
+      - free80.ml
+      - ""
+      - 426未名站_1091
+      - US_3813
+      - US_162
+      - 油管 TG 8度科技 103
+      - 美国(绿头外网集团)(Public) 18
+      - 美国(绿头外网集团)(Public) 29
+      - 油管 TG 8度科技 106
+      - 美国(绿头外网集团)(Public) 21
+      - 油管 TG 8度科技 118
+      - 油管 TG 8度科技 121
+      - 油管 TG 8度科技 113
+      - ZZ_117 TG@peekfun
       - China Shenzhen 048
+      - ZZ_2597
+      - ZZ_3541
+      - 油管 TG 8度科技 114
+      - ZZ_105 TG@peekfun
+      - United States Los Angeles 002
+      - ZZ_144 TG@peekfun
+      - ZZ_2845
+      - ZZ_3511
+      - Canada2(t_me/SurfShark_ALA)_213
+      - 美国(绿头外网集团)(Public) 3
+      - فرانسه‌🇨🇵_20
+      - Canada1(t_me/SurfShark_ALA)_211
+      - کرواسی🇭🇷_39
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_633
-      - Relay_🇨🇳CN-🇭🇰HK_653
-      - Relay_🇨🇳CN-🇭🇰HK_645
-      - Relay_🇨🇳CN-🇨🇳CN_603
-      - Relay_🇨🇳CN-🇭🇰HK_409
-      - Relay_🇨🇳CN-🇸🇬SG_693
-      - Relay_🇨🇳CN-🇭🇰HK_556
-      - Relay_🇨🇳CN-🇭🇰HK_903
-      - Relay_🇨🇳CN-🇭🇰HK_681
-      - Relay_🇨🇳CN-🇸🇬SG_709
-      - Relay_🇨🇳CN-🇸🇬SG_675
-      - Relay_🇨🇳CN-🇸🇬SG_723
-      - Relay_🇨🇳CN-🇸🇬SG_669
-      - Relay_🇨🇳CN-🇯🇵JP_888
-      - Relay_🇨🇳CN-🇹🇼TW_439
-      - Relay_🇨🇳CN-🇵🇭PH_754
-      - Relay_🇨🇳CN-🇸🇬SG_630
-      - Relay_🇨🇳CN-🇸🇬SG_602
-      - Relay_🇨🇳CN-🇹🇼TW_446
-      - Relay_🇨🇳CN-🇸🇬SG_643
-      - Relay_🇨🇳CN-🇨🇳CN_607
-      - Relay_🇨🇳CN-🇸🇬SG_639
-      - Relay_🇨🇳CN-🇭🇰HK_612
-      - Relay_🇨🇳CN-🇭🇰HK_685
-      - Relay_🇨🇳CN-🇭🇰HK_829
-      - Relay_🇨🇳CN-🇭🇰HK_551
-      - Relay_🇨🇳CN-🇯🇵JP_408
-      - 【426节点池】CN_656
-      - Relay_🇨🇳CN-🇯🇵JP_637
-      - Relay_🇨🇳CN-🇹🇼TW_527
-      - Relay_🇨🇳CN-🇭🇰HK_694
-      - Relay_🇨🇳CN-🇭🇰HK_554
-      - Relay_🇨🇳CN-🇸🇬SG_606
-      - Relay_🇨🇳CN-🇸🇬SG_676
-      - Relay_🇨🇳CN-🇭🇰HK_880
-      - Relay_🇨🇳CN-🇭🇰HK_764
-      - Relay_🇨🇳CN-🇭🇰HK_877
-      - Relay_🇨🇳CN-🇹🇼TW_683
-      - Relay_🇨🇳CN-🇯🇵JP_575
+      - 香港 加密 DMT
+      - JP_52
+      - Relay_🇯🇵JP-🇯🇵JP_1122
+      - free80.ml
+      - ""
+      - 426未名站_1091
+      - US_3813
+      - US_162
+      - 油管 TG 8度科技 103
+      - 美国(绿头外网集团)(Public) 18
+      - 美国(绿头外网集团)(Public) 29
+      - 油管 TG 8度科技 106
+      - 美国(绿头外网集团)(Public) 21
+      - 油管 TG 8度科技 118
+      - 油管 TG 8度科技 121
+      - 油管 TG 8度科技 113
+      - ZZ_117 TG@peekfun
       - China Shenzhen 048
+      - ZZ_2597
+      - ZZ_3541
+      - 油管 TG 8度科技 114
+      - ZZ_105 TG@peekfun
+      - United States Los Angeles 002
+      - ZZ_144 TG@peekfun
+      - ZZ_2845
+      - ZZ_3511
+      - Canada2(t_me/SurfShark_ALA)_213
+      - 美国(绿头外网集团)(Public) 3
+      - فرانسه‌🇨🇵_20
+      - Canada1(t_me/SurfShark_ALA)_211
+      - کرواسی🇭🇷_39
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -200,187 +164,152 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_633
-      - Relay_🇨🇳CN-🇭🇰HK_653
-      - Relay_🇨🇳CN-🇭🇰HK_645
-      - Relay_🇨🇳CN-🇨🇳CN_603
-      - Relay_🇨🇳CN-🇭🇰HK_409
-      - Relay_🇨🇳CN-🇸🇬SG_693
-      - Relay_🇨🇳CN-🇭🇰HK_556
-      - Relay_🇨🇳CN-🇭🇰HK_903
-      - Relay_🇨🇳CN-🇭🇰HK_681
-      - Relay_🇨🇳CN-🇸🇬SG_709
-      - Relay_🇨🇳CN-🇸🇬SG_675
-      - Relay_🇨🇳CN-🇸🇬SG_723
-      - Relay_🇨🇳CN-🇸🇬SG_669
-      - Relay_🇨🇳CN-🇯🇵JP_888
-      - Relay_🇨🇳CN-🇹🇼TW_439
-      - Relay_🇨🇳CN-🇵🇭PH_754
-      - Relay_🇨🇳CN-🇸🇬SG_630
-      - Relay_🇨🇳CN-🇸🇬SG_602
-      - Relay_🇨🇳CN-🇹🇼TW_446
-      - Relay_🇨🇳CN-🇸🇬SG_643
-      - Relay_🇨🇳CN-🇨🇳CN_607
-      - Relay_🇨🇳CN-🇸🇬SG_639
-      - Relay_🇨🇳CN-🇭🇰HK_612
-      - Relay_🇨🇳CN-🇭🇰HK_685
-      - Relay_🇨🇳CN-🇭🇰HK_829
-      - Relay_🇨🇳CN-🇭🇰HK_551
-      - Relay_🇨🇳CN-🇯🇵JP_408
-      - 【426节点池】CN_656
-      - Relay_🇨🇳CN-🇯🇵JP_637
-      - Relay_🇨🇳CN-🇹🇼TW_527
-      - Relay_🇨🇳CN-🇭🇰HK_694
-      - Relay_🇨🇳CN-🇭🇰HK_554
-      - Relay_🇨🇳CN-🇸🇬SG_606
-      - Relay_🇨🇳CN-🇸🇬SG_676
-      - Relay_🇨🇳CN-🇭🇰HK_880
-      - Relay_🇨🇳CN-🇭🇰HK_764
-      - Relay_🇨🇳CN-🇭🇰HK_877
-      - Relay_🇨🇳CN-🇹🇼TW_683
-      - Relay_🇨🇳CN-🇯🇵JP_575
+      - 香港 加密 DMT
+      - JP_52
+      - Relay_🇯🇵JP-🇯🇵JP_1122
+      - free80.ml
+      - ""
+      - 426未名站_1091
+      - US_3813
+      - US_162
+      - 油管 TG 8度科技 103
+      - 美国(绿头外网集团)(Public) 18
+      - 美国(绿头外网集团)(Public) 29
+      - 油管 TG 8度科技 106
+      - 美国(绿头外网集团)(Public) 21
+      - 油管 TG 8度科技 118
+      - 油管 TG 8度科技 121
+      - 油管 TG 8度科技 113
+      - ZZ_117 TG@peekfun
       - China Shenzhen 048
+      - ZZ_2597
+      - ZZ_3541
+      - 油管 TG 8度科技 114
+      - ZZ_105 TG@peekfun
+      - United States Los Angeles 002
+      - ZZ_144 TG@peekfun
+      - ZZ_2845
+      - ZZ_3511
+      - Canada2(t_me/SurfShark_ALA)_213
+      - 美国(绿头外网集团)(Public) 3
+      - فرانسه‌🇨🇵_20
+      - Canada1(t_me/SurfShark_ALA)_211
+      - کرواسی🇭🇷_39
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港 加密 DMT
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳CN-🇭🇰HK_633
-      - Relay_🇨🇳CN-🇭🇰HK_653
-      - Relay_🇨🇳CN-🇭🇰HK_645
-      - Relay_🇨🇳CN-🇨🇳CN_603
-      - Relay_🇨🇳CN-🇭🇰HK_409
-      - Relay_🇨🇳CN-🇸🇬SG_693
-      - Relay_🇨🇳CN-🇭🇰HK_556
-      - Relay_🇨🇳CN-🇭🇰HK_903
-      - Relay_🇨🇳CN-🇭🇰HK_681
-      - Relay_🇨🇳CN-🇸🇬SG_709
-      - Relay_🇨🇳CN-🇸🇬SG_675
-      - Relay_🇨🇳CN-🇸🇬SG_723
-      - Relay_🇨🇳CN-🇸🇬SG_669
-      - Relay_🇨🇳CN-🇯🇵JP_888
-      - Relay_🇨🇳CN-🇹🇼TW_439
-      - Relay_🇨🇳CN-🇵🇭PH_754
-      - Relay_🇨🇳CN-🇸🇬SG_630
-      - Relay_🇨🇳CN-🇸🇬SG_602
-      - Relay_🇨🇳CN-🇹🇼TW_446
-      - Relay_🇨🇳CN-🇸🇬SG_643
-      - Relay_🇨🇳CN-🇨🇳CN_607
-      - Relay_🇨🇳CN-🇸🇬SG_639
-      - Relay_🇨🇳CN-🇭🇰HK_612
-      - Relay_🇨🇳CN-🇭🇰HK_685
-      - Relay_🇨🇳CN-🇭🇰HK_829
-      - Relay_🇨🇳CN-🇭🇰HK_551
-      - Relay_🇨🇳CN-🇯🇵JP_408
-      - 【426节点池】CN_656
-      - Relay_🇨🇳CN-🇯🇵JP_637
-      - Relay_🇨🇳CN-🇹🇼TW_527
-      - Relay_🇨🇳CN-🇭🇰HK_694
-      - Relay_🇨🇳CN-🇭🇰HK_554
-      - Relay_🇨🇳CN-🇸🇬SG_606
-      - Relay_🇨🇳CN-🇸🇬SG_676
-      - Relay_🇨🇳CN-🇭🇰HK_880
-      - Relay_🇨🇳CN-🇭🇰HK_764
-      - Relay_🇨🇳CN-🇭🇰HK_877
-      - Relay_🇨🇳CN-🇹🇼TW_683
-      - Relay_🇨🇳CN-🇯🇵JP_575
+      - 香港 加密 DMT
+      - JP_52
+      - Relay_🇯🇵JP-🇯🇵JP_1122
+      - free80.ml
+      - ""
+      - 426未名站_1091
+      - US_3813
+      - US_162
+      - 油管 TG 8度科技 103
+      - 美国(绿头外网集团)(Public) 18
+      - 美国(绿头外网集团)(Public) 29
+      - 油管 TG 8度科技 106
+      - 美国(绿头外网集团)(Public) 21
+      - 油管 TG 8度科技 118
+      - 油管 TG 8度科技 121
+      - 油管 TG 8度科技 113
+      - ZZ_117 TG@peekfun
       - China Shenzhen 048
+      - ZZ_2597
+      - ZZ_3541
+      - 油管 TG 8度科技 114
+      - ZZ_105 TG@peekfun
+      - United States Los Angeles 002
+      - ZZ_144 TG@peekfun
+      - ZZ_2845
+      - ZZ_3511
+      - Canada2(t_me/SurfShark_ALA)_213
+      - 美国(绿头外网集团)(Public) 3
+      - فرانسه‌🇨🇵_20
+      - Canada1(t_me/SurfShark_ALA)_211
+      - کرواسی🇭🇷_39
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_633
-      - Relay_🇨🇳CN-🇭🇰HK_653
-      - Relay_🇨🇳CN-🇭🇰HK_645
-      - Relay_🇨🇳CN-🇨🇳CN_603
-      - Relay_🇨🇳CN-🇭🇰HK_409
-      - Relay_🇨🇳CN-🇸🇬SG_693
-      - Relay_🇨🇳CN-🇭🇰HK_556
-      - Relay_🇨🇳CN-🇭🇰HK_903
-      - Relay_🇨🇳CN-🇭🇰HK_681
-      - Relay_🇨🇳CN-🇸🇬SG_709
-      - Relay_🇨🇳CN-🇸🇬SG_675
-      - Relay_🇨🇳CN-🇸🇬SG_723
-      - Relay_🇨🇳CN-🇸🇬SG_669
-      - Relay_🇨🇳CN-🇯🇵JP_888
-      - Relay_🇨🇳CN-🇹🇼TW_439
-      - Relay_🇨🇳CN-🇵🇭PH_754
-      - Relay_🇨🇳CN-🇸🇬SG_630
-      - Relay_🇨🇳CN-🇸🇬SG_602
-      - Relay_🇨🇳CN-🇹🇼TW_446
-      - Relay_🇨🇳CN-🇸🇬SG_643
-      - Relay_🇨🇳CN-🇨🇳CN_607
-      - Relay_🇨🇳CN-🇸🇬SG_639
-      - Relay_🇨🇳CN-🇭🇰HK_612
-      - Relay_🇨🇳CN-🇭🇰HK_685
-      - Relay_🇨🇳CN-🇭🇰HK_829
-      - Relay_🇨🇳CN-🇭🇰HK_551
-      - Relay_🇨🇳CN-🇯🇵JP_408
-      - 【426节点池】CN_656
-      - Relay_🇨🇳CN-🇯🇵JP_637
-      - Relay_🇨🇳CN-🇹🇼TW_527
-      - Relay_🇨🇳CN-🇭🇰HK_694
-      - Relay_🇨🇳CN-🇭🇰HK_554
-      - Relay_🇨🇳CN-🇸🇬SG_606
-      - Relay_🇨🇳CN-🇸🇬SG_676
-      - Relay_🇨🇳CN-🇭🇰HK_880
-      - Relay_🇨🇳CN-🇭🇰HK_764
-      - Relay_🇨🇳CN-🇭🇰HK_877
-      - Relay_🇨🇳CN-🇹🇼TW_683
-      - Relay_🇨🇳CN-🇯🇵JP_575
+      - 香港 加密 DMT
+      - JP_52
+      - Relay_🇯🇵JP-🇯🇵JP_1122
+      - free80.ml
+      - ""
+      - 426未名站_1091
+      - US_3813
+      - US_162
+      - 油管 TG 8度科技 103
+      - 美国(绿头外网集团)(Public) 18
+      - 美国(绿头外网集团)(Public) 29
+      - 油管 TG 8度科技 106
+      - 美国(绿头外网集团)(Public) 21
+      - 油管 TG 8度科技 118
+      - 油管 TG 8度科技 121
+      - 油管 TG 8度科技 113
+      - ZZ_117 TG@peekfun
       - China Shenzhen 048
+      - ZZ_2597
+      - ZZ_3541
+      - 油管 TG 8度科技 114
+      - ZZ_105 TG@peekfun
+      - United States Los Angeles 002
+      - ZZ_144 TG@peekfun
+      - ZZ_2845
+      - ZZ_3511
+      - Canada2(t_me/SurfShark_ALA)_213
+      - 美国(绿头外网集团)(Public) 3
+      - فرانسه‌🇨🇵_20
+      - Canada1(t_me/SurfShark_ALA)_211
+      - کرواسی🇭🇷_39
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇭🇰HK_633
-      - Relay_🇨🇳CN-🇭🇰HK_653
-      - Relay_🇨🇳CN-🇭🇰HK_645
-      - Relay_🇨🇳CN-🇨🇳CN_603
-      - Relay_🇨🇳CN-🇭🇰HK_409
-      - Relay_🇨🇳CN-🇸🇬SG_693
-      - Relay_🇨🇳CN-🇭🇰HK_556
-      - Relay_🇨🇳CN-🇭🇰HK_903
-      - Relay_🇨🇳CN-🇭🇰HK_681
-      - Relay_🇨🇳CN-🇸🇬SG_709
-      - Relay_🇨🇳CN-🇸🇬SG_675
-      - Relay_🇨🇳CN-🇸🇬SG_723
-      - Relay_🇨🇳CN-🇸🇬SG_669
-      - Relay_🇨🇳CN-🇯🇵JP_888
-      - Relay_🇨🇳CN-🇹🇼TW_439
-      - Relay_🇨🇳CN-🇵🇭PH_754
-      - Relay_🇨🇳CN-🇸🇬SG_630
-      - Relay_🇨🇳CN-🇸🇬SG_602
-      - Relay_🇨🇳CN-🇹🇼TW_446
-      - Relay_🇨🇳CN-🇸🇬SG_643
-      - Relay_🇨🇳CN-🇨🇳CN_607
-      - Relay_🇨🇳CN-🇸🇬SG_639
-      - Relay_🇨🇳CN-🇭🇰HK_612
-      - Relay_🇨🇳CN-🇭🇰HK_685
-      - Relay_🇨🇳CN-🇭🇰HK_829
-      - Relay_🇨🇳CN-🇭🇰HK_551
-      - Relay_🇨🇳CN-🇯🇵JP_408
-      - 【426节点池】CN_656
-      - Relay_🇨🇳CN-🇯🇵JP_637
-      - Relay_🇨🇳CN-🇹🇼TW_527
-      - Relay_🇨🇳CN-🇭🇰HK_694
-      - Relay_🇨🇳CN-🇭🇰HK_554
-      - Relay_🇨🇳CN-🇸🇬SG_606
-      - Relay_🇨🇳CN-🇸🇬SG_676
-      - Relay_🇨🇳CN-🇭🇰HK_880
-      - Relay_🇨🇳CN-🇭🇰HK_764
-      - Relay_🇨🇳CN-🇭🇰HK_877
-      - Relay_🇨🇳CN-🇹🇼TW_683
-      - Relay_🇨🇳CN-🇯🇵JP_575
+      - 香港 加密 DMT
+      - JP_52
+      - Relay_🇯🇵JP-🇯🇵JP_1122
+      - free80.ml
+      - ""
+      - 426未名站_1091
+      - US_3813
+      - US_162
+      - 油管 TG 8度科技 103
+      - 美国(绿头外网集团)(Public) 18
+      - 美国(绿头外网集团)(Public) 29
+      - 油管 TG 8度科技 106
+      - 美国(绿头外网集团)(Public) 21
+      - 油管 TG 8度科技 118
+      - 油管 TG 8度科技 121
+      - 油管 TG 8度科技 113
+      - ZZ_117 TG@peekfun
       - China Shenzhen 048
+      - ZZ_2597
+      - ZZ_3541
+      - 油管 TG 8度科技 114
+      - ZZ_105 TG@peekfun
+      - United States Los Angeles 002
+      - ZZ_144 TG@peekfun
+      - ZZ_2845
+      - ZZ_3511
+      - Canada2(t_me/SurfShark_ALA)_213
+      - 美国(绿头外网集团)(Public) 3
+      - فرانسه‌🇨🇵_20
+      - Canada1(t_me/SurfShark_ALA)_211
+      - کرواسی🇭🇷_39
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -396,46 +325,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇭🇰HK_633
-      - Relay_🇨🇳CN-🇭🇰HK_653
-      - Relay_🇨🇳CN-🇭🇰HK_645
-      - Relay_🇨🇳CN-🇨🇳CN_603
-      - Relay_🇨🇳CN-🇭🇰HK_409
-      - Relay_🇨🇳CN-🇸🇬SG_693
-      - Relay_🇨🇳CN-🇭🇰HK_556
-      - Relay_🇨🇳CN-🇭🇰HK_903
-      - Relay_🇨🇳CN-🇭🇰HK_681
-      - Relay_🇨🇳CN-🇸🇬SG_709
-      - Relay_🇨🇳CN-🇸🇬SG_675
-      - Relay_🇨🇳CN-🇸🇬SG_723
-      - Relay_🇨🇳CN-🇸🇬SG_669
-      - Relay_🇨🇳CN-🇯🇵JP_888
-      - Relay_🇨🇳CN-🇹🇼TW_439
-      - Relay_🇨🇳CN-🇵🇭PH_754
-      - Relay_🇨🇳CN-🇸🇬SG_630
-      - Relay_🇨🇳CN-🇸🇬SG_602
-      - Relay_🇨🇳CN-🇹🇼TW_446
-      - Relay_🇨🇳CN-🇸🇬SG_643
-      - Relay_🇨🇳CN-🇨🇳CN_607
-      - Relay_🇨🇳CN-🇸🇬SG_639
-      - Relay_🇨🇳CN-🇭🇰HK_612
-      - Relay_🇨🇳CN-🇭🇰HK_685
-      - Relay_🇨🇳CN-🇭🇰HK_829
-      - Relay_🇨🇳CN-🇭🇰HK_551
-      - Relay_🇨🇳CN-🇯🇵JP_408
-      - 【426节点池】CN_656
-      - Relay_🇨🇳CN-🇯🇵JP_637
-      - Relay_🇨🇳CN-🇹🇼TW_527
-      - Relay_🇨🇳CN-🇭🇰HK_694
-      - Relay_🇨🇳CN-🇭🇰HK_554
-      - Relay_🇨🇳CN-🇸🇬SG_606
-      - Relay_🇨🇳CN-🇸🇬SG_676
-      - Relay_🇨🇳CN-🇭🇰HK_880
-      - Relay_🇨🇳CN-🇭🇰HK_764
-      - Relay_🇨🇳CN-🇭🇰HK_877
-      - Relay_🇨🇳CN-🇹🇼TW_683
-      - Relay_🇨🇳CN-🇯🇵JP_575
+      - 香港 加密 DMT
+      - JP_52
+      - Relay_🇯🇵JP-🇯🇵JP_1122
+      - free80.ml
+      - ""
+      - 426未名站_1091
+      - US_3813
+      - US_162
+      - 油管 TG 8度科技 103
+      - 美国(绿头外网集团)(Public) 18
+      - 美国(绿头外网集团)(Public) 29
+      - 油管 TG 8度科技 106
+      - 美国(绿头外网集团)(Public) 21
+      - 油管 TG 8度科技 118
+      - 油管 TG 8度科技 121
+      - 油管 TG 8度科技 113
+      - ZZ_117 TG@peekfun
       - China Shenzhen 048
+      - ZZ_2597
+      - ZZ_3541
+      - 油管 TG 8度科技 114
+      - ZZ_105 TG@peekfun
+      - United States Los Angeles 002
+      - ZZ_144 TG@peekfun
+      - ZZ_2845
+      - ZZ_3511
+      - Canada2(t_me/SurfShark_ALA)_213
+      - 美国(绿头外网集团)(Public) 3
+      - فرانسه‌🇨🇵_20
+      - Canada1(t_me/SurfShark_ALA)_211
+      - کرواسی🇭🇷_39
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
