@@ -5,223 +5,35 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港-HK1-8-流量倍率:0.5, server: hk1-8.nigirocloud.com, port: 443, type: trojan, password: xjHhpMZqRsZvEx7967, sni: hk1-8.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: +TWN+04_16, server: 211.99.115.24, port: 11054, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +TWN+05_17, server: 211.99.115.24, port: 11055, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +HKG+16_41, server: 211.99.115.24, port: 11016, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +HKG+01_26, server: 211.99.115.24, port: 11001, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +HKG+15_40, server: 211.99.115.24, port: 11015, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +HKG+03_28, server: 211.99.115.24, port: 11003, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +HKG+17_42, server: 211.99.115.24, port: 11017, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +HKG+18_43, server: 211.99.115.24, port: 11018, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +HKG+12_37, server: 211.99.115.24, port: 11012, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +HKG+02_27, server: 211.99.115.24, port: 11002, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +HKG+07_32, server: 211.99.115.24, port: 11007, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +HKG+06_31, server: 211.99.115.24, port: 11006, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +SGP+08_58, server: 211.99.115.24, port: 11108, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +HKG+11_36, server: 211.99.115.24, port: 11011, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +HKG+14_39, server: 211.99.115.24, port: 11014, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +HKG+05_30, server: 211.99.115.24, port: 11005, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +HKG+09_34, server: 211.99.115.24, port: 11009, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +SGP+17_66, server: 211.99.115.24, port: 11117, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +HKG+10_35, server: 211.99.115.24, port: 11010, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +HKG+19_44, server: 211.99.115.24, port: 11019, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +SGP+05_55, server: 211.99.115.24, port: 11105, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +SGP+16_65, server: 211.99.115.24, port: 11116, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +HKG+04_29, server: 211.99.115.24, port: 11004, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +SGP+10_59, server: 211.99.115.24, port: 11110, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +SGP+04_54, server: 211.99.115.24, port: 11104, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +SGP+07_57, server: 211.99.115.24, port: 11107, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +HKG+08_33, server: 211.99.115.24, port: 11008, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +SGP+01_51, server: 211.99.115.24, port: 11101, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +SGP+15_64, server: 211.99.115.24, port: 11115, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +SGP+02_52, server: 211.99.115.24, port: 11102, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +SGP+06_56, server: 211.99.115.24, port: 11106, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +HKG+13_38, server: 211.99.115.24, port: 11013, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +TWN+03_15, server: 211.99.115.24, port: 11053, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +SGP+13_62, server: 211.99.115.24, port: 11113, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +SGP+12_61, server: 211.99.115.24, port: 11112, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +SGP+18_67, server: 211.99.115.24, port: 11118, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +SGP+11_60, server: 211.99.115.24, port: 11111, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +SGP+03_53, server: 211.99.115.24, port: 11103, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +VNM+01_69, server: 211.99.115.24, port: 11906, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: SG 007, server: sgaws007.xmrth-node.xyz, port: 10597, type: vmess, uuid: 076c2562-492b-35c7-9b28-5053304cd0c7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: SG 006, server: sgaws006.xmrth-node.xyz, port: 10962, type: vmess, uuid: 076c2562-492b-35c7-9b28-5053304cd0c7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: +SGP+14_63, server: 211.99.115.24, port: 11114, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +TWN+01_13, server: 211.99.115.24, port: 11051, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: SG 005, server: sgaws005.xmrth-node.xyz, port: 10574, type: vmess, uuid: 076c2562-492b-35c7-9b28-5053304cd0c7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: +TWN+02_14, server: 211.99.115.24, port: 11052, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: +Trojan-新02--atp2psharing_314, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-sg02.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: SG 002, server: sgaws002.xmrth-node.xyz, port: 10527, type: vmess, uuid: 076c2562-492b-35c7-9b28-5053304cd0c7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: +THA+01_68, server: 211.99.115.24, port: 11902, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: IND+02_3, server: 211.99.115.24, port: 11302, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 大萝卜鸡🇸🇬新加坡高速, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 大萝卜鸡🇰🇷韩国80, server: chunchuan-01.aikala.shop, port: 80, type: vmess, uuid: 1bb960cb-4184-4b81-9781-127a931c31c3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
+  - {name: South Korea 13, server: hk13.bp777.buzz, port: 21665, type: vmess, uuid: 2ad3fec6-aa85-49af-96be-3c33fa98933a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk13.bp777.buzz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港-HK1-8-流量倍率:0.5
-      - +TWN+04_16
-      - +TWN+05_17
-      - +HKG+16_41
-      - +HKG+01_26
-      - +HKG+15_40
-      - +HKG+03_28
-      - +HKG+17_42
-      - +HKG+18_43
-      - +HKG+12_37
-      - +HKG+02_27
-      - +HKG+07_32
-      - +HKG+06_31
-      - +SGP+08_58
-      - +HKG+11_36
-      - +HKG+14_39
-      - +HKG+05_30
-      - +HKG+09_34
-      - +SGP+17_66
-      - +HKG+10_35
-      - +HKG+19_44
-      - +SGP+05_55
-      - +SGP+16_65
-      - +HKG+04_29
-      - +SGP+10_59
-      - +SGP+04_54
-      - +SGP+07_57
-      - +HKG+08_33
-      - +SGP+01_51
-      - +SGP+15_64
-      - +SGP+02_52
-      - +SGP+06_56
-      - +HKG+13_38
-      - +TWN+03_15
-      - +SGP+13_62
-      - +SGP+12_61
-      - +SGP+18_67
-      - +SGP+11_60
-      - +SGP+03_53
-      - +VNM+01_69
-      - SG 007
-      - SG 006
-      - +SGP+14_63
-      - +TWN+01_13
-      - SG 005
-      - +TWN+02_14
-      - +Trojan-新02--atp2psharing_314
-      - SG 002
-      - +THA+01_68
-      - IND+02_3
+      - 大萝卜鸡🇸🇬新加坡高速
+      - 大萝卜鸡🇰🇷韩国80
+      - South Korea 13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港-HK1-8-流量倍率:0.5
-      - +TWN+04_16
-      - +TWN+05_17
-      - +HKG+16_41
-      - +HKG+01_26
-      - +HKG+15_40
-      - +HKG+03_28
-      - +HKG+17_42
-      - +HKG+18_43
-      - +HKG+12_37
-      - +HKG+02_27
-      - +HKG+07_32
-      - +HKG+06_31
-      - +SGP+08_58
-      - +HKG+11_36
-      - +HKG+14_39
-      - +HKG+05_30
-      - +HKG+09_34
-      - +SGP+17_66
-      - +HKG+10_35
-      - +HKG+19_44
-      - +SGP+05_55
-      - +SGP+16_65
-      - +HKG+04_29
-      - +SGP+10_59
-      - +SGP+04_54
-      - +SGP+07_57
-      - +HKG+08_33
-      - +SGP+01_51
-      - +SGP+15_64
-      - +SGP+02_52
-      - +SGP+06_56
-      - +HKG+13_38
-      - +TWN+03_15
-      - +SGP+13_62
-      - +SGP+12_61
-      - +SGP+18_67
-      - +SGP+11_60
-      - +SGP+03_53
-      - +VNM+01_69
-      - SG 007
-      - SG 006
-      - +SGP+14_63
-      - +TWN+01_13
-      - SG 005
-      - +TWN+02_14
-      - +Trojan-新02--atp2psharing_314
-      - SG 002
-      - +THA+01_68
-      - IND+02_3
+      - 大萝卜鸡🇸🇬新加坡高速
+      - 大萝卜鸡🇰🇷韩国80
+      - South Korea 13
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港-HK1-8-流量倍率:0.5
-      - +TWN+04_16
-      - +TWN+05_17
-      - +HKG+16_41
-      - +HKG+01_26
-      - +HKG+15_40
-      - +HKG+03_28
-      - +HKG+17_42
-      - +HKG+18_43
-      - +HKG+12_37
-      - +HKG+02_27
-      - +HKG+07_32
-      - +HKG+06_31
-      - +SGP+08_58
-      - +HKG+11_36
-      - +HKG+14_39
-      - +HKG+05_30
-      - +HKG+09_34
-      - +SGP+17_66
-      - +HKG+10_35
-      - +HKG+19_44
-      - +SGP+05_55
-      - +SGP+16_65
-      - +HKG+04_29
-      - +SGP+10_59
-      - +SGP+04_54
-      - +SGP+07_57
-      - +HKG+08_33
-      - +SGP+01_51
-      - +SGP+15_64
-      - +SGP+02_52
-      - +SGP+06_56
-      - +HKG+13_38
-      - +TWN+03_15
-      - +SGP+13_62
-      - +SGP+12_61
-      - +SGP+18_67
-      - +SGP+11_60
-      - +SGP+03_53
-      - +VNM+01_69
-      - SG 007
-      - SG 006
-      - +SGP+14_63
-      - +TWN+01_13
-      - SG 005
-      - +TWN+02_14
-      - +Trojan-新02--atp2psharing_314
-      - SG 002
-      - +THA+01_68
-      - IND+02_3
+      - 大萝卜鸡🇸🇬新加坡高速
+      - 大萝卜鸡🇰🇷韩国80
+      - South Korea 13
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -240,228 +52,39 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港-HK1-8-流量倍率:0.5
-      - +TWN+04_16
-      - +TWN+05_17
-      - +HKG+16_41
-      - +HKG+01_26
-      - +HKG+15_40
-      - +HKG+03_28
-      - +HKG+17_42
-      - +HKG+18_43
-      - +HKG+12_37
-      - +HKG+02_27
-      - +HKG+07_32
-      - +HKG+06_31
-      - +SGP+08_58
-      - +HKG+11_36
-      - +HKG+14_39
-      - +HKG+05_30
-      - +HKG+09_34
-      - +SGP+17_66
-      - +HKG+10_35
-      - +HKG+19_44
-      - +SGP+05_55
-      - +SGP+16_65
-      - +HKG+04_29
-      - +SGP+10_59
-      - +SGP+04_54
-      - +SGP+07_57
-      - +HKG+08_33
-      - +SGP+01_51
-      - +SGP+15_64
-      - +SGP+02_52
-      - +SGP+06_56
-      - +HKG+13_38
-      - +TWN+03_15
-      - +SGP+13_62
-      - +SGP+12_61
-      - +SGP+18_67
-      - +SGP+11_60
-      - +SGP+03_53
-      - +VNM+01_69
-      - SG 007
-      - SG 006
-      - +SGP+14_63
-      - +TWN+01_13
-      - SG 005
-      - +TWN+02_14
-      - +Trojan-新02--atp2psharing_314
-      - SG 002
-      - +THA+01_68
-      - IND+02_3
+      - 大萝卜鸡🇸🇬新加坡高速
+      - 大萝卜鸡🇰🇷韩国80
+      - South Korea 13
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港-HK1-8-流量倍率:0.5
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港-HK1-8-流量倍率:0.5
-      - +TWN+04_16
-      - +TWN+05_17
-      - +HKG+16_41
-      - +HKG+01_26
-      - +HKG+15_40
-      - +HKG+03_28
-      - +HKG+17_42
-      - +HKG+18_43
-      - +HKG+12_37
-      - +HKG+02_27
-      - +HKG+07_32
-      - +HKG+06_31
-      - +SGP+08_58
-      - +HKG+11_36
-      - +HKG+14_39
-      - +HKG+05_30
-      - +HKG+09_34
-      - +SGP+17_66
-      - +HKG+10_35
-      - +HKG+19_44
-      - +SGP+05_55
-      - +SGP+16_65
-      - +HKG+04_29
-      - +SGP+10_59
-      - +SGP+04_54
-      - +SGP+07_57
-      - +HKG+08_33
-      - +SGP+01_51
-      - +SGP+15_64
-      - +SGP+02_52
-      - +SGP+06_56
-      - +HKG+13_38
-      - +TWN+03_15
-      - +SGP+13_62
-      - +SGP+12_61
-      - +SGP+18_67
-      - +SGP+11_60
-      - +SGP+03_53
-      - +VNM+01_69
-      - SG 007
-      - SG 006
-      - +SGP+14_63
-      - +TWN+01_13
-      - SG 005
-      - +TWN+02_14
-      - +Trojan-新02--atp2psharing_314
-      - SG 002
-      - +THA+01_68
-      - IND+02_3
+      - 大萝卜鸡🇸🇬新加坡高速
+      - 大萝卜鸡🇰🇷韩国80
+      - South Korea 13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港-HK1-8-流量倍率:0.5
-      - +TWN+04_16
-      - +TWN+05_17
-      - +HKG+16_41
-      - +HKG+01_26
-      - +HKG+15_40
-      - +HKG+03_28
-      - +HKG+17_42
-      - +HKG+18_43
-      - +HKG+12_37
-      - +HKG+02_27
-      - +HKG+07_32
-      - +HKG+06_31
-      - +SGP+08_58
-      - +HKG+11_36
-      - +HKG+14_39
-      - +HKG+05_30
-      - +HKG+09_34
-      - +SGP+17_66
-      - +HKG+10_35
-      - +HKG+19_44
-      - +SGP+05_55
-      - +SGP+16_65
-      - +HKG+04_29
-      - +SGP+10_59
-      - +SGP+04_54
-      - +SGP+07_57
-      - +HKG+08_33
-      - +SGP+01_51
-      - +SGP+15_64
-      - +SGP+02_52
-      - +SGP+06_56
-      - +HKG+13_38
-      - +TWN+03_15
-      - +SGP+13_62
-      - +SGP+12_61
-      - +SGP+18_67
-      - +SGP+11_60
-      - +SGP+03_53
-      - +VNM+01_69
-      - SG 007
-      - SG 006
-      - +SGP+14_63
-      - +TWN+01_13
-      - SG 005
-      - +TWN+02_14
-      - +Trojan-新02--atp2psharing_314
-      - SG 002
-      - +THA+01_68
-      - IND+02_3
+      - 大萝卜鸡🇸🇬新加坡高速
+      - 大萝卜鸡🇰🇷韩国80
+      - South Korea 13
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港-HK1-8-流量倍率:0.5
-      - +TWN+04_16
-      - +TWN+05_17
-      - +HKG+16_41
-      - +HKG+01_26
-      - +HKG+15_40
-      - +HKG+03_28
-      - +HKG+17_42
-      - +HKG+18_43
-      - +HKG+12_37
-      - +HKG+02_27
-      - +HKG+07_32
-      - +HKG+06_31
-      - +SGP+08_58
-      - +HKG+11_36
-      - +HKG+14_39
-      - +HKG+05_30
-      - +HKG+09_34
-      - +SGP+17_66
-      - +HKG+10_35
-      - +HKG+19_44
-      - +SGP+05_55
-      - +SGP+16_65
-      - +HKG+04_29
-      - +SGP+10_59
-      - +SGP+04_54
-      - +SGP+07_57
-      - +HKG+08_33
-      - +SGP+01_51
-      - +SGP+15_64
-      - +SGP+02_52
-      - +SGP+06_56
-      - +HKG+13_38
-      - +TWN+03_15
-      - +SGP+13_62
-      - +SGP+12_61
-      - +SGP+18_67
-      - +SGP+11_60
-      - +SGP+03_53
-      - +VNM+01_69
-      - SG 007
-      - SG 006
-      - +SGP+14_63
-      - +TWN+01_13
-      - SG 005
-      - +TWN+02_14
-      - +Trojan-新02--atp2psharing_314
-      - SG 002
-      - +THA+01_68
-      - IND+02_3
+      - 大萝卜鸡🇸🇬新加坡高速
+      - 大萝卜鸡🇰🇷韩国80
+      - South Korea 13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -477,56 +100,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港-HK1-8-流量倍率:0.5
-      - +TWN+04_16
-      - +TWN+05_17
-      - +HKG+16_41
-      - +HKG+01_26
-      - +HKG+15_40
-      - +HKG+03_28
-      - +HKG+17_42
-      - +HKG+18_43
-      - +HKG+12_37
-      - +HKG+02_27
-      - +HKG+07_32
-      - +HKG+06_31
-      - +SGP+08_58
-      - +HKG+11_36
-      - +HKG+14_39
-      - +HKG+05_30
-      - +HKG+09_34
-      - +SGP+17_66
-      - +HKG+10_35
-      - +HKG+19_44
-      - +SGP+05_55
-      - +SGP+16_65
-      - +HKG+04_29
-      - +SGP+10_59
-      - +SGP+04_54
-      - +SGP+07_57
-      - +HKG+08_33
-      - +SGP+01_51
-      - +SGP+15_64
-      - +SGP+02_52
-      - +SGP+06_56
-      - +HKG+13_38
-      - +TWN+03_15
-      - +SGP+13_62
-      - +SGP+12_61
-      - +SGP+18_67
-      - +SGP+11_60
-      - +SGP+03_53
-      - +VNM+01_69
-      - SG 007
-      - SG 006
-      - +SGP+14_63
-      - +TWN+01_13
-      - SG 005
-      - +TWN+02_14
-      - +Trojan-新02--atp2psharing_314
-      - SG 002
-      - +THA+01_68
-      - IND+02_3
+      - 大萝卜鸡🇸🇬新加坡高速
+      - 大萝卜鸡🇰🇷韩国80
+      - South Korea 13
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
