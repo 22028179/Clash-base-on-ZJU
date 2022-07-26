@@ -5,75 +5,83 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "香港✈️中转 [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: 6e638e95-114c-481f-802c-78f471269e1c, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
-  - {name: 大萝卜鸡🇸🇬新加坡高速, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 香港Az-优化3, server: t.mjmjmjmj.cyou, port: 16627, type: vmess, uuid: 0aae8997-ae8f-4e57-b1e0-cf946eda70fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.mjmjmjmj.cyou}, udp: true}
-  - {name: 香港Az-优化, server: u.mjmjmjmj.cyou, port: 16627, type: vmess, uuid: 0aae8997-ae8f-4e57-b1e0-cf946eda70fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: u.mjmjmjmj.cyou}, udp: true}
+  - {name: CN/110, server: 120.241.236.113, port: 16214, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/56, server: 120.241.236.113, port: 16113, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-Singapore-OVH-nf_20, server: 120.233.29.168, port: 16229, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-台北PNI-dip_23, server: 120.241.236.216, port: 16112, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-台北PNI-dip_37, server: 120.241.236.218, port: 16214, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-台北PNI-dip_15, server: 120.241.236.215, port: 16214, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 大萝卜鸡🇰🇷韩国80, server: chunchuan-01.aikala.shop, port: 80, type: vmess, uuid: 1bb960cb-4184-4b81-9781-127a931c31c3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
-  - {name: Hong Kong 04 | IPLC, server: hk04.wol1.ml, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 81cafca0-18d7-4fec-ae38-6838c005510e, udp: true}
-  - {name: 日本-优化3, server: t.mjmjmjmj.cyou, port: 16617, type: vmess, uuid: 0aae8997-ae8f-4e57-b1e0-cf946eda70fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.mjmjmjmj.cyou}, udp: true}
-  - {name: Hong Kong 02, server: hk02.wol1.ml, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 81cafca0-18d7-4fec-ae38-6838c005510e, udp: true}
-  - {name: "台湾✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 31097, type: trojan, password: 6e638e95-114c-481f-802c-78f471269e1c, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
-  - {name: Japan 02, server: jp02.wol1.ml, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 81cafca0-18d7-4fec-ae38-6838c005510e, udp: true}
-  - {name: "俄罗斯✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 42167, type: trojan, password: 6e638e95-114c-481f-802c-78f471269e1c, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
-  - {name: Hong Kong 03 | IPLC, server: hk03.wol1.ml, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 81cafca0-18d7-4fec-ae38-6838c005510e, udp: true}
-  - {name: Hong Kong 01, server: hk01.wol1.ml, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 81cafca0-18d7-4fec-ae38-6838c005510e, udp: true}
+  - {name: vpnpool-Hanoi-Vinameed-dip_2, server: 120.233.29.168, port: 16256, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-台北PNI-dip_24, server: 120.241.236.216, port: 16113, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-台北PNI-dip_31, server: 120.241.236.216, port: 16245, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-彰化Hinet-dip_7, server: 120.233.150.132, port: 16226, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 大萝卜鸡🇸🇬新加坡高速, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-彰化Hinet-dip_4, server: 120.233.150.132, port: 16133, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-台北PNI-dip_43, server: 120.233.150.132, port: 16111, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-台北PNI-dip_46, server: 120.233.150.132, port: 16244, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港✈️中转 [湘沪BGP]
-      - 大萝卜鸡🇸🇬新加坡高速
-      - 香港Az-优化3
-      - 香港Az-优化
+      - CN/110
+      - CN/56
+      - vpnpool-Singapore-OVH-nf_20
+      - vpnpool-台北PNI-dip_23
+      - vpnpool-台北PNI-dip_37
+      - vpnpool-台北PNI-dip_15
       - 大萝卜鸡🇰🇷韩国80
-      - Hong Kong 04 | IPLC
-      - 日本-优化3
-      - Hong Kong 02
-      - 台湾✈️中转  [湘沪BGP]
-      - Japan 02
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - Hong Kong 03 | IPLC
-      - Hong Kong 01
+      - vpnpool-Hanoi-Vinameed-dip_2
+      - vpnpool-台北PNI-dip_24
+      - vpnpool-台北PNI-dip_31
+      - vpnpool-彰化Hinet-dip_7
+      - 大萝卜鸡🇸🇬新加坡高速
+      - vpnpool-彰化Hinet-dip_4
+      - vpnpool-台北PNI-dip_43
+      - vpnpool-台北PNI-dip_46
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港✈️中转 [湘沪BGP]
-      - 大萝卜鸡🇸🇬新加坡高速
-      - 香港Az-优化3
-      - 香港Az-优化
+      - CN/110
+      - CN/56
+      - vpnpool-Singapore-OVH-nf_20
+      - vpnpool-台北PNI-dip_23
+      - vpnpool-台北PNI-dip_37
+      - vpnpool-台北PNI-dip_15
       - 大萝卜鸡🇰🇷韩国80
-      - Hong Kong 04 | IPLC
-      - 日本-优化3
-      - Hong Kong 02
-      - 台湾✈️中转  [湘沪BGP]
-      - Japan 02
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - Hong Kong 03 | IPLC
-      - Hong Kong 01
+      - vpnpool-Hanoi-Vinameed-dip_2
+      - vpnpool-台北PNI-dip_24
+      - vpnpool-台北PNI-dip_31
+      - vpnpool-彰化Hinet-dip_7
+      - 大萝卜鸡🇸🇬新加坡高速
+      - vpnpool-彰化Hinet-dip_4
+      - vpnpool-台北PNI-dip_43
+      - vpnpool-台北PNI-dip_46
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港✈️中转 [湘沪BGP]
-      - 大萝卜鸡🇸🇬新加坡高速
-      - 香港Az-优化3
-      - 香港Az-优化
+      - CN/110
+      - CN/56
+      - vpnpool-Singapore-OVH-nf_20
+      - vpnpool-台北PNI-dip_23
+      - vpnpool-台北PNI-dip_37
+      - vpnpool-台北PNI-dip_15
       - 大萝卜鸡🇰🇷韩国80
-      - Hong Kong 04 | IPLC
-      - 日本-优化3
-      - Hong Kong 02
-      - 台湾✈️中转  [湘沪BGP]
-      - Japan 02
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - Hong Kong 03 | IPLC
-      - Hong Kong 01
+      - vpnpool-Hanoi-Vinameed-dip_2
+      - vpnpool-台北PNI-dip_24
+      - vpnpool-台北PNI-dip_31
+      - vpnpool-彰化Hinet-dip_7
+      - 大萝卜鸡🇸🇬新加坡高速
+      - vpnpool-彰化Hinet-dip_4
+      - vpnpool-台北PNI-dip_43
+      - vpnpool-台北PNI-dip_46
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -92,83 +100,96 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港✈️中转 [湘沪BGP]
-      - 大萝卜鸡🇸🇬新加坡高速
-      - 香港Az-优化3
-      - 香港Az-优化
+      - CN/110
+      - CN/56
+      - vpnpool-Singapore-OVH-nf_20
+      - vpnpool-台北PNI-dip_23
+      - vpnpool-台北PNI-dip_37
+      - vpnpool-台北PNI-dip_15
       - 大萝卜鸡🇰🇷韩国80
-      - Hong Kong 04 | IPLC
-      - 日本-优化3
-      - Hong Kong 02
-      - 台湾✈️中转  [湘沪BGP]
-      - Japan 02
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - Hong Kong 03 | IPLC
-      - Hong Kong 01
+      - vpnpool-Hanoi-Vinameed-dip_2
+      - vpnpool-台北PNI-dip_24
+      - vpnpool-台北PNI-dip_31
+      - vpnpool-彰化Hinet-dip_7
+      - 大萝卜鸡🇸🇬新加坡高速
+      - vpnpool-彰化Hinet-dip_4
+      - vpnpool-台北PNI-dip_43
+      - vpnpool-台北PNI-dip_46
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港✈️中转 [湘沪BGP]
-      - 香港Az-优化3
-      - 香港Az-优化
-      - 台湾✈️中转  [湘沪BGP]
+      - vpnpool-台北PNI-dip_23
+      - vpnpool-台北PNI-dip_37
+      - vpnpool-台北PNI-dip_15
+      - vpnpool-台北PNI-dip_24
+      - vpnpool-台北PNI-dip_31
+      - vpnpool-彰化Hinet-dip_7
+      - vpnpool-彰化Hinet-dip_4
+      - vpnpool-台北PNI-dip_43
+      - vpnpool-台北PNI-dip_46
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港✈️中转 [湘沪BGP]
-      - 大萝卜鸡🇸🇬新加坡高速
-      - 香港Az-优化3
-      - 香港Az-优化
+      - CN/110
+      - CN/56
+      - vpnpool-Singapore-OVH-nf_20
+      - vpnpool-台北PNI-dip_23
+      - vpnpool-台北PNI-dip_37
+      - vpnpool-台北PNI-dip_15
       - 大萝卜鸡🇰🇷韩国80
-      - Hong Kong 04 | IPLC
-      - 日本-优化3
-      - Hong Kong 02
-      - 台湾✈️中转  [湘沪BGP]
-      - Japan 02
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - Hong Kong 03 | IPLC
-      - Hong Kong 01
+      - vpnpool-Hanoi-Vinameed-dip_2
+      - vpnpool-台北PNI-dip_24
+      - vpnpool-台北PNI-dip_31
+      - vpnpool-彰化Hinet-dip_7
+      - 大萝卜鸡🇸🇬新加坡高速
+      - vpnpool-彰化Hinet-dip_4
+      - vpnpool-台北PNI-dip_43
+      - vpnpool-台北PNI-dip_46
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港✈️中转 [湘沪BGP]
-      - 大萝卜鸡🇸🇬新加坡高速
-      - 香港Az-优化3
-      - 香港Az-优化
+      - CN/110
+      - CN/56
+      - vpnpool-Singapore-OVH-nf_20
+      - vpnpool-台北PNI-dip_23
+      - vpnpool-台北PNI-dip_37
+      - vpnpool-台北PNI-dip_15
       - 大萝卜鸡🇰🇷韩国80
-      - Hong Kong 04 | IPLC
-      - 日本-优化3
-      - Hong Kong 02
-      - 台湾✈️中转  [湘沪BGP]
-      - Japan 02
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - Hong Kong 03 | IPLC
-      - Hong Kong 01
+      - vpnpool-Hanoi-Vinameed-dip_2
+      - vpnpool-台北PNI-dip_24
+      - vpnpool-台北PNI-dip_31
+      - vpnpool-彰化Hinet-dip_7
+      - 大萝卜鸡🇸🇬新加坡高速
+      - vpnpool-彰化Hinet-dip_4
+      - vpnpool-台北PNI-dip_43
+      - vpnpool-台北PNI-dip_46
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港✈️中转 [湘沪BGP]
-      - 大萝卜鸡🇸🇬新加坡高速
-      - 香港Az-优化3
-      - 香港Az-优化
+      - CN/110
+      - CN/56
+      - vpnpool-Singapore-OVH-nf_20
+      - vpnpool-台北PNI-dip_23
+      - vpnpool-台北PNI-dip_37
+      - vpnpool-台北PNI-dip_15
       - 大萝卜鸡🇰🇷韩国80
-      - Hong Kong 04 | IPLC
-      - 日本-优化3
-      - Hong Kong 02
-      - 台湾✈️中转  [湘沪BGP]
-      - Japan 02
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - Hong Kong 03 | IPLC
-      - Hong Kong 01
+      - vpnpool-Hanoi-Vinameed-dip_2
+      - vpnpool-台北PNI-dip_24
+      - vpnpool-台北PNI-dip_31
+      - vpnpool-彰化Hinet-dip_7
+      - 大萝卜鸡🇸🇬新加坡高速
+      - vpnpool-彰化Hinet-dip_4
+      - vpnpool-台北PNI-dip_43
+      - vpnpool-台北PNI-dip_46
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -184,19 +205,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港✈️中转 [湘沪BGP]
-      - 大萝卜鸡🇸🇬新加坡高速
-      - 香港Az-优化3
-      - 香港Az-优化
+      - CN/110
+      - CN/56
+      - vpnpool-Singapore-OVH-nf_20
+      - vpnpool-台北PNI-dip_23
+      - vpnpool-台北PNI-dip_37
+      - vpnpool-台北PNI-dip_15
       - 大萝卜鸡🇰🇷韩国80
-      - Hong Kong 04 | IPLC
-      - 日本-优化3
-      - Hong Kong 02
-      - 台湾✈️中转  [湘沪BGP]
-      - Japan 02
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - Hong Kong 03 | IPLC
-      - Hong Kong 01
+      - vpnpool-Hanoi-Vinameed-dip_2
+      - vpnpool-台北PNI-dip_24
+      - vpnpool-台北PNI-dip_31
+      - vpnpool-彰化Hinet-dip_7
+      - 大萝卜鸡🇸🇬新加坡高速
+      - vpnpool-彰化Hinet-dip_4
+      - vpnpool-台北PNI-dip_43
+      - vpnpool-台北PNI-dip_46
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
