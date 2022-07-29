@@ -5,79 +5,95 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US LAX CTG 01 TR(trojan), server: us-lax-ctg-01-tr.cdn.savoy.click, port: 889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: us-lax-ctg-01-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
-  - {name: 日本Tokyo急速-02.Ss.1.0x, server: 52.81.179.243, port: 10002, type: ss, cipher: aes-128-gcm, password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b, udp: true}
-  - {name: "香港✈️中转 [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: 2e3a0c2a-9619-4f9c-b5e9-079545ed0088, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
-  - {name: HK HKG SH-HK 02 TR(trojan), server: hk-hkg-sh-hk-02-tr.cdn.savoy.click, port: 21089, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: hk-hkg-sh-hk-02-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
-  - {name: JP TYO 04 TR(trojan), server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: jp-tyo-04-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
-  - {name: HK HKG IT2 SVM V2(vmess), server: hk-hkg-it2-svm-v2.node.inforun.work, port: 13888, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: "俄罗斯✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 42167, type: trojan, password: 2e3a0c2a-9619-4f9c-b5e9-079545ed0088, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
-  - {name: TW TPE H TR(trojan), server: tw-tpe-h-tr.cdn.savoy.click, port: 10089, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: tw-tpe-h-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
-  - {name: HK HKG IT2 SVM V2(vmess) 2, server: hk-hkg-it2-svm-v2.node.inforun.work, port: 13888, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: "%7B%22Host%22:%22cdn.savoy.click%22%7D"}, udp: true}
-  - {name: "台湾✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 31097, type: trojan, password: 2e3a0c2a-9619-4f9c-b5e9-079545ed0088, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
-  - {name: TW TPE H V2(vmess), server: tw-tpe-h-v2.cdn.savoy.click, port: 10088, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: "%7B%22Host%22:%22cdn.savoy.click%22%7D"}, udp: true}
-  - {name: TW TPE H V2(vmess) 2, server: tw-tpe-h-v2.cdn.savoy.click, port: 10088, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: HK HKG SH-HK 02 V2(vmess), server: hk-hkg-sh-hk-02-v2.cdn.savoy.click, port: 21088, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: "%7B%22Host%22:%22cdn.savoy.click%22%7D"}, udp: true}
-  - {name: US LAX CTG 01 V2(vmess), server: us-lax-ctg-01-v2.cdn.savoy.click, port: 888, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: "JP, Tokyo 2", server: 3.39.227.103, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: KR/3, server: 3.37.19.113, port: 53429, type: ss, cipher: chacha20-ietf-poly1305, password: E*CrT22~%kfF$dHT+e+i, udp: true}
+  - {name: JP/82, server: 85.208.108.94, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP/69, server: 85.208.108.94, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: JP/79, server: 85.208.108.94, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: JP/15, server: 85.208.108.94, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP/18, server: 85.208.108.94, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP/77, server: 85.208.108.94, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: JP/75, server: 85.208.108.94, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP/135, server: 85.208.108.94, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP/91, server: 85.208.108.94, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: JP/88, server: 85.208.108.94, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: JP/87, server: 85.208.108.94, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: JP/165, server: 85.208.108.94, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: JP/74, server: 85.208.108.94, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP/78, server: 85.208.108.94, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP/81, server: 85.208.108.94, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "HK, New Territories", server: 18.140.1.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US LAX CTG 01 TR(trojan)
-      - 日本Tokyo急速-02.Ss.1.0x
-      - 香港✈️中转 [湘沪BGP]
-      - HK HKG SH-HK 02 TR(trojan)
-      - JP TYO 04 TR(trojan)
-      - HK HKG IT2 SVM V2(vmess)
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - TW TPE H TR(trojan)
-      - HK HKG IT2 SVM V2(vmess) 2
-      - 台湾✈️中转  [湘沪BGP]
-      - TW TPE H V2(vmess)
-      - TW TPE H V2(vmess) 2
-      - HK HKG SH-HK 02 V2(vmess)
-      - US LAX CTG 01 V2(vmess)
+      - JP, Tokyo 2
+      - KR/3
+      - JP/82
+      - JP/69
+      - JP/79
+      - JP/15
+      - JP/18
+      - JP/77
+      - JP/75
+      - JP/135
+      - JP/91
+      - JP/88
+      - JP/87
+      - JP/165
+      - JP/74
+      - JP/78
+      - JP/81
+      - HK, New Territories
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US LAX CTG 01 TR(trojan)
-      - 日本Tokyo急速-02.Ss.1.0x
-      - 香港✈️中转 [湘沪BGP]
-      - HK HKG SH-HK 02 TR(trojan)
-      - JP TYO 04 TR(trojan)
-      - HK HKG IT2 SVM V2(vmess)
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - TW TPE H TR(trojan)
-      - HK HKG IT2 SVM V2(vmess) 2
-      - 台湾✈️中转  [湘沪BGP]
-      - TW TPE H V2(vmess)
-      - TW TPE H V2(vmess) 2
-      - HK HKG SH-HK 02 V2(vmess)
-      - US LAX CTG 01 V2(vmess)
+      - JP, Tokyo 2
+      - KR/3
+      - JP/82
+      - JP/69
+      - JP/79
+      - JP/15
+      - JP/18
+      - JP/77
+      - JP/75
+      - JP/135
+      - JP/91
+      - JP/88
+      - JP/87
+      - JP/165
+      - JP/74
+      - JP/78
+      - JP/81
+      - HK, New Territories
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US LAX CTG 01 TR(trojan)
-      - 日本Tokyo急速-02.Ss.1.0x
-      - 香港✈️中转 [湘沪BGP]
-      - HK HKG SH-HK 02 TR(trojan)
-      - JP TYO 04 TR(trojan)
-      - HK HKG IT2 SVM V2(vmess)
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - TW TPE H TR(trojan)
-      - HK HKG IT2 SVM V2(vmess) 2
-      - 台湾✈️中转  [湘沪BGP]
-      - TW TPE H V2(vmess)
-      - TW TPE H V2(vmess) 2
-      - HK HKG SH-HK 02 V2(vmess)
-      - US LAX CTG 01 V2(vmess)
+      - JP, Tokyo 2
+      - KR/3
+      - JP/82
+      - JP/69
+      - JP/79
+      - JP/15
+      - JP/18
+      - JP/77
+      - JP/75
+      - JP/135
+      - JP/91
+      - JP/88
+      - JP/87
+      - JP/165
+      - JP/74
+      - JP/78
+      - JP/81
+      - HK, New Territories
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -96,85 +112,99 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US LAX CTG 01 TR(trojan)
-      - 日本Tokyo急速-02.Ss.1.0x
-      - 香港✈️中转 [湘沪BGP]
-      - HK HKG SH-HK 02 TR(trojan)
-      - JP TYO 04 TR(trojan)
-      - HK HKG IT2 SVM V2(vmess)
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - TW TPE H TR(trojan)
-      - HK HKG IT2 SVM V2(vmess) 2
-      - 台湾✈️中转  [湘沪BGP]
-      - TW TPE H V2(vmess)
-      - TW TPE H V2(vmess) 2
-      - HK HKG SH-HK 02 V2(vmess)
-      - US LAX CTG 01 V2(vmess)
+      - JP, Tokyo 2
+      - KR/3
+      - JP/82
+      - JP/69
+      - JP/79
+      - JP/15
+      - JP/18
+      - JP/77
+      - JP/75
+      - JP/135
+      - JP/91
+      - JP/88
+      - JP/87
+      - JP/165
+      - JP/74
+      - JP/78
+      - JP/81
+      - HK, New Territories
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港✈️中转 [湘沪BGP]
-      - 台湾✈️中转  [湘沪BGP]
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US LAX CTG 01 TR(trojan)
-      - 日本Tokyo急速-02.Ss.1.0x
-      - 香港✈️中转 [湘沪BGP]
-      - HK HKG SH-HK 02 TR(trojan)
-      - JP TYO 04 TR(trojan)
-      - HK HKG IT2 SVM V2(vmess)
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - TW TPE H TR(trojan)
-      - HK HKG IT2 SVM V2(vmess) 2
-      - 台湾✈️中转  [湘沪BGP]
-      - TW TPE H V2(vmess)
-      - TW TPE H V2(vmess) 2
-      - HK HKG SH-HK 02 V2(vmess)
-      - US LAX CTG 01 V2(vmess)
+      - JP, Tokyo 2
+      - KR/3
+      - JP/82
+      - JP/69
+      - JP/79
+      - JP/15
+      - JP/18
+      - JP/77
+      - JP/75
+      - JP/135
+      - JP/91
+      - JP/88
+      - JP/87
+      - JP/165
+      - JP/74
+      - JP/78
+      - JP/81
+      - HK, New Territories
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US LAX CTG 01 TR(trojan)
-      - 日本Tokyo急速-02.Ss.1.0x
-      - 香港✈️中转 [湘沪BGP]
-      - HK HKG SH-HK 02 TR(trojan)
-      - JP TYO 04 TR(trojan)
-      - HK HKG IT2 SVM V2(vmess)
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - TW TPE H TR(trojan)
-      - HK HKG IT2 SVM V2(vmess) 2
-      - 台湾✈️中转  [湘沪BGP]
-      - TW TPE H V2(vmess)
-      - TW TPE H V2(vmess) 2
-      - HK HKG SH-HK 02 V2(vmess)
-      - US LAX CTG 01 V2(vmess)
+      - JP, Tokyo 2
+      - KR/3
+      - JP/82
+      - JP/69
+      - JP/79
+      - JP/15
+      - JP/18
+      - JP/77
+      - JP/75
+      - JP/135
+      - JP/91
+      - JP/88
+      - JP/87
+      - JP/165
+      - JP/74
+      - JP/78
+      - JP/81
+      - HK, New Territories
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US LAX CTG 01 TR(trojan)
-      - 日本Tokyo急速-02.Ss.1.0x
-      - 香港✈️中转 [湘沪BGP]
-      - HK HKG SH-HK 02 TR(trojan)
-      - JP TYO 04 TR(trojan)
-      - HK HKG IT2 SVM V2(vmess)
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - TW TPE H TR(trojan)
-      - HK HKG IT2 SVM V2(vmess) 2
-      - 台湾✈️中转  [湘沪BGP]
-      - TW TPE H V2(vmess)
-      - TW TPE H V2(vmess) 2
-      - HK HKG SH-HK 02 V2(vmess)
-      - US LAX CTG 01 V2(vmess)
+      - JP, Tokyo 2
+      - KR/3
+      - JP/82
+      - JP/69
+      - JP/79
+      - JP/15
+      - JP/18
+      - JP/77
+      - JP/75
+      - JP/135
+      - JP/91
+      - JP/88
+      - JP/87
+      - JP/165
+      - JP/74
+      - JP/78
+      - JP/81
+      - HK, New Territories
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -190,20 +220,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US LAX CTG 01 TR(trojan)
-      - 日本Tokyo急速-02.Ss.1.0x
-      - 香港✈️中转 [湘沪BGP]
-      - HK HKG SH-HK 02 TR(trojan)
-      - JP TYO 04 TR(trojan)
-      - HK HKG IT2 SVM V2(vmess)
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - TW TPE H TR(trojan)
-      - HK HKG IT2 SVM V2(vmess) 2
-      - 台湾✈️中转  [湘沪BGP]
-      - TW TPE H V2(vmess)
-      - TW TPE H V2(vmess) 2
-      - HK HKG SH-HK 02 V2(vmess)
-      - US LAX CTG 01 V2(vmess)
+      - JP, Tokyo 2
+      - KR/3
+      - JP/82
+      - JP/69
+      - JP/79
+      - JP/15
+      - JP/18
+      - JP/77
+      - JP/75
+      - JP/135
+      - JP/91
+      - JP/88
+      - JP/87
+      - JP/165
+      - JP/74
+      - JP/78
+      - JP/81
+      - HK, New Territories
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
