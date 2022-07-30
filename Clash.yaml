@@ -5,47 +5,331 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港 V1|WS|T2, server: yhkt2.154cc.xyz, port: 12588, type: vmess, uuid: 883a829f-64ba-372e-8a9c-4a9bf5367697, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港 V1|WS|T2 2, server: yhkt2.154cc.xyz, port: 12588, type: vmess, uuid: 883a829f-64ba-372e-8a9c-4a9bf5367697, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "台湾✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 31097, type: trojan, password: e551819c-b1de-4597-9e16-4ffc01bc67c8, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 V1|WS|T2 3, server: yhkt2.154cc.xyz, port: 12588, type: vmess, uuid: 883a829f-64ba-372e-8a9c-4a9bf5367697, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "香港✈️中转 [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: e551819c-b1de-4597-9e16-4ffc01bc67c8, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
-  - {name: "俄罗斯✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 42167, type: trojan, password: e551819c-b1de-4597-9e16-4ffc01bc67c8, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
+  - {name: v2ray-ah-hk04(香港Netflix), server: ah.yd01.paopaocloud.cyou, port: 10002, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: paopao.v2.hk04.paopaocloud.cyou}, udp: true}
+  - {name: v2ray香港08, server: paopao.v2.hk08.paopaocloud.cyou, port: 3309, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.hk08.paopaocloud.cyou}, udp: true}
+  - {name: v2ray-ah-az02(香港), server: ah.yd01.paopaocloud.cyou, port: 10010, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.az01.paopaocloud.cyou}, udp: true}
+  - {name: v2ray-jm-hk04(香港Netflix), server: jm.yd02.paopaocloud.cyou, port: 10002, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: paopao.v2.hk04.paopaocloud.cyou}, udp: true}
+  - {name: v2ray-ah-hk03(香港Netflix), server: ah.yd01.paopaocloud.cyou, port: 10001, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.hk03.paopaocloud.cyou}, udp: true}
+  - {name: v2ray-jm-az02(香港), server: jm.yd02.paopaocloud.cyou, port: 15619, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.az01.paopaocloud.cyou}, udp: true}
+  - {name: v2ray-ah-can01(加拿大), server: ah.yd01.paopaocloud.cyou, port: 10041, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: can01.paopaocloud.cyou}, udp: true}
+  - {name: v2ray-ah-jp02(日本Netflix|Abema|...), server: ah.yd01.paopaocloud.cyou, port: 10015, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.jp02.paopaocloud.cyou}, udp: true}
+  - {name: v2ray新加坡01(Netflix), server: paopao.v2.sgp01.paopaocloud.cyou, port: 10551, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.sgp01.paopaocloud.cyou}, udp: true}
+  - {name: v2ray-jm-tw01(台湾Netflix), server: jm.yd02.paopaocloud.cyou, port: 15621, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.tw01.paopaocloud.cyou}, udp: true}
+  - {name: v2ray-ah-hk08(hgc香港Netflix), server: ah.yd01.paopaocloud.cyou, port: 10037, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.hk08.paopaocloud.cyou}, udp: true}
+  - {name: v2ray-ah-vn01(越南Netflix), server: ah.yd01.paopaocloud.cyou, port: 10019, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vn01, ws-headers: {Host: paopao.v2.vn01.paopaocloud.cyou}, udp: true}
+  - {name: v2ray-ah-jp05(日本Netflix|Abema|...), server: ah.yd01.paopaocloud.cyou, port: 10004, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.jp05.paopaocloud.cyou}, udp: true}
+  - {name: v2ray-ah-sgp01(新加坡), server: ah.yd01.paopaocloud.cyou, port: 10014, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.sgp01.paopaocloud.cyou}, udp: true}
+  - {name: v2ray-jm-jp02(日本), server: jm.yd02.paopaocloud.cyou, port: 15622, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.jp02.paopaocloud.cyou}, udp: true}
+  - {name: v2ray-ah-ph01(菲律宾), server: ah.yd01.paopaocloud.cyou, port: 10042, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: ph01.paopaocloud.cyou}, udp: true}
+  - {name: v2ray日本02(Netflix|Abema|...), server: paopao.v2.jp02.paopaocloud.cyou, port: 13308, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.jp02.paopaocloud.cyou}, udp: true}
+  - {name: v2ray-ah-ru01(俄罗斯), server: ah.yd01.paopaocloud.cyou, port: 10023, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: ssru.v2.ru01.2yun.win}, udp: true}
+  - {name: v2ray-ah-tw01(台湾Netflix), server: ah.yd01.paopaocloud.cyou, port: 10006, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.tw01.paopaocloud.cyou}, udp: true}
+  - {name: v2ray日本01(Netflix|Abema|...), server: ssru.v2.jp01.2yun.win, port: 3306, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: ssru.v2.jp01.2yun.win}, udp: true}
+  - {name: v2ray日本05(Netflix|Abema|...), server: paopao.v2.jp05.paopaocloud.cyou, port: 3307, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.jp05.paopaocloud.cyou}, udp: true}
+  - {name: v2ray-cf-ph01(菲律宾), server: ph01.cf.paopaocloud.cyou, port: 443, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: ph01.paopaocloud.cyou}, udp: true}
+  - {name: v2ray-ah-db01(迪拜), server: ah.yd01.paopaocloud.cyou, port: 10039, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: db01.paopaocloud.cyou}, udp: true}
+  - {name: v2ray-ah-us06(美国), server: ah.yd01.paopaocloud.cyou, port: 10026, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.us06.paopaocloud.cyou}, udp: true}
+  - {name: v2ray-jm-jp03(日本), server: jm.yd02.paopaocloud.cyou, port: 15623, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: ssru.v2.jp03.2yun.win}, udp: true}
+  - {name: JP_8091 @WangCai_1, server: 85.208.108.91, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: JP_8090 @WangCai_1, server: 85.208.108.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: JP_5001 @WangCai_1, server: 85.208.108.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_8080 @WangCai_1, server: 85.208.108.91, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 瑞士 A | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ch, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: JP_5500 @WangCai_1, server: 85.208.108.91, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP_8119 @WangCai_1, server: 85.208.108.91, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: JP_5003 @WangCai_1, server: 85.208.108.91, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: JP_8118 @WangCai_1, server: 85.208.108.91, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: JP_3389 @WangCai_1, server: 85.208.108.91, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_2376 @WangCai_1, server: 85.208.108.91, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: v2ray-ah-us07(美国流媒体解锁), server: ah.yd01.paopaocloud.cyou, port: 10027, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.us07.paopaocloud.cyou}, udp: true}
+  - {name: JP_5000 @WangCai_1, server: 85.208.108.91, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_5601 @WangCai_1, server: 85.208.108.91, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_9102 @WangCai_1, server: 85.208.108.91, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: JP_2375 @WangCai_1, server: 85.208.108.91, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP_5004 @WangCai_1, server: 85.208.108.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: JP_6379 @WangCai_1, server: 85.208.108.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: JP_9101 @WangCai_1, server: 85.208.108.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: v2ray澳大利亚01, server: aus01.paopaocloud.cyou, port: 443, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aus01.paopaocloud.cyou}, udp: true}
+  - {name: JP_8000 @WangCai_1, server: 85.208.108.91, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP_0443 @WangCai_1, server: 85.208.108.91, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: JP_3306 @WangCai_1, server: 85.208.108.91, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: v2ray-cf-aus01(澳大利亚), server: aus01.cf.paopaocloud.cyou, port: 443, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aus01.paopaocloud.cyou}, udp: true}
+  - {name: JP_5600 @WangCai_1, server: 85.208.108.91, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_8008 @WangCai_1, server: 85.208.108.91, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: JP_6697 @WangCai_1, server: 85.208.108.91, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: v2ray-cf-can01(加拿大), server: can01.cf.paopaocloud.cyou, port: 443, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: can01.paopaocloud.cyou}, udp: true}
+  - {name: v2ray台湾04(Netflix), server: paopao.v2.tw04.paopaocloud.cyou, port: 3306, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.tw04.paopaocloud.cyou}, udp: true}
+  - {name: v2ray-cf-db01(迪拜), server: db01.cf.paopaocloud.cyou, port: 443, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: db01.paopaocloud.cyou}, udp: true}
+  - {name: JP_8009 @WangCai_1, server: 85.208.108.91, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: JP_8882 @WangCai_1, server: 85.208.108.91, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: JP_6679 @WangCai_1, server: 85.208.108.91, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: v2ray美国06, server: paopao.v2.us06.paopaocloud.cyou, port: 3306, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.us06.paopaocloud.cyou}, udp: true}
+  - {name: v2ray美国03(Netflix), server: ssru.v2.us03.2yun.win, port: 13306, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: ssru.v2.us03.2yun.win}, udp: true}
+  - {name: JP_7307 @WangCai_1, server: 85.208.108.91, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: v2ray-cf-lu01(卢森堡), server: lu01.cf.paopaocloud.cyou, port: 443, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: lu01.paopaocloud.cyou}, udp: true}
+  - {name: v2ray-cf-uk01(英国BBC), server: uk01.cf.paopaocloud.cyou, port: 443, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: uk01.paopaocloud.cyou}, udp: true}
+  - {name: v2ray台湾01(Netflix), server: paopao.v2.tw01.paopaocloud.cyou, port: 13306, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.tw01.paopaocloud.cyou}, udp: true}
+  - {name: JP_7001 @WangCai_1, server: 85.208.108.91, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: v2ray美国02, server: ssru.v2.us02.2yun.win, port: 3308, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: ssru.v2.us02.2yun.win}, udp: true}
+  - {name: v2ray美国07, server: paopao.v2.us07.paopaocloud.cyou, port: 3307, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.us07.paopaocloud.cyou}, udp: true}
+  - {name: JP_8881 @WangCai_1, server: 85.208.108.91, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: v2ray新西伯利亚01(俄罗斯Netflix), server: ssru.v2.ru01.2yun.win, port: 3306, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: ssru.v2.ru01.2yun.win}, udp: true}
+  - {name: v2ray越南01(Netflix), server: paopao.v2.vn01.paopaocloud.cyou, port: 3306, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vn01, ws-headers: {Host: paopao.v2.vn01.paopaocloud.cyou}, udp: true}
+  - {name: v2ray英国01【BBC】, server: uk01.paopaocloud.cyou, port: 443, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: uk01.paopaocloud.cyou}, udp: true}
+  - {name: 香港 F | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hkt, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: 台湾 A | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tw1, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: v2ray-az-tw01(台湾Netflix), server: az.hk01.paopaocloud.cyou, port: 10006, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.tw01.paopaocloud.cyou}, udp: true}
+  - {name: 美國 B | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /us2, ws-headers: {Host: us1.oceancloud.asia}, udp: true}
+  - {name: 印度 A | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /in, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: 美國 01 | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /us1, ws-headers: {Host: hk.ntt-1.oceancloud.asia}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港 V1|WS|T2
-      - 香港 V1|WS|T2 2
-      - 台湾✈️中转  [湘沪BGP]
-      - 香港 V1|WS|T2 3
-      - 香港✈️中转 [湘沪BGP]
-      - 俄罗斯✈️中转  [湘沪BGP]
+      - v2ray-ah-hk04(香港Netflix)
+      - v2ray香港08
+      - v2ray-ah-az02(香港)
+      - v2ray-jm-hk04(香港Netflix)
+      - v2ray-ah-hk03(香港Netflix)
+      - v2ray-jm-az02(香港)
+      - v2ray-ah-can01(加拿大)
+      - v2ray-ah-jp02(日本Netflix|Abema|...)
+      - v2ray新加坡01(Netflix)
+      - v2ray-jm-tw01(台湾Netflix)
+      - v2ray-ah-hk08(hgc香港Netflix)
+      - v2ray-ah-vn01(越南Netflix)
+      - v2ray-ah-jp05(日本Netflix|Abema|...)
+      - v2ray-ah-sgp01(新加坡)
+      - v2ray-jm-jp02(日本)
+      - v2ray-ah-ph01(菲律宾)
+      - v2ray日本02(Netflix|Abema|...)
+      - v2ray-ah-ru01(俄罗斯)
+      - v2ray-ah-tw01(台湾Netflix)
+      - v2ray日本01(Netflix|Abema|...)
+      - v2ray日本05(Netflix|Abema|...)
+      - v2ray-cf-ph01(菲律宾)
+      - v2ray-ah-db01(迪拜)
+      - v2ray-ah-us06(美国)
+      - v2ray-jm-jp03(日本)
+      - JP_8091 @WangCai_1
+      - JP_8090 @WangCai_1
+      - JP_5001 @WangCai_1
+      - JP_8080 @WangCai_1
+      - 瑞士 A | 中继 | Prepaid Users
+      - JP_5500 @WangCai_1
+      - JP_8119 @WangCai_1
+      - JP_5003 @WangCai_1
+      - JP_8118 @WangCai_1
+      - JP_3389 @WangCai_1
+      - JP_2376 @WangCai_1
+      - v2ray-ah-us07(美国流媒体解锁)
+      - JP_5000 @WangCai_1
+      - JP_5601 @WangCai_1
+      - JP_9102 @WangCai_1
+      - JP_2375 @WangCai_1
+      - JP_5004 @WangCai_1
+      - JP_6379 @WangCai_1
+      - JP_9101 @WangCai_1
+      - v2ray澳大利亚01
+      - JP_8000 @WangCai_1
+      - JP_0443 @WangCai_1
+      - JP_3306 @WangCai_1
+      - v2ray-cf-aus01(澳大利亚)
+      - JP_5600 @WangCai_1
+      - JP_8008 @WangCai_1
+      - JP_6697 @WangCai_1
+      - v2ray-cf-can01(加拿大)
+      - v2ray台湾04(Netflix)
+      - v2ray-cf-db01(迪拜)
+      - JP_8009 @WangCai_1
+      - JP_8882 @WangCai_1
+      - JP_6679 @WangCai_1
+      - v2ray美国06
+      - v2ray美国03(Netflix)
+      - JP_7307 @WangCai_1
+      - v2ray-cf-lu01(卢森堡)
+      - v2ray-cf-uk01(英国BBC)
+      - v2ray台湾01(Netflix)
+      - JP_7001 @WangCai_1
+      - v2ray美国02
+      - v2ray美国07
+      - JP_8881 @WangCai_1
+      - v2ray新西伯利亚01(俄罗斯Netflix)
+      - v2ray越南01(Netflix)
+      - v2ray英国01【BBC】
+      - 香港 F | 中继 | Prepaid Users
+      - 台湾 A | 中继 | Prepaid Users
+      - v2ray-az-tw01(台湾Netflix)
+      - 美國 B | 中继 | Prepaid Users
+      - 印度 A | 中继 | Prepaid Users
+      - 美國 01 | 中继 | Prepaid Users
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港 V1|WS|T2
-      - 香港 V1|WS|T2 2
-      - 台湾✈️中转  [湘沪BGP]
-      - 香港 V1|WS|T2 3
-      - 香港✈️中转 [湘沪BGP]
-      - 俄罗斯✈️中转  [湘沪BGP]
+      - v2ray-ah-hk04(香港Netflix)
+      - v2ray香港08
+      - v2ray-ah-az02(香港)
+      - v2ray-jm-hk04(香港Netflix)
+      - v2ray-ah-hk03(香港Netflix)
+      - v2ray-jm-az02(香港)
+      - v2ray-ah-can01(加拿大)
+      - v2ray-ah-jp02(日本Netflix|Abema|...)
+      - v2ray新加坡01(Netflix)
+      - v2ray-jm-tw01(台湾Netflix)
+      - v2ray-ah-hk08(hgc香港Netflix)
+      - v2ray-ah-vn01(越南Netflix)
+      - v2ray-ah-jp05(日本Netflix|Abema|...)
+      - v2ray-ah-sgp01(新加坡)
+      - v2ray-jm-jp02(日本)
+      - v2ray-ah-ph01(菲律宾)
+      - v2ray日本02(Netflix|Abema|...)
+      - v2ray-ah-ru01(俄罗斯)
+      - v2ray-ah-tw01(台湾Netflix)
+      - v2ray日本01(Netflix|Abema|...)
+      - v2ray日本05(Netflix|Abema|...)
+      - v2ray-cf-ph01(菲律宾)
+      - v2ray-ah-db01(迪拜)
+      - v2ray-ah-us06(美国)
+      - v2ray-jm-jp03(日本)
+      - JP_8091 @WangCai_1
+      - JP_8090 @WangCai_1
+      - JP_5001 @WangCai_1
+      - JP_8080 @WangCai_1
+      - 瑞士 A | 中继 | Prepaid Users
+      - JP_5500 @WangCai_1
+      - JP_8119 @WangCai_1
+      - JP_5003 @WangCai_1
+      - JP_8118 @WangCai_1
+      - JP_3389 @WangCai_1
+      - JP_2376 @WangCai_1
+      - v2ray-ah-us07(美国流媒体解锁)
+      - JP_5000 @WangCai_1
+      - JP_5601 @WangCai_1
+      - JP_9102 @WangCai_1
+      - JP_2375 @WangCai_1
+      - JP_5004 @WangCai_1
+      - JP_6379 @WangCai_1
+      - JP_9101 @WangCai_1
+      - v2ray澳大利亚01
+      - JP_8000 @WangCai_1
+      - JP_0443 @WangCai_1
+      - JP_3306 @WangCai_1
+      - v2ray-cf-aus01(澳大利亚)
+      - JP_5600 @WangCai_1
+      - JP_8008 @WangCai_1
+      - JP_6697 @WangCai_1
+      - v2ray-cf-can01(加拿大)
+      - v2ray台湾04(Netflix)
+      - v2ray-cf-db01(迪拜)
+      - JP_8009 @WangCai_1
+      - JP_8882 @WangCai_1
+      - JP_6679 @WangCai_1
+      - v2ray美国06
+      - v2ray美国03(Netflix)
+      - JP_7307 @WangCai_1
+      - v2ray-cf-lu01(卢森堡)
+      - v2ray-cf-uk01(英国BBC)
+      - v2ray台湾01(Netflix)
+      - JP_7001 @WangCai_1
+      - v2ray美国02
+      - v2ray美国07
+      - JP_8881 @WangCai_1
+      - v2ray新西伯利亚01(俄罗斯Netflix)
+      - v2ray越南01(Netflix)
+      - v2ray英国01【BBC】
+      - 香港 F | 中继 | Prepaid Users
+      - 台湾 A | 中继 | Prepaid Users
+      - v2ray-az-tw01(台湾Netflix)
+      - 美國 B | 中继 | Prepaid Users
+      - 印度 A | 中继 | Prepaid Users
+      - 美國 01 | 中继 | Prepaid Users
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港 V1|WS|T2
-      - 香港 V1|WS|T2 2
-      - 台湾✈️中转  [湘沪BGP]
-      - 香港 V1|WS|T2 3
-      - 香港✈️中转 [湘沪BGP]
-      - 俄罗斯✈️中转  [湘沪BGP]
+      - v2ray-ah-hk04(香港Netflix)
+      - v2ray香港08
+      - v2ray-ah-az02(香港)
+      - v2ray-jm-hk04(香港Netflix)
+      - v2ray-ah-hk03(香港Netflix)
+      - v2ray-jm-az02(香港)
+      - v2ray-ah-can01(加拿大)
+      - v2ray-ah-jp02(日本Netflix|Abema|...)
+      - v2ray新加坡01(Netflix)
+      - v2ray-jm-tw01(台湾Netflix)
+      - v2ray-ah-hk08(hgc香港Netflix)
+      - v2ray-ah-vn01(越南Netflix)
+      - v2ray-ah-jp05(日本Netflix|Abema|...)
+      - v2ray-ah-sgp01(新加坡)
+      - v2ray-jm-jp02(日本)
+      - v2ray-ah-ph01(菲律宾)
+      - v2ray日本02(Netflix|Abema|...)
+      - v2ray-ah-ru01(俄罗斯)
+      - v2ray-ah-tw01(台湾Netflix)
+      - v2ray日本01(Netflix|Abema|...)
+      - v2ray日本05(Netflix|Abema|...)
+      - v2ray-cf-ph01(菲律宾)
+      - v2ray-ah-db01(迪拜)
+      - v2ray-ah-us06(美国)
+      - v2ray-jm-jp03(日本)
+      - JP_8091 @WangCai_1
+      - JP_8090 @WangCai_1
+      - JP_5001 @WangCai_1
+      - JP_8080 @WangCai_1
+      - 瑞士 A | 中继 | Prepaid Users
+      - JP_5500 @WangCai_1
+      - JP_8119 @WangCai_1
+      - JP_5003 @WangCai_1
+      - JP_8118 @WangCai_1
+      - JP_3389 @WangCai_1
+      - JP_2376 @WangCai_1
+      - v2ray-ah-us07(美国流媒体解锁)
+      - JP_5000 @WangCai_1
+      - JP_5601 @WangCai_1
+      - JP_9102 @WangCai_1
+      - JP_2375 @WangCai_1
+      - JP_5004 @WangCai_1
+      - JP_6379 @WangCai_1
+      - JP_9101 @WangCai_1
+      - v2ray澳大利亚01
+      - JP_8000 @WangCai_1
+      - JP_0443 @WangCai_1
+      - JP_3306 @WangCai_1
+      - v2ray-cf-aus01(澳大利亚)
+      - JP_5600 @WangCai_1
+      - JP_8008 @WangCai_1
+      - JP_6697 @WangCai_1
+      - v2ray-cf-can01(加拿大)
+      - v2ray台湾04(Netflix)
+      - v2ray-cf-db01(迪拜)
+      - JP_8009 @WangCai_1
+      - JP_8882 @WangCai_1
+      - JP_6679 @WangCai_1
+      - v2ray美国06
+      - v2ray美国03(Netflix)
+      - JP_7307 @WangCai_1
+      - v2ray-cf-lu01(卢森堡)
+      - v2ray-cf-uk01(英国BBC)
+      - v2ray台湾01(Netflix)
+      - JP_7001 @WangCai_1
+      - v2ray美国02
+      - v2ray美国07
+      - JP_8881 @WangCai_1
+      - v2ray新西伯利亚01(俄罗斯Netflix)
+      - v2ray越南01(Netflix)
+      - v2ray英国01【BBC】
+      - 香港 F | 中继 | Prepaid Users
+      - 台湾 A | 中继 | Prepaid Users
+      - v2ray-az-tw01(台湾Netflix)
+      - 美國 B | 中继 | Prepaid Users
+      - 印度 A | 中继 | Prepaid Users
+      - 美國 01 | 中继 | Prepaid Users
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,56 +348,349 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港 V1|WS|T2
-      - 香港 V1|WS|T2 2
-      - 台湾✈️中转  [湘沪BGP]
-      - 香港 V1|WS|T2 3
-      - 香港✈️中转 [湘沪BGP]
-      - 俄罗斯✈️中转  [湘沪BGP]
+      - v2ray-ah-hk04(香港Netflix)
+      - v2ray香港08
+      - v2ray-ah-az02(香港)
+      - v2ray-jm-hk04(香港Netflix)
+      - v2ray-ah-hk03(香港Netflix)
+      - v2ray-jm-az02(香港)
+      - v2ray-ah-can01(加拿大)
+      - v2ray-ah-jp02(日本Netflix|Abema|...)
+      - v2ray新加坡01(Netflix)
+      - v2ray-jm-tw01(台湾Netflix)
+      - v2ray-ah-hk08(hgc香港Netflix)
+      - v2ray-ah-vn01(越南Netflix)
+      - v2ray-ah-jp05(日本Netflix|Abema|...)
+      - v2ray-ah-sgp01(新加坡)
+      - v2ray-jm-jp02(日本)
+      - v2ray-ah-ph01(菲律宾)
+      - v2ray日本02(Netflix|Abema|...)
+      - v2ray-ah-ru01(俄罗斯)
+      - v2ray-ah-tw01(台湾Netflix)
+      - v2ray日本01(Netflix|Abema|...)
+      - v2ray日本05(Netflix|Abema|...)
+      - v2ray-cf-ph01(菲律宾)
+      - v2ray-ah-db01(迪拜)
+      - v2ray-ah-us06(美国)
+      - v2ray-jm-jp03(日本)
+      - JP_8091 @WangCai_1
+      - JP_8090 @WangCai_1
+      - JP_5001 @WangCai_1
+      - JP_8080 @WangCai_1
+      - 瑞士 A | 中继 | Prepaid Users
+      - JP_5500 @WangCai_1
+      - JP_8119 @WangCai_1
+      - JP_5003 @WangCai_1
+      - JP_8118 @WangCai_1
+      - JP_3389 @WangCai_1
+      - JP_2376 @WangCai_1
+      - v2ray-ah-us07(美国流媒体解锁)
+      - JP_5000 @WangCai_1
+      - JP_5601 @WangCai_1
+      - JP_9102 @WangCai_1
+      - JP_2375 @WangCai_1
+      - JP_5004 @WangCai_1
+      - JP_6379 @WangCai_1
+      - JP_9101 @WangCai_1
+      - v2ray澳大利亚01
+      - JP_8000 @WangCai_1
+      - JP_0443 @WangCai_1
+      - JP_3306 @WangCai_1
+      - v2ray-cf-aus01(澳大利亚)
+      - JP_5600 @WangCai_1
+      - JP_8008 @WangCai_1
+      - JP_6697 @WangCai_1
+      - v2ray-cf-can01(加拿大)
+      - v2ray台湾04(Netflix)
+      - v2ray-cf-db01(迪拜)
+      - JP_8009 @WangCai_1
+      - JP_8882 @WangCai_1
+      - JP_6679 @WangCai_1
+      - v2ray美国06
+      - v2ray美国03(Netflix)
+      - JP_7307 @WangCai_1
+      - v2ray-cf-lu01(卢森堡)
+      - v2ray-cf-uk01(英国BBC)
+      - v2ray台湾01(Netflix)
+      - JP_7001 @WangCai_1
+      - v2ray美国02
+      - v2ray美国07
+      - JP_8881 @WangCai_1
+      - v2ray新西伯利亚01(俄罗斯Netflix)
+      - v2ray越南01(Netflix)
+      - v2ray英国01【BBC】
+      - 香港 F | 中继 | Prepaid Users
+      - 台湾 A | 中继 | Prepaid Users
+      - v2ray-az-tw01(台湾Netflix)
+      - 美國 B | 中继 | Prepaid Users
+      - 印度 A | 中继 | Prepaid Users
+      - 美國 01 | 中继 | Prepaid Users
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港 V1|WS|T2
-      - 香港 V1|WS|T2 2
-      - 台湾✈️中转  [湘沪BGP]
-      - 香港 V1|WS|T2 3
-      - 香港✈️中转 [湘沪BGP]
+      - v2ray-ah-hk04(香港Netflix)
+      - v2ray香港08
+      - v2ray-ah-az02(香港)
+      - v2ray-jm-hk04(香港Netflix)
+      - v2ray-ah-hk03(香港Netflix)
+      - v2ray-jm-az02(香港)
+      - v2ray-jm-tw01(台湾Netflix)
+      - v2ray-ah-hk08(hgc香港Netflix)
+      - v2ray-ah-tw01(台湾Netflix)
+      - v2ray台湾04(Netflix)
+      - v2ray台湾01(Netflix)
+      - 香港 F | 中继 | Prepaid Users
+      - 台湾 A | 中继 | Prepaid Users
+      - v2ray-az-tw01(台湾Netflix)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港 V1|WS|T2
-      - 香港 V1|WS|T2 2
-      - 台湾✈️中转  [湘沪BGP]
-      - 香港 V1|WS|T2 3
-      - 香港✈️中转 [湘沪BGP]
-      - 俄罗斯✈️中转  [湘沪BGP]
+      - v2ray-ah-hk04(香港Netflix)
+      - v2ray香港08
+      - v2ray-ah-az02(香港)
+      - v2ray-jm-hk04(香港Netflix)
+      - v2ray-ah-hk03(香港Netflix)
+      - v2ray-jm-az02(香港)
+      - v2ray-ah-can01(加拿大)
+      - v2ray-ah-jp02(日本Netflix|Abema|...)
+      - v2ray新加坡01(Netflix)
+      - v2ray-jm-tw01(台湾Netflix)
+      - v2ray-ah-hk08(hgc香港Netflix)
+      - v2ray-ah-vn01(越南Netflix)
+      - v2ray-ah-jp05(日本Netflix|Abema|...)
+      - v2ray-ah-sgp01(新加坡)
+      - v2ray-jm-jp02(日本)
+      - v2ray-ah-ph01(菲律宾)
+      - v2ray日本02(Netflix|Abema|...)
+      - v2ray-ah-ru01(俄罗斯)
+      - v2ray-ah-tw01(台湾Netflix)
+      - v2ray日本01(Netflix|Abema|...)
+      - v2ray日本05(Netflix|Abema|...)
+      - v2ray-cf-ph01(菲律宾)
+      - v2ray-ah-db01(迪拜)
+      - v2ray-ah-us06(美国)
+      - v2ray-jm-jp03(日本)
+      - JP_8091 @WangCai_1
+      - JP_8090 @WangCai_1
+      - JP_5001 @WangCai_1
+      - JP_8080 @WangCai_1
+      - 瑞士 A | 中继 | Prepaid Users
+      - JP_5500 @WangCai_1
+      - JP_8119 @WangCai_1
+      - JP_5003 @WangCai_1
+      - JP_8118 @WangCai_1
+      - JP_3389 @WangCai_1
+      - JP_2376 @WangCai_1
+      - v2ray-ah-us07(美国流媒体解锁)
+      - JP_5000 @WangCai_1
+      - JP_5601 @WangCai_1
+      - JP_9102 @WangCai_1
+      - JP_2375 @WangCai_1
+      - JP_5004 @WangCai_1
+      - JP_6379 @WangCai_1
+      - JP_9101 @WangCai_1
+      - v2ray澳大利亚01
+      - JP_8000 @WangCai_1
+      - JP_0443 @WangCai_1
+      - JP_3306 @WangCai_1
+      - v2ray-cf-aus01(澳大利亚)
+      - JP_5600 @WangCai_1
+      - JP_8008 @WangCai_1
+      - JP_6697 @WangCai_1
+      - v2ray-cf-can01(加拿大)
+      - v2ray台湾04(Netflix)
+      - v2ray-cf-db01(迪拜)
+      - JP_8009 @WangCai_1
+      - JP_8882 @WangCai_1
+      - JP_6679 @WangCai_1
+      - v2ray美国06
+      - v2ray美国03(Netflix)
+      - JP_7307 @WangCai_1
+      - v2ray-cf-lu01(卢森堡)
+      - v2ray-cf-uk01(英国BBC)
+      - v2ray台湾01(Netflix)
+      - JP_7001 @WangCai_1
+      - v2ray美国02
+      - v2ray美国07
+      - JP_8881 @WangCai_1
+      - v2ray新西伯利亚01(俄罗斯Netflix)
+      - v2ray越南01(Netflix)
+      - v2ray英国01【BBC】
+      - 香港 F | 中继 | Prepaid Users
+      - 台湾 A | 中继 | Prepaid Users
+      - v2ray-az-tw01(台湾Netflix)
+      - 美國 B | 中继 | Prepaid Users
+      - 印度 A | 中继 | Prepaid Users
+      - 美國 01 | 中继 | Prepaid Users
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港 V1|WS|T2
-      - 香港 V1|WS|T2 2
-      - 台湾✈️中转  [湘沪BGP]
-      - 香港 V1|WS|T2 3
-      - 香港✈️中转 [湘沪BGP]
-      - 俄罗斯✈️中转  [湘沪BGP]
+      - v2ray-ah-hk04(香港Netflix)
+      - v2ray香港08
+      - v2ray-ah-az02(香港)
+      - v2ray-jm-hk04(香港Netflix)
+      - v2ray-ah-hk03(香港Netflix)
+      - v2ray-jm-az02(香港)
+      - v2ray-ah-can01(加拿大)
+      - v2ray-ah-jp02(日本Netflix|Abema|...)
+      - v2ray新加坡01(Netflix)
+      - v2ray-jm-tw01(台湾Netflix)
+      - v2ray-ah-hk08(hgc香港Netflix)
+      - v2ray-ah-vn01(越南Netflix)
+      - v2ray-ah-jp05(日本Netflix|Abema|...)
+      - v2ray-ah-sgp01(新加坡)
+      - v2ray-jm-jp02(日本)
+      - v2ray-ah-ph01(菲律宾)
+      - v2ray日本02(Netflix|Abema|...)
+      - v2ray-ah-ru01(俄罗斯)
+      - v2ray-ah-tw01(台湾Netflix)
+      - v2ray日本01(Netflix|Abema|...)
+      - v2ray日本05(Netflix|Abema|...)
+      - v2ray-cf-ph01(菲律宾)
+      - v2ray-ah-db01(迪拜)
+      - v2ray-ah-us06(美国)
+      - v2ray-jm-jp03(日本)
+      - JP_8091 @WangCai_1
+      - JP_8090 @WangCai_1
+      - JP_5001 @WangCai_1
+      - JP_8080 @WangCai_1
+      - 瑞士 A | 中继 | Prepaid Users
+      - JP_5500 @WangCai_1
+      - JP_8119 @WangCai_1
+      - JP_5003 @WangCai_1
+      - JP_8118 @WangCai_1
+      - JP_3389 @WangCai_1
+      - JP_2376 @WangCai_1
+      - v2ray-ah-us07(美国流媒体解锁)
+      - JP_5000 @WangCai_1
+      - JP_5601 @WangCai_1
+      - JP_9102 @WangCai_1
+      - JP_2375 @WangCai_1
+      - JP_5004 @WangCai_1
+      - JP_6379 @WangCai_1
+      - JP_9101 @WangCai_1
+      - v2ray澳大利亚01
+      - JP_8000 @WangCai_1
+      - JP_0443 @WangCai_1
+      - JP_3306 @WangCai_1
+      - v2ray-cf-aus01(澳大利亚)
+      - JP_5600 @WangCai_1
+      - JP_8008 @WangCai_1
+      - JP_6697 @WangCai_1
+      - v2ray-cf-can01(加拿大)
+      - v2ray台湾04(Netflix)
+      - v2ray-cf-db01(迪拜)
+      - JP_8009 @WangCai_1
+      - JP_8882 @WangCai_1
+      - JP_6679 @WangCai_1
+      - v2ray美国06
+      - v2ray美国03(Netflix)
+      - JP_7307 @WangCai_1
+      - v2ray-cf-lu01(卢森堡)
+      - v2ray-cf-uk01(英国BBC)
+      - v2ray台湾01(Netflix)
+      - JP_7001 @WangCai_1
+      - v2ray美国02
+      - v2ray美国07
+      - JP_8881 @WangCai_1
+      - v2ray新西伯利亚01(俄罗斯Netflix)
+      - v2ray越南01(Netflix)
+      - v2ray英国01【BBC】
+      - 香港 F | 中继 | Prepaid Users
+      - 台湾 A | 中继 | Prepaid Users
+      - v2ray-az-tw01(台湾Netflix)
+      - 美國 B | 中继 | Prepaid Users
+      - 印度 A | 中继 | Prepaid Users
+      - 美國 01 | 中继 | Prepaid Users
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港 V1|WS|T2
-      - 香港 V1|WS|T2 2
-      - 台湾✈️中转  [湘沪BGP]
-      - 香港 V1|WS|T2 3
-      - 香港✈️中转 [湘沪BGP]
-      - 俄罗斯✈️中转  [湘沪BGP]
+      - v2ray-ah-hk04(香港Netflix)
+      - v2ray香港08
+      - v2ray-ah-az02(香港)
+      - v2ray-jm-hk04(香港Netflix)
+      - v2ray-ah-hk03(香港Netflix)
+      - v2ray-jm-az02(香港)
+      - v2ray-ah-can01(加拿大)
+      - v2ray-ah-jp02(日本Netflix|Abema|...)
+      - v2ray新加坡01(Netflix)
+      - v2ray-jm-tw01(台湾Netflix)
+      - v2ray-ah-hk08(hgc香港Netflix)
+      - v2ray-ah-vn01(越南Netflix)
+      - v2ray-ah-jp05(日本Netflix|Abema|...)
+      - v2ray-ah-sgp01(新加坡)
+      - v2ray-jm-jp02(日本)
+      - v2ray-ah-ph01(菲律宾)
+      - v2ray日本02(Netflix|Abema|...)
+      - v2ray-ah-ru01(俄罗斯)
+      - v2ray-ah-tw01(台湾Netflix)
+      - v2ray日本01(Netflix|Abema|...)
+      - v2ray日本05(Netflix|Abema|...)
+      - v2ray-cf-ph01(菲律宾)
+      - v2ray-ah-db01(迪拜)
+      - v2ray-ah-us06(美国)
+      - v2ray-jm-jp03(日本)
+      - JP_8091 @WangCai_1
+      - JP_8090 @WangCai_1
+      - JP_5001 @WangCai_1
+      - JP_8080 @WangCai_1
+      - 瑞士 A | 中继 | Prepaid Users
+      - JP_5500 @WangCai_1
+      - JP_8119 @WangCai_1
+      - JP_5003 @WangCai_1
+      - JP_8118 @WangCai_1
+      - JP_3389 @WangCai_1
+      - JP_2376 @WangCai_1
+      - v2ray-ah-us07(美国流媒体解锁)
+      - JP_5000 @WangCai_1
+      - JP_5601 @WangCai_1
+      - JP_9102 @WangCai_1
+      - JP_2375 @WangCai_1
+      - JP_5004 @WangCai_1
+      - JP_6379 @WangCai_1
+      - JP_9101 @WangCai_1
+      - v2ray澳大利亚01
+      - JP_8000 @WangCai_1
+      - JP_0443 @WangCai_1
+      - JP_3306 @WangCai_1
+      - v2ray-cf-aus01(澳大利亚)
+      - JP_5600 @WangCai_1
+      - JP_8008 @WangCai_1
+      - JP_6697 @WangCai_1
+      - v2ray-cf-can01(加拿大)
+      - v2ray台湾04(Netflix)
+      - v2ray-cf-db01(迪拜)
+      - JP_8009 @WangCai_1
+      - JP_8882 @WangCai_1
+      - JP_6679 @WangCai_1
+      - v2ray美国06
+      - v2ray美国03(Netflix)
+      - JP_7307 @WangCai_1
+      - v2ray-cf-lu01(卢森堡)
+      - v2ray-cf-uk01(英国BBC)
+      - v2ray台湾01(Netflix)
+      - JP_7001 @WangCai_1
+      - v2ray美国02
+      - v2ray美国07
+      - JP_8881 @WangCai_1
+      - v2ray新西伯利亚01(俄罗斯Netflix)
+      - v2ray越南01(Netflix)
+      - v2ray英国01【BBC】
+      - 香港 F | 中继 | Prepaid Users
+      - 台湾 A | 中继 | Prepaid Users
+      - v2ray-az-tw01(台湾Netflix)
+      - 美國 B | 中继 | Prepaid Users
+      - 印度 A | 中继 | Prepaid Users
+      - 美國 01 | 中继 | Prepaid Users
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -129,12 +706,83 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港 V1|WS|T2
-      - 香港 V1|WS|T2 2
-      - 台湾✈️中转  [湘沪BGP]
-      - 香港 V1|WS|T2 3
-      - 香港✈️中转 [湘沪BGP]
-      - 俄罗斯✈️中转  [湘沪BGP]
+      - v2ray-ah-hk04(香港Netflix)
+      - v2ray香港08
+      - v2ray-ah-az02(香港)
+      - v2ray-jm-hk04(香港Netflix)
+      - v2ray-ah-hk03(香港Netflix)
+      - v2ray-jm-az02(香港)
+      - v2ray-ah-can01(加拿大)
+      - v2ray-ah-jp02(日本Netflix|Abema|...)
+      - v2ray新加坡01(Netflix)
+      - v2ray-jm-tw01(台湾Netflix)
+      - v2ray-ah-hk08(hgc香港Netflix)
+      - v2ray-ah-vn01(越南Netflix)
+      - v2ray-ah-jp05(日本Netflix|Abema|...)
+      - v2ray-ah-sgp01(新加坡)
+      - v2ray-jm-jp02(日本)
+      - v2ray-ah-ph01(菲律宾)
+      - v2ray日本02(Netflix|Abema|...)
+      - v2ray-ah-ru01(俄罗斯)
+      - v2ray-ah-tw01(台湾Netflix)
+      - v2ray日本01(Netflix|Abema|...)
+      - v2ray日本05(Netflix|Abema|...)
+      - v2ray-cf-ph01(菲律宾)
+      - v2ray-ah-db01(迪拜)
+      - v2ray-ah-us06(美国)
+      - v2ray-jm-jp03(日本)
+      - JP_8091 @WangCai_1
+      - JP_8090 @WangCai_1
+      - JP_5001 @WangCai_1
+      - JP_8080 @WangCai_1
+      - 瑞士 A | 中继 | Prepaid Users
+      - JP_5500 @WangCai_1
+      - JP_8119 @WangCai_1
+      - JP_5003 @WangCai_1
+      - JP_8118 @WangCai_1
+      - JP_3389 @WangCai_1
+      - JP_2376 @WangCai_1
+      - v2ray-ah-us07(美国流媒体解锁)
+      - JP_5000 @WangCai_1
+      - JP_5601 @WangCai_1
+      - JP_9102 @WangCai_1
+      - JP_2375 @WangCai_1
+      - JP_5004 @WangCai_1
+      - JP_6379 @WangCai_1
+      - JP_9101 @WangCai_1
+      - v2ray澳大利亚01
+      - JP_8000 @WangCai_1
+      - JP_0443 @WangCai_1
+      - JP_3306 @WangCai_1
+      - v2ray-cf-aus01(澳大利亚)
+      - JP_5600 @WangCai_1
+      - JP_8008 @WangCai_1
+      - JP_6697 @WangCai_1
+      - v2ray-cf-can01(加拿大)
+      - v2ray台湾04(Netflix)
+      - v2ray-cf-db01(迪拜)
+      - JP_8009 @WangCai_1
+      - JP_8882 @WangCai_1
+      - JP_6679 @WangCai_1
+      - v2ray美国06
+      - v2ray美国03(Netflix)
+      - JP_7307 @WangCai_1
+      - v2ray-cf-lu01(卢森堡)
+      - v2ray-cf-uk01(英国BBC)
+      - v2ray台湾01(Netflix)
+      - JP_7001 @WangCai_1
+      - v2ray美国02
+      - v2ray美国07
+      - JP_8881 @WangCai_1
+      - v2ray新西伯利亚01(俄罗斯Netflix)
+      - v2ray越南01(Netflix)
+      - v2ray英国01【BBC】
+      - 香港 F | 中继 | Prepaid Users
+      - 台湾 A | 中继 | Prepaid Users
+      - v2ray-az-tw01(台湾Netflix)
+      - 美國 B | 中继 | Prepaid Users
+      - 印度 A | 中继 | Prepaid Users
+      - 美國 01 | 中继 | Prepaid Users
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
