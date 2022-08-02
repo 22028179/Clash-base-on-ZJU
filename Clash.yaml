@@ -5,303 +5,47 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Super 香港06  | IEPL | 倍率:2.5, server: iqu5ujio.nodeinfo.icu, port: 7006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 230571:s8eJmL, obfs-param: 34df0230571.www.gov.hk, udp: true}
-  - {name: "[CT/CM] HKBN C", server: cnonlinecs3.langtg.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2634:vFr9Fx23xZR(1), obfs-param: "", udp: true}
-  - {name: "[CT/CM] HKBN A", server: cnoldtyoess6.langtg.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2634:vFr9Fx23xZR(1), obfs-param: "", udp: true}
-  - {name: "[CT/CM] HKT M", server: cntypes5.langtg.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2634:vFr9Fx23xZR(1), obfs-param: "", udp: true}
-  - {name: "[CT/CM] HKBN D", server: cntypes5.langtg.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2634:vFr9Fx23xZR(1), obfs-param: "", udp: true}
-  - {name: "[CT/CM] HKT J", server: cnonlinecs3.langtg.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2634:vFr9Fx23xZR(1), obfs-param: "", udp: true}
-  - {name: "香港✈️中转 [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: a1cef0df-1f0f-431c-b2bf-6596474cd0cb, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
-  - {name: "[CT/CM] HKT D", server: cuhkalla.duraker.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2634:vFr9Fx23xZR(1), obfs-param: "", udp: true}
-  - {name: "[CT/CM] HKBN B", server: cnoldtyoess6.langtg.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2634:vFr9Fx23xZR(1), obfs-param: "", udp: true}
-  - {name: "[CT/CM] HKT K", server: cngdcs4.langtg.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2634:vFr9Fx23xZR(1), obfs-param: "", udp: true}
-  - {name: "[Lv1-中转]-香港-05-解锁", server: fsyd.kruwik.cn, port: 15557, type: vmess, uuid: 3faa79fc-c39b-338e-9c95-ca0b1c6f9e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: fsyd.kruwik.cn}, udp: true}
-  - {name: v2ray-ah-az02(香港), server: ah.yd01.paopaocloud.cyou, port: 10010, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.az01.paopaocloud.cyou}, udp: true}
-  - {name: v2ray-ah-hk03(香港Netflix), server: ah.yd01.paopaocloud.cyou, port: 10001, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.hk03.paopaocloud.cyou}, udp: true}
-  - {name: "[Lv1-中转]-新加坡-01-解锁", server: 52.221.246.82, port: 56710, type: vmess, uuid: 3faa79fc-c39b-338e-9c95-ca0b1c6f9e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 52.221.246.82}, udp: true}
-  - {name: 日本-优化3, server: t.mjmjmjmj.cyou, port: 16617, type: vmess, uuid: 74b0ad29-fd3e-4e66-b2ac-cdce88fe9ef9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.mjmjmjmj.cyou}, udp: true}
-  - {name: "[Lv1-中转]-香港-06-解锁", server: fsyd.kruwik.cn, port: 10641, type: vmess, uuid: 3faa79fc-c39b-338e-9c95-ca0b1c6f9e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: fsyd.kruwik.cn}, udp: true}
-  - {name: "[Lv1-中转]-新加坡-02-解锁", server: 52.221.246.82, port: 56720, type: vmess, uuid: 3faa79fc-c39b-338e-9c95-ca0b1c6f9e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 52.221.246.82}, udp: true}
-  - {name: 香港Az-优化, server: u.mjmjmjmj.cyou, port: 16627, type: vmess, uuid: 74b0ad29-fd3e-4e66-b2ac-cdce88fe9ef9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: u.mjmjmjmj.cyou}, udp: true}
-  - {name: 台湾 A | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tw1, ws-headers: {Host: freewaytunnel.dev}, udp: true}
-  - {name: v2ray-ah-tw01(台湾Netflix), server: ah.yd01.paopaocloud.cyou, port: 10006, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.tw01.paopaocloud.cyou}, udp: true}
-  - {name: "[CT/CM] HKT H", server: cmlinec1.langtg.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 2634:vFr9Fx23xZR(1), obfs-param: "", udp: true}
-  - {name: v2ray-ah-vn01(越南Netflix), server: ah.yd01.paopaocloud.cyou, port: 10019, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vn01, ws-headers: {Host: paopao.v2.vn01.paopaocloud.cyou}, udp: true}
-  - {name: "HK, Kowloon", server: 18.141.173.12, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "HK, New Territories", server: 18.141.183.244, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: v2ray-ah-jp02(日本Netflix|Abema|...), server: ah.yd01.paopaocloud.cyou, port: 10015, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.jp02.paopaocloud.cyou}, udp: true}
-  - {name: v2ray-jm-jp02(日本), server: jm.yd02.paopaocloud.cyou, port: 15622, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.jp02.paopaocloud.cyou}, udp: true}
-  - {name: "JP, Tokyo", server: 122.248.226.111, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "台湾✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 31097, type: trojan, password: a1cef0df-1f0f-431c-b2bf-6596474cd0cb, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港Az-优化2, server: 120-241-236-214.nhost.00cdn.com, port: 16627, type: vmess, uuid: 74b0ad29-fd3e-4e66-b2ac-cdce88fe9ef9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 120-241-236-214.nhost.00cdn.com}, udp: true}
-  - {name: v2ray-jm-tw01(台湾Netflix), server: jm.yd02.paopaocloud.cyou, port: 15621, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.tw01.paopaocloud.cyou}, udp: true}
-  - {name: v2ray-ah-ph01(菲律宾), server: ah.yd01.paopaocloud.cyou, port: 10042, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: ph01.paopaocloud.cyou}, udp: true}
-  - {name: "SG, Singapore", server: 46.51.232.137, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 香港 V1|WS|T2, server: yhkt2.154cc.xyz, port: 12588, type: vmess, uuid: 883a829f-64ba-372e-8a9c-4a9bf5367697, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2ray-jm-hk04(香港Netflix), server: jm.yd02.paopaocloud.cyou, port: 10002, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: paopao.v2.hk04.paopaocloud.cyou}, udp: true}
-  - {name: v2ray-ah-hk04(香港Netflix), server: ah.yd01.paopaocloud.cyou, port: 10002, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: paopao.v2.hk04.paopaocloud.cyou}, udp: true}
-  - {name: v2ray日本02(Netflix|Abema|...), server: paopao.v2.jp02.paopaocloud.cyou, port: 13308, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.jp02.paopaocloud.cyou}, udp: true}
-  - {name: v2ray-ah-us06(美国), server: ah.yd01.paopaocloud.cyou, port: 10026, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.us06.paopaocloud.cyou}, udp: true}
-  - {name: v2ray台湾02(Netflix), server: paopao.v2.tw02.paopaocloud.cyou, port: 3306, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.tw02.paopaocloud.cyou}, udp: true}
-  - {name: HK HKG SH-HK 02 V2(vmess), server: hk-hkg-sh-hk-02-v2.cdn.savoy.click, port: 21088, type: vmess, uuid: b536533e-6fa0-4575-a1f8-bbf81a194f44, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: v2ray-ah-ru01(俄罗斯), server: ah.yd01.paopaocloud.cyou, port: 10023, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: ssru.v2.ru01.2yun.win}, udp: true}
-  - {name: v2ray-ah-us07(美国流媒体解锁), server: ah.yd01.paopaocloud.cyou, port: 10027, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.us07.paopaocloud.cyou}, udp: true}
-  - {name: "TW, Taipei", server: 13.124.34.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: v2ray日本01(Netflix|Abema|...), server: ssru.v2.jp01.2yun.win, port: 3306, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: ssru.v2.jp01.2yun.win}, udp: true}
-  - {name: v2ray-az-tw01(台湾Netflix), server: az.hk01.paopaocloud.cyou, port: 10006, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.tw01.paopaocloud.cyou}, udp: true}
-  - {name: v2ray-cf-aus01(澳大利亚), server: aus01.cf.paopaocloud.cyou, port: 443, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aus01.paopaocloud.cyou}, udp: true}
-  - {name: v2ray台湾01(Netflix), server: paopao.v2.tw01.paopaocloud.cyou, port: 13306, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.tw01.paopaocloud.cyou}, udp: true}
-  - {name: v2ray-ah-can01(加拿大), server: ah.yd01.paopaocloud.cyou, port: 10041, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: can01.paopaocloud.cyou}, udp: true}
-  - {name: v2ray-cf-db01(迪拜), server: db01.cf.paopaocloud.cyou, port: 443, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: db01.paopaocloud.cyou}, udp: true}
-  - {name: v2ray-cf-can01(加拿大), server: can01.cf.paopaocloud.cyou, port: 443, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: can01.paopaocloud.cyou}, udp: true}
-  - {name: "俄罗斯✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 42167, type: trojan, password: a1cef0df-1f0f-431c-b2bf-6596474cd0cb, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
-  - {name: v2ray美国03(Netflix), server: ssru.v2.us03.2yun.win, port: 13306, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: ssru.v2.us03.2yun.win}, udp: true}
-  - {name: v2ray澳大利亚01, server: aus01.paopaocloud.cyou, port: 443, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aus01.paopaocloud.cyou}, udp: true}
-  - {name: v2ray美国06, server: paopao.v2.us06.paopaocloud.cyou, port: 3306, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.us06.paopaocloud.cyou}, udp: true}
-  - {name: US SJC CTG 02 V2(vmess), server: us-sjc-ctg-02-v2.node.inforun.work, port: 888, type: vmess, uuid: b536533e-6fa0-4575-a1f8-bbf81a194f44, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: v2ray-cf-lu01(卢森堡), server: lu01.cf.paopaocloud.cyou, port: 443, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: lu01.paopaocloud.cyou}, udp: true}
-  - {name: v2ray-cf-uk01(英国BBC), server: uk01.cf.paopaocloud.cyou, port: 443, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: uk01.paopaocloud.cyou}, udp: true}
-  - {name: "[Lv1-中转]-台湾-04-解锁", server: fsyd.kruwik.cn, port: 43660, type: vmess, uuid: 3faa79fc-c39b-338e-9c95-ca0b1c6f9e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2ray美国02, server: ssru.v2.us02.2yun.win, port: 3308, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: ssru.v2.us02.2yun.win}, udp: true}
-  - {name: v2ray越南01(Netflix), server: paopao.v2.vn01.paopaocloud.cyou, port: 3306, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vn01, ws-headers: {Host: paopao.v2.vn01.paopaocloud.cyou}, udp: true}
-  - {name: v2ray美国07, server: paopao.v2.us07.paopaocloud.cyou, port: 3307, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.us07.paopaocloud.cyou}, udp: true}
-  - {name: 瑞士 A | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ch, ws-headers: {Host: freewaytunnel.dev}, udp: true}
-  - {name: v2ray英国01【BBC】, server: uk01.paopaocloud.cyou, port: 443, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: uk01.paopaocloud.cyou}, udp: true}
-  - {name: v2ray新西伯利亚01(俄罗斯Netflix), server: ssru.v2.ru01.2yun.win, port: 3306, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: ssru.v2.ru01.2yun.win}, udp: true}
-  - {name: "[Lv1-中转]-台湾-04-解锁 2", server: fsyd.kruwik.cn, port: 43660, type: vmess, uuid: 3faa79fc-c39b-338e-9c95-ca0b1c6f9e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美國 01 | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /us1, ws-headers: {Host: hk.ntt-1.oceancloud.asia}, udp: true}
-  - {name: Large 香港13 - all | IEPL | 倍率:1.6, server: koo3cuiz.nodeinfo.icu, port: 6013, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 230571:s8eJmL, obfs-param: 34df0230571.www.gov.hk, udp: true}
-  - {name: 2, server: 173.82.219.96, port: 50005, type: ssr, cipher: dummy, password: IOSwgAYTREask(&1UHYTiq'&%12afSSR, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 美國 01 | 中继 | Prepaid Users 2, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /us1, ws-headers: {Host: hk.ntt-1.oceancloud.asia}, udp: true}
-  - {name: 美國 B | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /us2, ws-headers: {Host: us1.oceancloud.asia}, udp: true}
-  - {name: 瑞士 A | 中继 | Prepaid Users 2, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ch, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: 东京-tcp 3Gbps, server: 168.138.194.241, port: 25201, type: vmess, uuid: 0f772cda-91f1-4f19-e859-86f5b80a844b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 东京ws|防dns暴毙, server: 168.138.194.241, port: 54421, type: vmess, uuid: b3f4d3da-059a-43cd-90e6-023a49757ec6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 东京娱乐, server: 138.2.21.63, port: 29899, type: vmess, uuid: e1d8c730-0d2a-47b8-fb97-f61f16ad6d4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 首尔ws协议/防dns污染, server: 146.56.167.171, port: 33892, type: vmess, uuid: d52c1079-b138-4153-c49f-55883dd30bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 首尔tcp节点, server: 146.56.167.171, port: 35983, type: vmess, uuid: 89f44ea6-648e-464f-a3de-73b15ec31fa7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 444, server: 18.142.180.184, port: 80, type: vmess, uuid: 9341cd63-f637-410b-a169-b5a1ef11c0ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 18.142.180.184}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Super 香港06  | IEPL | 倍率:2.5
-      - "[CT/CM] HKBN C"
-      - "[CT/CM] HKBN A"
-      - "[CT/CM] HKT M"
-      - "[CT/CM] HKBN D"
-      - "[CT/CM] HKT J"
-      - 香港✈️中转 [湘沪BGP]
-      - "[CT/CM] HKT D"
-      - "[CT/CM] HKBN B"
-      - "[CT/CM] HKT K"
-      - "[Lv1-中转]-香港-05-解锁"
-      - v2ray-ah-az02(香港)
-      - v2ray-ah-hk03(香港Netflix)
-      - "[Lv1-中转]-新加坡-01-解锁"
-      - 日本-优化3
-      - "[Lv1-中转]-香港-06-解锁"
-      - "[Lv1-中转]-新加坡-02-解锁"
-      - 香港Az-优化
-      - 台湾 A | 中继 | Prepaid Users
-      - v2ray-ah-tw01(台湾Netflix)
-      - "[CT/CM] HKT H"
-      - v2ray-ah-vn01(越南Netflix)
-      - HK, Kowloon
-      - HK, New Territories
-      - v2ray-ah-jp02(日本Netflix|Abema|...)
-      - v2ray-jm-jp02(日本)
-      - JP, Tokyo
-      - 台湾✈️中转  [湘沪BGP]
-      - 香港Az-优化2
-      - v2ray-jm-tw01(台湾Netflix)
-      - v2ray-ah-ph01(菲律宾)
-      - SG, Singapore
-      - 香港 V1|WS|T2
-      - v2ray-jm-hk04(香港Netflix)
-      - v2ray-ah-hk04(香港Netflix)
-      - v2ray日本02(Netflix|Abema|...)
-      - v2ray-ah-us06(美国)
-      - v2ray台湾02(Netflix)
-      - HK HKG SH-HK 02 V2(vmess)
-      - v2ray-ah-ru01(俄罗斯)
-      - v2ray-ah-us07(美国流媒体解锁)
-      - TW, Taipei
-      - v2ray日本01(Netflix|Abema|...)
-      - v2ray-az-tw01(台湾Netflix)
-      - v2ray-cf-aus01(澳大利亚)
-      - v2ray台湾01(Netflix)
-      - v2ray-ah-can01(加拿大)
-      - v2ray-cf-db01(迪拜)
-      - v2ray-cf-can01(加拿大)
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - v2ray美国03(Netflix)
-      - v2ray澳大利亚01
-      - v2ray美国06
-      - US SJC CTG 02 V2(vmess)
-      - v2ray-cf-lu01(卢森堡)
-      - v2ray-cf-uk01(英国BBC)
-      - "[Lv1-中转]-台湾-04-解锁"
-      - v2ray美国02
-      - v2ray越南01(Netflix)
-      - v2ray美国07
-      - 瑞士 A | 中继 | Prepaid Users
-      - v2ray英国01【BBC】
-      - v2ray新西伯利亚01(俄罗斯Netflix)
-      - "[Lv1-中转]-台湾-04-解锁 2"
-      - 美國 01 | 中继 | Prepaid Users
-      - Large 香港13 - all | IEPL | 倍率:1.6
-      - 2
-      - 美國 01 | 中继 | Prepaid Users 2
-      - 美國 B | 中继 | Prepaid Users
-      - 瑞士 A | 中继 | Prepaid Users 2
+      - 东京-tcp 3Gbps
+      - 东京ws|防dns暴毙
+      - 东京娱乐
+      - 首尔ws协议/防dns污染
+      - 首尔tcp节点
+      - 444
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Super 香港06  | IEPL | 倍率:2.5
-      - "[CT/CM] HKBN C"
-      - "[CT/CM] HKBN A"
-      - "[CT/CM] HKT M"
-      - "[CT/CM] HKBN D"
-      - "[CT/CM] HKT J"
-      - 香港✈️中转 [湘沪BGP]
-      - "[CT/CM] HKT D"
-      - "[CT/CM] HKBN B"
-      - "[CT/CM] HKT K"
-      - "[Lv1-中转]-香港-05-解锁"
-      - v2ray-ah-az02(香港)
-      - v2ray-ah-hk03(香港Netflix)
-      - "[Lv1-中转]-新加坡-01-解锁"
-      - 日本-优化3
-      - "[Lv1-中转]-香港-06-解锁"
-      - "[Lv1-中转]-新加坡-02-解锁"
-      - 香港Az-优化
-      - 台湾 A | 中继 | Prepaid Users
-      - v2ray-ah-tw01(台湾Netflix)
-      - "[CT/CM] HKT H"
-      - v2ray-ah-vn01(越南Netflix)
-      - HK, Kowloon
-      - HK, New Territories
-      - v2ray-ah-jp02(日本Netflix|Abema|...)
-      - v2ray-jm-jp02(日本)
-      - JP, Tokyo
-      - 台湾✈️中转  [湘沪BGP]
-      - 香港Az-优化2
-      - v2ray-jm-tw01(台湾Netflix)
-      - v2ray-ah-ph01(菲律宾)
-      - SG, Singapore
-      - 香港 V1|WS|T2
-      - v2ray-jm-hk04(香港Netflix)
-      - v2ray-ah-hk04(香港Netflix)
-      - v2ray日本02(Netflix|Abema|...)
-      - v2ray-ah-us06(美国)
-      - v2ray台湾02(Netflix)
-      - HK HKG SH-HK 02 V2(vmess)
-      - v2ray-ah-ru01(俄罗斯)
-      - v2ray-ah-us07(美国流媒体解锁)
-      - TW, Taipei
-      - v2ray日本01(Netflix|Abema|...)
-      - v2ray-az-tw01(台湾Netflix)
-      - v2ray-cf-aus01(澳大利亚)
-      - v2ray台湾01(Netflix)
-      - v2ray-ah-can01(加拿大)
-      - v2ray-cf-db01(迪拜)
-      - v2ray-cf-can01(加拿大)
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - v2ray美国03(Netflix)
-      - v2ray澳大利亚01
-      - v2ray美国06
-      - US SJC CTG 02 V2(vmess)
-      - v2ray-cf-lu01(卢森堡)
-      - v2ray-cf-uk01(英国BBC)
-      - "[Lv1-中转]-台湾-04-解锁"
-      - v2ray美国02
-      - v2ray越南01(Netflix)
-      - v2ray美国07
-      - 瑞士 A | 中继 | Prepaid Users
-      - v2ray英国01【BBC】
-      - v2ray新西伯利亚01(俄罗斯Netflix)
-      - "[Lv1-中转]-台湾-04-解锁 2"
-      - 美國 01 | 中继 | Prepaid Users
-      - Large 香港13 - all | IEPL | 倍率:1.6
-      - 2
-      - 美國 01 | 中继 | Prepaid Users 2
-      - 美國 B | 中继 | Prepaid Users
-      - 瑞士 A | 中继 | Prepaid Users 2
+      - 东京-tcp 3Gbps
+      - 东京ws|防dns暴毙
+      - 东京娱乐
+      - 首尔ws协议/防dns污染
+      - 首尔tcp节点
+      - 444
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Super 香港06  | IEPL | 倍率:2.5
-      - "[CT/CM] HKBN C"
-      - "[CT/CM] HKBN A"
-      - "[CT/CM] HKT M"
-      - "[CT/CM] HKBN D"
-      - "[CT/CM] HKT J"
-      - 香港✈️中转 [湘沪BGP]
-      - "[CT/CM] HKT D"
-      - "[CT/CM] HKBN B"
-      - "[CT/CM] HKT K"
-      - "[Lv1-中转]-香港-05-解锁"
-      - v2ray-ah-az02(香港)
-      - v2ray-ah-hk03(香港Netflix)
-      - "[Lv1-中转]-新加坡-01-解锁"
-      - 日本-优化3
-      - "[Lv1-中转]-香港-06-解锁"
-      - "[Lv1-中转]-新加坡-02-解锁"
-      - 香港Az-优化
-      - 台湾 A | 中继 | Prepaid Users
-      - v2ray-ah-tw01(台湾Netflix)
-      - "[CT/CM] HKT H"
-      - v2ray-ah-vn01(越南Netflix)
-      - HK, Kowloon
-      - HK, New Territories
-      - v2ray-ah-jp02(日本Netflix|Abema|...)
-      - v2ray-jm-jp02(日本)
-      - JP, Tokyo
-      - 台湾✈️中转  [湘沪BGP]
-      - 香港Az-优化2
-      - v2ray-jm-tw01(台湾Netflix)
-      - v2ray-ah-ph01(菲律宾)
-      - SG, Singapore
-      - 香港 V1|WS|T2
-      - v2ray-jm-hk04(香港Netflix)
-      - v2ray-ah-hk04(香港Netflix)
-      - v2ray日本02(Netflix|Abema|...)
-      - v2ray-ah-us06(美国)
-      - v2ray台湾02(Netflix)
-      - HK HKG SH-HK 02 V2(vmess)
-      - v2ray-ah-ru01(俄罗斯)
-      - v2ray-ah-us07(美国流媒体解锁)
-      - TW, Taipei
-      - v2ray日本01(Netflix|Abema|...)
-      - v2ray-az-tw01(台湾Netflix)
-      - v2ray-cf-aus01(澳大利亚)
-      - v2ray台湾01(Netflix)
-      - v2ray-ah-can01(加拿大)
-      - v2ray-cf-db01(迪拜)
-      - v2ray-cf-can01(加拿大)
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - v2ray美国03(Netflix)
-      - v2ray澳大利亚01
-      - v2ray美国06
-      - US SJC CTG 02 V2(vmess)
-      - v2ray-cf-lu01(卢森堡)
-      - v2ray-cf-uk01(英国BBC)
-      - "[Lv1-中转]-台湾-04-解锁"
-      - v2ray美国02
-      - v2ray越南01(Netflix)
-      - v2ray美国07
-      - 瑞士 A | 中继 | Prepaid Users
-      - v2ray英国01【BBC】
-      - v2ray新西伯利亚01(俄罗斯Netflix)
-      - "[Lv1-中转]-台湾-04-解锁 2"
-      - 美國 01 | 中继 | Prepaid Users
-      - Large 香港13 - all | IEPL | 倍率:1.6
-      - 2
-      - 美國 01 | 中继 | Prepaid Users 2
-      - 美國 B | 中继 | Prepaid Users
-      - 瑞士 A | 中继 | Prepaid Users 2
+      - 东京-tcp 3Gbps
+      - 东京ws|防dns暴毙
+      - 东京娱乐
+      - 首尔ws协议/防dns污染
+      - 首尔tcp节点
+      - 444
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -320,337 +64,51 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Super 香港06  | IEPL | 倍率:2.5
-      - "[CT/CM] HKBN C"
-      - "[CT/CM] HKBN A"
-      - "[CT/CM] HKT M"
-      - "[CT/CM] HKBN D"
-      - "[CT/CM] HKT J"
-      - 香港✈️中转 [湘沪BGP]
-      - "[CT/CM] HKT D"
-      - "[CT/CM] HKBN B"
-      - "[CT/CM] HKT K"
-      - "[Lv1-中转]-香港-05-解锁"
-      - v2ray-ah-az02(香港)
-      - v2ray-ah-hk03(香港Netflix)
-      - "[Lv1-中转]-新加坡-01-解锁"
-      - 日本-优化3
-      - "[Lv1-中转]-香港-06-解锁"
-      - "[Lv1-中转]-新加坡-02-解锁"
-      - 香港Az-优化
-      - 台湾 A | 中继 | Prepaid Users
-      - v2ray-ah-tw01(台湾Netflix)
-      - "[CT/CM] HKT H"
-      - v2ray-ah-vn01(越南Netflix)
-      - HK, Kowloon
-      - HK, New Territories
-      - v2ray-ah-jp02(日本Netflix|Abema|...)
-      - v2ray-jm-jp02(日本)
-      - JP, Tokyo
-      - 台湾✈️中转  [湘沪BGP]
-      - 香港Az-优化2
-      - v2ray-jm-tw01(台湾Netflix)
-      - v2ray-ah-ph01(菲律宾)
-      - SG, Singapore
-      - 香港 V1|WS|T2
-      - v2ray-jm-hk04(香港Netflix)
-      - v2ray-ah-hk04(香港Netflix)
-      - v2ray日本02(Netflix|Abema|...)
-      - v2ray-ah-us06(美国)
-      - v2ray台湾02(Netflix)
-      - HK HKG SH-HK 02 V2(vmess)
-      - v2ray-ah-ru01(俄罗斯)
-      - v2ray-ah-us07(美国流媒体解锁)
-      - TW, Taipei
-      - v2ray日本01(Netflix|Abema|...)
-      - v2ray-az-tw01(台湾Netflix)
-      - v2ray-cf-aus01(澳大利亚)
-      - v2ray台湾01(Netflix)
-      - v2ray-ah-can01(加拿大)
-      - v2ray-cf-db01(迪拜)
-      - v2ray-cf-can01(加拿大)
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - v2ray美国03(Netflix)
-      - v2ray澳大利亚01
-      - v2ray美国06
-      - US SJC CTG 02 V2(vmess)
-      - v2ray-cf-lu01(卢森堡)
-      - v2ray-cf-uk01(英国BBC)
-      - "[Lv1-中转]-台湾-04-解锁"
-      - v2ray美国02
-      - v2ray越南01(Netflix)
-      - v2ray美国07
-      - 瑞士 A | 中继 | Prepaid Users
-      - v2ray英国01【BBC】
-      - v2ray新西伯利亚01(俄罗斯Netflix)
-      - "[Lv1-中转]-台湾-04-解锁 2"
-      - 美國 01 | 中继 | Prepaid Users
-      - Large 香港13 - all | IEPL | 倍率:1.6
-      - 2
-      - 美國 01 | 中继 | Prepaid Users 2
-      - 美國 B | 中继 | Prepaid Users
-      - 瑞士 A | 中继 | Prepaid Users 2
+      - 东京-tcp 3Gbps
+      - 东京ws|防dns暴毙
+      - 东京娱乐
+      - 首尔ws协议/防dns污染
+      - 首尔tcp节点
+      - 444
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - Super 香港06  | IEPL | 倍率:2.5
-      - "[CT/CM] HKBN C"
-      - "[CT/CM] HKBN A"
-      - "[CT/CM] HKT M"
-      - "[CT/CM] HKBN D"
-      - "[CT/CM] HKT J"
-      - 香港✈️中转 [湘沪BGP]
-      - "[CT/CM] HKT D"
-      - "[CT/CM] HKBN B"
-      - "[CT/CM] HKT K"
-      - "[Lv1-中转]-香港-05-解锁"
-      - v2ray-ah-az02(香港)
-      - v2ray-ah-hk03(香港Netflix)
-      - "[Lv1-中转]-香港-06-解锁"
-      - 香港Az-优化
-      - 台湾 A | 中继 | Prepaid Users
-      - v2ray-ah-tw01(台湾Netflix)
-      - "[CT/CM] HKT H"
-      - 台湾✈️中转  [湘沪BGP]
-      - 香港Az-优化2
-      - v2ray-jm-tw01(台湾Netflix)
-      - 香港 V1|WS|T2
-      - v2ray-jm-hk04(香港Netflix)
-      - v2ray-ah-hk04(香港Netflix)
-      - v2ray台湾02(Netflix)
-      - v2ray-az-tw01(台湾Netflix)
-      - v2ray台湾01(Netflix)
-      - "[Lv1-中转]-台湾-04-解锁"
-      - "[Lv1-中转]-台湾-04-解锁 2"
-      - Large 香港13 - all | IEPL | 倍率:1.6
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Super 香港06  | IEPL | 倍率:2.5
-      - "[CT/CM] HKBN C"
-      - "[CT/CM] HKBN A"
-      - "[CT/CM] HKT M"
-      - "[CT/CM] HKBN D"
-      - "[CT/CM] HKT J"
-      - 香港✈️中转 [湘沪BGP]
-      - "[CT/CM] HKT D"
-      - "[CT/CM] HKBN B"
-      - "[CT/CM] HKT K"
-      - "[Lv1-中转]-香港-05-解锁"
-      - v2ray-ah-az02(香港)
-      - v2ray-ah-hk03(香港Netflix)
-      - "[Lv1-中转]-新加坡-01-解锁"
-      - 日本-优化3
-      - "[Lv1-中转]-香港-06-解锁"
-      - "[Lv1-中转]-新加坡-02-解锁"
-      - 香港Az-优化
-      - 台湾 A | 中继 | Prepaid Users
-      - v2ray-ah-tw01(台湾Netflix)
-      - "[CT/CM] HKT H"
-      - v2ray-ah-vn01(越南Netflix)
-      - HK, Kowloon
-      - HK, New Territories
-      - v2ray-ah-jp02(日本Netflix|Abema|...)
-      - v2ray-jm-jp02(日本)
-      - JP, Tokyo
-      - 台湾✈️中转  [湘沪BGP]
-      - 香港Az-优化2
-      - v2ray-jm-tw01(台湾Netflix)
-      - v2ray-ah-ph01(菲律宾)
-      - SG, Singapore
-      - 香港 V1|WS|T2
-      - v2ray-jm-hk04(香港Netflix)
-      - v2ray-ah-hk04(香港Netflix)
-      - v2ray日本02(Netflix|Abema|...)
-      - v2ray-ah-us06(美国)
-      - v2ray台湾02(Netflix)
-      - HK HKG SH-HK 02 V2(vmess)
-      - v2ray-ah-ru01(俄罗斯)
-      - v2ray-ah-us07(美国流媒体解锁)
-      - TW, Taipei
-      - v2ray日本01(Netflix|Abema|...)
-      - v2ray-az-tw01(台湾Netflix)
-      - v2ray-cf-aus01(澳大利亚)
-      - v2ray台湾01(Netflix)
-      - v2ray-ah-can01(加拿大)
-      - v2ray-cf-db01(迪拜)
-      - v2ray-cf-can01(加拿大)
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - v2ray美国03(Netflix)
-      - v2ray澳大利亚01
-      - v2ray美国06
-      - US SJC CTG 02 V2(vmess)
-      - v2ray-cf-lu01(卢森堡)
-      - v2ray-cf-uk01(英国BBC)
-      - "[Lv1-中转]-台湾-04-解锁"
-      - v2ray美国02
-      - v2ray越南01(Netflix)
-      - v2ray美国07
-      - 瑞士 A | 中继 | Prepaid Users
-      - v2ray英国01【BBC】
-      - v2ray新西伯利亚01(俄罗斯Netflix)
-      - "[Lv1-中转]-台湾-04-解锁 2"
-      - 美國 01 | 中继 | Prepaid Users
-      - Large 香港13 - all | IEPL | 倍率:1.6
-      - 2
-      - 美國 01 | 中继 | Prepaid Users 2
-      - 美國 B | 中继 | Prepaid Users
-      - 瑞士 A | 中继 | Prepaid Users 2
+      - 东京-tcp 3Gbps
+      - 东京ws|防dns暴毙
+      - 东京娱乐
+      - 首尔ws协议/防dns污染
+      - 首尔tcp节点
+      - 444
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Super 香港06  | IEPL | 倍率:2.5
-      - "[CT/CM] HKBN C"
-      - "[CT/CM] HKBN A"
-      - "[CT/CM] HKT M"
-      - "[CT/CM] HKBN D"
-      - "[CT/CM] HKT J"
-      - 香港✈️中转 [湘沪BGP]
-      - "[CT/CM] HKT D"
-      - "[CT/CM] HKBN B"
-      - "[CT/CM] HKT K"
-      - "[Lv1-中转]-香港-05-解锁"
-      - v2ray-ah-az02(香港)
-      - v2ray-ah-hk03(香港Netflix)
-      - "[Lv1-中转]-新加坡-01-解锁"
-      - 日本-优化3
-      - "[Lv1-中转]-香港-06-解锁"
-      - "[Lv1-中转]-新加坡-02-解锁"
-      - 香港Az-优化
-      - 台湾 A | 中继 | Prepaid Users
-      - v2ray-ah-tw01(台湾Netflix)
-      - "[CT/CM] HKT H"
-      - v2ray-ah-vn01(越南Netflix)
-      - HK, Kowloon
-      - HK, New Territories
-      - v2ray-ah-jp02(日本Netflix|Abema|...)
-      - v2ray-jm-jp02(日本)
-      - JP, Tokyo
-      - 台湾✈️中转  [湘沪BGP]
-      - 香港Az-优化2
-      - v2ray-jm-tw01(台湾Netflix)
-      - v2ray-ah-ph01(菲律宾)
-      - SG, Singapore
-      - 香港 V1|WS|T2
-      - v2ray-jm-hk04(香港Netflix)
-      - v2ray-ah-hk04(香港Netflix)
-      - v2ray日本02(Netflix|Abema|...)
-      - v2ray-ah-us06(美国)
-      - v2ray台湾02(Netflix)
-      - HK HKG SH-HK 02 V2(vmess)
-      - v2ray-ah-ru01(俄罗斯)
-      - v2ray-ah-us07(美国流媒体解锁)
-      - TW, Taipei
-      - v2ray日本01(Netflix|Abema|...)
-      - v2ray-az-tw01(台湾Netflix)
-      - v2ray-cf-aus01(澳大利亚)
-      - v2ray台湾01(Netflix)
-      - v2ray-ah-can01(加拿大)
-      - v2ray-cf-db01(迪拜)
-      - v2ray-cf-can01(加拿大)
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - v2ray美国03(Netflix)
-      - v2ray澳大利亚01
-      - v2ray美国06
-      - US SJC CTG 02 V2(vmess)
-      - v2ray-cf-lu01(卢森堡)
-      - v2ray-cf-uk01(英国BBC)
-      - "[Lv1-中转]-台湾-04-解锁"
-      - v2ray美国02
-      - v2ray越南01(Netflix)
-      - v2ray美国07
-      - 瑞士 A | 中继 | Prepaid Users
-      - v2ray英国01【BBC】
-      - v2ray新西伯利亚01(俄罗斯Netflix)
-      - "[Lv1-中转]-台湾-04-解锁 2"
-      - 美國 01 | 中继 | Prepaid Users
-      - Large 香港13 - all | IEPL | 倍率:1.6
-      - 2
-      - 美國 01 | 中继 | Prepaid Users 2
-      - 美國 B | 中继 | Prepaid Users
-      - 瑞士 A | 中继 | Prepaid Users 2
+      - 东京-tcp 3Gbps
+      - 东京ws|防dns暴毙
+      - 东京娱乐
+      - 首尔ws协议/防dns污染
+      - 首尔tcp节点
+      - 444
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Super 香港06  | IEPL | 倍率:2.5
-      - "[CT/CM] HKBN C"
-      - "[CT/CM] HKBN A"
-      - "[CT/CM] HKT M"
-      - "[CT/CM] HKBN D"
-      - "[CT/CM] HKT J"
-      - 香港✈️中转 [湘沪BGP]
-      - "[CT/CM] HKT D"
-      - "[CT/CM] HKBN B"
-      - "[CT/CM] HKT K"
-      - "[Lv1-中转]-香港-05-解锁"
-      - v2ray-ah-az02(香港)
-      - v2ray-ah-hk03(香港Netflix)
-      - "[Lv1-中转]-新加坡-01-解锁"
-      - 日本-优化3
-      - "[Lv1-中转]-香港-06-解锁"
-      - "[Lv1-中转]-新加坡-02-解锁"
-      - 香港Az-优化
-      - 台湾 A | 中继 | Prepaid Users
-      - v2ray-ah-tw01(台湾Netflix)
-      - "[CT/CM] HKT H"
-      - v2ray-ah-vn01(越南Netflix)
-      - HK, Kowloon
-      - HK, New Territories
-      - v2ray-ah-jp02(日本Netflix|Abema|...)
-      - v2ray-jm-jp02(日本)
-      - JP, Tokyo
-      - 台湾✈️中转  [湘沪BGP]
-      - 香港Az-优化2
-      - v2ray-jm-tw01(台湾Netflix)
-      - v2ray-ah-ph01(菲律宾)
-      - SG, Singapore
-      - 香港 V1|WS|T2
-      - v2ray-jm-hk04(香港Netflix)
-      - v2ray-ah-hk04(香港Netflix)
-      - v2ray日本02(Netflix|Abema|...)
-      - v2ray-ah-us06(美国)
-      - v2ray台湾02(Netflix)
-      - HK HKG SH-HK 02 V2(vmess)
-      - v2ray-ah-ru01(俄罗斯)
-      - v2ray-ah-us07(美国流媒体解锁)
-      - TW, Taipei
-      - v2ray日本01(Netflix|Abema|...)
-      - v2ray-az-tw01(台湾Netflix)
-      - v2ray-cf-aus01(澳大利亚)
-      - v2ray台湾01(Netflix)
-      - v2ray-ah-can01(加拿大)
-      - v2ray-cf-db01(迪拜)
-      - v2ray-cf-can01(加拿大)
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - v2ray美国03(Netflix)
-      - v2ray澳大利亚01
-      - v2ray美国06
-      - US SJC CTG 02 V2(vmess)
-      - v2ray-cf-lu01(卢森堡)
-      - v2ray-cf-uk01(英国BBC)
-      - "[Lv1-中转]-台湾-04-解锁"
-      - v2ray美国02
-      - v2ray越南01(Netflix)
-      - v2ray美国07
-      - 瑞士 A | 中继 | Prepaid Users
-      - v2ray英国01【BBC】
-      - v2ray新西伯利亚01(俄罗斯Netflix)
-      - "[Lv1-中转]-台湾-04-解锁 2"
-      - 美國 01 | 中继 | Prepaid Users
-      - Large 香港13 - all | IEPL | 倍率:1.6
-      - 2
-      - 美國 01 | 中继 | Prepaid Users 2
-      - 美國 B | 中继 | Prepaid Users
-      - 瑞士 A | 中继 | Prepaid Users 2
+      - 东京-tcp 3Gbps
+      - 东京ws|防dns暴毙
+      - 东京娱乐
+      - 首尔ws协议/防dns污染
+      - 首尔tcp节点
+      - 444
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -666,76 +124,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Super 香港06  | IEPL | 倍率:2.5
-      - "[CT/CM] HKBN C"
-      - "[CT/CM] HKBN A"
-      - "[CT/CM] HKT M"
-      - "[CT/CM] HKBN D"
-      - "[CT/CM] HKT J"
-      - 香港✈️中转 [湘沪BGP]
-      - "[CT/CM] HKT D"
-      - "[CT/CM] HKBN B"
-      - "[CT/CM] HKT K"
-      - "[Lv1-中转]-香港-05-解锁"
-      - v2ray-ah-az02(香港)
-      - v2ray-ah-hk03(香港Netflix)
-      - "[Lv1-中转]-新加坡-01-解锁"
-      - 日本-优化3
-      - "[Lv1-中转]-香港-06-解锁"
-      - "[Lv1-中转]-新加坡-02-解锁"
-      - 香港Az-优化
-      - 台湾 A | 中继 | Prepaid Users
-      - v2ray-ah-tw01(台湾Netflix)
-      - "[CT/CM] HKT H"
-      - v2ray-ah-vn01(越南Netflix)
-      - HK, Kowloon
-      - HK, New Territories
-      - v2ray-ah-jp02(日本Netflix|Abema|...)
-      - v2ray-jm-jp02(日本)
-      - JP, Tokyo
-      - 台湾✈️中转  [湘沪BGP]
-      - 香港Az-优化2
-      - v2ray-jm-tw01(台湾Netflix)
-      - v2ray-ah-ph01(菲律宾)
-      - SG, Singapore
-      - 香港 V1|WS|T2
-      - v2ray-jm-hk04(香港Netflix)
-      - v2ray-ah-hk04(香港Netflix)
-      - v2ray日本02(Netflix|Abema|...)
-      - v2ray-ah-us06(美国)
-      - v2ray台湾02(Netflix)
-      - HK HKG SH-HK 02 V2(vmess)
-      - v2ray-ah-ru01(俄罗斯)
-      - v2ray-ah-us07(美国流媒体解锁)
-      - TW, Taipei
-      - v2ray日本01(Netflix|Abema|...)
-      - v2ray-az-tw01(台湾Netflix)
-      - v2ray-cf-aus01(澳大利亚)
-      - v2ray台湾01(Netflix)
-      - v2ray-ah-can01(加拿大)
-      - v2ray-cf-db01(迪拜)
-      - v2ray-cf-can01(加拿大)
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - v2ray美国03(Netflix)
-      - v2ray澳大利亚01
-      - v2ray美国06
-      - US SJC CTG 02 V2(vmess)
-      - v2ray-cf-lu01(卢森堡)
-      - v2ray-cf-uk01(英国BBC)
-      - "[Lv1-中转]-台湾-04-解锁"
-      - v2ray美国02
-      - v2ray越南01(Netflix)
-      - v2ray美国07
-      - 瑞士 A | 中继 | Prepaid Users
-      - v2ray英国01【BBC】
-      - v2ray新西伯利亚01(俄罗斯Netflix)
-      - "[Lv1-中转]-台湾-04-解锁 2"
-      - 美國 01 | 中继 | Prepaid Users
-      - Large 香港13 - all | IEPL | 倍率:1.6
-      - 2
-      - 美國 01 | 中继 | Prepaid Users 2
-      - 美國 B | 中继 | Prepaid Users
-      - 瑞士 A | 中继 | Prepaid Users 2
+      - 东京-tcp 3Gbps
+      - 东京ws|防dns暴毙
+      - 东京娱乐
+      - 首尔ws协议/防dns污染
+      - 首尔tcp节点
+      - 444
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
