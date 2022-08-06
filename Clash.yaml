@@ -5,47 +5,107 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 东京-tcp 3Gbps, server: 168.138.194.241, port: 25201, type: vmess, uuid: 0f772cda-91f1-4f19-e859-86f5b80a844b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 东京ws|防dns暴毙, server: 168.138.194.241, port: 54421, type: vmess, uuid: b3f4d3da-059a-43cd-90e6-023a49757ec6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 东京娱乐, server: 138.2.21.63, port: 29899, type: vmess, uuid: e1d8c730-0d2a-47b8-fb97-f61f16ad6d4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 首尔ws协议/防dns污染, server: 146.56.167.171, port: 33892, type: vmess, uuid: d52c1079-b138-4153-c49f-55883dd30bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 首尔tcp节点, server: 146.56.167.171, port: 35983, type: vmess, uuid: 89f44ea6-648e-464f-a3de-73b15ec31fa7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 444, server: 18.142.180.184, port: 80, type: vmess, uuid: 9341cd63-f637-410b-a169-b5a1ef11c0ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 18.142.180.184}, udp: true}
+  - {name: V1-#304|IPLC-深圳-香港HKT|x4.0|SSR, server: pg57.cdn.node.a.ddns-ounk.xyz, port: 40304, type: ssr, cipher: chacha20-ietf, password: jL76UJd, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 50001:HJAFGE, obfs-param: fa02750001.microsoft.com, udp: true}
+  - {name: V1-#203|IPLC-深圳-香港HKT|NF|x4.0|SSR, server: pg57.cdn.node.a.ddns-ounk.xyz, port: 40203, type: ssr, cipher: chacha20-ietf, password: jL76UJd, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 50001:HJAFGE, obfs-param: fa02750001.microsoft.com, udp: true}
+  - {name: V1-#329|IPLC-深圳-香港HKT|x4.0|SSR, server: pg57.cdn.node.a.ddns-ounk.xyz, port: 40329, type: ssr, cipher: chacha20-ietf, password: jL76UJd, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 50001:HJAFGE, obfs-param: fa02750001.microsoft.com, udp: true}
+  - {name: 香港2, server: hk2.pepsicola.me, port: 41001, type: trojan, password: 30a21874-8a2b-4a61-a3e3-ce95effdab20, sni: hk2.pepsicola.me, skip-cert-verify: true, udp: true}
+  - {name: V2-#257|广东-香港HKT|x1.5|SSR, server: mhfv46.cdn.node.a.ddns-ounk.xyz, port: 40257, type: ssr, cipher: chacha20-ietf, password: jL76UJd, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 50001:HJAFGE, obfs-param: fa02750001.microsoft.com, udp: true}
+  - {name: 香港91, server: avuhk091.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: avuhk091.xiaohouzi.club}, udp: true}
+  - {name: "[CT/CM]香港 13", server: cmonline02.duraker.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 35195:123510, obfs-param: "", udp: true}
+  - {name: "[CT/CM]香港 09", server: cngzcm.duraker.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 35195:123510, obfs-param: "", udp: true}
+  - {name: "香港✈️中转 [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: eeaf314b-125d-43be-95db-594344a31531, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
+  - {name: "韩国✈️中转 [广州BGP]", server: az.az-bgp.chuangshi999.xyz, port: 39124, type: trojan, password: eeaf314b-125d-43be-95db-594344a31531, sni: az.az-bgp.chuangshi999.xyz, skip-cert-verify: true, udp: true}
+  - {name: "[CT/CM]香港 06", server: gdzjhk01.tttflix.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 35195:123510, obfs-param: "", udp: true}
+  - {name: 美国3, server: 143.198.76.4, port: 41001, type: trojan, password: 30a21874-8a2b-4a61-a3e3-ce95effdab20, skip-cert-verify: true, udp: true}
+  - {name: 香港04, server: avuhk04.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: avuhk04.xiaohouzi.club}, udp: true}
+  - {name: 香港94, server: avuhk094.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: avuhk094.xiaohouzi.club}, udp: true}
+  - {name: "US, California", server: 199.115.228.30, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr05, udp: true}
+  - {name: 美国1, server: 164.92.72.30, port: 41001, type: trojan, password: 30a21874-8a2b-4a61-a3e3-ce95effdab20, skip-cert-verify: true, udp: true}
+  - {name: 印度 | India | V2, server: india.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zcjd, ws-headers: {Host: india.jcnf.app}, udp: true}
+  - {name: "新加坡✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 26539, type: trojan, password: eeaf314b-125d-43be-95db-594344a31531, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
+  - {name: "俄罗斯✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 42167, type: trojan, password: eeaf314b-125d-43be-95db-594344a31531, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 | Singapore | V2, server: sgp.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zcjd, ws-headers: {Host: sgp.jcnf.app}, udp: true}
+  - {name: "[CT/CM]香港 10", server: zggdzj03.tttflix.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 35195:123510, obfs-param: "", udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 东京-tcp 3Gbps
-      - 东京ws|防dns暴毙
-      - 东京娱乐
-      - 首尔ws协议/防dns污染
-      - 首尔tcp节点
-      - 444
+      - V1-#304|IPLC-深圳-香港HKT|x4.0|SSR
+      - V1-#203|IPLC-深圳-香港HKT|NF|x4.0|SSR
+      - V1-#329|IPLC-深圳-香港HKT|x4.0|SSR
+      - 香港2
+      - V2-#257|广东-香港HKT|x1.5|SSR
+      - 香港91
+      - "[CT/CM]香港 13"
+      - "[CT/CM]香港 09"
+      - 香港✈️中转 [湘沪BGP]
+      - 韩国✈️中转 [广州BGP]
+      - "[CT/CM]香港 06"
+      - 美国3
+      - 香港04
+      - 香港94
+      - US, California
+      - 美国1
+      - 印度 | India | V2
+      - 新加坡✈️中转  [湘沪BGP]
+      - 俄罗斯✈️中转  [湘沪BGP]
+      - 新加坡 | Singapore | V2
+      - "[CT/CM]香港 10"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 东京-tcp 3Gbps
-      - 东京ws|防dns暴毙
-      - 东京娱乐
-      - 首尔ws协议/防dns污染
-      - 首尔tcp节点
-      - 444
+      - V1-#304|IPLC-深圳-香港HKT|x4.0|SSR
+      - V1-#203|IPLC-深圳-香港HKT|NF|x4.0|SSR
+      - V1-#329|IPLC-深圳-香港HKT|x4.0|SSR
+      - 香港2
+      - V2-#257|广东-香港HKT|x1.5|SSR
+      - 香港91
+      - "[CT/CM]香港 13"
+      - "[CT/CM]香港 09"
+      - 香港✈️中转 [湘沪BGP]
+      - 韩国✈️中转 [广州BGP]
+      - "[CT/CM]香港 06"
+      - 美国3
+      - 香港04
+      - 香港94
+      - US, California
+      - 美国1
+      - 印度 | India | V2
+      - 新加坡✈️中转  [湘沪BGP]
+      - 俄罗斯✈️中转  [湘沪BGP]
+      - 新加坡 | Singapore | V2
+      - "[CT/CM]香港 10"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 东京-tcp 3Gbps
-      - 东京ws|防dns暴毙
-      - 东京娱乐
-      - 首尔ws协议/防dns污染
-      - 首尔tcp节点
-      - 444
+      - V1-#304|IPLC-深圳-香港HKT|x4.0|SSR
+      - V1-#203|IPLC-深圳-香港HKT|NF|x4.0|SSR
+      - V1-#329|IPLC-深圳-香港HKT|x4.0|SSR
+      - 香港2
+      - V2-#257|广东-香港HKT|x1.5|SSR
+      - 香港91
+      - "[CT/CM]香港 13"
+      - "[CT/CM]香港 09"
+      - 香港✈️中转 [湘沪BGP]
+      - 韩国✈️中转 [广州BGP]
+      - "[CT/CM]香港 06"
+      - 美国3
+      - 香港04
+      - 香港94
+      - US, California
+      - 美国1
+      - 印度 | India | V2
+      - 新加坡✈️中转  [湘沪BGP]
+      - 俄罗斯✈️中转  [湘沪BGP]
+      - 新加坡 | Singapore | V2
+      - "[CT/CM]香港 10"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,51 +124,124 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 东京-tcp 3Gbps
-      - 东京ws|防dns暴毙
-      - 东京娱乐
-      - 首尔ws协议/防dns污染
-      - 首尔tcp节点
-      - 444
+      - V1-#304|IPLC-深圳-香港HKT|x4.0|SSR
+      - V1-#203|IPLC-深圳-香港HKT|NF|x4.0|SSR
+      - V1-#329|IPLC-深圳-香港HKT|x4.0|SSR
+      - 香港2
+      - V2-#257|广东-香港HKT|x1.5|SSR
+      - 香港91
+      - "[CT/CM]香港 13"
+      - "[CT/CM]香港 09"
+      - 香港✈️中转 [湘沪BGP]
+      - 韩国✈️中转 [广州BGP]
+      - "[CT/CM]香港 06"
+      - 美国3
+      - 香港04
+      - 香港94
+      - US, California
+      - 美国1
+      - 印度 | India | V2
+      - 新加坡✈️中转  [湘沪BGP]
+      - 俄罗斯✈️中转  [湘沪BGP]
+      - 新加坡 | Singapore | V2
+      - "[CT/CM]香港 10"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - V1-#304|IPLC-深圳-香港HKT|x4.0|SSR
+      - V1-#203|IPLC-深圳-香港HKT|NF|x4.0|SSR
+      - V1-#329|IPLC-深圳-香港HKT|x4.0|SSR
+      - 香港2
+      - V2-#257|广东-香港HKT|x1.5|SSR
+      - 香港91
+      - "[CT/CM]香港 13"
+      - "[CT/CM]香港 09"
+      - 香港✈️中转 [湘沪BGP]
+      - "[CT/CM]香港 06"
+      - 香港04
+      - 香港94
+      - "[CT/CM]香港 10"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 东京-tcp 3Gbps
-      - 东京ws|防dns暴毙
-      - 东京娱乐
-      - 首尔ws协议/防dns污染
-      - 首尔tcp节点
-      - 444
+      - V1-#304|IPLC-深圳-香港HKT|x4.0|SSR
+      - V1-#203|IPLC-深圳-香港HKT|NF|x4.0|SSR
+      - V1-#329|IPLC-深圳-香港HKT|x4.0|SSR
+      - 香港2
+      - V2-#257|广东-香港HKT|x1.5|SSR
+      - 香港91
+      - "[CT/CM]香港 13"
+      - "[CT/CM]香港 09"
+      - 香港✈️中转 [湘沪BGP]
+      - 韩国✈️中转 [广州BGP]
+      - "[CT/CM]香港 06"
+      - 美国3
+      - 香港04
+      - 香港94
+      - US, California
+      - 美国1
+      - 印度 | India | V2
+      - 新加坡✈️中转  [湘沪BGP]
+      - 俄罗斯✈️中转  [湘沪BGP]
+      - 新加坡 | Singapore | V2
+      - "[CT/CM]香港 10"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 东京-tcp 3Gbps
-      - 东京ws|防dns暴毙
-      - 东京娱乐
-      - 首尔ws协议/防dns污染
-      - 首尔tcp节点
-      - 444
+      - V1-#304|IPLC-深圳-香港HKT|x4.0|SSR
+      - V1-#203|IPLC-深圳-香港HKT|NF|x4.0|SSR
+      - V1-#329|IPLC-深圳-香港HKT|x4.0|SSR
+      - 香港2
+      - V2-#257|广东-香港HKT|x1.5|SSR
+      - 香港91
+      - "[CT/CM]香港 13"
+      - "[CT/CM]香港 09"
+      - 香港✈️中转 [湘沪BGP]
+      - 韩国✈️中转 [广州BGP]
+      - "[CT/CM]香港 06"
+      - 美国3
+      - 香港04
+      - 香港94
+      - US, California
+      - 美国1
+      - 印度 | India | V2
+      - 新加坡✈️中转  [湘沪BGP]
+      - 俄罗斯✈️中转  [湘沪BGP]
+      - 新加坡 | Singapore | V2
+      - "[CT/CM]香港 10"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 东京-tcp 3Gbps
-      - 东京ws|防dns暴毙
-      - 东京娱乐
-      - 首尔ws协议/防dns污染
-      - 首尔tcp节点
-      - 444
+      - V1-#304|IPLC-深圳-香港HKT|x4.0|SSR
+      - V1-#203|IPLC-深圳-香港HKT|NF|x4.0|SSR
+      - V1-#329|IPLC-深圳-香港HKT|x4.0|SSR
+      - 香港2
+      - V2-#257|广东-香港HKT|x1.5|SSR
+      - 香港91
+      - "[CT/CM]香港 13"
+      - "[CT/CM]香港 09"
+      - 香港✈️中转 [湘沪BGP]
+      - 韩国✈️中转 [广州BGP]
+      - "[CT/CM]香港 06"
+      - 美国3
+      - 香港04
+      - 香港94
+      - US, California
+      - 美国1
+      - 印度 | India | V2
+      - 新加坡✈️中转  [湘沪BGP]
+      - 俄罗斯✈️中转  [湘沪BGP]
+      - 新加坡 | Singapore | V2
+      - "[CT/CM]香港 10"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -124,12 +257,27 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 东京-tcp 3Gbps
-      - 东京ws|防dns暴毙
-      - 东京娱乐
-      - 首尔ws协议/防dns污染
-      - 首尔tcp节点
-      - 444
+      - V1-#304|IPLC-深圳-香港HKT|x4.0|SSR
+      - V1-#203|IPLC-深圳-香港HKT|NF|x4.0|SSR
+      - V1-#329|IPLC-深圳-香港HKT|x4.0|SSR
+      - 香港2
+      - V2-#257|广东-香港HKT|x1.5|SSR
+      - 香港91
+      - "[CT/CM]香港 13"
+      - "[CT/CM]香港 09"
+      - 香港✈️中转 [湘沪BGP]
+      - 韩国✈️中转 [广州BGP]
+      - "[CT/CM]香港 06"
+      - 美国3
+      - 香港04
+      - 香港94
+      - US, California
+      - 美国1
+      - 印度 | India | V2
+      - 新加坡✈️中转  [湘沪BGP]
+      - 俄罗斯✈️中转  [湘沪BGP]
+      - 新加坡 | Singapore | V2
+      - "[CT/CM]香港 10"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
