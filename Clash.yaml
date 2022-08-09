@@ -5,79 +5,67 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: BGP-01-香港-多地优化, server: zebra2.2022.2025.mlinuu.top, port: 902, type: ss, cipher: chacha20-ietf, password: Gqre0R, plugin: obfs, plugin-opts: {mode: http, host: 348115425.itunes.apple.com}, udp: true}
-  - {name: 大萝卜鸡日本, server: 116.129.253.114, port: 41113, type: ssr, cipher: aes-256-cfb, password: zxOmdD, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22593:Gpt71x, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 大萝卜鸡日本2, server: 116.129.254.226, port: 32003, type: ssr, cipher: aes-256-cfb, password: zxOmdD, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22593:Gpt71x, obfs-param: t.me/vpnhat, udp: true}
+  - {name: scloud台湾05—可下载, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e58d8ff-1174-4e26-a51b-855756a5e071, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /scloudhinet05, ws-headers: {Host: cs.daxun.cyou}, udp: true}
   - {name: Linode, server: 170.187.230.86, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
   - {name: Linode 2, server: 172.105.242.17, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
-  - {name: 新加坡01, server: v2sg02.connauto.com, port: 443, type: trojan, password: 208d536b-a83e-3006-97d7-9c5e15dc3669, sni: v2sg02.connauto.com, skip-cert-verify: true, udp: true}
+  - {name: Linode 3, server: 172.105.242.17, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
   - {name: 印度 | India | V2, server: india.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zcjd, ws-headers: {Host: india.jcnf.app}, udp: true}
-  - {name: 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港-中环2, server: 20.187.95.117, port: 8443, type: trojan, password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de, skip-cert-verify: true, udp: true}
   - {name: 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
   - {name: 迪拜阿聯酋 | Etihad Rail | V2, server: dubai.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zcjd, ws-headers: {Host: dubai.jcnf.app}, udp: true}
-  - {name: 匈牙利, server: xyl.hootfun.top, port: 52322, type: trojan, password: 935f34c1-1713-402c-bfe1-f051cf49d370, sni: xyl.hootfun.top, skip-cert-verify: true, udp: true}
-  - {name: 蒙古2, server: 103.153.141.202, port: 8848, type: trojan, password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de, skip-cert-verify: true, udp: true}
+  - {name: 洛杉矶, server: us1.crunode.top, port: 1200, type: trojan, password: ab0d7f7f-7aac-38f4-a8c3-e687621cef18, sni: us1.crunode.top, skip-cert-verify: true, udp: true}
+  - {name: 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
   - {name: 蒙古3, server: 103.168.56.67, port: 8848, type: trojan, password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de, skip-cert-verify: true, udp: true}
+  - {name: 香港03, server: avuhk03.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: avuhk03.xiaohouzi.club}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - BGP-01-香港-多地优化
-      - 大萝卜鸡日本
-      - 大萝卜鸡日本2
+      - scloud台湾05—可下载
       - Linode
       - Linode 2
-      - 新加坡01
+      - Linode 3
       - 印度 | India | V2
-      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 香港-中环2
       - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 迪拜阿聯酋 | Etihad Rail | V2
-      - 匈牙利
-      - 蒙古2
+      - 洛杉矶
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 蒙古3
+      - 香港03
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - BGP-01-香港-多地优化
-      - 大萝卜鸡日本
-      - 大萝卜鸡日本2
+      - scloud台湾05—可下载
       - Linode
       - Linode 2
-      - 新加坡01
+      - Linode 3
       - 印度 | India | V2
-      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 香港-中环2
       - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 迪拜阿聯酋 | Etihad Rail | V2
-      - 匈牙利
-      - 蒙古2
+      - 洛杉矶
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 蒙古3
+      - 香港03
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - BGP-01-香港-多地优化
-      - 大萝卜鸡日本
-      - 大萝卜鸡日本2
+      - scloud台湾05—可下载
       - Linode
       - Linode 2
-      - 新加坡01
+      - Linode 3
       - 印度 | India | V2
-      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 香港-中环2
       - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 迪拜阿聯酋 | Etihad Rail | V2
-      - 匈牙利
-      - 蒙古2
+      - 洛杉矶
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 蒙古3
+      - 香港03
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -96,85 +84,73 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - BGP-01-香港-多地优化
-      - 大萝卜鸡日本
-      - 大萝卜鸡日本2
+      - scloud台湾05—可下载
       - Linode
       - Linode 2
-      - 新加坡01
+      - Linode 3
       - 印度 | India | V2
-      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 香港-中环2
       - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 迪拜阿聯酋 | Etihad Rail | V2
-      - 匈牙利
-      - 蒙古2
+      - 洛杉矶
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 蒙古3
+      - 香港03
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - BGP-01-香港-多地优化
-      - 香港-中环2
+      - scloud台湾05—可下载
+      - 香港03
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - BGP-01-香港-多地优化
-      - 大萝卜鸡日本
-      - 大萝卜鸡日本2
+      - scloud台湾05—可下载
       - Linode
       - Linode 2
-      - 新加坡01
+      - Linode 3
       - 印度 | India | V2
-      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 香港-中环2
       - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 迪拜阿聯酋 | Etihad Rail | V2
-      - 匈牙利
-      - 蒙古2
+      - 洛杉矶
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 蒙古3
+      - 香港03
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - BGP-01-香港-多地优化
-      - 大萝卜鸡日本
-      - 大萝卜鸡日本2
+      - scloud台湾05—可下载
       - Linode
       - Linode 2
-      - 新加坡01
+      - Linode 3
       - 印度 | India | V2
-      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 香港-中环2
       - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 迪拜阿聯酋 | Etihad Rail | V2
-      - 匈牙利
-      - 蒙古2
+      - 洛杉矶
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 蒙古3
+      - 香港03
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - BGP-01-香港-多地优化
-      - 大萝卜鸡日本
-      - 大萝卜鸡日本2
+      - scloud台湾05—可下载
       - Linode
       - Linode 2
-      - 新加坡01
+      - Linode 3
       - 印度 | India | V2
-      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 香港-中环2
       - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 迪拜阿聯酋 | Etihad Rail | V2
-      - 匈牙利
-      - 蒙古2
+      - 洛杉矶
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 蒙古3
+      - 香港03
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -190,20 +166,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - BGP-01-香港-多地优化
-      - 大萝卜鸡日本
-      - 大萝卜鸡日本2
+      - scloud台湾05—可下载
       - Linode
       - Linode 2
-      - 新加坡01
+      - Linode 3
       - 印度 | India | V2
-      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 香港-中环2
       - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 迪拜阿聯酋 | Etihad Rail | V2
-      - 匈牙利
-      - 蒙古2
+      - 洛杉矶
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 蒙古3
+      - 香港03
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
