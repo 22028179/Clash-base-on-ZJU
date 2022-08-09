@@ -5,379 +5,79 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 上海Azure-Tokyo-Linode, server: 139.217.229.103, port: 52292, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 上海Azure-Tokyo-AWS, server: 139.217.229.103, port: 52290, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 上海Azure-Tokyo-AWS 2, server: 139.217.229.103, port: 52288, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 上海Azure-Singapore-DigitalOcean, server: 52.131.218.162, port: 52437, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 上海Azure-Singapore-DigitalOcean 2, server: 139.217.229.103, port: 52207, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 上海Azure-Tokyo-AWS 3, server: 139.217.229.103, port: 52289, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 上海Azure-Tokyo-AWS 4, server: 52.131.218.162, port: 52436, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Tokyo-AWS, server: 20.205.12.89, port: 52218, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 上海Azure-Tokyo-AWS 5, server: 139.217.229.103, port: 52287, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Tokyo-AWS 2, server: 139.217.229.103, port: 52294, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[CT/CM]香港 09", server: cngzcm.duraker.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 35195:123510, obfs-param: "", udp: true}
-  - {name: 上海Azure-Tokyo-Linode 2, server: 139.217.229.103, port: 52330, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 上海Azure-Seoul-AWS, server: 139.217.229.103, port: 52296, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 上海Azure-Singapore-DigitalOcean 3, server: 139.217.229.103, port: 52226, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 上海Azure-Tokyo-AWS 6, server: 52.131.218.162, port: 52283, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Tokyo-AWS 3, server: 20.239.66.73, port: 52201, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 上海Azure-Portland-AWS, server: 52.131.218.162, port: 52282, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Tokyo-AWS 4, server: 20.205.2.65, port: 52335, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 上海Azure-Tokyo-Linode 3, server: 139.217.229.103, port: 52280, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Portland-AWS, server: 20.247.0.127, port: 52221, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Singapore-DigitalOcean, server: 20.239.173.45, port: 52228, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Tokyo-AWS 5, server: 20.239.87.54, port: 52217, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Tokyo-AWS 6, server: 20.239.192.108, port: 52284, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Singapore-DigitalOcean 2, server: 20.205.9.225, port: 52227, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Tokyo-Linode, server: 20.239.189.199, port: 52215, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Tokyo-Linode 2, server: 20.205.2.65, port: 52212, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 上海Azure-Tokyo-AWS 7, server: 52.131.218.162, port: 52210, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Singapore-DigitalOcean 3, server: 20.239.192.8, port: 11223, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "新加坡✈️中转 [广州BGP]", server: az.az-bgp.chuangshi999.xyz, port: 30484, type: trojan, password: eeaf314b-125d-43be-95db-594344a31531, sni: az.az-bgp.chuangshi999.xyz, skip-cert-verify: true, udp: true}
-  - {name: 上海Azure-Portland-AWS 2, server: 139.217.229.103, port: 52281, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Seoul-AWS, server: 20.239.84.235, port: 52205, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Portland-AWS 2, server: 20.205.2.65, port: 52223, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 上海Azure-Singapore-DigitalOcean 4, server: 139.217.229.103, port: 52225, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港04, server: avuhk04.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: avuhk04.xiaohouzi.club}, udp: true}
-  - {name: "香港✈️中转 [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: eeaf314b-125d-43be-95db-594344a31531, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Tokyo-AWS 7, server: 52.175.57.151, port: 52214, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Portland-AWS 3, server: 20.205.2.65, port: 52334, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Tokyo-Azure-Tokyo-Linode, server: 20.222.137.188, port: 52331, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Tokyo-Azure-Singapore-DigitalOcean, server: 20.222.99.132, port: 52332, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[CT/CM]香港 06", server: gdzjhk01.tttflix.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 35195:123510, obfs-param: "", udp: true}
-  - {name: 香港94, server: avuhk094.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: avuhk094.xiaohouzi.club}, udp: true}
-  - {name: "韩国✈️中转 [广州BGP]", server: az.az-bgp.chuangshi999.xyz, port: 39124, type: trojan, password: eeaf314b-125d-43be-95db-594344a31531, sni: az.az-bgp.chuangshi999.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tokyo-Azure-Tokyo-AWS, server: 20.222.99.132, port: 52329, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2-香港3, server: ishosting.v225p.top, port: 15554, type: vmess, uuid: 9c7a49a2-ddff-4654-925b-baa7913dbc56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: Apple.com}, udp: true}
-  - {name: v2-香港3 2, server: ishosting.v225p.top, port: 443, type: trojan, password: 9c7a49a2-ddff-4654-925b-baa7913dbc56, sni: ishosting.v225p.top, skip-cert-verify: true, udp: true}
-  - {name: Tokyo-Azure-Singapore-DigitalOcean 2, server: 20.222.35.52, port: 52277, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 上海Azure-Catalonia-DediPath, server: 52.131.218.162, port: 52297, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港91, server: avuhk091.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: avuhk091.xiaohouzi.club}, udp: true}
-  - {name: v2-新加坡, server: pssrv.ru.v239p.top, port: 27169, type: vmess, uuid: 9c7a49a2-ddff-4654-925b-baa7913dbc56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: Apple.com}, udp: true}
-  - {name: v2-日本, server: jp.v208.top, port: 14444, type: vmess, uuid: 9c7a49a2-ddff-4654-925b-baa7913dbc56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: Apple.com}, udp: true}
-  - {name: "[CT/CM]香港 10", server: zggdzj03.tttflix.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 35195:123510, obfs-param: "", udp: true}
-  - {name: v2-新加坡 2, server: pssrv.ru.v239p.top, port: 443, type: trojan, password: 9c7a49a2-ddff-4654-925b-baa7913dbc56, sni: pssrv.ru.v239p.top, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Tokyo-AWS 8, server: 104.208.106.83, port: 52278, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Seoul-AWS 2, server: 104.208.83.241, port: 11222, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2-美国, server: us.v207.fun, port: 14444, type: vmess, uuid: 9c7a49a2-ddff-4654-925b-baa7913dbc56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: Apple.com}, udp: true}
-  - {name: 香港Azure-Singapore-DigitalOcean 4, server: 20.24.99.2, port: 11220, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Singapore-DigitalOcean 5, server: 20.24.84.114, port: 52299, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Tokyo-Linode 3, server: 104.208.98.56, port: 52209, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 上海Azure-Tokyo-AWS 8, server: 104.208.101.43, port: 52293, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Portland-AWS 4, server: 20.187.103.125, port: 52224, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Singapore-Azure-Tokyo-AWS, server: 20.24.11.9, port: 52285, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: BGP-01-香港-多地优化, server: zebra2.2022.2025.mlinuu.top, port: 902, type: ss, cipher: chacha20-ietf, password: Gqre0R, plugin: obfs, plugin-opts: {mode: http, host: 348115425.itunes.apple.com}, udp: true}
+  - {name: 大萝卜鸡日本, server: 116.129.253.114, port: 41113, type: ssr, cipher: aes-256-cfb, password: zxOmdD, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22593:Gpt71x, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 大萝卜鸡日本2, server: 116.129.254.226, port: 32003, type: ssr, cipher: aes-256-cfb, password: zxOmdD, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22593:Gpt71x, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Linode, server: 170.187.230.86, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
+  - {name: Linode 2, server: 172.105.242.17, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
+  - {name: 新加坡01, server: v2sg02.connauto.com, port: 443, type: trojan, password: 208d536b-a83e-3006-97d7-9c5e15dc3669, sni: v2sg02.connauto.com, skip-cert-verify: true, udp: true}
   - {name: 印度 | India | V2, server: india.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zcjd, ws-headers: {Host: india.jcnf.app}, udp: true}
-  - {name: "俄罗斯✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 42167, type: trojan, password: eeaf314b-125d-43be-95db-594344a31531, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Singapore-DigitalOcean 6, server: 104.208.106.245, port: 52213, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Seoul-AWS 3, server: 20.24.65.52, port: 52211, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2-新加坡 3, server: vpszhujihome.v220.top, port: 443, type: trojan, password: 9c7a49a2-ddff-4654-925b-baa7913dbc56, sni: vpszhujihome.v220.top, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Seoul-AWS 4, server: 20.24.83.48, port: 52295, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Singapore-DigitalOcean 7, server: 104.208.110.172, port: 52276, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Singapore-DigitalOcean 8, server: 20.187.67.61, port: 52298, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Singapore-Azure-Singapore-DigitalOcean, server: 20.24.11.9, port: 11224, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2-加拿大, server: ishosting.v228p.top, port: 14444, type: vmess, uuid: 9c7a49a2-ddff-4654-925b-baa7913dbc56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: Apple.com}, udp: true}
-  - {name: 香港Azure-Portland-AWS 5, server: 23.97.67.212, port: 52220, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Tokyo-AWS 9, server: 20.24.77.110, port: 52286, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Portland-AWS 6, server: 20.187.74.66, port: 52333, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Singapore-DigitalOcean 9, server: 23.97.67.212, port: 52216, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2-美国-2, server: us.v217.top, port: 443, type: trojan, password: 9c7a49a2-ddff-4654-925b-baa7913dbc56, sni: us.v217.top, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Portland-AWS 7, server: 52.140.217.118, port: 52219, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港Azure-Tokyo-AWS 10, server: 104.208.99.25, port: 52279, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2-加拿大 2, server: ishosting.v228p.top, port: 443, type: trojan, password: 9c7a49a2-ddff-4654-925b-baa7913dbc56, sni: ishosting.v228p.top, skip-cert-verify: true, udp: true}
-  - {name: v2-罗马尼亚, server: ishosting.v226p.top, port: 14444, type: vmess, uuid: 9c7a49a2-ddff-4654-925b-baa7913dbc56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: Apple.com}, udp: true}
-  - {name: v2-美国-2 2, server: us.v217.top, port: 14444, type: vmess, uuid: 9c7a49a2-ddff-4654-925b-baa7913dbc56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: Apple.com}, udp: true}
-  - {name: v2-瑞士, server: su.v210.fun, port: 37916, type: vmess, uuid: 9c7a49a2-ddff-4654-925b-baa7913dbc56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: Apple.com}, udp: true}
-  - {name: v2-法国, server: fa.v218.top, port: 443, type: trojan, password: 9c7a49a2-ddff-4654-925b-baa7913dbc56, sni: fa.v218.top, skip-cert-verify: true, udp: true}
-  - {name: v2-捷克, server: levne.v237p.top, port: 443, type: trojan, password: 9c7a49a2-ddff-4654-925b-baa7913dbc56, sni: levne.v237p.top, skip-cert-verify: true, udp: true}
-  - {name: v2-西班牙, server: ishosting.v227.top, port: 443, type: trojan, password: 9c7a49a2-ddff-4654-925b-baa7913dbc56, sni: ishosting.v227.top, skip-cert-verify: true, udp: true}
-  - {name: v2-罗马尼亚 2, server: ishosting.v226p.top, port: 443, type: trojan, password: 9c7a49a2-ddff-4654-925b-baa7913dbc56, sni: ishosting.v226p.top, skip-cert-verify: true, udp: true}
-  - {name: v2-美国 2, server: us.v207.fun, port: 443, type: trojan, password: 9c7a49a2-ddff-4654-925b-baa7913dbc56, sni: us.v207.fun, skip-cert-verify: true, udp: true}
-  - {name: v2-新加坡 4, server: vpszhujihome.v220.top, port: 27169, type: vmess, uuid: 9c7a49a2-ddff-4654-925b-baa7913dbc56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: Apple.com}, udp: true}
-  - {name: 上海Azure-Singapore-DigitalOcean 5, server: 139.217.229.103, port: 11221, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港-中环2, server: 20.187.95.117, port: 8443, type: trojan, password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de, skip-cert-verify: true, udp: true}
+  - {name: 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 迪拜阿聯酋 | Etihad Rail | V2, server: dubai.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zcjd, ws-headers: {Host: dubai.jcnf.app}, udp: true}
+  - {name: 匈牙利, server: xyl.hootfun.top, port: 52322, type: trojan, password: 935f34c1-1713-402c-bfe1-f051cf49d370, sni: xyl.hootfun.top, skip-cert-verify: true, udp: true}
+  - {name: 蒙古2, server: 103.153.141.202, port: 8848, type: trojan, password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de, skip-cert-verify: true, udp: true}
+  - {name: 蒙古3, server: 103.168.56.67, port: 8848, type: trojan, password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 上海Azure-Tokyo-Linode
-      - 上海Azure-Tokyo-AWS
-      - 上海Azure-Tokyo-AWS 2
-      - 上海Azure-Singapore-DigitalOcean
-      - 上海Azure-Singapore-DigitalOcean 2
-      - 上海Azure-Tokyo-AWS 3
-      - 上海Azure-Tokyo-AWS 4
-      - 香港Azure-Tokyo-AWS
-      - 上海Azure-Tokyo-AWS 5
-      - 香港Azure-Tokyo-AWS 2
-      - "[CT/CM]香港 09"
-      - 上海Azure-Tokyo-Linode 2
-      - 上海Azure-Seoul-AWS
-      - 上海Azure-Singapore-DigitalOcean 3
-      - 上海Azure-Tokyo-AWS 6
-      - 香港Azure-Tokyo-AWS 3
-      - 上海Azure-Portland-AWS
-      - 香港Azure-Tokyo-AWS 4
-      - 上海Azure-Tokyo-Linode 3
-      - 香港Azure-Portland-AWS
-      - 香港Azure-Singapore-DigitalOcean
-      - 香港Azure-Tokyo-AWS 5
-      - 香港Azure-Tokyo-AWS 6
-      - 香港Azure-Singapore-DigitalOcean 2
-      - 香港Azure-Tokyo-Linode
-      - 香港Azure-Tokyo-Linode 2
-      - 上海Azure-Tokyo-AWS 7
-      - 香港Azure-Singapore-DigitalOcean 3
-      - 新加坡✈️中转 [广州BGP]
-      - 上海Azure-Portland-AWS 2
-      - 香港Azure-Seoul-AWS
-      - 香港Azure-Portland-AWS 2
-      - 上海Azure-Singapore-DigitalOcean 4
-      - 香港04
-      - 香港✈️中转 [湘沪BGP]
-      - 香港Azure-Tokyo-AWS 7
-      - 香港Azure-Portland-AWS 3
-      - Tokyo-Azure-Tokyo-Linode
-      - Tokyo-Azure-Singapore-DigitalOcean
-      - "[CT/CM]香港 06"
-      - 香港94
-      - 韩国✈️中转 [广州BGP]
-      - Tokyo-Azure-Tokyo-AWS
-      - v2-香港3
-      - v2-香港3 2
-      - Tokyo-Azure-Singapore-DigitalOcean 2
-      - 上海Azure-Catalonia-DediPath
-      - 香港91
-      - v2-新加坡
-      - v2-日本
-      - "[CT/CM]香港 10"
-      - v2-新加坡 2
-      - 香港Azure-Tokyo-AWS 8
-      - 香港Azure-Seoul-AWS 2
-      - v2-美国
-      - 香港Azure-Singapore-DigitalOcean 4
-      - 香港Azure-Singapore-DigitalOcean 5
-      - 香港Azure-Tokyo-Linode 3
-      - 上海Azure-Tokyo-AWS 8
-      - 香港Azure-Portland-AWS 4
-      - Singapore-Azure-Tokyo-AWS
+      - BGP-01-香港-多地优化
+      - 大萝卜鸡日本
+      - 大萝卜鸡日本2
+      - Linode
+      - Linode 2
+      - 新加坡01
       - 印度 | India | V2
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - 香港Azure-Singapore-DigitalOcean 6
-      - 香港Azure-Seoul-AWS 3
-      - v2-新加坡 3
-      - 香港Azure-Seoul-AWS 4
-      - 香港Azure-Singapore-DigitalOcean 7
-      - 香港Azure-Singapore-DigitalOcean 8
-      - Singapore-Azure-Singapore-DigitalOcean
-      - v2-加拿大
-      - 香港Azure-Portland-AWS 5
-      - 香港Azure-Tokyo-AWS 9
-      - 香港Azure-Portland-AWS 6
-      - 香港Azure-Singapore-DigitalOcean 9
-      - v2-美国-2
-      - 香港Azure-Portland-AWS 7
-      - 香港Azure-Tokyo-AWS 10
-      - v2-加拿大 2
-      - v2-罗马尼亚
-      - v2-美国-2 2
-      - v2-瑞士
-      - v2-法国
-      - v2-捷克
-      - v2-西班牙
-      - v2-罗马尼亚 2
-      - v2-美国 2
-      - v2-新加坡 4
-      - 上海Azure-Singapore-DigitalOcean 5
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 香港-中环2
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 迪拜阿聯酋 | Etihad Rail | V2
+      - 匈牙利
+      - 蒙古2
+      - 蒙古3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 上海Azure-Tokyo-Linode
-      - 上海Azure-Tokyo-AWS
-      - 上海Azure-Tokyo-AWS 2
-      - 上海Azure-Singapore-DigitalOcean
-      - 上海Azure-Singapore-DigitalOcean 2
-      - 上海Azure-Tokyo-AWS 3
-      - 上海Azure-Tokyo-AWS 4
-      - 香港Azure-Tokyo-AWS
-      - 上海Azure-Tokyo-AWS 5
-      - 香港Azure-Tokyo-AWS 2
-      - "[CT/CM]香港 09"
-      - 上海Azure-Tokyo-Linode 2
-      - 上海Azure-Seoul-AWS
-      - 上海Azure-Singapore-DigitalOcean 3
-      - 上海Azure-Tokyo-AWS 6
-      - 香港Azure-Tokyo-AWS 3
-      - 上海Azure-Portland-AWS
-      - 香港Azure-Tokyo-AWS 4
-      - 上海Azure-Tokyo-Linode 3
-      - 香港Azure-Portland-AWS
-      - 香港Azure-Singapore-DigitalOcean
-      - 香港Azure-Tokyo-AWS 5
-      - 香港Azure-Tokyo-AWS 6
-      - 香港Azure-Singapore-DigitalOcean 2
-      - 香港Azure-Tokyo-Linode
-      - 香港Azure-Tokyo-Linode 2
-      - 上海Azure-Tokyo-AWS 7
-      - 香港Azure-Singapore-DigitalOcean 3
-      - 新加坡✈️中转 [广州BGP]
-      - 上海Azure-Portland-AWS 2
-      - 香港Azure-Seoul-AWS
-      - 香港Azure-Portland-AWS 2
-      - 上海Azure-Singapore-DigitalOcean 4
-      - 香港04
-      - 香港✈️中转 [湘沪BGP]
-      - 香港Azure-Tokyo-AWS 7
-      - 香港Azure-Portland-AWS 3
-      - Tokyo-Azure-Tokyo-Linode
-      - Tokyo-Azure-Singapore-DigitalOcean
-      - "[CT/CM]香港 06"
-      - 香港94
-      - 韩国✈️中转 [广州BGP]
-      - Tokyo-Azure-Tokyo-AWS
-      - v2-香港3
-      - v2-香港3 2
-      - Tokyo-Azure-Singapore-DigitalOcean 2
-      - 上海Azure-Catalonia-DediPath
-      - 香港91
-      - v2-新加坡
-      - v2-日本
-      - "[CT/CM]香港 10"
-      - v2-新加坡 2
-      - 香港Azure-Tokyo-AWS 8
-      - 香港Azure-Seoul-AWS 2
-      - v2-美国
-      - 香港Azure-Singapore-DigitalOcean 4
-      - 香港Azure-Singapore-DigitalOcean 5
-      - 香港Azure-Tokyo-Linode 3
-      - 上海Azure-Tokyo-AWS 8
-      - 香港Azure-Portland-AWS 4
-      - Singapore-Azure-Tokyo-AWS
+      - BGP-01-香港-多地优化
+      - 大萝卜鸡日本
+      - 大萝卜鸡日本2
+      - Linode
+      - Linode 2
+      - 新加坡01
       - 印度 | India | V2
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - 香港Azure-Singapore-DigitalOcean 6
-      - 香港Azure-Seoul-AWS 3
-      - v2-新加坡 3
-      - 香港Azure-Seoul-AWS 4
-      - 香港Azure-Singapore-DigitalOcean 7
-      - 香港Azure-Singapore-DigitalOcean 8
-      - Singapore-Azure-Singapore-DigitalOcean
-      - v2-加拿大
-      - 香港Azure-Portland-AWS 5
-      - 香港Azure-Tokyo-AWS 9
-      - 香港Azure-Portland-AWS 6
-      - 香港Azure-Singapore-DigitalOcean 9
-      - v2-美国-2
-      - 香港Azure-Portland-AWS 7
-      - 香港Azure-Tokyo-AWS 10
-      - v2-加拿大 2
-      - v2-罗马尼亚
-      - v2-美国-2 2
-      - v2-瑞士
-      - v2-法国
-      - v2-捷克
-      - v2-西班牙
-      - v2-罗马尼亚 2
-      - v2-美国 2
-      - v2-新加坡 4
-      - 上海Azure-Singapore-DigitalOcean 5
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 香港-中环2
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 迪拜阿聯酋 | Etihad Rail | V2
+      - 匈牙利
+      - 蒙古2
+      - 蒙古3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 上海Azure-Tokyo-Linode
-      - 上海Azure-Tokyo-AWS
-      - 上海Azure-Tokyo-AWS 2
-      - 上海Azure-Singapore-DigitalOcean
-      - 上海Azure-Singapore-DigitalOcean 2
-      - 上海Azure-Tokyo-AWS 3
-      - 上海Azure-Tokyo-AWS 4
-      - 香港Azure-Tokyo-AWS
-      - 上海Azure-Tokyo-AWS 5
-      - 香港Azure-Tokyo-AWS 2
-      - "[CT/CM]香港 09"
-      - 上海Azure-Tokyo-Linode 2
-      - 上海Azure-Seoul-AWS
-      - 上海Azure-Singapore-DigitalOcean 3
-      - 上海Azure-Tokyo-AWS 6
-      - 香港Azure-Tokyo-AWS 3
-      - 上海Azure-Portland-AWS
-      - 香港Azure-Tokyo-AWS 4
-      - 上海Azure-Tokyo-Linode 3
-      - 香港Azure-Portland-AWS
-      - 香港Azure-Singapore-DigitalOcean
-      - 香港Azure-Tokyo-AWS 5
-      - 香港Azure-Tokyo-AWS 6
-      - 香港Azure-Singapore-DigitalOcean 2
-      - 香港Azure-Tokyo-Linode
-      - 香港Azure-Tokyo-Linode 2
-      - 上海Azure-Tokyo-AWS 7
-      - 香港Azure-Singapore-DigitalOcean 3
-      - 新加坡✈️中转 [广州BGP]
-      - 上海Azure-Portland-AWS 2
-      - 香港Azure-Seoul-AWS
-      - 香港Azure-Portland-AWS 2
-      - 上海Azure-Singapore-DigitalOcean 4
-      - 香港04
-      - 香港✈️中转 [湘沪BGP]
-      - 香港Azure-Tokyo-AWS 7
-      - 香港Azure-Portland-AWS 3
-      - Tokyo-Azure-Tokyo-Linode
-      - Tokyo-Azure-Singapore-DigitalOcean
-      - "[CT/CM]香港 06"
-      - 香港94
-      - 韩国✈️中转 [广州BGP]
-      - Tokyo-Azure-Tokyo-AWS
-      - v2-香港3
-      - v2-香港3 2
-      - Tokyo-Azure-Singapore-DigitalOcean 2
-      - 上海Azure-Catalonia-DediPath
-      - 香港91
-      - v2-新加坡
-      - v2-日本
-      - "[CT/CM]香港 10"
-      - v2-新加坡 2
-      - 香港Azure-Tokyo-AWS 8
-      - 香港Azure-Seoul-AWS 2
-      - v2-美国
-      - 香港Azure-Singapore-DigitalOcean 4
-      - 香港Azure-Singapore-DigitalOcean 5
-      - 香港Azure-Tokyo-Linode 3
-      - 上海Azure-Tokyo-AWS 8
-      - 香港Azure-Portland-AWS 4
-      - Singapore-Azure-Tokyo-AWS
+      - BGP-01-香港-多地优化
+      - 大萝卜鸡日本
+      - 大萝卜鸡日本2
+      - Linode
+      - Linode 2
+      - 新加坡01
       - 印度 | India | V2
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - 香港Azure-Singapore-DigitalOcean 6
-      - 香港Azure-Seoul-AWS 3
-      - v2-新加坡 3
-      - 香港Azure-Seoul-AWS 4
-      - 香港Azure-Singapore-DigitalOcean 7
-      - 香港Azure-Singapore-DigitalOcean 8
-      - Singapore-Azure-Singapore-DigitalOcean
-      - v2-加拿大
-      - 香港Azure-Portland-AWS 5
-      - 香港Azure-Tokyo-AWS 9
-      - 香港Azure-Portland-AWS 6
-      - 香港Azure-Singapore-DigitalOcean 9
-      - v2-美国-2
-      - 香港Azure-Portland-AWS 7
-      - 香港Azure-Tokyo-AWS 10
-      - v2-加拿大 2
-      - v2-罗马尼亚
-      - v2-美国-2 2
-      - v2-瑞士
-      - v2-法国
-      - v2-捷克
-      - v2-西班牙
-      - v2-罗马尼亚 2
-      - v2-美国 2
-      - v2-新加坡 4
-      - 上海Azure-Singapore-DigitalOcean 5
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 香港-中环2
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 迪拜阿聯酋 | Etihad Rail | V2
+      - 匈牙利
+      - 蒙古2
+      - 蒙古3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -396,425 +96,85 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 上海Azure-Tokyo-Linode
-      - 上海Azure-Tokyo-AWS
-      - 上海Azure-Tokyo-AWS 2
-      - 上海Azure-Singapore-DigitalOcean
-      - 上海Azure-Singapore-DigitalOcean 2
-      - 上海Azure-Tokyo-AWS 3
-      - 上海Azure-Tokyo-AWS 4
-      - 香港Azure-Tokyo-AWS
-      - 上海Azure-Tokyo-AWS 5
-      - 香港Azure-Tokyo-AWS 2
-      - "[CT/CM]香港 09"
-      - 上海Azure-Tokyo-Linode 2
-      - 上海Azure-Seoul-AWS
-      - 上海Azure-Singapore-DigitalOcean 3
-      - 上海Azure-Tokyo-AWS 6
-      - 香港Azure-Tokyo-AWS 3
-      - 上海Azure-Portland-AWS
-      - 香港Azure-Tokyo-AWS 4
-      - 上海Azure-Tokyo-Linode 3
-      - 香港Azure-Portland-AWS
-      - 香港Azure-Singapore-DigitalOcean
-      - 香港Azure-Tokyo-AWS 5
-      - 香港Azure-Tokyo-AWS 6
-      - 香港Azure-Singapore-DigitalOcean 2
-      - 香港Azure-Tokyo-Linode
-      - 香港Azure-Tokyo-Linode 2
-      - 上海Azure-Tokyo-AWS 7
-      - 香港Azure-Singapore-DigitalOcean 3
-      - 新加坡✈️中转 [广州BGP]
-      - 上海Azure-Portland-AWS 2
-      - 香港Azure-Seoul-AWS
-      - 香港Azure-Portland-AWS 2
-      - 上海Azure-Singapore-DigitalOcean 4
-      - 香港04
-      - 香港✈️中转 [湘沪BGP]
-      - 香港Azure-Tokyo-AWS 7
-      - 香港Azure-Portland-AWS 3
-      - Tokyo-Azure-Tokyo-Linode
-      - Tokyo-Azure-Singapore-DigitalOcean
-      - "[CT/CM]香港 06"
-      - 香港94
-      - 韩国✈️中转 [广州BGP]
-      - Tokyo-Azure-Tokyo-AWS
-      - v2-香港3
-      - v2-香港3 2
-      - Tokyo-Azure-Singapore-DigitalOcean 2
-      - 上海Azure-Catalonia-DediPath
-      - 香港91
-      - v2-新加坡
-      - v2-日本
-      - "[CT/CM]香港 10"
-      - v2-新加坡 2
-      - 香港Azure-Tokyo-AWS 8
-      - 香港Azure-Seoul-AWS 2
-      - v2-美国
-      - 香港Azure-Singapore-DigitalOcean 4
-      - 香港Azure-Singapore-DigitalOcean 5
-      - 香港Azure-Tokyo-Linode 3
-      - 上海Azure-Tokyo-AWS 8
-      - 香港Azure-Portland-AWS 4
-      - Singapore-Azure-Tokyo-AWS
+      - BGP-01-香港-多地优化
+      - 大萝卜鸡日本
+      - 大萝卜鸡日本2
+      - Linode
+      - Linode 2
+      - 新加坡01
       - 印度 | India | V2
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - 香港Azure-Singapore-DigitalOcean 6
-      - 香港Azure-Seoul-AWS 3
-      - v2-新加坡 3
-      - 香港Azure-Seoul-AWS 4
-      - 香港Azure-Singapore-DigitalOcean 7
-      - 香港Azure-Singapore-DigitalOcean 8
-      - Singapore-Azure-Singapore-DigitalOcean
-      - v2-加拿大
-      - 香港Azure-Portland-AWS 5
-      - 香港Azure-Tokyo-AWS 9
-      - 香港Azure-Portland-AWS 6
-      - 香港Azure-Singapore-DigitalOcean 9
-      - v2-美国-2
-      - 香港Azure-Portland-AWS 7
-      - 香港Azure-Tokyo-AWS 10
-      - v2-加拿大 2
-      - v2-罗马尼亚
-      - v2-美国-2 2
-      - v2-瑞士
-      - v2-法国
-      - v2-捷克
-      - v2-西班牙
-      - v2-罗马尼亚 2
-      - v2-美国 2
-      - v2-新加坡 4
-      - 上海Azure-Singapore-DigitalOcean 5
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 香港-中环2
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 迪拜阿聯酋 | Etihad Rail | V2
+      - 匈牙利
+      - 蒙古2
+      - 蒙古3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港Azure-Tokyo-AWS
-      - 香港Azure-Tokyo-AWS 2
-      - "[CT/CM]香港 09"
-      - 香港Azure-Tokyo-AWS 3
-      - 香港Azure-Tokyo-AWS 4
-      - 香港Azure-Portland-AWS
-      - 香港Azure-Singapore-DigitalOcean
-      - 香港Azure-Tokyo-AWS 5
-      - 香港Azure-Tokyo-AWS 6
-      - 香港Azure-Singapore-DigitalOcean 2
-      - 香港Azure-Tokyo-Linode
-      - 香港Azure-Tokyo-Linode 2
-      - 香港Azure-Singapore-DigitalOcean 3
-      - 香港Azure-Seoul-AWS
-      - 香港Azure-Portland-AWS 2
-      - 香港04
-      - 香港✈️中转 [湘沪BGP]
-      - 香港Azure-Tokyo-AWS 7
-      - 香港Azure-Portland-AWS 3
-      - "[CT/CM]香港 06"
-      - 香港94
-      - v2-香港3
-      - v2-香港3 2
-      - 香港91
-      - "[CT/CM]香港 10"
-      - 香港Azure-Tokyo-AWS 8
-      - 香港Azure-Seoul-AWS 2
-      - 香港Azure-Singapore-DigitalOcean 4
-      - 香港Azure-Singapore-DigitalOcean 5
-      - 香港Azure-Tokyo-Linode 3
-      - 香港Azure-Portland-AWS 4
-      - 香港Azure-Singapore-DigitalOcean 6
-      - 香港Azure-Seoul-AWS 3
-      - 香港Azure-Seoul-AWS 4
-      - 香港Azure-Singapore-DigitalOcean 7
-      - 香港Azure-Singapore-DigitalOcean 8
-      - 香港Azure-Portland-AWS 5
-      - 香港Azure-Tokyo-AWS 9
-      - 香港Azure-Portland-AWS 6
-      - 香港Azure-Singapore-DigitalOcean 9
-      - 香港Azure-Portland-AWS 7
-      - 香港Azure-Tokyo-AWS 10
+      - BGP-01-香港-多地优化
+      - 香港-中环2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 上海Azure-Tokyo-Linode
-      - 上海Azure-Tokyo-AWS
-      - 上海Azure-Tokyo-AWS 2
-      - 上海Azure-Singapore-DigitalOcean
-      - 上海Azure-Singapore-DigitalOcean 2
-      - 上海Azure-Tokyo-AWS 3
-      - 上海Azure-Tokyo-AWS 4
-      - 香港Azure-Tokyo-AWS
-      - 上海Azure-Tokyo-AWS 5
-      - 香港Azure-Tokyo-AWS 2
-      - "[CT/CM]香港 09"
-      - 上海Azure-Tokyo-Linode 2
-      - 上海Azure-Seoul-AWS
-      - 上海Azure-Singapore-DigitalOcean 3
-      - 上海Azure-Tokyo-AWS 6
-      - 香港Azure-Tokyo-AWS 3
-      - 上海Azure-Portland-AWS
-      - 香港Azure-Tokyo-AWS 4
-      - 上海Azure-Tokyo-Linode 3
-      - 香港Azure-Portland-AWS
-      - 香港Azure-Singapore-DigitalOcean
-      - 香港Azure-Tokyo-AWS 5
-      - 香港Azure-Tokyo-AWS 6
-      - 香港Azure-Singapore-DigitalOcean 2
-      - 香港Azure-Tokyo-Linode
-      - 香港Azure-Tokyo-Linode 2
-      - 上海Azure-Tokyo-AWS 7
-      - 香港Azure-Singapore-DigitalOcean 3
-      - 新加坡✈️中转 [广州BGP]
-      - 上海Azure-Portland-AWS 2
-      - 香港Azure-Seoul-AWS
-      - 香港Azure-Portland-AWS 2
-      - 上海Azure-Singapore-DigitalOcean 4
-      - 香港04
-      - 香港✈️中转 [湘沪BGP]
-      - 香港Azure-Tokyo-AWS 7
-      - 香港Azure-Portland-AWS 3
-      - Tokyo-Azure-Tokyo-Linode
-      - Tokyo-Azure-Singapore-DigitalOcean
-      - "[CT/CM]香港 06"
-      - 香港94
-      - 韩国✈️中转 [广州BGP]
-      - Tokyo-Azure-Tokyo-AWS
-      - v2-香港3
-      - v2-香港3 2
-      - Tokyo-Azure-Singapore-DigitalOcean 2
-      - 上海Azure-Catalonia-DediPath
-      - 香港91
-      - v2-新加坡
-      - v2-日本
-      - "[CT/CM]香港 10"
-      - v2-新加坡 2
-      - 香港Azure-Tokyo-AWS 8
-      - 香港Azure-Seoul-AWS 2
-      - v2-美国
-      - 香港Azure-Singapore-DigitalOcean 4
-      - 香港Azure-Singapore-DigitalOcean 5
-      - 香港Azure-Tokyo-Linode 3
-      - 上海Azure-Tokyo-AWS 8
-      - 香港Azure-Portland-AWS 4
-      - Singapore-Azure-Tokyo-AWS
+      - BGP-01-香港-多地优化
+      - 大萝卜鸡日本
+      - 大萝卜鸡日本2
+      - Linode
+      - Linode 2
+      - 新加坡01
       - 印度 | India | V2
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - 香港Azure-Singapore-DigitalOcean 6
-      - 香港Azure-Seoul-AWS 3
-      - v2-新加坡 3
-      - 香港Azure-Seoul-AWS 4
-      - 香港Azure-Singapore-DigitalOcean 7
-      - 香港Azure-Singapore-DigitalOcean 8
-      - Singapore-Azure-Singapore-DigitalOcean
-      - v2-加拿大
-      - 香港Azure-Portland-AWS 5
-      - 香港Azure-Tokyo-AWS 9
-      - 香港Azure-Portland-AWS 6
-      - 香港Azure-Singapore-DigitalOcean 9
-      - v2-美国-2
-      - 香港Azure-Portland-AWS 7
-      - 香港Azure-Tokyo-AWS 10
-      - v2-加拿大 2
-      - v2-罗马尼亚
-      - v2-美国-2 2
-      - v2-瑞士
-      - v2-法国
-      - v2-捷克
-      - v2-西班牙
-      - v2-罗马尼亚 2
-      - v2-美国 2
-      - v2-新加坡 4
-      - 上海Azure-Singapore-DigitalOcean 5
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 香港-中环2
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 迪拜阿聯酋 | Etihad Rail | V2
+      - 匈牙利
+      - 蒙古2
+      - 蒙古3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 上海Azure-Tokyo-Linode
-      - 上海Azure-Tokyo-AWS
-      - 上海Azure-Tokyo-AWS 2
-      - 上海Azure-Singapore-DigitalOcean
-      - 上海Azure-Singapore-DigitalOcean 2
-      - 上海Azure-Tokyo-AWS 3
-      - 上海Azure-Tokyo-AWS 4
-      - 香港Azure-Tokyo-AWS
-      - 上海Azure-Tokyo-AWS 5
-      - 香港Azure-Tokyo-AWS 2
-      - "[CT/CM]香港 09"
-      - 上海Azure-Tokyo-Linode 2
-      - 上海Azure-Seoul-AWS
-      - 上海Azure-Singapore-DigitalOcean 3
-      - 上海Azure-Tokyo-AWS 6
-      - 香港Azure-Tokyo-AWS 3
-      - 上海Azure-Portland-AWS
-      - 香港Azure-Tokyo-AWS 4
-      - 上海Azure-Tokyo-Linode 3
-      - 香港Azure-Portland-AWS
-      - 香港Azure-Singapore-DigitalOcean
-      - 香港Azure-Tokyo-AWS 5
-      - 香港Azure-Tokyo-AWS 6
-      - 香港Azure-Singapore-DigitalOcean 2
-      - 香港Azure-Tokyo-Linode
-      - 香港Azure-Tokyo-Linode 2
-      - 上海Azure-Tokyo-AWS 7
-      - 香港Azure-Singapore-DigitalOcean 3
-      - 新加坡✈️中转 [广州BGP]
-      - 上海Azure-Portland-AWS 2
-      - 香港Azure-Seoul-AWS
-      - 香港Azure-Portland-AWS 2
-      - 上海Azure-Singapore-DigitalOcean 4
-      - 香港04
-      - 香港✈️中转 [湘沪BGP]
-      - 香港Azure-Tokyo-AWS 7
-      - 香港Azure-Portland-AWS 3
-      - Tokyo-Azure-Tokyo-Linode
-      - Tokyo-Azure-Singapore-DigitalOcean
-      - "[CT/CM]香港 06"
-      - 香港94
-      - 韩国✈️中转 [广州BGP]
-      - Tokyo-Azure-Tokyo-AWS
-      - v2-香港3
-      - v2-香港3 2
-      - Tokyo-Azure-Singapore-DigitalOcean 2
-      - 上海Azure-Catalonia-DediPath
-      - 香港91
-      - v2-新加坡
-      - v2-日本
-      - "[CT/CM]香港 10"
-      - v2-新加坡 2
-      - 香港Azure-Tokyo-AWS 8
-      - 香港Azure-Seoul-AWS 2
-      - v2-美国
-      - 香港Azure-Singapore-DigitalOcean 4
-      - 香港Azure-Singapore-DigitalOcean 5
-      - 香港Azure-Tokyo-Linode 3
-      - 上海Azure-Tokyo-AWS 8
-      - 香港Azure-Portland-AWS 4
-      - Singapore-Azure-Tokyo-AWS
+      - BGP-01-香港-多地优化
+      - 大萝卜鸡日本
+      - 大萝卜鸡日本2
+      - Linode
+      - Linode 2
+      - 新加坡01
       - 印度 | India | V2
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - 香港Azure-Singapore-DigitalOcean 6
-      - 香港Azure-Seoul-AWS 3
-      - v2-新加坡 3
-      - 香港Azure-Seoul-AWS 4
-      - 香港Azure-Singapore-DigitalOcean 7
-      - 香港Azure-Singapore-DigitalOcean 8
-      - Singapore-Azure-Singapore-DigitalOcean
-      - v2-加拿大
-      - 香港Azure-Portland-AWS 5
-      - 香港Azure-Tokyo-AWS 9
-      - 香港Azure-Portland-AWS 6
-      - 香港Azure-Singapore-DigitalOcean 9
-      - v2-美国-2
-      - 香港Azure-Portland-AWS 7
-      - 香港Azure-Tokyo-AWS 10
-      - v2-加拿大 2
-      - v2-罗马尼亚
-      - v2-美国-2 2
-      - v2-瑞士
-      - v2-法国
-      - v2-捷克
-      - v2-西班牙
-      - v2-罗马尼亚 2
-      - v2-美国 2
-      - v2-新加坡 4
-      - 上海Azure-Singapore-DigitalOcean 5
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 香港-中环2
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 迪拜阿聯酋 | Etihad Rail | V2
+      - 匈牙利
+      - 蒙古2
+      - 蒙古3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 上海Azure-Tokyo-Linode
-      - 上海Azure-Tokyo-AWS
-      - 上海Azure-Tokyo-AWS 2
-      - 上海Azure-Singapore-DigitalOcean
-      - 上海Azure-Singapore-DigitalOcean 2
-      - 上海Azure-Tokyo-AWS 3
-      - 上海Azure-Tokyo-AWS 4
-      - 香港Azure-Tokyo-AWS
-      - 上海Azure-Tokyo-AWS 5
-      - 香港Azure-Tokyo-AWS 2
-      - "[CT/CM]香港 09"
-      - 上海Azure-Tokyo-Linode 2
-      - 上海Azure-Seoul-AWS
-      - 上海Azure-Singapore-DigitalOcean 3
-      - 上海Azure-Tokyo-AWS 6
-      - 香港Azure-Tokyo-AWS 3
-      - 上海Azure-Portland-AWS
-      - 香港Azure-Tokyo-AWS 4
-      - 上海Azure-Tokyo-Linode 3
-      - 香港Azure-Portland-AWS
-      - 香港Azure-Singapore-DigitalOcean
-      - 香港Azure-Tokyo-AWS 5
-      - 香港Azure-Tokyo-AWS 6
-      - 香港Azure-Singapore-DigitalOcean 2
-      - 香港Azure-Tokyo-Linode
-      - 香港Azure-Tokyo-Linode 2
-      - 上海Azure-Tokyo-AWS 7
-      - 香港Azure-Singapore-DigitalOcean 3
-      - 新加坡✈️中转 [广州BGP]
-      - 上海Azure-Portland-AWS 2
-      - 香港Azure-Seoul-AWS
-      - 香港Azure-Portland-AWS 2
-      - 上海Azure-Singapore-DigitalOcean 4
-      - 香港04
-      - 香港✈️中转 [湘沪BGP]
-      - 香港Azure-Tokyo-AWS 7
-      - 香港Azure-Portland-AWS 3
-      - Tokyo-Azure-Tokyo-Linode
-      - Tokyo-Azure-Singapore-DigitalOcean
-      - "[CT/CM]香港 06"
-      - 香港94
-      - 韩国✈️中转 [广州BGP]
-      - Tokyo-Azure-Tokyo-AWS
-      - v2-香港3
-      - v2-香港3 2
-      - Tokyo-Azure-Singapore-DigitalOcean 2
-      - 上海Azure-Catalonia-DediPath
-      - 香港91
-      - v2-新加坡
-      - v2-日本
-      - "[CT/CM]香港 10"
-      - v2-新加坡 2
-      - 香港Azure-Tokyo-AWS 8
-      - 香港Azure-Seoul-AWS 2
-      - v2-美国
-      - 香港Azure-Singapore-DigitalOcean 4
-      - 香港Azure-Singapore-DigitalOcean 5
-      - 香港Azure-Tokyo-Linode 3
-      - 上海Azure-Tokyo-AWS 8
-      - 香港Azure-Portland-AWS 4
-      - Singapore-Azure-Tokyo-AWS
+      - BGP-01-香港-多地优化
+      - 大萝卜鸡日本
+      - 大萝卜鸡日本2
+      - Linode
+      - Linode 2
+      - 新加坡01
       - 印度 | India | V2
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - 香港Azure-Singapore-DigitalOcean 6
-      - 香港Azure-Seoul-AWS 3
-      - v2-新加坡 3
-      - 香港Azure-Seoul-AWS 4
-      - 香港Azure-Singapore-DigitalOcean 7
-      - 香港Azure-Singapore-DigitalOcean 8
-      - Singapore-Azure-Singapore-DigitalOcean
-      - v2-加拿大
-      - 香港Azure-Portland-AWS 5
-      - 香港Azure-Tokyo-AWS 9
-      - 香港Azure-Portland-AWS 6
-      - 香港Azure-Singapore-DigitalOcean 9
-      - v2-美国-2
-      - 香港Azure-Portland-AWS 7
-      - 香港Azure-Tokyo-AWS 10
-      - v2-加拿大 2
-      - v2-罗马尼亚
-      - v2-美国-2 2
-      - v2-瑞士
-      - v2-法国
-      - v2-捷克
-      - v2-西班牙
-      - v2-罗马尼亚 2
-      - v2-美国 2
-      - v2-新加坡 4
-      - 上海Azure-Singapore-DigitalOcean 5
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 香港-中环2
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 迪拜阿聯酋 | Etihad Rail | V2
+      - 匈牙利
+      - 蒙古2
+      - 蒙古3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -830,95 +190,20 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 上海Azure-Tokyo-Linode
-      - 上海Azure-Tokyo-AWS
-      - 上海Azure-Tokyo-AWS 2
-      - 上海Azure-Singapore-DigitalOcean
-      - 上海Azure-Singapore-DigitalOcean 2
-      - 上海Azure-Tokyo-AWS 3
-      - 上海Azure-Tokyo-AWS 4
-      - 香港Azure-Tokyo-AWS
-      - 上海Azure-Tokyo-AWS 5
-      - 香港Azure-Tokyo-AWS 2
-      - "[CT/CM]香港 09"
-      - 上海Azure-Tokyo-Linode 2
-      - 上海Azure-Seoul-AWS
-      - 上海Azure-Singapore-DigitalOcean 3
-      - 上海Azure-Tokyo-AWS 6
-      - 香港Azure-Tokyo-AWS 3
-      - 上海Azure-Portland-AWS
-      - 香港Azure-Tokyo-AWS 4
-      - 上海Azure-Tokyo-Linode 3
-      - 香港Azure-Portland-AWS
-      - 香港Azure-Singapore-DigitalOcean
-      - 香港Azure-Tokyo-AWS 5
-      - 香港Azure-Tokyo-AWS 6
-      - 香港Azure-Singapore-DigitalOcean 2
-      - 香港Azure-Tokyo-Linode
-      - 香港Azure-Tokyo-Linode 2
-      - 上海Azure-Tokyo-AWS 7
-      - 香港Azure-Singapore-DigitalOcean 3
-      - 新加坡✈️中转 [广州BGP]
-      - 上海Azure-Portland-AWS 2
-      - 香港Azure-Seoul-AWS
-      - 香港Azure-Portland-AWS 2
-      - 上海Azure-Singapore-DigitalOcean 4
-      - 香港04
-      - 香港✈️中转 [湘沪BGP]
-      - 香港Azure-Tokyo-AWS 7
-      - 香港Azure-Portland-AWS 3
-      - Tokyo-Azure-Tokyo-Linode
-      - Tokyo-Azure-Singapore-DigitalOcean
-      - "[CT/CM]香港 06"
-      - 香港94
-      - 韩国✈️中转 [广州BGP]
-      - Tokyo-Azure-Tokyo-AWS
-      - v2-香港3
-      - v2-香港3 2
-      - Tokyo-Azure-Singapore-DigitalOcean 2
-      - 上海Azure-Catalonia-DediPath
-      - 香港91
-      - v2-新加坡
-      - v2-日本
-      - "[CT/CM]香港 10"
-      - v2-新加坡 2
-      - 香港Azure-Tokyo-AWS 8
-      - 香港Azure-Seoul-AWS 2
-      - v2-美国
-      - 香港Azure-Singapore-DigitalOcean 4
-      - 香港Azure-Singapore-DigitalOcean 5
-      - 香港Azure-Tokyo-Linode 3
-      - 上海Azure-Tokyo-AWS 8
-      - 香港Azure-Portland-AWS 4
-      - Singapore-Azure-Tokyo-AWS
+      - BGP-01-香港-多地优化
+      - 大萝卜鸡日本
+      - 大萝卜鸡日本2
+      - Linode
+      - Linode 2
+      - 新加坡01
       - 印度 | India | V2
-      - 俄罗斯✈️中转  [湘沪BGP]
-      - 香港Azure-Singapore-DigitalOcean 6
-      - 香港Azure-Seoul-AWS 3
-      - v2-新加坡 3
-      - 香港Azure-Seoul-AWS 4
-      - 香港Azure-Singapore-DigitalOcean 7
-      - 香港Azure-Singapore-DigitalOcean 8
-      - Singapore-Azure-Singapore-DigitalOcean
-      - v2-加拿大
-      - 香港Azure-Portland-AWS 5
-      - 香港Azure-Tokyo-AWS 9
-      - 香港Azure-Portland-AWS 6
-      - 香港Azure-Singapore-DigitalOcean 9
-      - v2-美国-2
-      - 香港Azure-Portland-AWS 7
-      - 香港Azure-Tokyo-AWS 10
-      - v2-加拿大 2
-      - v2-罗马尼亚
-      - v2-美国-2 2
-      - v2-瑞士
-      - v2-法国
-      - v2-捷克
-      - v2-西班牙
-      - v2-罗马尼亚 2
-      - v2-美国 2
-      - v2-新加坡 4
-      - 上海Azure-Singapore-DigitalOcean 5
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 香港-中环2
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 迪拜阿聯酋 | Etihad Rail | V2
+      - 匈牙利
+      - 蒙古2
+      - 蒙古3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
