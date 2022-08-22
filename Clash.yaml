@@ -5,67 +5,83 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN【付费推荐：a.c1n.cn】 2, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: 直连|丝袜奶茶Hkt, server: hkt.403w.club, port: 11301, type: trojan, password: fbda7e99-943d-4c81-811a-019acb08c1af, sni: hkt.403w.club, skip-cert-verify: true, udp: true}
-  - {name: CN【付费推荐：a.c1n.cn】, server: 113.142.205.92, port: 443, type: vmess, uuid: 400a1ff6-c0fb-49f9-dc82-83fc6f7f09ef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sgserverme.tk}, udp: true}
-  - {name: 大萝卜鸡🇸🇬新加坡高速, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: "Lv3 香港 04 [3.0]", server: debian10.updatensv3.com, port: 8004, type: ss, cipher: chacha20-ietf-poly1305, password: 4e2c7e7b0d175c08edc96e7b946415c6, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}, udp: true}
+  - {name: 香港022, server: centos7.websitesv3.com, port: 8761, type: ss, cipher: aes-128-gcm, password: 72aeb07ee55b1f9e331da9572e3c2261, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}, udp: true}
+  - {name: "Lv3 香港 05 [3.0]", server: debian10.updatensv3.com, port: 8010, type: ss, cipher: chacha20-ietf-poly1305, password: 68ece1cafb98b06aa7a3edfefdf91de4, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}, udp: true}
+  - {name: "Lv2 日本 02 [2.0]", server: sdfwh.guaranteev2.com, port: 7411, type: ss, cipher: aes-128-gcm, password: ad5b36f671ddbacf026c21adc2bb573d, plugin: obfs, plugin-opts: {mode: http, host: a68f742ca034.microsoft.com}, udp: true}
   - {name: Linode 2, server: 172.105.242.17, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
-  - {name: 【主力】韩国1丨负载均衡2, server: v41.xn--6nq44r2uh9rhj7f.com, port: 80, type: vmess, uuid: a534b80a-e674-4b9d-9778-884d60e8cc55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: 印尼(youtube阿伟科技) 2, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpnneo, ws-headers: {Host: cyber3.nextvpn.cc}, udp: true}
-  - {name: JP腾讯云专线, server: 43.128.232.17, port: 7777, type: ssr, cipher: aes-128-ctr, password: haruki, protocol: auth_sha1_v4, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 【主力】印度1丨负载均衡2, server: v61.xn--6nq44r2uh9rhj7f.com, port: 80, type: vmess, uuid: a534b80a-e674-4b9d-9778-884d60e8cc55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: "[青铜][美.旧金山][1.0] 直连 ①", server: namer-us-sfo-01-edgecast.qdns.live, port: 2053, type: vmess, uuid: df3081c3-0d59-34cf-b1d9-3404610c6fc1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: namer-us-sfo-01-edgecast.qdns.live}, udp: true}
+  - {name: "Lv2 日本 03 [2.0]", server: oadht.guaranteev2.com, port: 7412, type: ss, cipher: aes-128-gcm, password: 1cf90996df4c2cac341322961b650a38, plugin: obfs, plugin-opts: {mode: http, host: a68f742ca034.microsoft.com}, udp: true}
+  - {name: Linode, server: 172.105.242.17, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
+  - {name: TW01-V2-直连, server: tw01.henet.cyou, port: 20000, type: vmess, uuid: 9ab79a65-53d6-415c-8599-cc74aa5a1b10, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: cctv.com}, udp: true}
+  - {name: TW01-TROJAN-直连, server: tw01.henet.cyou, port: 30000, type: trojan, password: 9ab79a65-53d6-415c-8599-cc74aa5a1b10, sni: tw01.henet.cyou, skip-cert-verify: true, udp: true}
+  - {name: 日本-1-Trojan, server: trojannmfan5.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, sni: trojannmfan5.ripwallllc.com, skip-cert-verify: true, udp: true}
+  - {name: 大萝卜鸡香港高速, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: iiiieeepppplll.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
   - {name: "[青铜][美.西雅图][1.0] 直连 ①", server: namer-us-sea-01-edgecast.qdns.live, port: 2053, type: vmess, uuid: df3081c3-0d59-34cf-b1d9-3404610c6fc1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: namer-us-sea-01-edgecast.qdns.live}, udp: true}
+  - {name: "Lv2 香港 07 [2.5]", server: kqnvw.bacskey.com, port: 5013, type: ss, cipher: chacha20-ietf-poly1305, password: 65d31f23684b26abf6b207dcb5c314a6, plugin: obfs, plugin-opts: {mode: http, host: 575a962279b5.microsoft.com}, udp: true}
+  - {name: "[青铜][美.旧金山][1.0] 直连 ①", server: namer-us-sfo-01-edgecast.qdns.live, port: 2053, type: vmess, uuid: df3081c3-0d59-34cf-b1d9-3404610c6fc1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: namer-us-sfo-01-edgecast.qdns.live}, udp: true}
+  - {name: 香港011, server: centos7.websitesv3.com, port: 8763, type: ss, cipher: aes-128-gcm, password: 3e5d82b03956c907373cd5615e46704c, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN【付费推荐：a.c1n.cn】 2
-      - 直连|丝袜奶茶Hkt
-      - CN【付费推荐：a.c1n.cn】
-      - 大萝卜鸡🇸🇬新加坡高速
+      - Lv3 香港 04 [3.0]
+      - 香港022
+      - Lv3 香港 05 [3.0]
+      - Lv2 日本 02 [2.0]
       - Linode 2
-      - 【主力】韩国1丨负载均衡2
-      - 印尼(youtube阿伟科技) 2
-      - JP腾讯云专线
-      - 【主力】印度1丨负载均衡2
-      - "[青铜][美.旧金山][1.0] 直连 ①"
+      - Lv2 日本 03 [2.0]
+      - Linode
+      - TW01-V2-直连
+      - TW01-TROJAN-直连
+      - 日本-1-Trojan
+      - 大萝卜鸡香港高速
       - "[青铜][美.西雅图][1.0] 直连 ①"
+      - Lv2 香港 07 [2.5]
+      - "[青铜][美.旧金山][1.0] 直连 ①"
+      - 香港011
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN【付费推荐：a.c1n.cn】 2
-      - 直连|丝袜奶茶Hkt
-      - CN【付费推荐：a.c1n.cn】
-      - 大萝卜鸡🇸🇬新加坡高速
+      - Lv3 香港 04 [3.0]
+      - 香港022
+      - Lv3 香港 05 [3.0]
+      - Lv2 日本 02 [2.0]
       - Linode 2
-      - 【主力】韩国1丨负载均衡2
-      - 印尼(youtube阿伟科技) 2
-      - JP腾讯云专线
-      - 【主力】印度1丨负载均衡2
-      - "[青铜][美.旧金山][1.0] 直连 ①"
+      - Lv2 日本 03 [2.0]
+      - Linode
+      - TW01-V2-直连
+      - TW01-TROJAN-直连
+      - 日本-1-Trojan
+      - 大萝卜鸡香港高速
       - "[青铜][美.西雅图][1.0] 直连 ①"
+      - Lv2 香港 07 [2.5]
+      - "[青铜][美.旧金山][1.0] 直连 ①"
+      - 香港011
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN【付费推荐：a.c1n.cn】 2
-      - 直连|丝袜奶茶Hkt
-      - CN【付费推荐：a.c1n.cn】
-      - 大萝卜鸡🇸🇬新加坡高速
+      - Lv3 香港 04 [3.0]
+      - 香港022
+      - Lv3 香港 05 [3.0]
+      - Lv2 日本 02 [2.0]
       - Linode 2
-      - 【主力】韩国1丨负载均衡2
-      - 印尼(youtube阿伟科技) 2
-      - JP腾讯云专线
-      - 【主力】印度1丨负载均衡2
-      - "[青铜][美.旧金山][1.0] 直连 ①"
+      - Lv2 日本 03 [2.0]
+      - Linode
+      - TW01-V2-直连
+      - TW01-TROJAN-直连
+      - 日本-1-Trojan
+      - 大萝卜鸡香港高速
       - "[青铜][美.西雅图][1.0] 直连 ①"
+      - Lv2 香港 07 [2.5]
+      - "[青铜][美.旧金山][1.0] 直连 ①"
+      - 香港011
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -84,71 +100,93 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN【付费推荐：a.c1n.cn】 2
-      - 直连|丝袜奶茶Hkt
-      - CN【付费推荐：a.c1n.cn】
-      - 大萝卜鸡🇸🇬新加坡高速
+      - Lv3 香港 04 [3.0]
+      - 香港022
+      - Lv3 香港 05 [3.0]
+      - Lv2 日本 02 [2.0]
       - Linode 2
-      - 【主力】韩国1丨负载均衡2
-      - 印尼(youtube阿伟科技) 2
-      - JP腾讯云专线
-      - 【主力】印度1丨负载均衡2
-      - "[青铜][美.旧金山][1.0] 直连 ①"
+      - Lv2 日本 03 [2.0]
+      - Linode
+      - TW01-V2-直连
+      - TW01-TROJAN-直连
+      - 日本-1-Trojan
+      - 大萝卜鸡香港高速
       - "[青铜][美.西雅图][1.0] 直连 ①"
+      - Lv2 香港 07 [2.5]
+      - "[青铜][美.旧金山][1.0] 直连 ①"
+      - 香港011
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - Lv3 香港 04 [3.0]
+      - 香港022
+      - Lv3 香港 05 [3.0]
+      - 大萝卜鸡香港高速
+      - Lv2 香港 07 [2.5]
+      - 香港011
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN【付费推荐：a.c1n.cn】 2
-      - 直连|丝袜奶茶Hkt
-      - CN【付费推荐：a.c1n.cn】
-      - 大萝卜鸡🇸🇬新加坡高速
+      - Lv3 香港 04 [3.0]
+      - 香港022
+      - Lv3 香港 05 [3.0]
+      - Lv2 日本 02 [2.0]
       - Linode 2
-      - 【主力】韩国1丨负载均衡2
-      - 印尼(youtube阿伟科技) 2
-      - JP腾讯云专线
-      - 【主力】印度1丨负载均衡2
-      - "[青铜][美.旧金山][1.0] 直连 ①"
+      - Lv2 日本 03 [2.0]
+      - Linode
+      - TW01-V2-直连
+      - TW01-TROJAN-直连
+      - 日本-1-Trojan
+      - 大萝卜鸡香港高速
       - "[青铜][美.西雅图][1.0] 直连 ①"
+      - Lv2 香港 07 [2.5]
+      - "[青铜][美.旧金山][1.0] 直连 ①"
+      - 香港011
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN【付费推荐：a.c1n.cn】 2
-      - 直连|丝袜奶茶Hkt
-      - CN【付费推荐：a.c1n.cn】
-      - 大萝卜鸡🇸🇬新加坡高速
+      - Lv3 香港 04 [3.0]
+      - 香港022
+      - Lv3 香港 05 [3.0]
+      - Lv2 日本 02 [2.0]
       - Linode 2
-      - 【主力】韩国1丨负载均衡2
-      - 印尼(youtube阿伟科技) 2
-      - JP腾讯云专线
-      - 【主力】印度1丨负载均衡2
-      - "[青铜][美.旧金山][1.0] 直连 ①"
+      - Lv2 日本 03 [2.0]
+      - Linode
+      - TW01-V2-直连
+      - TW01-TROJAN-直连
+      - 日本-1-Trojan
+      - 大萝卜鸡香港高速
       - "[青铜][美.西雅图][1.0] 直连 ①"
+      - Lv2 香港 07 [2.5]
+      - "[青铜][美.旧金山][1.0] 直连 ①"
+      - 香港011
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN【付费推荐：a.c1n.cn】 2
-      - 直连|丝袜奶茶Hkt
-      - CN【付费推荐：a.c1n.cn】
-      - 大萝卜鸡🇸🇬新加坡高速
+      - Lv3 香港 04 [3.0]
+      - 香港022
+      - Lv3 香港 05 [3.0]
+      - Lv2 日本 02 [2.0]
       - Linode 2
-      - 【主力】韩国1丨负载均衡2
-      - 印尼(youtube阿伟科技) 2
-      - JP腾讯云专线
-      - 【主力】印度1丨负载均衡2
-      - "[青铜][美.旧金山][1.0] 直连 ①"
+      - Lv2 日本 03 [2.0]
+      - Linode
+      - TW01-V2-直连
+      - TW01-TROJAN-直连
+      - 日本-1-Trojan
+      - 大萝卜鸡香港高速
       - "[青铜][美.西雅图][1.0] 直连 ①"
+      - Lv2 香港 07 [2.5]
+      - "[青铜][美.旧金山][1.0] 直连 ①"
+      - 香港011
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -164,17 +202,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN【付费推荐：a.c1n.cn】 2
-      - 直连|丝袜奶茶Hkt
-      - CN【付费推荐：a.c1n.cn】
-      - 大萝卜鸡🇸🇬新加坡高速
+      - Lv3 香港 04 [3.0]
+      - 香港022
+      - Lv3 香港 05 [3.0]
+      - Lv2 日本 02 [2.0]
       - Linode 2
-      - 【主力】韩国1丨负载均衡2
-      - 印尼(youtube阿伟科技) 2
-      - JP腾讯云专线
-      - 【主力】印度1丨负载均衡2
-      - "[青铜][美.旧金山][1.0] 直连 ①"
+      - Lv2 日本 03 [2.0]
+      - Linode
+      - TW01-V2-直连
+      - TW01-TROJAN-直连
+      - 日本-1-Trojan
+      - 大萝卜鸡香港高速
       - "[青铜][美.西雅图][1.0] 直连 ①"
+      - Lv2 香港 07 [2.5]
+      - "[青铜][美.旧金山][1.0] 直连 ①"
+      - 香港011
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
