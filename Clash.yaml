@@ -5,83 +5,83 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "Lv3 香港 04 [3.0]", server: debian10.updatensv3.com, port: 8004, type: ss, cipher: chacha20-ietf-poly1305, password: 4e2c7e7b0d175c08edc96e7b946415c6, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}, udp: true}
-  - {name: 香港022, server: centos7.websitesv3.com, port: 8761, type: ss, cipher: aes-128-gcm, password: 72aeb07ee55b1f9e331da9572e3c2261, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}, udp: true}
-  - {name: "Lv3 香港 05 [3.0]", server: debian10.updatensv3.com, port: 8010, type: ss, cipher: chacha20-ietf-poly1305, password: 68ece1cafb98b06aa7a3edfefdf91de4, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}, udp: true}
-  - {name: "Lv2 日本 02 [2.0]", server: sdfwh.guaranteev2.com, port: 7411, type: ss, cipher: aes-128-gcm, password: ad5b36f671ddbacf026c21adc2bb573d, plugin: obfs, plugin-opts: {mode: http, host: a68f742ca034.microsoft.com}, udp: true}
-  - {name: Linode 2, server: 172.105.242.17, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
-  - {name: "Lv2 日本 03 [2.0]", server: oadht.guaranteev2.com, port: 7412, type: ss, cipher: aes-128-gcm, password: 1cf90996df4c2cac341322961b650a38, plugin: obfs, plugin-opts: {mode: http, host: a68f742ca034.microsoft.com}, udp: true}
-  - {name: Linode, server: 172.105.242.17, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
-  - {name: TW01-V2-直连, server: tw01.henet.cyou, port: 20000, type: vmess, uuid: 9ab79a65-53d6-415c-8599-cc74aa5a1b10, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: cctv.com}, udp: true}
-  - {name: TW01-TROJAN-直连, server: tw01.henet.cyou, port: 30000, type: trojan, password: 9ab79a65-53d6-415c-8599-cc74aa5a1b10, sni: tw01.henet.cyou, skip-cert-verify: true, udp: true}
-  - {name: 日本-1-Trojan, server: trojannmfan5.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, sni: trojannmfan5.ripwallllc.com, skip-cert-verify: true, udp: true}
   - {name: 大萝卜鸡香港高速, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: iiiieeepppplll.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: "[青铜][美.西雅图][1.0] 直连 ①", server: namer-us-sea-01-edgecast.qdns.live, port: 2053, type: vmess, uuid: df3081c3-0d59-34cf-b1d9-3404610c6fc1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: namer-us-sea-01-edgecast.qdns.live}, udp: true}
-  - {name: "Lv2 香港 07 [2.5]", server: kqnvw.bacskey.com, port: 5013, type: ss, cipher: chacha20-ietf-poly1305, password: 65d31f23684b26abf6b207dcb5c314a6, plugin: obfs, plugin-opts: {mode: http, host: 575a962279b5.microsoft.com}, udp: true}
+  - {name: Linode, server: sg.securevpn.cc, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
+  - {name: Scould台湾01|解锁流媒体|1x, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 5bea44cd-f17c-4bd2-aa75-4936bb4bf493, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /scloudhinet01, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: Scloud台湾02|解锁流媒体|1x, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 5bea44cd-f17c-4bd2-aa75-4936bb4bf493, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /scloudhinet02, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: Linode 2, server: 172.105.242.17, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
+  - {name: 新加坡🇸🇬｜Do, server: do4.hgdbk.ga, port: 443, type: vmess, uuid: 1b41d609-0d07-4dfd-b985-3cd08812dd5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: do4.hgdbk.ga}, udp: true}
+  - {name: "Go加速 - V1 IEPL | GB1\n", server: i1.go001.buzz, port: 31905, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
+  - {name: 日本-优化3, server: t.cccao.cyou, port: 16617, type: vmess, uuid: a0cc7c8c-6912-4851-a570-a04b9475e797, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.cccao.cyou}, udp: true}
+  - {name: Linode 2 2, server: 172.105.242.17, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
+  - {name: 加拿大-优化2, server: 120-241-236-214.nhost.00cdn.com, port: 16641, type: vmess, uuid: a0cc7c8c-6912-4851-a570-a04b9475e797, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 120-241-236-214.nhost.00cdn.com}, udp: true}
+  - {name: "Lv3 日本 01 [2.0]", server: yum-y.update.mipglxi.cn, port: 6015, type: ss, cipher: aes-128-gcm, password: b69b7845-f505-4ad2-b0ee-00f755a77e1d, udp: true}
   - {name: "[青铜][美.旧金山][1.0] 直连 ①", server: namer-us-sfo-01-edgecast.qdns.live, port: 2053, type: vmess, uuid: df3081c3-0d59-34cf-b1d9-3404610c6fc1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: namer-us-sfo-01-edgecast.qdns.live}, udp: true}
-  - {name: 香港011, server: centos7.websitesv3.com, port: 8763, type: ss, cipher: aes-128-gcm, password: 3e5d82b03956c907373cd5615e46704c, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}, udp: true}
+  - {name: 6002 @WangCai_1, server: 120.233.24.162, port: 6002, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
+  - {name: "[青铜][美.西雅图][1.0] 直连 ①", server: namer-us-sea-01-edgecast.qdns.live, port: 2053, type: vmess, uuid: df3081c3-0d59-34cf-b1d9-3404610c6fc1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: namer-us-sea-01-edgecast.qdns.live}, udp: true}
+  - {name: CN【付费推荐：a.c1n.cn】 2, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Lv3 香港 04 [3.0]
-      - 香港022
-      - Lv3 香港 05 [3.0]
-      - Lv2 日本 02 [2.0]
-      - Linode 2
-      - Lv2 日本 03 [2.0]
-      - Linode
-      - TW01-V2-直连
-      - TW01-TROJAN-直连
-      - 日本-1-Trojan
       - 大萝卜鸡香港高速
-      - "[青铜][美.西雅图][1.0] 直连 ①"
-      - Lv2 香港 07 [2.5]
+      - Linode
+      - Scould台湾01|解锁流媒体|1x
+      - Scloud台湾02|解锁流媒体|1x
+      - Linode 2
+      - 新加坡🇸🇬｜Do
+      - "Go加速 - V1 IEPL | GB1\n"
+      - 日本-优化3
+      - Linode 2 2
+      - 加拿大-优化2
+      - Lv3 日本 01 [2.0]
       - "[青铜][美.旧金山][1.0] 直连 ①"
-      - 香港011
+      - 6002 @WangCai_1
+      - "[青铜][美.西雅图][1.0] 直连 ①"
+      - CN【付费推荐：a.c1n.cn】 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Lv3 香港 04 [3.0]
-      - 香港022
-      - Lv3 香港 05 [3.0]
-      - Lv2 日本 02 [2.0]
-      - Linode 2
-      - Lv2 日本 03 [2.0]
-      - Linode
-      - TW01-V2-直连
-      - TW01-TROJAN-直连
-      - 日本-1-Trojan
       - 大萝卜鸡香港高速
-      - "[青铜][美.西雅图][1.0] 直连 ①"
-      - Lv2 香港 07 [2.5]
+      - Linode
+      - Scould台湾01|解锁流媒体|1x
+      - Scloud台湾02|解锁流媒体|1x
+      - Linode 2
+      - 新加坡🇸🇬｜Do
+      - "Go加速 - V1 IEPL | GB1\n"
+      - 日本-优化3
+      - Linode 2 2
+      - 加拿大-优化2
+      - Lv3 日本 01 [2.0]
       - "[青铜][美.旧金山][1.0] 直连 ①"
-      - 香港011
+      - 6002 @WangCai_1
+      - "[青铜][美.西雅图][1.0] 直连 ①"
+      - CN【付费推荐：a.c1n.cn】 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Lv3 香港 04 [3.0]
-      - 香港022
-      - Lv3 香港 05 [3.0]
-      - Lv2 日本 02 [2.0]
-      - Linode 2
-      - Lv2 日本 03 [2.0]
-      - Linode
-      - TW01-V2-直连
-      - TW01-TROJAN-直连
-      - 日本-1-Trojan
       - 大萝卜鸡香港高速
-      - "[青铜][美.西雅图][1.0] 直连 ①"
-      - Lv2 香港 07 [2.5]
+      - Linode
+      - Scould台湾01|解锁流媒体|1x
+      - Scloud台湾02|解锁流媒体|1x
+      - Linode 2
+      - 新加坡🇸🇬｜Do
+      - "Go加速 - V1 IEPL | GB1\n"
+      - 日本-优化3
+      - Linode 2 2
+      - 加拿大-优化2
+      - Lv3 日本 01 [2.0]
       - "[青铜][美.旧金山][1.0] 直连 ①"
-      - 香港011
+      - 6002 @WangCai_1
+      - "[青铜][美.西雅图][1.0] 直连 ①"
+      - CN【付费推荐：a.c1n.cn】 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -100,93 +100,90 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Lv3 香港 04 [3.0]
-      - 香港022
-      - Lv3 香港 05 [3.0]
-      - Lv2 日本 02 [2.0]
-      - Linode 2
-      - Lv2 日本 03 [2.0]
-      - Linode
-      - TW01-V2-直连
-      - TW01-TROJAN-直连
-      - 日本-1-Trojan
       - 大萝卜鸡香港高速
-      - "[青铜][美.西雅图][1.0] 直连 ①"
-      - Lv2 香港 07 [2.5]
+      - Linode
+      - Scould台湾01|解锁流媒体|1x
+      - Scloud台湾02|解锁流媒体|1x
+      - Linode 2
+      - 新加坡🇸🇬｜Do
+      - "Go加速 - V1 IEPL | GB1\n"
+      - 日本-优化3
+      - Linode 2 2
+      - 加拿大-优化2
+      - Lv3 日本 01 [2.0]
       - "[青铜][美.旧金山][1.0] 直连 ①"
-      - 香港011
+      - 6002 @WangCai_1
+      - "[青铜][美.西雅图][1.0] 直连 ①"
+      - CN【付费推荐：a.c1n.cn】 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - Lv3 香港 04 [3.0]
-      - 香港022
-      - Lv3 香港 05 [3.0]
       - 大萝卜鸡香港高速
-      - Lv2 香港 07 [2.5]
-      - 香港011
+      - Scould台湾01|解锁流媒体|1x
+      - Scloud台湾02|解锁流媒体|1x
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Lv3 香港 04 [3.0]
-      - 香港022
-      - Lv3 香港 05 [3.0]
-      - Lv2 日本 02 [2.0]
-      - Linode 2
-      - Lv2 日本 03 [2.0]
-      - Linode
-      - TW01-V2-直连
-      - TW01-TROJAN-直连
-      - 日本-1-Trojan
       - 大萝卜鸡香港高速
-      - "[青铜][美.西雅图][1.0] 直连 ①"
-      - Lv2 香港 07 [2.5]
+      - Linode
+      - Scould台湾01|解锁流媒体|1x
+      - Scloud台湾02|解锁流媒体|1x
+      - Linode 2
+      - 新加坡🇸🇬｜Do
+      - "Go加速 - V1 IEPL | GB1\n"
+      - 日本-优化3
+      - Linode 2 2
+      - 加拿大-优化2
+      - Lv3 日本 01 [2.0]
       - "[青铜][美.旧金山][1.0] 直连 ①"
-      - 香港011
+      - 6002 @WangCai_1
+      - "[青铜][美.西雅图][1.0] 直连 ①"
+      - CN【付费推荐：a.c1n.cn】 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Lv3 香港 04 [3.0]
-      - 香港022
-      - Lv3 香港 05 [3.0]
-      - Lv2 日本 02 [2.0]
-      - Linode 2
-      - Lv2 日本 03 [2.0]
-      - Linode
-      - TW01-V2-直连
-      - TW01-TROJAN-直连
-      - 日本-1-Trojan
       - 大萝卜鸡香港高速
-      - "[青铜][美.西雅图][1.0] 直连 ①"
-      - Lv2 香港 07 [2.5]
+      - Linode
+      - Scould台湾01|解锁流媒体|1x
+      - Scloud台湾02|解锁流媒体|1x
+      - Linode 2
+      - 新加坡🇸🇬｜Do
+      - "Go加速 - V1 IEPL | GB1\n"
+      - 日本-优化3
+      - Linode 2 2
+      - 加拿大-优化2
+      - Lv3 日本 01 [2.0]
       - "[青铜][美.旧金山][1.0] 直连 ①"
-      - 香港011
+      - 6002 @WangCai_1
+      - "[青铜][美.西雅图][1.0] 直连 ①"
+      - CN【付费推荐：a.c1n.cn】 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Lv3 香港 04 [3.0]
-      - 香港022
-      - Lv3 香港 05 [3.0]
-      - Lv2 日本 02 [2.0]
-      - Linode 2
-      - Lv2 日本 03 [2.0]
-      - Linode
-      - TW01-V2-直连
-      - TW01-TROJAN-直连
-      - 日本-1-Trojan
       - 大萝卜鸡香港高速
-      - "[青铜][美.西雅图][1.0] 直连 ①"
-      - Lv2 香港 07 [2.5]
+      - Linode
+      - Scould台湾01|解锁流媒体|1x
+      - Scloud台湾02|解锁流媒体|1x
+      - Linode 2
+      - 新加坡🇸🇬｜Do
+      - "Go加速 - V1 IEPL | GB1\n"
+      - 日本-优化3
+      - Linode 2 2
+      - 加拿大-优化2
+      - Lv3 日本 01 [2.0]
       - "[青铜][美.旧金山][1.0] 直连 ①"
-      - 香港011
+      - 6002 @WangCai_1
+      - "[青铜][美.西雅图][1.0] 直连 ①"
+      - CN【付费推荐：a.c1n.cn】 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -202,21 +199,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Lv3 香港 04 [3.0]
-      - 香港022
-      - Lv3 香港 05 [3.0]
-      - Lv2 日本 02 [2.0]
-      - Linode 2
-      - Lv2 日本 03 [2.0]
-      - Linode
-      - TW01-V2-直连
-      - TW01-TROJAN-直连
-      - 日本-1-Trojan
       - 大萝卜鸡香港高速
-      - "[青铜][美.西雅图][1.0] 直连 ①"
-      - Lv2 香港 07 [2.5]
+      - Linode
+      - Scould台湾01|解锁流媒体|1x
+      - Scloud台湾02|解锁流媒体|1x
+      - Linode 2
+      - 新加坡🇸🇬｜Do
+      - "Go加速 - V1 IEPL | GB1\n"
+      - 日本-优化3
+      - Linode 2 2
+      - 加拿大-优化2
+      - Lv3 日本 01 [2.0]
       - "[青铜][美.旧金山][1.0] 直连 ①"
-      - 香港011
+      - 6002 @WangCai_1
+      - "[青铜][美.西雅图][1.0] 直连 ①"
+      - CN【付费推荐：a.c1n.cn】 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
