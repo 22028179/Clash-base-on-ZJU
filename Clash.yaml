@@ -5,11 +5,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 大萝卜鸡🇸🇬新加坡高速, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: JP腾讯云专线, server: 43.128.232.17, port: 7777, type: ssr, cipher: aes-128-ctr, password: haruki, protocol: auth_sha1_v4, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: CN【付费推荐：a.c1n.cn】, server: 113.142.205.92, port: 443, type: vmess, uuid: 400a1ff6-c0fb-49f9-dc82-83fc6f7f09ef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sgserverme.tk}, udp: true}
-  - {name: 新加坡🇸🇬｜Do｜测试, server: cs.hgdbk.ga, port: 443, type: vmess, uuid: 1b41d609-0d07-4dfd-b985-3cd08812dd5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: cs.hgdbk.ga}, udp: true}
-  - {name: 荷兰, server: hl.jiashumao.net, port: 45519, type: trojan, password: 9d846d39-2f5e-3fae-8ad7-239cedc56048, sni: hl.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: HK001, server: 20.24.13.172, port: 80, type: vmess, uuid: 7e1521db-9b26-4f59-8874-e2d8952b551f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.13.172}, udp: true}
+  - {name: Linode, server: sg.securevpn.cc, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
+  - {name: Linode 2, server: sg.securevpn.cc, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
+  - {name: 新加坡🇸🇬｜Do, server: do4.hgdbk.ga, port: 443, type: vmess, uuid: 1b41d609-0d07-4dfd-b985-3cd08812dd5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: do4.hgdbk.ga}, udp: true}
   - {name: "[青铜][美.西雅图][1.0] 直连 ①", server: namer-us-sea-01-edgecast.qdns.live, port: 2053, type: vmess, uuid: df3081c3-0d59-34cf-b1d9-3404610c6fc1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: namer-us-sea-01-edgecast.qdns.live}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -17,22 +17,22 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 大萝卜鸡🇸🇬新加坡高速
+      - JP腾讯云专线
       - CN【付费推荐：a.c1n.cn】
-      - 新加坡🇸🇬｜Do｜测试
-      - 荷兰
-      - HK001
+      - Linode
+      - Linode 2
+      - 新加坡🇸🇬｜Do
       - "[青铜][美.西雅图][1.0] 直连 ①"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 大萝卜鸡🇸🇬新加坡高速
+      - JP腾讯云专线
       - CN【付费推荐：a.c1n.cn】
-      - 新加坡🇸🇬｜Do｜测试
-      - 荷兰
-      - HK001
+      - Linode
+      - Linode 2
+      - 新加坡🇸🇬｜Do
       - "[青铜][美.西雅图][1.0] 直连 ①"
   - name: 🎥 NETFLIX
     type: select
@@ -40,11 +40,11 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 大萝卜鸡🇸🇬新加坡高速
+      - JP腾讯云专线
       - CN【付费推荐：a.c1n.cn】
-      - 新加坡🇸🇬｜Do｜测试
-      - 荷兰
-      - HK001
+      - Linode
+      - Linode 2
+      - 新加坡🇸🇬｜Do
       - "[青铜][美.西雅图][1.0] 直连 ①"
   - name: ⛔️ 广告拦截
     type: select
@@ -64,11 +64,11 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 大萝卜鸡🇸🇬新加坡高速
+      - JP腾讯云专线
       - CN【付费推荐：a.c1n.cn】
-      - 新加坡🇸🇬｜Do｜测试
-      - 荷兰
-      - HK001
+      - Linode
+      - Linode 2
+      - 新加坡🇸🇬｜Do
       - "[青铜][美.西雅图][1.0] 直连 ①"
   - name: 🌏 国内媒体
     type: select
@@ -80,22 +80,22 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 大萝卜鸡🇸🇬新加坡高速
+      - JP腾讯云专线
       - CN【付费推荐：a.c1n.cn】
-      - 新加坡🇸🇬｜Do｜测试
-      - 荷兰
-      - HK001
+      - Linode
+      - Linode 2
+      - 新加坡🇸🇬｜Do
       - "[青铜][美.西雅图][1.0] 直连 ①"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 大萝卜鸡🇸🇬新加坡高速
+      - JP腾讯云专线
       - CN【付费推荐：a.c1n.cn】
-      - 新加坡🇸🇬｜Do｜测试
-      - 荷兰
-      - HK001
+      - Linode
+      - Linode 2
+      - 新加坡🇸🇬｜Do
       - "[青铜][美.西雅图][1.0] 直连 ①"
   - name: 🍎 苹果服务
     type: select
@@ -103,11 +103,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 大萝卜鸡🇸🇬新加坡高速
+      - JP腾讯云专线
       - CN【付费推荐：a.c1n.cn】
-      - 新加坡🇸🇬｜Do｜测试
-      - 荷兰
-      - HK001
+      - Linode
+      - Linode 2
+      - 新加坡🇸🇬｜Do
       - "[青铜][美.西雅图][1.0] 直连 ①"
   - name: 🎯 全球直连
     type: select
@@ -124,11 +124,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 大萝卜鸡🇸🇬新加坡高速
+      - JP腾讯云专线
       - CN【付费推荐：a.c1n.cn】
-      - 新加坡🇸🇬｜Do｜测试
-      - 荷兰
-      - HK001
+      - Linode
+      - Linode 2
+      - 新加坡🇸🇬｜Do
       - "[青铜][美.西雅图][1.0] 直连 ①"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
