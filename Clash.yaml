@@ -5,47 +5,127 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: JP腾讯云专线, server: 43.128.232.17, port: 7777, type: ssr, cipher: aes-128-ctr, password: haruki, protocol: auth_sha1_v4, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: CN【付费推荐：a.c1n.cn】, server: 113.142.205.92, port: 443, type: vmess, uuid: 400a1ff6-c0fb-49f9-dc82-83fc6f7f09ef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sgserverme.tk}, udp: true}
-  - {name: Linode, server: sg.securevpn.cc, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
-  - {name: Linode 2, server: sg.securevpn.cc, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
-  - {name: 新加坡🇸🇬｜Do, server: do4.hgdbk.ga, port: 443, type: vmess, uuid: 1b41d609-0d07-4dfd-b985-3cd08812dd5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: do4.hgdbk.ga}, udp: true}
-  - {name: "[青铜][美.西雅图][1.0] 直连 ①", server: namer-us-sea-01-edgecast.qdns.live, port: 2053, type: vmess, uuid: df3081c3-0d59-34cf-b1d9-3404610c6fc1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: namer-us-sea-01-edgecast.qdns.live}, udp: true}
+  - {name: 【IEPL】香港 普通 1 - Nearoute, server: nk1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 香港06|原生解锁|CMIHK, server: aliyun.moble.vnupgcn.cn, port: 9007, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Cow Vagina_23, server: aliyun.moble.vnupgcn.cn, port: 9007, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 【IEPL】香港 普通 2 - Nearoute, server: nk2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 【M】香港 VIP 1 - Netflix, server: nm1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 台湾02|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9013, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 【F】香港  VIP 4 - Nearoute, server: n63.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 【M】香港 VIP 3 - Netflix, server: nm3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 【F】香港 VIP 1 - Nearoute, server: ntemp25.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 【F】香港  VIP 2 - Nearoute, server: n09.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 香港HKT-优化2, server: m.lwvzmdu.cn, port: 16620, type: vmess, uuid: 176da7a9-4d6a-4988-aa1b-baf606449ace, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: m.lwvzmdu.cn}, udp: true}
+  - {name: 【A】香港 普通 1 - Nearoute, server: ntemp15.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 香港BGP03|优选原生IP|1x, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: fb0e4355-d025-4292-9c0e-68de955734fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /BGP03, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: 日本-优化2, server: m.lwvzmdu.cn, port: 16617, type: vmess, uuid: 176da7a9-4d6a-4988-aa1b-baf606449ace, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: m.lwvzmdu.cn}, udp: true}
+  - {name: 【B】香港 普通 4 -  Nearoute, server: ntemp04.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: Scould台湾01|解锁流媒体|1x, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: fb0e4355-d025-4292-9c0e-68de955734fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /scloudhinet01, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: Scloud台湾02|解锁流媒体|1x, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: fb0e4355-d025-4292-9c0e-68de955734fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /scloudhinet02, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: Cow Vagina_8, server: aliyun.install03.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 【A】香港 普通 D - Nearoute, server: ntemp18.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 【直连】香港TR 流媒体可用, server: transfer01.kaochangonline.online, port: 443, type: trojan, password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3, sni: transfer01.kaochangonline.online, skip-cert-verify: true, udp: true}
+  - {name: 大萝卜鸡香港3, server: ssl.tcpbbr.net, port: 12163, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 日本-优化, server: u.cccao.cyou, port: 16617, type: vmess, uuid: 176da7a9-4d6a-4988-aa1b-baf606449ace, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: u.cccao.cyou}, udp: true}
+  - {name: 香港Az-优化2, server: m.lwvzmdu.cn, port: 16627, type: vmess, uuid: 176da7a9-4d6a-4988-aa1b-baf606449ace, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: m.lwvzmdu.cn}, udp: true}
+  - {name: Cow Vagina_7, server: aliyun.install03.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 洛杉矶-MyTrojan8-解锁美区NETFLIX非自制剧, server: cc.755657.xyz, port: 443, type: trojan, password: ea635091-5d17-42b9-ad81-d26572a9eea8, sni: cc.755657.xyz, skip-cert-verify: true, udp: true}
+  - {name: ★自动选择|美国最优线路, server: aliyun.unicom.vnupgcn.cn, port: 9001, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP腾讯云专线
-      - CN【付费推荐：a.c1n.cn】
-      - Linode
-      - Linode 2
-      - 新加坡🇸🇬｜Do
-      - "[青铜][美.西雅图][1.0] 直连 ①"
+      - 【IEPL】香港 普通 1 - Nearoute
+      - 香港06|原生解锁|CMIHK
+      - Cow Vagina_23
+      - 【IEPL】香港 普通 2 - Nearoute
+      - 【M】香港 VIP 1 - Netflix
+      - 台湾02|原生解锁|中華電信
+      - 【F】香港  VIP 4 - Nearoute
+      - 【M】香港 VIP 3 - Netflix
+      - 【F】香港 VIP 1 - Nearoute
+      - 【F】香港  VIP 2 - Nearoute
+      - 香港HKT-优化2
+      - 【A】香港 普通 1 - Nearoute
+      - 香港BGP03|优选原生IP|1x
+      - 日本-优化2
+      - 【B】香港 普通 4 -  Nearoute
+      - Scould台湾01|解锁流媒体|1x
+      - Scloud台湾02|解锁流媒体|1x
+      - Cow Vagina_8
+      - 【A】香港 普通 D - Nearoute
+      - 【直连】香港TR 流媒体可用
+      - 大萝卜鸡香港3
+      - 日本-优化
+      - 香港Az-优化2
+      - Cow Vagina_7
+      - 洛杉矶-MyTrojan8-解锁美区NETFLIX非自制剧
+      - ★自动选择|美国最优线路
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - JP腾讯云专线
-      - CN【付费推荐：a.c1n.cn】
-      - Linode
-      - Linode 2
-      - 新加坡🇸🇬｜Do
-      - "[青铜][美.西雅图][1.0] 直连 ①"
+      - 【IEPL】香港 普通 1 - Nearoute
+      - 香港06|原生解锁|CMIHK
+      - Cow Vagina_23
+      - 【IEPL】香港 普通 2 - Nearoute
+      - 【M】香港 VIP 1 - Netflix
+      - 台湾02|原生解锁|中華電信
+      - 【F】香港  VIP 4 - Nearoute
+      - 【M】香港 VIP 3 - Netflix
+      - 【F】香港 VIP 1 - Nearoute
+      - 【F】香港  VIP 2 - Nearoute
+      - 香港HKT-优化2
+      - 【A】香港 普通 1 - Nearoute
+      - 香港BGP03|优选原生IP|1x
+      - 日本-优化2
+      - 【B】香港 普通 4 -  Nearoute
+      - Scould台湾01|解锁流媒体|1x
+      - Scloud台湾02|解锁流媒体|1x
+      - Cow Vagina_8
+      - 【A】香港 普通 D - Nearoute
+      - 【直连】香港TR 流媒体可用
+      - 大萝卜鸡香港3
+      - 日本-优化
+      - 香港Az-优化2
+      - Cow Vagina_7
+      - 洛杉矶-MyTrojan8-解锁美区NETFLIX非自制剧
+      - ★自动选择|美国最优线路
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP腾讯云专线
-      - CN【付费推荐：a.c1n.cn】
-      - Linode
-      - Linode 2
-      - 新加坡🇸🇬｜Do
-      - "[青铜][美.西雅图][1.0] 直连 ①"
+      - 【IEPL】香港 普通 1 - Nearoute
+      - 香港06|原生解锁|CMIHK
+      - Cow Vagina_23
+      - 【IEPL】香港 普通 2 - Nearoute
+      - 【M】香港 VIP 1 - Netflix
+      - 台湾02|原生解锁|中華電信
+      - 【F】香港  VIP 4 - Nearoute
+      - 【M】香港 VIP 3 - Netflix
+      - 【F】香港 VIP 1 - Nearoute
+      - 【F】香港  VIP 2 - Nearoute
+      - 香港HKT-优化2
+      - 【A】香港 普通 1 - Nearoute
+      - 香港BGP03|优选原生IP|1x
+      - 日本-优化2
+      - 【B】香港 普通 4 -  Nearoute
+      - Scould台湾01|解锁流媒体|1x
+      - Scloud台湾02|解锁流媒体|1x
+      - Cow Vagina_8
+      - 【A】香港 普通 D - Nearoute
+      - 【直连】香港TR 流媒体可用
+      - 大萝卜鸡香港3
+      - 日本-优化
+      - 香港Az-优化2
+      - Cow Vagina_7
+      - 洛杉矶-MyTrojan8-解锁美区NETFLIX非自制剧
+      - ★自动选择|美国最优线路
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,51 +144,150 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP腾讯云专线
-      - CN【付费推荐：a.c1n.cn】
-      - Linode
-      - Linode 2
-      - 新加坡🇸🇬｜Do
-      - "[青铜][美.西雅图][1.0] 直连 ①"
+      - 【IEPL】香港 普通 1 - Nearoute
+      - 香港06|原生解锁|CMIHK
+      - Cow Vagina_23
+      - 【IEPL】香港 普通 2 - Nearoute
+      - 【M】香港 VIP 1 - Netflix
+      - 台湾02|原生解锁|中華電信
+      - 【F】香港  VIP 4 - Nearoute
+      - 【M】香港 VIP 3 - Netflix
+      - 【F】香港 VIP 1 - Nearoute
+      - 【F】香港  VIP 2 - Nearoute
+      - 香港HKT-优化2
+      - 【A】香港 普通 1 - Nearoute
+      - 香港BGP03|优选原生IP|1x
+      - 日本-优化2
+      - 【B】香港 普通 4 -  Nearoute
+      - Scould台湾01|解锁流媒体|1x
+      - Scloud台湾02|解锁流媒体|1x
+      - Cow Vagina_8
+      - 【A】香港 普通 D - Nearoute
+      - 【直连】香港TR 流媒体可用
+      - 大萝卜鸡香港3
+      - 日本-优化
+      - 香港Az-优化2
+      - Cow Vagina_7
+      - 洛杉矶-MyTrojan8-解锁美区NETFLIX非自制剧
+      - ★自动选择|美国最优线路
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 【IEPL】香港 普通 1 - Nearoute
+      - 香港06|原生解锁|CMIHK
+      - 【IEPL】香港 普通 2 - Nearoute
+      - 【M】香港 VIP 1 - Netflix
+      - 台湾02|原生解锁|中華電信
+      - 【F】香港  VIP 4 - Nearoute
+      - 【M】香港 VIP 3 - Netflix
+      - 【F】香港 VIP 1 - Nearoute
+      - 【F】香港  VIP 2 - Nearoute
+      - 香港HKT-优化2
+      - 【A】香港 普通 1 - Nearoute
+      - 香港BGP03|优选原生IP|1x
+      - 【B】香港 普通 4 -  Nearoute
+      - Scould台湾01|解锁流媒体|1x
+      - Scloud台湾02|解锁流媒体|1x
+      - 【A】香港 普通 D - Nearoute
+      - 【直连】香港TR 流媒体可用
+      - 大萝卜鸡香港3
+      - 香港Az-优化2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - JP腾讯云专线
-      - CN【付费推荐：a.c1n.cn】
-      - Linode
-      - Linode 2
-      - 新加坡🇸🇬｜Do
-      - "[青铜][美.西雅图][1.0] 直连 ①"
+      - 【IEPL】香港 普通 1 - Nearoute
+      - 香港06|原生解锁|CMIHK
+      - Cow Vagina_23
+      - 【IEPL】香港 普通 2 - Nearoute
+      - 【M】香港 VIP 1 - Netflix
+      - 台湾02|原生解锁|中華電信
+      - 【F】香港  VIP 4 - Nearoute
+      - 【M】香港 VIP 3 - Netflix
+      - 【F】香港 VIP 1 - Nearoute
+      - 【F】香港  VIP 2 - Nearoute
+      - 香港HKT-优化2
+      - 【A】香港 普通 1 - Nearoute
+      - 香港BGP03|优选原生IP|1x
+      - 日本-优化2
+      - 【B】香港 普通 4 -  Nearoute
+      - Scould台湾01|解锁流媒体|1x
+      - Scloud台湾02|解锁流媒体|1x
+      - Cow Vagina_8
+      - 【A】香港 普通 D - Nearoute
+      - 【直连】香港TR 流媒体可用
+      - 大萝卜鸡香港3
+      - 日本-优化
+      - 香港Az-优化2
+      - Cow Vagina_7
+      - 洛杉矶-MyTrojan8-解锁美区NETFLIX非自制剧
+      - ★自动选择|美国最优线路
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - JP腾讯云专线
-      - CN【付费推荐：a.c1n.cn】
-      - Linode
-      - Linode 2
-      - 新加坡🇸🇬｜Do
-      - "[青铜][美.西雅图][1.0] 直连 ①"
+      - 【IEPL】香港 普通 1 - Nearoute
+      - 香港06|原生解锁|CMIHK
+      - Cow Vagina_23
+      - 【IEPL】香港 普通 2 - Nearoute
+      - 【M】香港 VIP 1 - Netflix
+      - 台湾02|原生解锁|中華電信
+      - 【F】香港  VIP 4 - Nearoute
+      - 【M】香港 VIP 3 - Netflix
+      - 【F】香港 VIP 1 - Nearoute
+      - 【F】香港  VIP 2 - Nearoute
+      - 香港HKT-优化2
+      - 【A】香港 普通 1 - Nearoute
+      - 香港BGP03|优选原生IP|1x
+      - 日本-优化2
+      - 【B】香港 普通 4 -  Nearoute
+      - Scould台湾01|解锁流媒体|1x
+      - Scloud台湾02|解锁流媒体|1x
+      - Cow Vagina_8
+      - 【A】香港 普通 D - Nearoute
+      - 【直连】香港TR 流媒体可用
+      - 大萝卜鸡香港3
+      - 日本-优化
+      - 香港Az-优化2
+      - Cow Vagina_7
+      - 洛杉矶-MyTrojan8-解锁美区NETFLIX非自制剧
+      - ★自动选择|美国最优线路
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JP腾讯云专线
-      - CN【付费推荐：a.c1n.cn】
-      - Linode
-      - Linode 2
-      - 新加坡🇸🇬｜Do
-      - "[青铜][美.西雅图][1.0] 直连 ①"
+      - 【IEPL】香港 普通 1 - Nearoute
+      - 香港06|原生解锁|CMIHK
+      - Cow Vagina_23
+      - 【IEPL】香港 普通 2 - Nearoute
+      - 【M】香港 VIP 1 - Netflix
+      - 台湾02|原生解锁|中華電信
+      - 【F】香港  VIP 4 - Nearoute
+      - 【M】香港 VIP 3 - Netflix
+      - 【F】香港 VIP 1 - Nearoute
+      - 【F】香港  VIP 2 - Nearoute
+      - 香港HKT-优化2
+      - 【A】香港 普通 1 - Nearoute
+      - 香港BGP03|优选原生IP|1x
+      - 日本-优化2
+      - 【B】香港 普通 4 -  Nearoute
+      - Scould台湾01|解锁流媒体|1x
+      - Scloud台湾02|解锁流媒体|1x
+      - Cow Vagina_8
+      - 【A】香港 普通 D - Nearoute
+      - 【直连】香港TR 流媒体可用
+      - 大萝卜鸡香港3
+      - 日本-优化
+      - 香港Az-优化2
+      - Cow Vagina_7
+      - 洛杉矶-MyTrojan8-解锁美区NETFLIX非自制剧
+      - ★自动选择|美国最优线路
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -124,12 +303,32 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JP腾讯云专线
-      - CN【付费推荐：a.c1n.cn】
-      - Linode
-      - Linode 2
-      - 新加坡🇸🇬｜Do
-      - "[青铜][美.西雅图][1.0] 直连 ①"
+      - 【IEPL】香港 普通 1 - Nearoute
+      - 香港06|原生解锁|CMIHK
+      - Cow Vagina_23
+      - 【IEPL】香港 普通 2 - Nearoute
+      - 【M】香港 VIP 1 - Netflix
+      - 台湾02|原生解锁|中華電信
+      - 【F】香港  VIP 4 - Nearoute
+      - 【M】香港 VIP 3 - Netflix
+      - 【F】香港 VIP 1 - Nearoute
+      - 【F】香港  VIP 2 - Nearoute
+      - 香港HKT-优化2
+      - 【A】香港 普通 1 - Nearoute
+      - 香港BGP03|优选原生IP|1x
+      - 日本-优化2
+      - 【B】香港 普通 4 -  Nearoute
+      - Scould台湾01|解锁流媒体|1x
+      - Scloud台湾02|解锁流媒体|1x
+      - Cow Vagina_8
+      - 【A】香港 普通 D - Nearoute
+      - 【直连】香港TR 流媒体可用
+      - 大萝卜鸡香港3
+      - 日本-优化
+      - 香港Az-优化2
+      - Cow Vagina_7
+      - 洛杉矶-MyTrojan8-解锁美区NETFLIX非自制剧
+      - ★自动选择|美国最优线路
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
