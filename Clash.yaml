@@ -5,13 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: AWS｜香港tcp-1｜三网, server: 16.163.129.226, port: 48153, type: vmess, uuid: 25dadc09-f9f7-491a-a324-6b5c4f15f151, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: AWS｜香港2-tcp｜三网, server: 18.163.182.206, port: 9663, type: vmess, uuid: 2ef5a318-68ff-43df-c3e7-01f7249fd881, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: AWS｜香港3-tcp｜三网, server: 43.198.18.38, port: 48908, type: vmess, uuid: ba4b9312-88ed-44de-d973-e185723c72a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: AWS｜新加坡tcp｜三网, server: 13.212.225.207, port: 28380, type: vmess, uuid: 48ac8a74-eb9b-443b-b967-a165167e6b21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 微软｜香港tcp-2｜电信, server: 20.205.142.180, port: 26772, type: vmess, uuid: 4072048a-0423-4550-9a8c-3d74d90b2df1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AWS｜香港2-tcp｜三网, server: 18.163.182.206, port: 9663, type: vmess, uuid: 2ef5a318-68ff-43df-c3e7-01f7249fd881, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AWS｜香港tcp-1｜三网, server: 16.163.129.226, port: 48153, type: vmess, uuid: 25dadc09-f9f7-491a-a324-6b5c4f15f151, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Linode｜新加坡tcp-2｜联通, server: 103.3.61.141, port: 32223, type: vmess, uuid: b11eec7a-cdc4-4e6c-a14a-0b0316eefa21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Linode｜新加坡tcp-1｜联通, server: 172.104.190.80, port: 1080, type: vmess, uuid: 3e267897-bf74-4532-aff3-8920e71141a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Linode｜新加坡ws-3｜联通, server: 170.187.231.171, port: 53174, type: vmess, uuid: 4139d072-8037-48d9-fe2f-4f85a5a5e421, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 170.187.231.171}, udp: true}
+  - {name: 微软｜香港tcp-1｜电信, server: 20.205.137.188, port: 37606, type: vmess, uuid: 0315134b-f4c0-4bf1-e8a4-42db3665a101, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: AWS｜东京80｜三网, server: 13.113.250.124, port: 27111, type: vmess, uuid: d468c30d-9279-40e1-ece0-4c201d65b451, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Oracle｜韩国tcp｜cn2, server: 193.122.117.52, port: 36309, type: vmess, uuid: b92b4069-566d-41b5-e561-7ff824429a62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -20,13 +21,14 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - AWS｜香港tcp-1｜三网
-      - AWS｜香港2-tcp｜三网
       - AWS｜香港3-tcp｜三网
-      - AWS｜新加坡tcp｜三网
+      - 微软｜香港tcp-2｜电信
+      - AWS｜香港2-tcp｜三网
+      - AWS｜香港tcp-1｜三网
       - Linode｜新加坡tcp-2｜联通
       - Linode｜新加坡tcp-1｜联通
       - Linode｜新加坡ws-3｜联通
+      - 微软｜香港tcp-1｜电信
       - AWS｜东京80｜三网
       - Oracle｜韩国tcp｜cn2
   - name: ♻️ 自动选择
@@ -34,13 +36,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - AWS｜香港tcp-1｜三网
-      - AWS｜香港2-tcp｜三网
       - AWS｜香港3-tcp｜三网
-      - AWS｜新加坡tcp｜三网
+      - 微软｜香港tcp-2｜电信
+      - AWS｜香港2-tcp｜三网
+      - AWS｜香港tcp-1｜三网
       - Linode｜新加坡tcp-2｜联通
       - Linode｜新加坡tcp-1｜联通
       - Linode｜新加坡ws-3｜联通
+      - 微软｜香港tcp-1｜电信
       - AWS｜东京80｜三网
       - Oracle｜韩国tcp｜cn2
   - name: 🎥 NETFLIX
@@ -49,13 +52,14 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - AWS｜香港tcp-1｜三网
-      - AWS｜香港2-tcp｜三网
       - AWS｜香港3-tcp｜三网
-      - AWS｜新加坡tcp｜三网
+      - 微软｜香港tcp-2｜电信
+      - AWS｜香港2-tcp｜三网
+      - AWS｜香港tcp-1｜三网
       - Linode｜新加坡tcp-2｜联通
       - Linode｜新加坡tcp-1｜联通
       - Linode｜新加坡ws-3｜联通
+      - 微软｜香港tcp-1｜电信
       - AWS｜东京80｜三网
       - Oracle｜韩国tcp｜cn2
   - name: ⛔️ 广告拦截
@@ -76,35 +80,39 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - AWS｜香港tcp-1｜三网
-      - AWS｜香港2-tcp｜三网
       - AWS｜香港3-tcp｜三网
-      - AWS｜新加坡tcp｜三网
+      - 微软｜香港tcp-2｜电信
+      - AWS｜香港2-tcp｜三网
+      - AWS｜香港tcp-1｜三网
       - Linode｜新加坡tcp-2｜联通
       - Linode｜新加坡tcp-1｜联通
       - Linode｜新加坡ws-3｜联通
+      - 微软｜香港tcp-1｜电信
       - AWS｜东京80｜三网
       - Oracle｜韩国tcp｜cn2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - AWS｜香港tcp-1｜三网
-      - AWS｜香港2-tcp｜三网
       - AWS｜香港3-tcp｜三网
+      - 微软｜香港tcp-2｜电信
+      - AWS｜香港2-tcp｜三网
+      - AWS｜香港tcp-1｜三网
+      - 微软｜香港tcp-1｜电信
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - AWS｜香港tcp-1｜三网
-      - AWS｜香港2-tcp｜三网
       - AWS｜香港3-tcp｜三网
-      - AWS｜新加坡tcp｜三网
+      - 微软｜香港tcp-2｜电信
+      - AWS｜香港2-tcp｜三网
+      - AWS｜香港tcp-1｜三网
       - Linode｜新加坡tcp-2｜联通
       - Linode｜新加坡tcp-1｜联通
       - Linode｜新加坡ws-3｜联通
+      - 微软｜香港tcp-1｜电信
       - AWS｜东京80｜三网
       - Oracle｜韩国tcp｜cn2
   - name: 📲 电报信息
@@ -112,13 +120,14 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - AWS｜香港tcp-1｜三网
-      - AWS｜香港2-tcp｜三网
       - AWS｜香港3-tcp｜三网
-      - AWS｜新加坡tcp｜三网
+      - 微软｜香港tcp-2｜电信
+      - AWS｜香港2-tcp｜三网
+      - AWS｜香港tcp-1｜三网
       - Linode｜新加坡tcp-2｜联通
       - Linode｜新加坡tcp-1｜联通
       - Linode｜新加坡ws-3｜联通
+      - 微软｜香港tcp-1｜电信
       - AWS｜东京80｜三网
       - Oracle｜韩国tcp｜cn2
   - name: 🍎 苹果服务
@@ -127,13 +136,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - AWS｜香港tcp-1｜三网
-      - AWS｜香港2-tcp｜三网
       - AWS｜香港3-tcp｜三网
-      - AWS｜新加坡tcp｜三网
+      - 微软｜香港tcp-2｜电信
+      - AWS｜香港2-tcp｜三网
+      - AWS｜香港tcp-1｜三网
       - Linode｜新加坡tcp-2｜联通
       - Linode｜新加坡tcp-1｜联通
       - Linode｜新加坡ws-3｜联通
+      - 微软｜香港tcp-1｜电信
       - AWS｜东京80｜三网
       - Oracle｜韩国tcp｜cn2
   - name: 🎯 全球直连
@@ -151,13 +161,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - AWS｜香港tcp-1｜三网
-      - AWS｜香港2-tcp｜三网
       - AWS｜香港3-tcp｜三网
-      - AWS｜新加坡tcp｜三网
+      - 微软｜香港tcp-2｜电信
+      - AWS｜香港2-tcp｜三网
+      - AWS｜香港tcp-1｜三网
       - Linode｜新加坡tcp-2｜联通
       - Linode｜新加坡tcp-1｜联通
       - Linode｜新加坡ws-3｜联通
+      - 微软｜香港tcp-1｜电信
       - AWS｜东京80｜三网
       - Oracle｜韩国tcp｜cn2
 rules:
