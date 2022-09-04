@@ -5,171 +5,59 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 【IEPL】香港 普通 2 - Nearoute, server: nk2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 8127:2byaGS, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 【IEPL】香港 普通 7 - Nearoute, server: nk7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 8127:2byaGS, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 【IEPL】香港 普通 6 - Nearoute, server: nk6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 8127:2byaGS, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 【IEPL】香港 普通 5 - Nearoute, server: nk5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 8127:2byaGS, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 【IEPL】香港 普通 1 - Nearoute, server: nk1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 8127:2byaGS, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[LV2·原生] 香港B4 | 中转", server: s1.j20xs1.xyz, port: 32003, type: trojan, password: d1d174f0-57b1-3500-a8bb-0d39062d228f, sni: s1.j20xs1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港W2-直连, server: 18.162.144.55, port: 32552, type: vmess, uuid: 32d18593-d510-4701-b064-2ee7aed360ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港W you, server: 18.162.144.55, port: 32552, type: vmess, uuid: 44bf4d66-f42c-48e8-8d5e-cfe13d55e8d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港W2, server: 18.162.144.55, port: 32552, type: vmess, uuid: 0a96e257-3994-4381-b049-18d205662259, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡W3, server: 13.212.222.163, port: 43214, type: vmess, uuid: 32d18593-d510-4701-b064-2ee7aed360ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 大萝卜鸡香味, server: a.hk.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
-  - {name: "[LV2·原生] 香港03 | IEPL 专线 | 3x", server: i.j20xs1.xyz, port: 34002, type: trojan, password: d1d174f0-57b1-3500-a8bb-0d39062d228f, sni: i.j20xs1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡W2-直连, server: 13.212.74.166, port: 43214, type: vmess, uuid: 0a96e257-3994-4381-b049-18d205662259, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_03 @WangCai_1, server: 45.66.134.205, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡G3, server: 20.212.111.26, port: 44532, type: vmess, uuid: 32d18593-d510-4701-b064-2ee7aed360ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡, server: 20.239.186.92, port: 20415, type: trojan, password: 1b60a674-a7b7-4322-b6e4-f6db29c7e4c9, skip-cert-verify: true, udp: true}
-  - {name: "[LV3·原生] 香港01 | IEPL 专线 | 1x", server: i.j20xs1.xyz, port: 34004, type: trojan, password: d1d174f0-57b1-3500-a8bb-0d39062d228f, sni: i.j20xs1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡G3-直连, server: 20.212.111.26, port: 44532, type: vmess, uuid: 7b3eea5a-1ef6-4d2d-b3cd-e42b1584e244, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国W3, server: 3.35.52.133, port: 32452, type: vmess, uuid: 1ce245b5-6a47-44e3-9dc3-3cdddecdab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国W1-直连, server: 43.200.170.162, port: 32452, type: vmess, uuid: 32d18593-d510-4701-b064-2ee7aed360ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾, server: 20.239.186.92, port: 38549, type: trojan, password: 1b60a674-a7b7-4322-b6e4-f6db29c7e4c9, skip-cert-verify: true, udp: true}
-  - {name: 韩国W3-直连, server: 3.35.52.133, port: 32452, type: vmess, uuid: 0a96e257-3994-4381-b049-18d205662259, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本G4-直连, server: 20.210.125.138, port: 45232, type: vmess, uuid: 32d18593-d510-4701-b064-2ee7aed360ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_08 @WangCai_1, server: 45.66.134.205, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 日本G2-直连, server: 20.188.29.133, port: 45232, type: vmess, uuid: 32d18593-d510-4701-b064-2ee7aed360ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本, server: 20.239.186.92, port: 50904, type: trojan, password: 1b60a674-a7b7-4322-b6e4-f6db29c7e4c9, skip-cert-verify: true, udp: true}
-  - {name: 大萝卜鸡美国, server: c.usa.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
-  - {name: 香港G2-直连, server: 20.24.96.37, port: 43214, type: vmess, uuid: 7b3eea5a-1ef6-4d2d-b3cd-e42b1584e244, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本G1-直连, server: 20.89.20.30, port: 45232, type: vmess, uuid: 7b3eea5a-1ef6-4d2d-b3cd-e42b1584e244, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_04 @WangCai_1, server: 45.66.134.205, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 大萝卜鸡日本, server: a.jp.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
-  - {name: 中國(HongKong)-S3, server: hk.s1.wfcsy.com, port: 41200, type: ss, cipher: chacha20-ietf-poly1305, password: 28559e67-187e-4a11-ac1a-8eefcdcdd436, udp: true}
-  - {name: 大萝卜鸡日碧, server: b.jp.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
-  - {name: JP_09 @WangCai_1, server: 45.66.134.205, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "Lv3 香港 02 [2.0]", server: yum-y.update.mipglxi.cn, port: 6402, type: ss, cipher: aes-128-gcm, password: 3ee653cf-3f43-43e5-b4d0-7bb1cabe9845, udp: true}
-  - {name: 中國(HongKong)-S5, server: hk.s2.wfcsy.com, port: 41300, type: ss, cipher: chacha20-ietf-poly1305, password: 28559e67-187e-4a11-ac1a-8eefcdcdd436, udp: true}
-  - {name: "Lv3 新加坡 04 [2.0]", server: yum-y.update.mipglxi.cn, port: 6412, type: ss, cipher: aes-128-gcm, password: 3ee653cf-3f43-43e5-b4d0-7bb1cabe9845, udp: true}
+  - {name: AWS｜香港tcp-1｜三网, server: 16.163.129.226, port: 48153, type: vmess, uuid: 25dadc09-f9f7-491a-a324-6b5c4f15f151, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AWS｜香港2-tcp｜三网, server: 18.163.182.206, port: 9663, type: vmess, uuid: 2ef5a318-68ff-43df-c3e7-01f7249fd881, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AWS｜香港3-tcp｜三网, server: 43.198.18.38, port: 48908, type: vmess, uuid: ba4b9312-88ed-44de-d973-e185723c72a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AWS｜新加坡tcp｜三网, server: 13.212.225.207, port: 28380, type: vmess, uuid: 48ac8a74-eb9b-443b-b967-a165167e6b21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Linode｜新加坡tcp-2｜联通, server: 103.3.61.141, port: 32223, type: vmess, uuid: b11eec7a-cdc4-4e6c-a14a-0b0316eefa21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Linode｜新加坡tcp-1｜联通, server: 172.104.190.80, port: 1080, type: vmess, uuid: 3e267897-bf74-4532-aff3-8920e71141a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Linode｜新加坡ws-3｜联通, server: 170.187.231.171, port: 53174, type: vmess, uuid: 4139d072-8037-48d9-fe2f-4f85a5a5e421, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 170.187.231.171}, udp: true}
+  - {name: AWS｜东京80｜三网, server: 13.113.250.124, port: 27111, type: vmess, uuid: d468c30d-9279-40e1-ece0-4c201d65b451, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Oracle｜韩国tcp｜cn2, server: 193.122.117.52, port: 36309, type: vmess, uuid: b92b4069-566d-41b5-e561-7ff824429a62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【IEPL】香港 普通 2 - Nearoute
-      - 【IEPL】香港 普通 7 - Nearoute
-      - 【IEPL】香港 普通 6 - Nearoute
-      - 【IEPL】香港 普通 5 - Nearoute
-      - 【IEPL】香港 普通 1 - Nearoute
-      - "[LV2·原生] 香港B4 | 中转"
-      - 香港W2-直连
-      - 香港W you
-      - 香港W2
-      - 新加坡W3
-      - 大萝卜鸡香味
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
-      - 新加坡W2-直连
-      - JP_03 @WangCai_1
-      - 新加坡G3
-      - 新加坡
-      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
-      - 新加坡G3-直连
-      - 韩国W3
-      - 韩国W1-直连
-      - 台湾
-      - 韩国W3-直连
-      - 日本G4-直连
-      - JP_08 @WangCai_1
-      - 日本G2-直连
-      - 日本
-      - 大萝卜鸡美国
-      - 香港G2-直连
-      - 日本G1-直连
-      - JP_04 @WangCai_1
-      - 大萝卜鸡日本
-      - 中國(HongKong)-S3
-      - 大萝卜鸡日碧
-      - JP_09 @WangCai_1
-      - Lv3 香港 02 [2.0]
-      - 中國(HongKong)-S5
-      - Lv3 新加坡 04 [2.0]
+      - AWS｜香港tcp-1｜三网
+      - AWS｜香港2-tcp｜三网
+      - AWS｜香港3-tcp｜三网
+      - AWS｜新加坡tcp｜三网
+      - Linode｜新加坡tcp-2｜联通
+      - Linode｜新加坡tcp-1｜联通
+      - Linode｜新加坡ws-3｜联通
+      - AWS｜东京80｜三网
+      - Oracle｜韩国tcp｜cn2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 【IEPL】香港 普通 2 - Nearoute
-      - 【IEPL】香港 普通 7 - Nearoute
-      - 【IEPL】香港 普通 6 - Nearoute
-      - 【IEPL】香港 普通 5 - Nearoute
-      - 【IEPL】香港 普通 1 - Nearoute
-      - "[LV2·原生] 香港B4 | 中转"
-      - 香港W2-直连
-      - 香港W you
-      - 香港W2
-      - 新加坡W3
-      - 大萝卜鸡香味
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
-      - 新加坡W2-直连
-      - JP_03 @WangCai_1
-      - 新加坡G3
-      - 新加坡
-      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
-      - 新加坡G3-直连
-      - 韩国W3
-      - 韩国W1-直连
-      - 台湾
-      - 韩国W3-直连
-      - 日本G4-直连
-      - JP_08 @WangCai_1
-      - 日本G2-直连
-      - 日本
-      - 大萝卜鸡美国
-      - 香港G2-直连
-      - 日本G1-直连
-      - JP_04 @WangCai_1
-      - 大萝卜鸡日本
-      - 中國(HongKong)-S3
-      - 大萝卜鸡日碧
-      - JP_09 @WangCai_1
-      - Lv3 香港 02 [2.0]
-      - 中國(HongKong)-S5
-      - Lv3 新加坡 04 [2.0]
+      - AWS｜香港tcp-1｜三网
+      - AWS｜香港2-tcp｜三网
+      - AWS｜香港3-tcp｜三网
+      - AWS｜新加坡tcp｜三网
+      - Linode｜新加坡tcp-2｜联通
+      - Linode｜新加坡tcp-1｜联通
+      - Linode｜新加坡ws-3｜联通
+      - AWS｜东京80｜三网
+      - Oracle｜韩国tcp｜cn2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【IEPL】香港 普通 2 - Nearoute
-      - 【IEPL】香港 普通 7 - Nearoute
-      - 【IEPL】香港 普通 6 - Nearoute
-      - 【IEPL】香港 普通 5 - Nearoute
-      - 【IEPL】香港 普通 1 - Nearoute
-      - "[LV2·原生] 香港B4 | 中转"
-      - 香港W2-直连
-      - 香港W you
-      - 香港W2
-      - 新加坡W3
-      - 大萝卜鸡香味
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
-      - 新加坡W2-直连
-      - JP_03 @WangCai_1
-      - 新加坡G3
-      - 新加坡
-      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
-      - 新加坡G3-直连
-      - 韩国W3
-      - 韩国W1-直连
-      - 台湾
-      - 韩国W3-直连
-      - 日本G4-直连
-      - JP_08 @WangCai_1
-      - 日本G2-直连
-      - 日本
-      - 大萝卜鸡美国
-      - 香港G2-直连
-      - 日本G1-直连
-      - JP_04 @WangCai_1
-      - 大萝卜鸡日本
-      - 中國(HongKong)-S3
-      - 大萝卜鸡日碧
-      - JP_09 @WangCai_1
-      - Lv3 香港 02 [2.0]
-      - 中國(HongKong)-S5
-      - Lv3 新加坡 04 [2.0]
+      - AWS｜香港tcp-1｜三网
+      - AWS｜香港2-tcp｜三网
+      - AWS｜香港3-tcp｜三网
+      - AWS｜新加坡tcp｜三网
+      - Linode｜新加坡tcp-2｜联通
+      - Linode｜新加坡tcp-1｜联通
+      - Linode｜新加坡ws-3｜联通
+      - AWS｜东京80｜三网
+      - Oracle｜韩国tcp｜cn2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -188,189 +76,66 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【IEPL】香港 普通 2 - Nearoute
-      - 【IEPL】香港 普通 7 - Nearoute
-      - 【IEPL】香港 普通 6 - Nearoute
-      - 【IEPL】香港 普通 5 - Nearoute
-      - 【IEPL】香港 普通 1 - Nearoute
-      - "[LV2·原生] 香港B4 | 中转"
-      - 香港W2-直连
-      - 香港W you
-      - 香港W2
-      - 新加坡W3
-      - 大萝卜鸡香味
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
-      - 新加坡W2-直连
-      - JP_03 @WangCai_1
-      - 新加坡G3
-      - 新加坡
-      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
-      - 新加坡G3-直连
-      - 韩国W3
-      - 韩国W1-直连
-      - 台湾
-      - 韩国W3-直连
-      - 日本G4-直连
-      - JP_08 @WangCai_1
-      - 日本G2-直连
-      - 日本
-      - 大萝卜鸡美国
-      - 香港G2-直连
-      - 日本G1-直连
-      - JP_04 @WangCai_1
-      - 大萝卜鸡日本
-      - 中國(HongKong)-S3
-      - 大萝卜鸡日碧
-      - JP_09 @WangCai_1
-      - Lv3 香港 02 [2.0]
-      - 中國(HongKong)-S5
-      - Lv3 新加坡 04 [2.0]
+      - AWS｜香港tcp-1｜三网
+      - AWS｜香港2-tcp｜三网
+      - AWS｜香港3-tcp｜三网
+      - AWS｜新加坡tcp｜三网
+      - Linode｜新加坡tcp-2｜联通
+      - Linode｜新加坡tcp-1｜联通
+      - Linode｜新加坡ws-3｜联通
+      - AWS｜东京80｜三网
+      - Oracle｜韩国tcp｜cn2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 【IEPL】香港 普通 2 - Nearoute
-      - 【IEPL】香港 普通 7 - Nearoute
-      - 【IEPL】香港 普通 6 - Nearoute
-      - 【IEPL】香港 普通 5 - Nearoute
-      - 【IEPL】香港 普通 1 - Nearoute
-      - "[LV2·原生] 香港B4 | 中转"
-      - 香港W2-直连
-      - 香港W you
-      - 香港W2
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
-      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
-      - 台湾
-      - 香港G2-直连
-      - Lv3 香港 02 [2.0]
+      - AWS｜香港tcp-1｜三网
+      - AWS｜香港2-tcp｜三网
+      - AWS｜香港3-tcp｜三网
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 【IEPL】香港 普通 2 - Nearoute
-      - 【IEPL】香港 普通 7 - Nearoute
-      - 【IEPL】香港 普通 6 - Nearoute
-      - 【IEPL】香港 普通 5 - Nearoute
-      - 【IEPL】香港 普通 1 - Nearoute
-      - "[LV2·原生] 香港B4 | 中转"
-      - 香港W2-直连
-      - 香港W you
-      - 香港W2
-      - 新加坡W3
-      - 大萝卜鸡香味
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
-      - 新加坡W2-直连
-      - JP_03 @WangCai_1
-      - 新加坡G3
-      - 新加坡
-      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
-      - 新加坡G3-直连
-      - 韩国W3
-      - 韩国W1-直连
-      - 台湾
-      - 韩国W3-直连
-      - 日本G4-直连
-      - JP_08 @WangCai_1
-      - 日本G2-直连
-      - 日本
-      - 大萝卜鸡美国
-      - 香港G2-直连
-      - 日本G1-直连
-      - JP_04 @WangCai_1
-      - 大萝卜鸡日本
-      - 中國(HongKong)-S3
-      - 大萝卜鸡日碧
-      - JP_09 @WangCai_1
-      - Lv3 香港 02 [2.0]
-      - 中國(HongKong)-S5
-      - Lv3 新加坡 04 [2.0]
+      - AWS｜香港tcp-1｜三网
+      - AWS｜香港2-tcp｜三网
+      - AWS｜香港3-tcp｜三网
+      - AWS｜新加坡tcp｜三网
+      - Linode｜新加坡tcp-2｜联通
+      - Linode｜新加坡tcp-1｜联通
+      - Linode｜新加坡ws-3｜联通
+      - AWS｜东京80｜三网
+      - Oracle｜韩国tcp｜cn2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 【IEPL】香港 普通 2 - Nearoute
-      - 【IEPL】香港 普通 7 - Nearoute
-      - 【IEPL】香港 普通 6 - Nearoute
-      - 【IEPL】香港 普通 5 - Nearoute
-      - 【IEPL】香港 普通 1 - Nearoute
-      - "[LV2·原生] 香港B4 | 中转"
-      - 香港W2-直连
-      - 香港W you
-      - 香港W2
-      - 新加坡W3
-      - 大萝卜鸡香味
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
-      - 新加坡W2-直连
-      - JP_03 @WangCai_1
-      - 新加坡G3
-      - 新加坡
-      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
-      - 新加坡G3-直连
-      - 韩国W3
-      - 韩国W1-直连
-      - 台湾
-      - 韩国W3-直连
-      - 日本G4-直连
-      - JP_08 @WangCai_1
-      - 日本G2-直连
-      - 日本
-      - 大萝卜鸡美国
-      - 香港G2-直连
-      - 日本G1-直连
-      - JP_04 @WangCai_1
-      - 大萝卜鸡日本
-      - 中國(HongKong)-S3
-      - 大萝卜鸡日碧
-      - JP_09 @WangCai_1
-      - Lv3 香港 02 [2.0]
-      - 中國(HongKong)-S5
-      - Lv3 新加坡 04 [2.0]
+      - AWS｜香港tcp-1｜三网
+      - AWS｜香港2-tcp｜三网
+      - AWS｜香港3-tcp｜三网
+      - AWS｜新加坡tcp｜三网
+      - Linode｜新加坡tcp-2｜联通
+      - Linode｜新加坡tcp-1｜联通
+      - Linode｜新加坡ws-3｜联通
+      - AWS｜东京80｜三网
+      - Oracle｜韩国tcp｜cn2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 【IEPL】香港 普通 2 - Nearoute
-      - 【IEPL】香港 普通 7 - Nearoute
-      - 【IEPL】香港 普通 6 - Nearoute
-      - 【IEPL】香港 普通 5 - Nearoute
-      - 【IEPL】香港 普通 1 - Nearoute
-      - "[LV2·原生] 香港B4 | 中转"
-      - 香港W2-直连
-      - 香港W you
-      - 香港W2
-      - 新加坡W3
-      - 大萝卜鸡香味
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
-      - 新加坡W2-直连
-      - JP_03 @WangCai_1
-      - 新加坡G3
-      - 新加坡
-      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
-      - 新加坡G3-直连
-      - 韩国W3
-      - 韩国W1-直连
-      - 台湾
-      - 韩国W3-直连
-      - 日本G4-直连
-      - JP_08 @WangCai_1
-      - 日本G2-直连
-      - 日本
-      - 大萝卜鸡美国
-      - 香港G2-直连
-      - 日本G1-直连
-      - JP_04 @WangCai_1
-      - 大萝卜鸡日本
-      - 中國(HongKong)-S3
-      - 大萝卜鸡日碧
-      - JP_09 @WangCai_1
-      - Lv3 香港 02 [2.0]
-      - 中國(HongKong)-S5
-      - Lv3 新加坡 04 [2.0]
+      - AWS｜香港tcp-1｜三网
+      - AWS｜香港2-tcp｜三网
+      - AWS｜香港3-tcp｜三网
+      - AWS｜新加坡tcp｜三网
+      - Linode｜新加坡tcp-2｜联通
+      - Linode｜新加坡tcp-1｜联通
+      - Linode｜新加坡ws-3｜联通
+      - AWS｜东京80｜三网
+      - Oracle｜韩国tcp｜cn2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -386,43 +151,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 【IEPL】香港 普通 2 - Nearoute
-      - 【IEPL】香港 普通 7 - Nearoute
-      - 【IEPL】香港 普通 6 - Nearoute
-      - 【IEPL】香港 普通 5 - Nearoute
-      - 【IEPL】香港 普通 1 - Nearoute
-      - "[LV2·原生] 香港B4 | 中转"
-      - 香港W2-直连
-      - 香港W you
-      - 香港W2
-      - 新加坡W3
-      - 大萝卜鸡香味
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
-      - 新加坡W2-直连
-      - JP_03 @WangCai_1
-      - 新加坡G3
-      - 新加坡
-      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
-      - 新加坡G3-直连
-      - 韩国W3
-      - 韩国W1-直连
-      - 台湾
-      - 韩国W3-直连
-      - 日本G4-直连
-      - JP_08 @WangCai_1
-      - 日本G2-直连
-      - 日本
-      - 大萝卜鸡美国
-      - 香港G2-直连
-      - 日本G1-直连
-      - JP_04 @WangCai_1
-      - 大萝卜鸡日本
-      - 中國(HongKong)-S3
-      - 大萝卜鸡日碧
-      - JP_09 @WangCai_1
-      - Lv3 香港 02 [2.0]
-      - 中國(HongKong)-S5
-      - Lv3 新加坡 04 [2.0]
+      - AWS｜香港tcp-1｜三网
+      - AWS｜香港2-tcp｜三网
+      - AWS｜香港3-tcp｜三网
+      - AWS｜新加坡tcp｜三网
+      - Linode｜新加坡tcp-2｜联通
+      - Linode｜新加坡tcp-1｜联通
+      - Linode｜新加坡ws-3｜联通
+      - AWS｜东京80｜三网
+      - Oracle｜韩国tcp｜cn2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
