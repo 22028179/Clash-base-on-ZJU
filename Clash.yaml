@@ -5,43 +5,47 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡-免流M2-1G, server: sgm2.1yuanfly.live, port: 80, type: vmess, uuid: 7cdfdb89-9279-3209-b322-57c76044b634, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: collab-ws.dingtalk.com}, udp: true}
-  - {name: US 9929, server: us9929.azus.ml, port: 20206, type: vmess, uuid: cb6b51a8-085c-4428-dc77-4fd5c05fca90, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 香港-直连Z3-1G, server: hkz3.1yuanfly.live, port: 32399, type: vmess, uuid: 7cdfdb89-9279-3209-b322-57c76044b634, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: sg9, server: 54.251.234.215, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true, udp: true}
-  - {name: Lv3 IEPL专线 台湾C, server: node-adsl-lv3-tw.rdns.link, port: 11044, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 84:BQFPTy, obfs-param: 3e5ca84.software-download.microsoft.com, udp: true}
+  - {name: 限时节点1·日本 | x0, server: bo1.paoche.work, port: 9999, type: trojan, password: 0fc39e24-c3f3-4a34-b277-90edae5891ea, sni: bo1.paoche.work, skip-cert-verify: true, udp: true}
+  - {name: VN • Hà Nội 02 📶, server: hn2.vifast.net, port: 80, type: vmess, uuid: 4c2d3f00-8f9b-49c2-a43b-10f022b2fde5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dl.kgvn.garenanow.com}, udp: true}
+  - {name: uk6, server: 18.130.157.11, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true, udp: true}
+  - {name: uk3, server: 18.133.181.177, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true, udp: true}
+  - {name: CH_04 @WangCai_1, server: 45.12.206.183, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: Hà Nội 4- Garena, server: hanoi-4.4g.mkvn.net, port: 443, type: trojan, password: 952e97d2-17ef-4e42-b8aa-c9f892ca4eed, sni: hanoi-4.4g.mkvn.net, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡-免流M2-1G
-      - US 9929
-      - 香港-直连Z3-1G
-      - sg9
-      - Lv3 IEPL专线 台湾C
+      - 限时节点1·日本 | x0
+      - VN • Hà Nội 02 📶
+      - uk6
+      - uk3
+      - CH_04 @WangCai_1
+      - Hà Nội 4- Garena
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡-免流M2-1G
-      - US 9929
-      - 香港-直连Z3-1G
-      - sg9
-      - Lv3 IEPL专线 台湾C
+      - 限时节点1·日本 | x0
+      - VN • Hà Nội 02 📶
+      - uk6
+      - uk3
+      - CH_04 @WangCai_1
+      - Hà Nội 4- Garena
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡-免流M2-1G
-      - US 9929
-      - 香港-直连Z3-1G
-      - sg9
-      - Lv3 IEPL专线 台湾C
+      - 限时节点1·日本 | x0
+      - VN • Hà Nội 02 📶
+      - uk6
+      - uk3
+      - CH_04 @WangCai_1
+      - Hà Nội 4- Garena
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,49 +64,51 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡-免流M2-1G
-      - US 9929
-      - 香港-直连Z3-1G
-      - sg9
-      - Lv3 IEPL专线 台湾C
+      - 限时节点1·日本 | x0
+      - VN • Hà Nội 02 📶
+      - uk6
+      - uk3
+      - CH_04 @WangCai_1
+      - Hà Nội 4- Garena
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港-直连Z3-1G
-      - Lv3 IEPL专线 台湾C
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡-免流M2-1G
-      - US 9929
-      - 香港-直连Z3-1G
-      - sg9
-      - Lv3 IEPL专线 台湾C
+      - 限时节点1·日本 | x0
+      - VN • Hà Nội 02 📶
+      - uk6
+      - uk3
+      - CH_04 @WangCai_1
+      - Hà Nội 4- Garena
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 新加坡-免流M2-1G
-      - US 9929
-      - 香港-直连Z3-1G
-      - sg9
-      - Lv3 IEPL专线 台湾C
+      - 限时节点1·日本 | x0
+      - VN • Hà Nội 02 📶
+      - uk6
+      - uk3
+      - CH_04 @WangCai_1
+      - Hà Nội 4- Garena
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡-免流M2-1G
-      - US 9929
-      - 香港-直连Z3-1G
-      - sg9
-      - Lv3 IEPL专线 台湾C
+      - 限时节点1·日本 | x0
+      - VN • Hà Nội 02 📶
+      - uk6
+      - uk3
+      - CH_04 @WangCai_1
+      - Hà Nội 4- Garena
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -118,11 +124,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡-免流M2-1G
-      - US 9929
-      - 香港-直连Z3-1G
-      - sg9
-      - Lv3 IEPL专线 台湾C
+      - 限时节点1·日本 | x0
+      - VN • Hà Nội 02 📶
+      - uk6
+      - uk3
+      - CH_04 @WangCai_1
+      - Hà Nội 4- Garena
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
