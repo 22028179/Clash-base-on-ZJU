@@ -5,83 +5,51 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK A | 直连 | x1.5 「10G 带宽」, server: hk3.hktkcloud.cloud, port: 443, type: trojan, password: d4119dee-493a-407f-9109-a36d62153e19, sni: hk3.hktkcloud.cloud, skip-cert-verify: true, udp: true}
-  - {name: SS|香港A01|原生解锁, server: node.a.access.in.nyapi.buzz, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: fbd705c8-a47e-4b8c-bdac-4f0002aaeb3d, udp: true}
-  - {name: SS|香港A01|IDC| 解锁, server: node.a.access.in.nyapi.buzz, port: 25020, type: ss, cipher: chacha20-ietf-poly1305, password: fbd705c8-a47e-4b8c-bdac-4f0002aaeb3d, udp: true}
-  - {name: 香港❤HK➤10, server: cmjm.julvab.com, port: 21044, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 10638:CznkVG, obfs-param: 7cd8910638.download.microsoft.com, udp: true}
-  - {name: SS|韩国A01|IDC| 解锁, server: node.a.access.in.nyapi.buzz, port: 25010, type: ss, cipher: chacha20-ietf-poly1305, password: fbd705c8-a47e-4b8c-bdac-4f0002aaeb3d, udp: true}
-  - {name: 香港❤HK➤02, server: cmjm.julvab.com, port: 20112, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 10638:CznkVG, obfs-param: 7cd8910638.download.microsoft.com, udp: true}
-  - {name: SS|新加坡A01|IDC| 解锁, server: node.a.access.in.nyapi.buzz, port: 45144, type: ss, cipher: chacha20-ietf-poly1305, password: fbd705c8-a47e-4b8c-bdac-4f0002aaeb3d, udp: true}
-  - {name: Lv1 台湾B ☀, server: node-adsl-lv1.rdns.link, port: 51656, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 84:BQFPTy, obfs-param: 3e5ca84.software-download.microsoft.com, udp: true}
-  - {name: 日本❤JP ➤04, server: cmvmzeocloud.julvab.com, port: 25124, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 10638:CznkVG, obfs-param: 7cd8910638.download.microsoft.com, udp: true}
-  - {name: SS|印度A01|IDC, server: node.a.access.in.nyapi.buzz, port: 25005, type: ss, cipher: chacha20-ietf-poly1305, password: fbd705c8-a47e-4b8c-bdac-4f0002aaeb3d, udp: true}
-  - {name: 新加坡❤SG➤3, server: cmjm.julvab.com, port: 50716, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 10638:CznkVG, obfs-param: 7cd8910638.download.microsoft.com, udp: true}
-  - {name: 台湾❤HiNet03, server: cmjm.julvab.com, port: 20706, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 10638:CznkVG, obfs-param: 7cd8910638.download.microsoft.com, udp: true}
+  - {name: V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼, server: kr02.xniuniu888.xyz, port: 30260, type: trojan, password: cd0c924b-1862-3e80-86c5-a8c7898e83a0, sni: kr02.xniuniu888.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xibai6.top, port: 20788, type: trojan, password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a, sni: azgy001.xibai6.top, skip-cert-verify: true, udp: true}
+  - {name: IEPL廣港06专线×5x, server: ifanrlpiecm.julvab.com, port: 59902, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 10638:CznkVG, obfs-param: 7cd8910638.download.microsoft.com, udp: true}
   - {name: 香港❤HK➤06, server: cmjm.julvab.com, port: 20918, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 10638:CznkVG, obfs-param: 7cd8910638.download.microsoft.com, udp: true}
-  - {name: uk6, server: 18.130.157.11, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true, udp: true}
-  - {name: 台湾❤HiNet01, server: cmjm.julvab.com, port: 20598, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 10638:CznkVG, obfs-param: 7cd8910638.download.microsoft.com, udp: true}
+  - {name: 香港❤HK➤08, server: cmjm.julvab.com, port: 30718, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 10638:CznkVG, obfs-param: 7cd8910638.download.microsoft.com, udp: true}
+  - {name: 新加坡❤SG➤3, server: cmjm.julvab.com, port: 50716, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 10638:CznkVG, obfs-param: 7cd8910638.download.microsoft.com, udp: true}
+  - {name: 日本❤JP ➤04, server: cmvmzeocloud.julvab.com, port: 25124, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 10638:CznkVG, obfs-param: 7cd8910638.download.microsoft.com, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK A | 直连 | x1.5 「10G 带宽」
-      - SS|香港A01|原生解锁
-      - SS|香港A01|IDC| 解锁
-      - 香港❤HK➤10
-      - SS|韩国A01|IDC| 解锁
-      - 香港❤HK➤02
-      - SS|新加坡A01|IDC| 解锁
-      - Lv1 台湾B ☀
-      - 日本❤JP ➤04
-      - SS|印度A01|IDC
-      - 新加坡❤SG➤3
-      - 台湾❤HiNet03
+      - V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - IEPL廣港06专线×5x
       - 香港❤HK➤06
-      - uk6
-      - 台湾❤HiNet01
+      - 香港❤HK➤08
+      - 新加坡❤SG➤3
+      - 日本❤JP ➤04
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK A | 直连 | x1.5 「10G 带宽」
-      - SS|香港A01|原生解锁
-      - SS|香港A01|IDC| 解锁
-      - 香港❤HK➤10
-      - SS|韩国A01|IDC| 解锁
-      - 香港❤HK➤02
-      - SS|新加坡A01|IDC| 解锁
-      - Lv1 台湾B ☀
-      - 日本❤JP ➤04
-      - SS|印度A01|IDC
-      - 新加坡❤SG➤3
-      - 台湾❤HiNet03
+      - V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - IEPL廣港06专线×5x
       - 香港❤HK➤06
-      - uk6
-      - 台湾❤HiNet01
+      - 香港❤HK➤08
+      - 新加坡❤SG➤3
+      - 日本❤JP ➤04
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK A | 直连 | x1.5 「10G 带宽」
-      - SS|香港A01|原生解锁
-      - SS|香港A01|IDC| 解锁
-      - 香港❤HK➤10
-      - SS|韩国A01|IDC| 解锁
-      - 香港❤HK➤02
-      - SS|新加坡A01|IDC| 解锁
-      - Lv1 台湾B ☀
-      - 日本❤JP ➤04
-      - SS|印度A01|IDC
-      - 新加坡❤SG➤3
-      - 台湾❤HiNet03
+      - V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - IEPL廣港06专线×5x
       - 香港❤HK➤06
-      - uk6
-      - 台湾❤HiNet01
+      - 香港❤HK➤08
+      - 新加坡❤SG➤3
+      - 日本❤JP ➤04
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -100,95 +68,58 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK A | 直连 | x1.5 「10G 带宽」
-      - SS|香港A01|原生解锁
-      - SS|香港A01|IDC| 解锁
-      - 香港❤HK➤10
-      - SS|韩国A01|IDC| 解锁
-      - 香港❤HK➤02
-      - SS|新加坡A01|IDC| 解锁
-      - Lv1 台湾B ☀
-      - 日本❤JP ➤04
-      - SS|印度A01|IDC
-      - 新加坡❤SG➤3
-      - 台湾❤HiNet03
+      - V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - IEPL廣港06专线×5x
       - 香港❤HK➤06
-      - uk6
-      - 台湾❤HiNet01
+      - 香港❤HK➤08
+      - 新加坡❤SG➤3
+      - 日本❤JP ➤04
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - SS|香港A01|原生解锁
-      - SS|香港A01|IDC| 解锁
-      - 香港❤HK➤10
-      - 香港❤HK➤02
-      - Lv1 台湾B ☀
-      - 台湾❤HiNet03
+      - IEPL廣港06专线×5x
       - 香港❤HK➤06
-      - 台湾❤HiNet01
+      - 香港❤HK➤08
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK A | 直连 | x1.5 「10G 带宽」
-      - SS|香港A01|原生解锁
-      - SS|香港A01|IDC| 解锁
-      - 香港❤HK➤10
-      - SS|韩国A01|IDC| 解锁
-      - 香港❤HK➤02
-      - SS|新加坡A01|IDC| 解锁
-      - Lv1 台湾B ☀
-      - 日本❤JP ➤04
-      - SS|印度A01|IDC
-      - 新加坡❤SG➤3
-      - 台湾❤HiNet03
+      - V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - IEPL廣港06专线×5x
       - 香港❤HK➤06
-      - uk6
-      - 台湾❤HiNet01
+      - 香港❤HK➤08
+      - 新加坡❤SG➤3
+      - 日本❤JP ➤04
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK A | 直连 | x1.5 「10G 带宽」
-      - SS|香港A01|原生解锁
-      - SS|香港A01|IDC| 解锁
-      - 香港❤HK➤10
-      - SS|韩国A01|IDC| 解锁
-      - 香港❤HK➤02
-      - SS|新加坡A01|IDC| 解锁
-      - Lv1 台湾B ☀
-      - 日本❤JP ➤04
-      - SS|印度A01|IDC
-      - 新加坡❤SG➤3
-      - 台湾❤HiNet03
+      - V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - IEPL廣港06专线×5x
       - 香港❤HK➤06
-      - uk6
-      - 台湾❤HiNet01
+      - 香港❤HK➤08
+      - 新加坡❤SG➤3
+      - 日本❤JP ➤04
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK A | 直连 | x1.5 「10G 带宽」
-      - SS|香港A01|原生解锁
-      - SS|香港A01|IDC| 解锁
-      - 香港❤HK➤10
-      - SS|韩国A01|IDC| 解锁
-      - 香港❤HK➤02
-      - SS|新加坡A01|IDC| 解锁
-      - Lv1 台湾B ☀
-      - 日本❤JP ➤04
-      - SS|印度A01|IDC
-      - 新加坡❤SG➤3
-      - 台湾❤HiNet03
+      - V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - IEPL廣港06专线×5x
       - 香港❤HK➤06
-      - uk6
-      - 台湾❤HiNet01
+      - 香港❤HK➤08
+      - 新加坡❤SG➤3
+      - 日本❤JP ➤04
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -204,21 +135,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK A | 直连 | x1.5 「10G 带宽」
-      - SS|香港A01|原生解锁
-      - SS|香港A01|IDC| 解锁
-      - 香港❤HK➤10
-      - SS|韩国A01|IDC| 解锁
-      - 香港❤HK➤02
-      - SS|新加坡A01|IDC| 解锁
-      - Lv1 台湾B ☀
-      - 日本❤JP ➤04
-      - SS|印度A01|IDC
-      - 新加坡❤SG➤3
-      - 台湾❤HiNet03
+      - V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
+      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - IEPL廣港06专线×5x
       - 香港❤HK➤06
-      - uk6
-      - 台湾❤HiNet01
+      - 香港❤HK➤08
+      - 新加坡❤SG➤3
+      - 日本❤JP ➤04
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
