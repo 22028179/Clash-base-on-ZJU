@@ -5,51 +5,55 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼, server: kr02.xniuniu888.xyz, port: 30260, type: trojan, password: cd0c924b-1862-3e80-86c5-a8c7898e83a0, sni: kr02.xniuniu888.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xibai6.top, port: 20788, type: trojan, password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a, sni: azgy001.xibai6.top, skip-cert-verify: true, udp: true}
-  - {name: IEPL廣港06专线×5x, server: ifanrlpiecm.julvab.com, port: 59902, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 10638:CznkVG, obfs-param: 7cd8910638.download.microsoft.com, udp: true}
-  - {name: 香港❤HK➤06, server: cmjm.julvab.com, port: 20918, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 10638:CznkVG, obfs-param: 7cd8910638.download.microsoft.com, udp: true}
-  - {name: 香港❤HK➤08, server: cmjm.julvab.com, port: 30718, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 10638:CznkVG, obfs-param: 7cd8910638.download.microsoft.com, udp: true}
-  - {name: 新加坡❤SG➤3, server: cmjm.julvab.com, port: 50716, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 10638:CznkVG, obfs-param: 7cd8910638.download.microsoft.com, udp: true}
-  - {name: 日本❤JP ➤04, server: cmvmzeocloud.julvab.com, port: 25124, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 10638:CznkVG, obfs-param: 7cd8910638.download.microsoft.com, udp: true}
+  - {name: GetAFreeNode-Tokyo, server: 103.173.178.110, port: 40443, type: vmess, uuid: 7ED6C76A-277E-1D03-2C6F-48B728899686, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 日本fughg, server: 20.205.63.249, port: 20801, type: trojan, password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a, skip-cert-verify: true, udp: true}
+  - {name: us9, server: 54.218.99.141, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true, udp: true}
+  - {name: 法国B, server: 13.38.103.11, port: 43632, type: vmess, uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong 2 - Tiktok, server: hk-2.4g.mkvn.net, port: 80, type: vmess, uuid: 952e97d2-17ef-4e42-b8aa-c9f892ca4eed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4g.mkvn.net, ws-headers: {Host: v9-vn.tiktokcdn.com}, udp: true}
+  - {name: 大萝卜鸡香港3, server: 47.242.145.161, port: 54073, type: ssr, cipher: dummy, password: !<str> 3455634, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Hong Kong 2 - Garena, server: hk-2.4g.mkvn.net, port: 80, type: vmess, uuid: 952e97d2-17ef-4e42-b8aa-c9f892ca4eed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4g.mkvn.net, ws-headers: {Host: dl.kgvn.garenanow.com}, udp: true}
+  - {name: 大萝卜鸡香港2, server: 47.243.60.156, port: 46549, type: ssr, cipher: dummy, password: !<str> 34565345, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
-      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - IEPL廣港06专线×5x
-      - 香港❤HK➤06
-      - 香港❤HK➤08
-      - 新加坡❤SG➤3
-      - 日本❤JP ➤04
+      - GetAFreeNode-Tokyo
+      - 日本fughg
+      - us9
+      - 法国B
+      - Hong Kong 2 - Tiktok
+      - 大萝卜鸡香港3
+      - Hong Kong 2 - Garena
+      - 大萝卜鸡香港2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
-      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - IEPL廣港06专线×5x
-      - 香港❤HK➤06
-      - 香港❤HK➤08
-      - 新加坡❤SG➤3
-      - 日本❤JP ➤04
+      - GetAFreeNode-Tokyo
+      - 日本fughg
+      - us9
+      - 法国B
+      - Hong Kong 2 - Tiktok
+      - 大萝卜鸡香港3
+      - Hong Kong 2 - Garena
+      - 大萝卜鸡香港2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
-      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - IEPL廣港06专线×5x
-      - 香港❤HK➤06
-      - 香港❤HK➤08
-      - 新加坡❤SG➤3
-      - 日本❤JP ➤04
+      - GetAFreeNode-Tokyo
+      - 日本fughg
+      - us9
+      - 法国B
+      - Hong Kong 2 - Tiktok
+      - 大萝卜鸡香港3
+      - Hong Kong 2 - Garena
+      - 大萝卜鸡香港2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,58 +72,61 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
-      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - IEPL廣港06专线×5x
-      - 香港❤HK➤06
-      - 香港❤HK➤08
-      - 新加坡❤SG➤3
-      - 日本❤JP ➤04
+      - GetAFreeNode-Tokyo
+      - 日本fughg
+      - us9
+      - 法国B
+      - Hong Kong 2 - Tiktok
+      - 大萝卜鸡香港3
+      - Hong Kong 2 - Garena
+      - 大萝卜鸡香港2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - IEPL廣港06专线×5x
-      - 香港❤HK➤06
-      - 香港❤HK➤08
+      - 大萝卜鸡香港3
+      - 大萝卜鸡香港2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
-      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - IEPL廣港06专线×5x
-      - 香港❤HK➤06
-      - 香港❤HK➤08
-      - 新加坡❤SG➤3
-      - 日本❤JP ➤04
+      - GetAFreeNode-Tokyo
+      - 日本fughg
+      - us9
+      - 法国B
+      - Hong Kong 2 - Tiktok
+      - 大萝卜鸡香港3
+      - Hong Kong 2 - Garena
+      - 大萝卜鸡香港2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
-      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - IEPL廣港06专线×5x
-      - 香港❤HK➤06
-      - 香港❤HK➤08
-      - 新加坡❤SG➤3
-      - 日本❤JP ➤04
+      - GetAFreeNode-Tokyo
+      - 日本fughg
+      - us9
+      - 法国B
+      - Hong Kong 2 - Tiktok
+      - 大萝卜鸡香港3
+      - Hong Kong 2 - Garena
+      - 大萝卜鸡香港2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
-      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - IEPL廣港06专线×5x
-      - 香港❤HK➤06
-      - 香港❤HK➤08
-      - 新加坡❤SG➤3
-      - 日本❤JP ➤04
+      - GetAFreeNode-Tokyo
+      - 日本fughg
+      - us9
+      - 法国B
+      - Hong Kong 2 - Tiktok
+      - 大萝卜鸡香港3
+      - Hong Kong 2 - Garena
+      - 大萝卜鸡香港2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -135,13 +142,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
-      - 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - IEPL廣港06专线×5x
-      - 香港❤HK➤06
-      - 香港❤HK➤08
-      - 新加坡❤SG➤3
-      - 日本❤JP ➤04
+      - GetAFreeNode-Tokyo
+      - 日本fughg
+      - us9
+      - 法国B
+      - Hong Kong 2 - Tiktok
+      - 大萝卜鸡香港3
+      - Hong Kong 2 - Garena
+      - 大萝卜鸡香港2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
