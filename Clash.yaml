@@ -5,6 +5,52 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 印度01 | Akamai, server: sdyd.ygdyf.com, port: 18490, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 澳大利亚01 | Digital Ocean, server: zfyd.magicby.top, port: 56939, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 巴基斯坦01 | Virtury, server: sdyd.ygdyf.com, port: 32193, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 卡塔尔01  | CloudFlare, server: sdyd.ygdyf.com, port: 11819, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 德国01 | Hetzner, server: xzdg.magicby.top, port: 48156, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 美国08 | Rn, server: zfus.magicby.top, port: 21215, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 法国01 | SYNLINQ, server: xzdg.magicby.top, port: 44476, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 波兰01 | Melbikomas, server: xzdg.magicby.top, port: 43234, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 奥地利01 | Alwyzon, server: xzdg.magicby.top, port: 22679, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 斯洛文尼亚01 | T-2, server: xzdg.magicby.top, port: 43372, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 土库曼01 | CloudFlare, server: sdyd.ygdyf.com, port: 59660, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 芬兰01 | Hetzner, server: xzdg.magicby.top, port: 41121, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 美国09 | NetLab 500M, server: zfus.magicby.top, port: 17400, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 冰岛01 | Advania, server: xzdg.magicby.top, port: 39197, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 美国02 | Misaka, server: zfus.magicby.top, port: 33151, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 葡萄牙01 | Global, server: xzdg.magicby.top, port: 18157, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 土耳其01 | Hostinget, server: xzdg.magicby.top, port: 24701, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 阿尔巴尼亚01 | Albanian, server: xzdg.magicby.top, port: 20455, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 瑞典01 | AEZA GROUP, server: xzdg.magicby.top, port: 45959, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 美国06 | Misaka, server: zfus.magicby.top, port: 35114, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 立陶宛01 | Melbikomas, server: xzdg.magicby.top, port: 33210, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 美国03 | Wholesale, server: zfus.magicby.top, port: 31611, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 北马其顿01 | Makedonski, server: xzdg.magicby.top, port: 23191, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 美国04 | DigitalOcean, server: zfus.magicby.top, port: 11861, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 美国07 | DigitalOcean, server: zfus.magicby.top, port: 43713, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 南极洲01 | CloudFlare 5x, server: sdyd.ygdyf.com, port: 43816, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 捷克01 | Orelsoft, server: xzdg.magicby.top, port: 37419, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 美国01 | NetLab, server: zfus.magicby.top, port: 13530, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 斯洛伐克01 | FLP Kochenov, server: xzdg.magicby.top, port: 49069, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 美国05 | DigitalOcean, server: zfus.magicby.top, port: 47161, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 加拿大01 | DigitalOcean, server: tjcu-l6ftl9.zzcloud.top, port: 49948, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 塞浦路斯01 | MVPS LTD, server: xzdg.magicby.top, port: 36711, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 埃及01 | FranTech, server: xzdg.magicby.top, port: 45350, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 拉脱维亚01 | Melbikomas, server: xzdg.magicby.top, port: 35778, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 直布罗陀01 | CloudFlare, server: sdyd.ygdyf.com, port: 29611, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 黑山01 | CloudFlare, server: sdyd.ygdyf.com, port: 37838, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 尼日利亚01 | Melbikomas, server: xzdg.magicby.top, port: 11376, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 厄瓜多尔01 | BrainStorm, server: xzdg.magicby.top, port: 15675, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 赤道几内亚01 | CloudFlare, server: sdyd.ygdyf.com, port: 52494, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 巴勒斯坦01 | CloudFlare, server: tjcu-l6ftl9.zzcloud.top, port: 18451, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 乌克兰01 | FOP, server: xzdg.magicby.top, port: 46926, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 阿根廷01 | CloudFlare, server: tjcu-l6ftl9.zzcloud.top, port: 38377, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 墨西哥01 | Choopa, server: tjcu-l6ftl9.zzcloud.top, port: 34041, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 挪威01 | Prime Meridian, server: xzdg.magicby.top, port: 34181, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 土耳其02 | Mehmet, server: xiongda006.daxiongda.top, port: 43539, type: ss, cipher: chacha20-ietf-poly1305, password: c411c74c-99d7-4631-85b2-cc65ee77c28e, udp: true}
+  - {name: 美国 CloudFlare节点, server: mm3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mm3.shabijichang.com}, udp: true}
   - {name: 加拿大new01（1x）, server: ca-new01.gujuji.top, port: 8080, type: vmess, uuid: 455b3565-342b-4c22-b2c2-62d1aa612e99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ca-new01.gujuji.top}, udp: true}
   - {name: 美国new01（1x）, server: us-new01.gujuji.top, port: 8080, type: vmess, uuid: 455b3565-342b-4c22-b2c2-62d1aa612e99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us-new01.gujuji.top}, udp: true}
   - {name: 美国new02（1x）, server: us-new02.gujuji.top, port: 8080, type: vmess, uuid: 455b3565-342b-4c22-b2c2-62d1aa612e99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us-new02.gujuji.top}, udp: true}
@@ -18,6 +64,52 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 印度01 | Akamai
+      - 澳大利亚01 | Digital Ocean
+      - 巴基斯坦01 | Virtury
+      - 卡塔尔01  | CloudFlare
+      - 德国01 | Hetzner
+      - 美国08 | Rn
+      - 法国01 | SYNLINQ
+      - 波兰01 | Melbikomas
+      - 奥地利01 | Alwyzon
+      - 斯洛文尼亚01 | T-2
+      - 土库曼01 | CloudFlare
+      - 芬兰01 | Hetzner
+      - 美国09 | NetLab 500M
+      - 冰岛01 | Advania
+      - 美国02 | Misaka
+      - 葡萄牙01 | Global
+      - 土耳其01 | Hostinget
+      - 阿尔巴尼亚01 | Albanian
+      - 瑞典01 | AEZA GROUP
+      - 美国06 | Misaka
+      - 立陶宛01 | Melbikomas
+      - 美国03 | Wholesale
+      - 北马其顿01 | Makedonski
+      - 美国04 | DigitalOcean
+      - 美国07 | DigitalOcean
+      - 南极洲01 | CloudFlare 5x
+      - 捷克01 | Orelsoft
+      - 美国01 | NetLab
+      - 斯洛伐克01 | FLP Kochenov
+      - 美国05 | DigitalOcean
+      - 加拿大01 | DigitalOcean
+      - 塞浦路斯01 | MVPS LTD
+      - 埃及01 | FranTech
+      - 拉脱维亚01 | Melbikomas
+      - 直布罗陀01 | CloudFlare
+      - 黑山01 | CloudFlare
+      - 尼日利亚01 | Melbikomas
+      - 厄瓜多尔01 | BrainStorm
+      - 赤道几内亚01 | CloudFlare
+      - 巴勒斯坦01 | CloudFlare
+      - 乌克兰01 | FOP
+      - 阿根廷01 | CloudFlare
+      - 墨西哥01 | Choopa
+      - 挪威01 | Prime Meridian
+      - 土耳其02 | Mehmet
+      - 美国 CloudFlare节点
       - 加拿大new01（1x）
       - 美国new01（1x）
       - 美国new02（1x）
@@ -30,6 +122,52 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 印度01 | Akamai
+      - 澳大利亚01 | Digital Ocean
+      - 巴基斯坦01 | Virtury
+      - 卡塔尔01  | CloudFlare
+      - 德国01 | Hetzner
+      - 美国08 | Rn
+      - 法国01 | SYNLINQ
+      - 波兰01 | Melbikomas
+      - 奥地利01 | Alwyzon
+      - 斯洛文尼亚01 | T-2
+      - 土库曼01 | CloudFlare
+      - 芬兰01 | Hetzner
+      - 美国09 | NetLab 500M
+      - 冰岛01 | Advania
+      - 美国02 | Misaka
+      - 葡萄牙01 | Global
+      - 土耳其01 | Hostinget
+      - 阿尔巴尼亚01 | Albanian
+      - 瑞典01 | AEZA GROUP
+      - 美国06 | Misaka
+      - 立陶宛01 | Melbikomas
+      - 美国03 | Wholesale
+      - 北马其顿01 | Makedonski
+      - 美国04 | DigitalOcean
+      - 美国07 | DigitalOcean
+      - 南极洲01 | CloudFlare 5x
+      - 捷克01 | Orelsoft
+      - 美国01 | NetLab
+      - 斯洛伐克01 | FLP Kochenov
+      - 美国05 | DigitalOcean
+      - 加拿大01 | DigitalOcean
+      - 塞浦路斯01 | MVPS LTD
+      - 埃及01 | FranTech
+      - 拉脱维亚01 | Melbikomas
+      - 直布罗陀01 | CloudFlare
+      - 黑山01 | CloudFlare
+      - 尼日利亚01 | Melbikomas
+      - 厄瓜多尔01 | BrainStorm
+      - 赤道几内亚01 | CloudFlare
+      - 巴勒斯坦01 | CloudFlare
+      - 乌克兰01 | FOP
+      - 阿根廷01 | CloudFlare
+      - 墨西哥01 | Choopa
+      - 挪威01 | Prime Meridian
+      - 土耳其02 | Mehmet
+      - 美国 CloudFlare节点
       - 加拿大new01（1x）
       - 美国new01（1x）
       - 美国new02（1x）
@@ -43,6 +181,52 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 印度01 | Akamai
+      - 澳大利亚01 | Digital Ocean
+      - 巴基斯坦01 | Virtury
+      - 卡塔尔01  | CloudFlare
+      - 德国01 | Hetzner
+      - 美国08 | Rn
+      - 法国01 | SYNLINQ
+      - 波兰01 | Melbikomas
+      - 奥地利01 | Alwyzon
+      - 斯洛文尼亚01 | T-2
+      - 土库曼01 | CloudFlare
+      - 芬兰01 | Hetzner
+      - 美国09 | NetLab 500M
+      - 冰岛01 | Advania
+      - 美国02 | Misaka
+      - 葡萄牙01 | Global
+      - 土耳其01 | Hostinget
+      - 阿尔巴尼亚01 | Albanian
+      - 瑞典01 | AEZA GROUP
+      - 美国06 | Misaka
+      - 立陶宛01 | Melbikomas
+      - 美国03 | Wholesale
+      - 北马其顿01 | Makedonski
+      - 美国04 | DigitalOcean
+      - 美国07 | DigitalOcean
+      - 南极洲01 | CloudFlare 5x
+      - 捷克01 | Orelsoft
+      - 美国01 | NetLab
+      - 斯洛伐克01 | FLP Kochenov
+      - 美国05 | DigitalOcean
+      - 加拿大01 | DigitalOcean
+      - 塞浦路斯01 | MVPS LTD
+      - 埃及01 | FranTech
+      - 拉脱维亚01 | Melbikomas
+      - 直布罗陀01 | CloudFlare
+      - 黑山01 | CloudFlare
+      - 尼日利亚01 | Melbikomas
+      - 厄瓜多尔01 | BrainStorm
+      - 赤道几内亚01 | CloudFlare
+      - 巴勒斯坦01 | CloudFlare
+      - 乌克兰01 | FOP
+      - 阿根廷01 | CloudFlare
+      - 墨西哥01 | Choopa
+      - 挪威01 | Prime Meridian
+      - 土耳其02 | Mehmet
+      - 美国 CloudFlare节点
       - 加拿大new01（1x）
       - 美国new01（1x）
       - 美国new02（1x）
@@ -68,6 +252,52 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 印度01 | Akamai
+      - 澳大利亚01 | Digital Ocean
+      - 巴基斯坦01 | Virtury
+      - 卡塔尔01  | CloudFlare
+      - 德国01 | Hetzner
+      - 美国08 | Rn
+      - 法国01 | SYNLINQ
+      - 波兰01 | Melbikomas
+      - 奥地利01 | Alwyzon
+      - 斯洛文尼亚01 | T-2
+      - 土库曼01 | CloudFlare
+      - 芬兰01 | Hetzner
+      - 美国09 | NetLab 500M
+      - 冰岛01 | Advania
+      - 美国02 | Misaka
+      - 葡萄牙01 | Global
+      - 土耳其01 | Hostinget
+      - 阿尔巴尼亚01 | Albanian
+      - 瑞典01 | AEZA GROUP
+      - 美国06 | Misaka
+      - 立陶宛01 | Melbikomas
+      - 美国03 | Wholesale
+      - 北马其顿01 | Makedonski
+      - 美国04 | DigitalOcean
+      - 美国07 | DigitalOcean
+      - 南极洲01 | CloudFlare 5x
+      - 捷克01 | Orelsoft
+      - 美国01 | NetLab
+      - 斯洛伐克01 | FLP Kochenov
+      - 美国05 | DigitalOcean
+      - 加拿大01 | DigitalOcean
+      - 塞浦路斯01 | MVPS LTD
+      - 埃及01 | FranTech
+      - 拉脱维亚01 | Melbikomas
+      - 直布罗陀01 | CloudFlare
+      - 黑山01 | CloudFlare
+      - 尼日利亚01 | Melbikomas
+      - 厄瓜多尔01 | BrainStorm
+      - 赤道几内亚01 | CloudFlare
+      - 巴勒斯坦01 | CloudFlare
+      - 乌克兰01 | FOP
+      - 阿根廷01 | CloudFlare
+      - 墨西哥01 | Choopa
+      - 挪威01 | Prime Meridian
+      - 土耳其02 | Mehmet
+      - 美国 CloudFlare节点
       - 加拿大new01（1x）
       - 美国new01（1x）
       - 美国new02（1x）
@@ -85,6 +315,52 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 印度01 | Akamai
+      - 澳大利亚01 | Digital Ocean
+      - 巴基斯坦01 | Virtury
+      - 卡塔尔01  | CloudFlare
+      - 德国01 | Hetzner
+      - 美国08 | Rn
+      - 法国01 | SYNLINQ
+      - 波兰01 | Melbikomas
+      - 奥地利01 | Alwyzon
+      - 斯洛文尼亚01 | T-2
+      - 土库曼01 | CloudFlare
+      - 芬兰01 | Hetzner
+      - 美国09 | NetLab 500M
+      - 冰岛01 | Advania
+      - 美国02 | Misaka
+      - 葡萄牙01 | Global
+      - 土耳其01 | Hostinget
+      - 阿尔巴尼亚01 | Albanian
+      - 瑞典01 | AEZA GROUP
+      - 美国06 | Misaka
+      - 立陶宛01 | Melbikomas
+      - 美国03 | Wholesale
+      - 北马其顿01 | Makedonski
+      - 美国04 | DigitalOcean
+      - 美国07 | DigitalOcean
+      - 南极洲01 | CloudFlare 5x
+      - 捷克01 | Orelsoft
+      - 美国01 | NetLab
+      - 斯洛伐克01 | FLP Kochenov
+      - 美国05 | DigitalOcean
+      - 加拿大01 | DigitalOcean
+      - 塞浦路斯01 | MVPS LTD
+      - 埃及01 | FranTech
+      - 拉脱维亚01 | Melbikomas
+      - 直布罗陀01 | CloudFlare
+      - 黑山01 | CloudFlare
+      - 尼日利亚01 | Melbikomas
+      - 厄瓜多尔01 | BrainStorm
+      - 赤道几内亚01 | CloudFlare
+      - 巴勒斯坦01 | CloudFlare
+      - 乌克兰01 | FOP
+      - 阿根廷01 | CloudFlare
+      - 墨西哥01 | Choopa
+      - 挪威01 | Prime Meridian
+      - 土耳其02 | Mehmet
+      - 美国 CloudFlare节点
       - 加拿大new01（1x）
       - 美国new01（1x）
       - 美国new02（1x）
@@ -97,6 +373,52 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 印度01 | Akamai
+      - 澳大利亚01 | Digital Ocean
+      - 巴基斯坦01 | Virtury
+      - 卡塔尔01  | CloudFlare
+      - 德国01 | Hetzner
+      - 美国08 | Rn
+      - 法国01 | SYNLINQ
+      - 波兰01 | Melbikomas
+      - 奥地利01 | Alwyzon
+      - 斯洛文尼亚01 | T-2
+      - 土库曼01 | CloudFlare
+      - 芬兰01 | Hetzner
+      - 美国09 | NetLab 500M
+      - 冰岛01 | Advania
+      - 美国02 | Misaka
+      - 葡萄牙01 | Global
+      - 土耳其01 | Hostinget
+      - 阿尔巴尼亚01 | Albanian
+      - 瑞典01 | AEZA GROUP
+      - 美国06 | Misaka
+      - 立陶宛01 | Melbikomas
+      - 美国03 | Wholesale
+      - 北马其顿01 | Makedonski
+      - 美国04 | DigitalOcean
+      - 美国07 | DigitalOcean
+      - 南极洲01 | CloudFlare 5x
+      - 捷克01 | Orelsoft
+      - 美国01 | NetLab
+      - 斯洛伐克01 | FLP Kochenov
+      - 美国05 | DigitalOcean
+      - 加拿大01 | DigitalOcean
+      - 塞浦路斯01 | MVPS LTD
+      - 埃及01 | FranTech
+      - 拉脱维亚01 | Melbikomas
+      - 直布罗陀01 | CloudFlare
+      - 黑山01 | CloudFlare
+      - 尼日利亚01 | Melbikomas
+      - 厄瓜多尔01 | BrainStorm
+      - 赤道几内亚01 | CloudFlare
+      - 巴勒斯坦01 | CloudFlare
+      - 乌克兰01 | FOP
+      - 阿根廷01 | CloudFlare
+      - 墨西哥01 | Choopa
+      - 挪威01 | Prime Meridian
+      - 土耳其02 | Mehmet
+      - 美国 CloudFlare节点
       - 加拿大new01（1x）
       - 美国new01（1x）
       - 美国new02（1x）
@@ -110,6 +432,52 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 印度01 | Akamai
+      - 澳大利亚01 | Digital Ocean
+      - 巴基斯坦01 | Virtury
+      - 卡塔尔01  | CloudFlare
+      - 德国01 | Hetzner
+      - 美国08 | Rn
+      - 法国01 | SYNLINQ
+      - 波兰01 | Melbikomas
+      - 奥地利01 | Alwyzon
+      - 斯洛文尼亚01 | T-2
+      - 土库曼01 | CloudFlare
+      - 芬兰01 | Hetzner
+      - 美国09 | NetLab 500M
+      - 冰岛01 | Advania
+      - 美国02 | Misaka
+      - 葡萄牙01 | Global
+      - 土耳其01 | Hostinget
+      - 阿尔巴尼亚01 | Albanian
+      - 瑞典01 | AEZA GROUP
+      - 美国06 | Misaka
+      - 立陶宛01 | Melbikomas
+      - 美国03 | Wholesale
+      - 北马其顿01 | Makedonski
+      - 美国04 | DigitalOcean
+      - 美国07 | DigitalOcean
+      - 南极洲01 | CloudFlare 5x
+      - 捷克01 | Orelsoft
+      - 美国01 | NetLab
+      - 斯洛伐克01 | FLP Kochenov
+      - 美国05 | DigitalOcean
+      - 加拿大01 | DigitalOcean
+      - 塞浦路斯01 | MVPS LTD
+      - 埃及01 | FranTech
+      - 拉脱维亚01 | Melbikomas
+      - 直布罗陀01 | CloudFlare
+      - 黑山01 | CloudFlare
+      - 尼日利亚01 | Melbikomas
+      - 厄瓜多尔01 | BrainStorm
+      - 赤道几内亚01 | CloudFlare
+      - 巴勒斯坦01 | CloudFlare
+      - 乌克兰01 | FOP
+      - 阿根廷01 | CloudFlare
+      - 墨西哥01 | Choopa
+      - 挪威01 | Prime Meridian
+      - 土耳其02 | Mehmet
+      - 美国 CloudFlare节点
       - 加拿大new01（1x）
       - 美国new01（1x）
       - 美国new02（1x）
@@ -132,6 +500,52 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 印度01 | Akamai
+      - 澳大利亚01 | Digital Ocean
+      - 巴基斯坦01 | Virtury
+      - 卡塔尔01  | CloudFlare
+      - 德国01 | Hetzner
+      - 美国08 | Rn
+      - 法国01 | SYNLINQ
+      - 波兰01 | Melbikomas
+      - 奥地利01 | Alwyzon
+      - 斯洛文尼亚01 | T-2
+      - 土库曼01 | CloudFlare
+      - 芬兰01 | Hetzner
+      - 美国09 | NetLab 500M
+      - 冰岛01 | Advania
+      - 美国02 | Misaka
+      - 葡萄牙01 | Global
+      - 土耳其01 | Hostinget
+      - 阿尔巴尼亚01 | Albanian
+      - 瑞典01 | AEZA GROUP
+      - 美国06 | Misaka
+      - 立陶宛01 | Melbikomas
+      - 美国03 | Wholesale
+      - 北马其顿01 | Makedonski
+      - 美国04 | DigitalOcean
+      - 美国07 | DigitalOcean
+      - 南极洲01 | CloudFlare 5x
+      - 捷克01 | Orelsoft
+      - 美国01 | NetLab
+      - 斯洛伐克01 | FLP Kochenov
+      - 美国05 | DigitalOcean
+      - 加拿大01 | DigitalOcean
+      - 塞浦路斯01 | MVPS LTD
+      - 埃及01 | FranTech
+      - 拉脱维亚01 | Melbikomas
+      - 直布罗陀01 | CloudFlare
+      - 黑山01 | CloudFlare
+      - 尼日利亚01 | Melbikomas
+      - 厄瓜多尔01 | BrainStorm
+      - 赤道几内亚01 | CloudFlare
+      - 巴勒斯坦01 | CloudFlare
+      - 乌克兰01 | FOP
+      - 阿根廷01 | CloudFlare
+      - 墨西哥01 | Choopa
+      - 挪威01 | Prime Meridian
+      - 土耳其02 | Mehmet
+      - 美国 CloudFlare节点
       - 加拿大new01（1x）
       - 美国new01（1x）
       - 美国new02（1x）
