@@ -13,6 +13,19 @@ proxies:
   - {name: 英国new01（1x）, server: uk-new01.gujuji.top, port: 8080, type: vmess, uuid: 455b3565-342b-4c22-b2c2-62d1aa612e99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uk-new01.gujuji.top}, udp: true}
   - {name: 法国new01（1x）, server: fr-new01.gujuji.top, port: 8080, type: vmess, uuid: 455b3565-342b-4c22-b2c2-62d1aa612e99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr-new01.gujuji.top}, udp: true}
   - {name: Pool_🇺🇸US_135, server: 216.52.183.243, port: 1002, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 347567.net 👈购买地址, server: pqawsjp4.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pqawsjp4.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: 347567.net 👈购买地址 2, server: gsawssg2.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: gsawssg2.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: 347567.net 👈购买地址 3, server: gsawsjp1.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: gsawsjp1.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: 347567.net 👈购买地址 4, server: pqhinet3.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pqhinet3.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: 347567.net 👈购买地址 5, server: gsawssg1.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: gsawssg1.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: 347567.net 👈购买地址 6, server: pqawsjp3.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pqawsjp3.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: 347567.net 👈购买地址 7, server: pqawsjp1.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pqawsjp1.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: 347567.net 👈购买地址 8, server: pqawssg1.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pqawssg1.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: 347567.net 👈购买地址 9, server: pqawssg2.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pqawssg2.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: 347567.net 👈购买地址 10, server: gsawsjp2.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: gsawsjp2.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: 347567.net 👈购买地址 11, server: gsawshk1.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: gsawshk1.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: 347567.net 👈购买地址 12, server: pqawsjp2.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pqawsjp2.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: 347567.net 👈购买地址 13, server: gsawshk2.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: gsawshk2.aiopen.cfd, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -27,6 +40,19 @@ proxy-groups:
       - 英国new01（1x）
       - 法国new01（1x）
       - Pool_🇺🇸US_135
+      - 347567.net 👈购买地址
+      - 347567.net 👈购买地址 2
+      - 347567.net 👈购买地址 3
+      - 347567.net 👈购买地址 4
+      - 347567.net 👈购买地址 5
+      - 347567.net 👈购买地址 6
+      - 347567.net 👈购买地址 7
+      - 347567.net 👈购买地址 8
+      - 347567.net 👈购买地址 9
+      - 347567.net 👈购买地址 10
+      - 347567.net 👈购买地址 11
+      - 347567.net 👈购买地址 12
+      - 347567.net 👈购买地址 13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -40,6 +66,19 @@ proxy-groups:
       - 英国new01（1x）
       - 法国new01（1x）
       - Pool_🇺🇸US_135
+      - 347567.net 👈购买地址
+      - 347567.net 👈购买地址 2
+      - 347567.net 👈购买地址 3
+      - 347567.net 👈购买地址 4
+      - 347567.net 👈购买地址 5
+      - 347567.net 👈购买地址 6
+      - 347567.net 👈购买地址 7
+      - 347567.net 👈购买地址 8
+      - 347567.net 👈购买地址 9
+      - 347567.net 👈购买地址 10
+      - 347567.net 👈购买地址 11
+      - 347567.net 👈购买地址 12
+      - 347567.net 👈购买地址 13
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -54,6 +93,19 @@ proxy-groups:
       - 英国new01（1x）
       - 法国new01（1x）
       - Pool_🇺🇸US_135
+      - 347567.net 👈购买地址
+      - 347567.net 👈购买地址 2
+      - 347567.net 👈购买地址 3
+      - 347567.net 👈购买地址 4
+      - 347567.net 👈购买地址 5
+      - 347567.net 👈购买地址 6
+      - 347567.net 👈购买地址 7
+      - 347567.net 👈购买地址 8
+      - 347567.net 👈购买地址 9
+      - 347567.net 👈购买地址 10
+      - 347567.net 👈购买地址 11
+      - 347567.net 👈购买地址 12
+      - 347567.net 👈购买地址 13
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,6 +132,19 @@ proxy-groups:
       - 英国new01（1x）
       - 法国new01（1x）
       - Pool_🇺🇸US_135
+      - 347567.net 👈购买地址
+      - 347567.net 👈购买地址 2
+      - 347567.net 👈购买地址 3
+      - 347567.net 👈购买地址 4
+      - 347567.net 👈购买地址 5
+      - 347567.net 👈购买地址 6
+      - 347567.net 👈购买地址 7
+      - 347567.net 👈购买地址 8
+      - 347567.net 👈购买地址 9
+      - 347567.net 👈购买地址 10
+      - 347567.net 👈购买地址 11
+      - 347567.net 👈购买地址 12
+      - 347567.net 👈购买地址 13
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -98,6 +163,19 @@ proxy-groups:
       - 英国new01（1x）
       - 法国new01（1x）
       - Pool_🇺🇸US_135
+      - 347567.net 👈购买地址
+      - 347567.net 👈购买地址 2
+      - 347567.net 👈购买地址 3
+      - 347567.net 👈购买地址 4
+      - 347567.net 👈购买地址 5
+      - 347567.net 👈购买地址 6
+      - 347567.net 👈购买地址 7
+      - 347567.net 👈购买地址 8
+      - 347567.net 👈购买地址 9
+      - 347567.net 👈购买地址 10
+      - 347567.net 👈购买地址 11
+      - 347567.net 👈购买地址 12
+      - 347567.net 👈购买地址 13
   - name: 📲 电报信息
     type: select
     proxies:
@@ -111,6 +189,19 @@ proxy-groups:
       - 英国new01（1x）
       - 法国new01（1x）
       - Pool_🇺🇸US_135
+      - 347567.net 👈购买地址
+      - 347567.net 👈购买地址 2
+      - 347567.net 👈购买地址 3
+      - 347567.net 👈购买地址 4
+      - 347567.net 👈购买地址 5
+      - 347567.net 👈购买地址 6
+      - 347567.net 👈购买地址 7
+      - 347567.net 👈购买地址 8
+      - 347567.net 👈购买地址 9
+      - 347567.net 👈购买地址 10
+      - 347567.net 👈购买地址 11
+      - 347567.net 👈购买地址 12
+      - 347567.net 👈购买地址 13
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -125,6 +216,19 @@ proxy-groups:
       - 英国new01（1x）
       - 法国new01（1x）
       - Pool_🇺🇸US_135
+      - 347567.net 👈购买地址
+      - 347567.net 👈购买地址 2
+      - 347567.net 👈购买地址 3
+      - 347567.net 👈购买地址 4
+      - 347567.net 👈购买地址 5
+      - 347567.net 👈购买地址 6
+      - 347567.net 👈购买地址 7
+      - 347567.net 👈购买地址 8
+      - 347567.net 👈购买地址 9
+      - 347567.net 👈购买地址 10
+      - 347567.net 👈购买地址 11
+      - 347567.net 👈购买地址 12
+      - 347567.net 👈购买地址 13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -148,6 +252,19 @@ proxy-groups:
       - 英国new01（1x）
       - 法国new01（1x）
       - Pool_🇺🇸US_135
+      - 347567.net 👈购买地址
+      - 347567.net 👈购买地址 2
+      - 347567.net 👈购买地址 3
+      - 347567.net 👈购买地址 4
+      - 347567.net 👈购买地址 5
+      - 347567.net 👈购买地址 6
+      - 347567.net 👈购买地址 7
+      - 347567.net 👈购买地址 8
+      - 347567.net 👈购买地址 9
+      - 347567.net 👈购买地址 10
+      - 347567.net 👈购买地址 11
+      - 347567.net 👈购买地址 12
+      - 347567.net 👈购买地址 13
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
