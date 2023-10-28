@@ -5,107 +5,59 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国new01（1x）, server: us-new01.gujuji.top, port: 8080, type: vmess, uuid: 455b3565-342b-4c22-b2c2-62d1aa612e99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us-new01.gujuji.top}, udp: true}
-  - {name: 加拿大new01（1x）, server: ca-new01.gujuji.top, port: 8080, type: vmess, uuid: 455b3565-342b-4c22-b2c2-62d1aa612e99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ca-new01.gujuji.top}, udp: true}
-  - {name: 美国new03（1x）, server: us-new03.gujuji.top, port: 8080, type: vmess, uuid: 455b3565-342b-4c22-b2c2-62d1aa612e99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us-new03.gujuji.top}, udp: true}
-  - {name: 美国new02（1x）, server: us-new02.gujuji.top, port: 8080, type: vmess, uuid: 455b3565-342b-4c22-b2c2-62d1aa612e99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us-new02.gujuji.top}, udp: true}
-  - {name: 美国new04（1x）, server: us-new04.gujuji.top, port: 8080, type: vmess, uuid: 455b3565-342b-4c22-b2c2-62d1aa612e99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us-new04.gujuji.top}, udp: true}
-  - {name: 英国new01（1x）, server: uk-new01.gujuji.top, port: 8080, type: vmess, uuid: 455b3565-342b-4c22-b2c2-62d1aa612e99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uk-new01.gujuji.top}, udp: true}
-  - {name: 法国new01（1x）, server: fr-new01.gujuji.top, port: 8080, type: vmess, uuid: 455b3565-342b-4c22-b2c2-62d1aa612e99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr-new01.gujuji.top}, udp: true}
-  - {name: Pool_🇺🇸US_135, server: 216.52.183.243, port: 1002, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 347567.net 👈购买地址, server: pqawsjp4.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pqawsjp4.aiopen.cfd, skip-cert-verify: true, udp: true}
-  - {name: 347567.net 👈购买地址 2, server: gsawssg2.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: gsawssg2.aiopen.cfd, skip-cert-verify: true, udp: true}
-  - {name: 347567.net 👈购买地址 3, server: gsawsjp1.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: gsawsjp1.aiopen.cfd, skip-cert-verify: true, udp: true}
-  - {name: 347567.net 👈购买地址 4, server: pqhinet3.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pqhinet3.aiopen.cfd, skip-cert-verify: true, udp: true}
-  - {name: 347567.net 👈购买地址 5, server: gsawssg1.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: gsawssg1.aiopen.cfd, skip-cert-verify: true, udp: true}
-  - {name: 347567.net 👈购买地址 6, server: pqawsjp3.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pqawsjp3.aiopen.cfd, skip-cert-verify: true, udp: true}
-  - {name: 347567.net 👈购买地址 7, server: pqawsjp1.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pqawsjp1.aiopen.cfd, skip-cert-verify: true, udp: true}
-  - {name: 347567.net 👈购买地址 8, server: pqawssg1.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pqawssg1.aiopen.cfd, skip-cert-verify: true, udp: true}
-  - {name: 347567.net 👈购买地址 9, server: pqawssg2.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pqawssg2.aiopen.cfd, skip-cert-verify: true, udp: true}
-  - {name: 347567.net 👈购买地址 10, server: gsawsjp2.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: gsawsjp2.aiopen.cfd, skip-cert-verify: true, udp: true}
-  - {name: 347567.net 👈购买地址 11, server: gsawshk1.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: gsawshk1.aiopen.cfd, skip-cert-verify: true, udp: true}
-  - {name: 347567.net 👈购买地址 12, server: pqawsjp2.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pqawsjp2.aiopen.cfd, skip-cert-verify: true, udp: true}
-  - {name: 347567.net 👈购买地址 13, server: gsawshk2.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: gsawshk2.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: "@vpnhat", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 698115e4-1494-4f4a-85a9-76cd011d3ac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video/QKEYMfEw/, ws-headers: {Host: us12c2ebe9b.vjfvyzfhhf.xyz}, udp: true}
+  - {name: 美国高速接入点-03, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 698115e4-1494-4f4a-85a9-76cd011d3ac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video/efNfrvVc, ws-headers: {Host: us36821f246.vjfvyzfhhf.xyz}, udp: true}
+  - {name: 美国高速接入点-04, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 698115e4-1494-4f4a-85a9-76cd011d3ac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video/PHdBAhCd, ws-headers: {Host: us479b4f958.vjfvyzfhhf.xyz}, udp: true}
+  - {name: 美国高速接入点-05, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 698115e4-1494-4f4a-85a9-76cd011d3ac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video/nYAwpBbW, ws-headers: {Host: us5a3a71b5c.pkmkwvxqnn.xyz}, udp: true}
+  - {name: 美国高速接入点-06, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 698115e4-1494-4f4a-85a9-76cd011d3ac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video/YtVesyxo, ws-headers: {Host: us633c9a83c.pkmkwvxqnn.xyz}, udp: true}
+  - {name: 美国高速接入点-07, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 698115e4-1494-4f4a-85a9-76cd011d3ac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video/YHhMUcPg, ws-headers: {Host: us7e6cb367b.pkmkwvxqnn.xyz}, udp: true}
+  - {name: 美国高速接入点-08, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 698115e4-1494-4f4a-85a9-76cd011d3ac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video/xwjorKTk, ws-headers: {Host: us8cdf74064.pkmkwvxqnn.xyz}, udp: true}
+  - {name: 台湾高速接入点-01, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 698115e4-1494-4f4a-85a9-76cd011d3ac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video/MNBrTghv, ws-headers: {Host: tw135037538.pkmkwvxqnn.xyz}, udp: true}
+  - {name: US_116, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: linkvws, ws-headers: {Host: 172.99.190.109}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国new01（1x）
-      - 加拿大new01（1x）
-      - 美国new03（1x）
-      - 美国new02（1x）
-      - 美国new04（1x）
-      - 英国new01（1x）
-      - 法国new01（1x）
-      - Pool_🇺🇸US_135
-      - 347567.net 👈购买地址
-      - 347567.net 👈购买地址 2
-      - 347567.net 👈购买地址 3
-      - 347567.net 👈购买地址 4
-      - 347567.net 👈购买地址 5
-      - 347567.net 👈购买地址 6
-      - 347567.net 👈购买地址 7
-      - 347567.net 👈购买地址 8
-      - 347567.net 👈购买地址 9
-      - 347567.net 👈购买地址 10
-      - 347567.net 👈购买地址 11
-      - 347567.net 👈购买地址 12
-      - 347567.net 👈购买地址 13
+      - "@vpnhat"
+      - 美国高速接入点-03
+      - 美国高速接入点-04
+      - 美国高速接入点-05
+      - 美国高速接入点-06
+      - 美国高速接入点-07
+      - 美国高速接入点-08
+      - 台湾高速接入点-01
+      - US_116
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国new01（1x）
-      - 加拿大new01（1x）
-      - 美国new03（1x）
-      - 美国new02（1x）
-      - 美国new04（1x）
-      - 英国new01（1x）
-      - 法国new01（1x）
-      - Pool_🇺🇸US_135
-      - 347567.net 👈购买地址
-      - 347567.net 👈购买地址 2
-      - 347567.net 👈购买地址 3
-      - 347567.net 👈购买地址 4
-      - 347567.net 👈购买地址 5
-      - 347567.net 👈购买地址 6
-      - 347567.net 👈购买地址 7
-      - 347567.net 👈购买地址 8
-      - 347567.net 👈购买地址 9
-      - 347567.net 👈购买地址 10
-      - 347567.net 👈购买地址 11
-      - 347567.net 👈购买地址 12
-      - 347567.net 👈购买地址 13
+      - "@vpnhat"
+      - 美国高速接入点-03
+      - 美国高速接入点-04
+      - 美国高速接入点-05
+      - 美国高速接入点-06
+      - 美国高速接入点-07
+      - 美国高速接入点-08
+      - 台湾高速接入点-01
+      - US_116
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国new01（1x）
-      - 加拿大new01（1x）
-      - 美国new03（1x）
-      - 美国new02（1x）
-      - 美国new04（1x）
-      - 英国new01（1x）
-      - 法国new01（1x）
-      - Pool_🇺🇸US_135
-      - 347567.net 👈购买地址
-      - 347567.net 👈购买地址 2
-      - 347567.net 👈购买地址 3
-      - 347567.net 👈购买地址 4
-      - 347567.net 👈购买地址 5
-      - 347567.net 👈购买地址 6
-      - 347567.net 👈购买地址 7
-      - 347567.net 👈购买地址 8
-      - 347567.net 👈购买地址 9
-      - 347567.net 👈购买地址 10
-      - 347567.net 👈购买地址 11
-      - 347567.net 👈购买地址 12
-      - 347567.net 👈购买地址 13
+      - "@vpnhat"
+      - 美国高速接入点-03
+      - 美国高速接入点-04
+      - 美国高速接入点-05
+      - 美国高速接入点-06
+      - 美国高速接入点-07
+      - 美国高速接入点-08
+      - 台湾高速接入点-01
+      - US_116
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -124,111 +76,64 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国new01（1x）
-      - 加拿大new01（1x）
-      - 美国new03（1x）
-      - 美国new02（1x）
-      - 美国new04（1x）
-      - 英国new01（1x）
-      - 法国new01（1x）
-      - Pool_🇺🇸US_135
-      - 347567.net 👈购买地址
-      - 347567.net 👈购买地址 2
-      - 347567.net 👈购买地址 3
-      - 347567.net 👈购买地址 4
-      - 347567.net 👈购买地址 5
-      - 347567.net 👈购买地址 6
-      - 347567.net 👈购买地址 7
-      - 347567.net 👈购买地址 8
-      - 347567.net 👈购买地址 9
-      - 347567.net 👈购买地址 10
-      - 347567.net 👈购买地址 11
-      - 347567.net 👈购买地址 12
-      - 347567.net 👈购买地址 13
+      - "@vpnhat"
+      - 美国高速接入点-03
+      - 美国高速接入点-04
+      - 美国高速接入点-05
+      - 美国高速接入点-06
+      - 美国高速接入点-07
+      - 美国高速接入点-08
+      - 台湾高速接入点-01
+      - US_116
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 台湾高速接入点-01
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国new01（1x）
-      - 加拿大new01（1x）
-      - 美国new03（1x）
-      - 美国new02（1x）
-      - 美国new04（1x）
-      - 英国new01（1x）
-      - 法国new01（1x）
-      - Pool_🇺🇸US_135
-      - 347567.net 👈购买地址
-      - 347567.net 👈购买地址 2
-      - 347567.net 👈购买地址 3
-      - 347567.net 👈购买地址 4
-      - 347567.net 👈购买地址 5
-      - 347567.net 👈购买地址 6
-      - 347567.net 👈购买地址 7
-      - 347567.net 👈购买地址 8
-      - 347567.net 👈购买地址 9
-      - 347567.net 👈购买地址 10
-      - 347567.net 👈购买地址 11
-      - 347567.net 👈购买地址 12
-      - 347567.net 👈购买地址 13
+      - "@vpnhat"
+      - 美国高速接入点-03
+      - 美国高速接入点-04
+      - 美国高速接入点-05
+      - 美国高速接入点-06
+      - 美国高速接入点-07
+      - 美国高速接入点-08
+      - 台湾高速接入点-01
+      - US_116
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国new01（1x）
-      - 加拿大new01（1x）
-      - 美国new03（1x）
-      - 美国new02（1x）
-      - 美国new04（1x）
-      - 英国new01（1x）
-      - 法国new01（1x）
-      - Pool_🇺🇸US_135
-      - 347567.net 👈购买地址
-      - 347567.net 👈购买地址 2
-      - 347567.net 👈购买地址 3
-      - 347567.net 👈购买地址 4
-      - 347567.net 👈购买地址 5
-      - 347567.net 👈购买地址 6
-      - 347567.net 👈购买地址 7
-      - 347567.net 👈购买地址 8
-      - 347567.net 👈购买地址 9
-      - 347567.net 👈购买地址 10
-      - 347567.net 👈购买地址 11
-      - 347567.net 👈购买地址 12
-      - 347567.net 👈购买地址 13
+      - "@vpnhat"
+      - 美国高速接入点-03
+      - 美国高速接入点-04
+      - 美国高速接入点-05
+      - 美国高速接入点-06
+      - 美国高速接入点-07
+      - 美国高速接入点-08
+      - 台湾高速接入点-01
+      - US_116
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国new01（1x）
-      - 加拿大new01（1x）
-      - 美国new03（1x）
-      - 美国new02（1x）
-      - 美国new04（1x）
-      - 英国new01（1x）
-      - 法国new01（1x）
-      - Pool_🇺🇸US_135
-      - 347567.net 👈购买地址
-      - 347567.net 👈购买地址 2
-      - 347567.net 👈购买地址 3
-      - 347567.net 👈购买地址 4
-      - 347567.net 👈购买地址 5
-      - 347567.net 👈购买地址 6
-      - 347567.net 👈购买地址 7
-      - 347567.net 👈购买地址 8
-      - 347567.net 👈购买地址 9
-      - 347567.net 👈购买地址 10
-      - 347567.net 👈购买地址 11
-      - 347567.net 👈购买地址 12
-      - 347567.net 👈购买地址 13
+      - "@vpnhat"
+      - 美国高速接入点-03
+      - 美国高速接入点-04
+      - 美国高速接入点-05
+      - 美国高速接入点-06
+      - 美国高速接入点-07
+      - 美国高速接入点-08
+      - 台湾高速接入点-01
+      - US_116
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -244,27 +149,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国new01（1x）
-      - 加拿大new01（1x）
-      - 美国new03（1x）
-      - 美国new02（1x）
-      - 美国new04（1x）
-      - 英国new01（1x）
-      - 法国new01（1x）
-      - Pool_🇺🇸US_135
-      - 347567.net 👈购买地址
-      - 347567.net 👈购买地址 2
-      - 347567.net 👈购买地址 3
-      - 347567.net 👈购买地址 4
-      - 347567.net 👈购买地址 5
-      - 347567.net 👈购买地址 6
-      - 347567.net 👈购买地址 7
-      - 347567.net 👈购买地址 8
-      - 347567.net 👈购买地址 9
-      - 347567.net 👈购买地址 10
-      - 347567.net 👈购买地址 11
-      - 347567.net 👈购买地址 12
-      - 347567.net 👈购买地址 13
+      - "@vpnhat"
+      - 美国高速接入点-03
+      - 美国高速接入点-04
+      - 美国高速接入点-05
+      - 美国高速接入点-06
+      - 美国高速接入点-07
+      - 美国高速接入点-08
+      - 台湾高速接入点-01
+      - US_116
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
